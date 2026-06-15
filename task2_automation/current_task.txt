@@ -1,0 +1,112 @@
+Next post to publish:
+{
+  "publish_date": "2026-06-16",
+  "publish_time": "12:00 HKT",
+  "phase": "破圈引流期",
+  "post_number": 1,
+  "post_title": "⚠️ 這5種水晶千萬別曬太陽！你中招了嗎？",
+  "pages": [
+    {
+      "page": 1,
+      "type": "封面",
+      "headline": "⚠️ 這5種水晶千萬別曬太陽！你中招了嗎？",
+      "visual_desc": "深色背景，5顆礦石（紫水晶、粉晶、月光石、蛋白石、黃水晶）排成一排，中央紅色警示符號疊加，右下角品牌Logo，底部白字「👉 左滑查名單」",
+      "design_note": "高對比度——深背景配白/黃警示字，封面要在拇指滾動中0.3秒內止滑"
+    },
+    {
+      "page": 2,
+      "type": "乾貨內頁",
+      "content_points": [
+        "🟣 紫水晶（Amethyst）→ 長時間日曬導致永久褪色，原因：鐵離子色心被紫外線破壞",
+        "🩷 粉晶（Rose Quartz）→ 長曬後粉色漸漸變白，無法恢復",
+        "⚠️ 以上兩種：日曬淨化建議控制在 20 分鐘以內，早上 10 時前為佳"
+      ],
+      "visual_desc": "紫水晶與粉晶各佔半頁對比圖——左健康色 vs 右褪色效果對比，文字疊加說明"
+    },
+    {
+      "page": 3,
+      "type": "乾貨內頁",
+      "content_points": [
+        "🌕 月光石（Moonstone）→ 長曬使月光效應（adularescence）變弱，光暈消失",
+        "🌈 蛋白石（Opal）→ 含水礦物，高溫日曬導致失水龜裂，損傷不可逆",
+        "🟡 黃水晶（Citrine）→ 長曬色澤變鈍，若為燒色處理則退色更快"
+      ],
+      "visual_desc": "月光石月光效應特寫圖（強調怕曬後果），旁邊小圖加紅色叉號示意"
+    },
+    {
+      "page": 4,
+      "type": "乾貨內頁",
+      "content_points": [
+        "✅ 安全淨化方法 1：白水晶簇過夜（最溫和，所有礦石適用）",
+        "✅ 安全淨化方法 2：月圓夜月光照射（吸能量同時淨化）",
+        "✅ 安全淨化方法 3：薰香煙霧繞行 / 頌缽聲波（不接觸礦石本體）"
+      ],
+      "visual_desc": "三種淨化方法各一小圖橫排——水晶簇、月光下礦石、薰香煙霧，版面乾淨有呼吸感"
+    },
+    {
+      "page": 5,
+      "type": "封底CTA",
+      "cta_copy": "💾 收藏起來，保護你的礦石！\n➕ 追蹤我，每週更新礦石科普與開運知識\n👇 留言：你有哪顆礦石曾經曬壞過？",
+      "visual_desc": "品牌主色背景，Logo 居中，三行CTA文字由上至下排列，底部留白乾淨"
+    }
+  ],
+  "caption": "⚠️ 這5種水晶千萬別曬太陽——你係咪一直做錯？\n\n很多人以為日曬係最自然嘅消磁方法，但其實部分礦石喺紫外線下會永久褪色甚至裂開 😱\n\n✦ 紫水晶、粉晶長曬後顏色無法恢復\n✦ 蛋白石含水分，高溫直接令它龜裂\n✦ 安全消磁：白水晶簇、月光、薰香三選一\n\n💾 收藏留底，下次淨化前先查一查\n👇 留言告訴我你用緊咩消磁方法？",
+  "hashtags": {
+    "tier1_strategy": "3–5個精準相關標籤（2026年最佳實踐）",
+    "recommended_tags": [
+      "#水晶保養",
+      "#礦石知識",
+      "#crystalcare",
+      "#水晶功效",
+      "#消磁方法"
+    ]
+  }
+}
+
+Generated Image Prompts:
+  Path: /home/ubuntu/IG-repo/task2_automation/images/post_1_page_1.png
+  Prompt: Instagram Carousel Post image for page 1 of 5. Brand: Luna's Stone Atelier. Main color: #1A1A3A. Accent color: #B4918F. Headline: '⚠️ 這5種水晶千萬別曬太陽！你中招了嗎？'. Visual description: 深色背景，5顆礦石（紫水晶、粉晶、月光石、蛋白石、黃水晶）排成一排，中央紅色警示符號疊加，右下角品牌Logo，底部白字「👉 左滑查名單」. Include brand logo at the corner. Text '👉 左滑看全部' at the bottom. Style: High saturation, clean background, mineral elements theme. 
+  Aspect Ratio: 1:1
+  References: ['/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png']
+
+
+  Path: /home/ubuntu/IG-repo/task2_automation/images/post_1_page_2.png
+  Prompt: Instagram Carousel Post image for page 2 of 5. Brand: Luna's Stone Atelier. Main color: #1A1A3A. Accent color: #B4918F. Content: '🟣 紫水晶（Amethyst）→ 長時間日曬導致永久褪色，原因：鐵離子色心被紫外線破壞 🩷 粉晶（Rose Quartz）→ 長曬後粉色漸漸變白，無法恢復 ⚠️ 以上兩種：日曬淨化建議控制在 20 分鐘以內，早上 10 時前為佳'. Visual description: 紫水晶與粉晶各佔半頁對比圖——左健康色 vs 右褪色效果對比，文字疊加說明. Page number 2/5. Style: Minimalist bullet points or table comparison, high-resolution mineral close-up, good lighting. Text border color: #F5F5DC. 
+  Aspect Ratio: 1:1
+  References: ['/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png']
+
+
+  Path: /home/ubuntu/IG-repo/task2_automation/images/post_1_page_3.png
+  Prompt: Instagram Carousel Post image for page 3 of 5. Brand: Luna's Stone Atelier. Main color: #1A1A3A. Accent color: #B4918F. Content: '🌕 月光石（Moonstone）→ 長曬使月光效應（adularescence）變弱，光暈消失 🌈 蛋白石（Opal）→ 含水礦物，高溫日曬導致失水龜裂，損傷不可逆 🟡 黃水晶（Citrine）→ 長曬色澤變鈍，若為燒色處理則退色更快'. Visual description: 月光石月光效應特寫圖（強調怕曬後果），旁邊小圖加紅色叉號示意. Page number 3/5. Style: Minimalist bullet points or table comparison, high-resolution mineral close-up, good lighting. Text border color: #F5F5DC. 
+  Aspect Ratio: 1:1
+  References: ['/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png']
+
+
+  Path: /home/ubuntu/IG-repo/task2_automation/images/post_1_page_4.png
+  Prompt: Instagram Carousel Post image for page 4 of 5. Brand: Luna's Stone Atelier. Main color: #1A1A3A. Accent color: #B4918F. Content: '✅ 安全淨化方法 1：白水晶簇過夜（最溫和，所有礦石適用） ✅ 安全淨化方法 2：月圓夜月光照射（吸能量同時淨化） ✅ 安全淨化方法 3：薰香煙霧繞行 / 頌缽聲波（不接觸礦石本體）'. Visual description: 三種淨化方法各一小圖橫排——水晶簇、月光下礦石、薰香煙霧，版面乾淨有呼吸感. Page number 4/5. Style: Minimalist bullet points or table comparison, high-resolution mineral close-up, good lighting. Text border color: #F5F5DC. 
+  Aspect Ratio: 1:1
+  References: ['/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png']
+
+
+  Path: /home/ubuntu/IG-repo/task2_automation/images/post_1_page_5.png
+  Prompt: Instagram Carousel Post image for page 5 of 5. Brand: Luna's Stone Atelier. Main color: #1A1A3A. Accent color: #B4918F. Call to action: '💾 收藏起來，保護你的礦石！
+➕ 追蹤我，每週更新礦石科普與開運知識
+👇 留言：你有哪顆礦石曾經曬壞過？'. Visual description: 品牌主色背景，Logo 居中，三行CTA文字由上至下排列，底部留白乾淨. Include brand logo. Style: Brand color block background, mineral elements theme. 
+  Aspect Ratio: 1:1
+  References: ['/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png']
+
+
+
+Generated Caption:
+⚠️ 這5種水晶千萬別曬太陽——你係咪一直做錯？
+
+很多人以為日曬係最自然嘅消磁方法，但其實部分礦石喺紫外線下會永久褪色甚至裂開 😱
+
+✦ 紫水晶、粉晶長曬後顏色無法恢復
+✦ 蛋白石含水分，高溫直接令它龜裂
+✦ 安全消磁：白水晶簇、月光、薰香三選一
+
+💾 收藏留底，下次淨化前先查一查
+👇 留言告訴我你用緊咩消磁方法？
+
+#水晶保養 #礦石知識 #crystalcare #水晶功效 #消磁方法
