@@ -1,0 +1,26 @@
+{
+  "brand_name": "IG月華星礦坊",
+  "logo": {
+    "official_name": "Luna’s Stone Atelier",
+    "file_path": "/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png",
+    "image_tag": "Luna’s Stone Atelier"
+  },
+  "color_palette": {
+    "primary": "#1A1A3A",
+    "text_totem_border": "#B4918F",
+    "auxiliary": {
+      "dark_green": "#002D00",
+      "warm_off_white": "#F5F5DC"
+    }
+  },
+  "theme": "Natural Mineral Elements",
+  "constraints": [
+    "No AI hallucination",
+    "No fabricated literature/data",
+    "All data must be verified"
+  ],
+  "instagram_config": {
+    "connector_uid": "4b899211-fd12-410e-a8d2-264a409cbc78",
+    "enabled": true
+  }
+}
