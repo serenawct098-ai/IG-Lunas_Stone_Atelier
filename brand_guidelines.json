@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "name": "Luna's Stone Atelier",
+    "project": "IG月華星礦坊",
+    "logo": {
+      "description": "官方圖騰作為品牌唯一的正式 Logo",
+      "file_path": "/home/ubuntu/projects/ig-9909813e/Lunas_Stone_Atelier_Transparent_Like_Fig3.png"
+    },
+    "watermark": "Luna’s Stone Atelier",
+    "themes": [
+      "天然礦石元素"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "name": "深紫藍色",
+      "hex": "#1A1A3A",
+      "usage": ["主色", "背景"]
+    },
+    "secondary": {
+      "name": "霧玫瑰金色",
+      "hex": "#B4918F",
+      "usage": ["主文字", "圖騰", "邊框色"]
+    },
+    "accent": [
+      {
+        "name": "墨綠色",
+        "hex": "#002D00",
+        "usage": ["輔色"]
+      },
+      {
+        "name": "暖米白色",
+        "hex": "#F5F5DC",
+        "usage": ["輔色", "每張圖的文案邊框"]
+      }
+    ]
+  },
+  "rules": {
+    "anti_hallucination": true,
+    "data_verification": "required",
+    "forbidden": [
+      "AI幻覺",
+      "自行腦補",
+      "自創文獻資料"
+    ]
+  }
+}
