@@ -35,6 +35,10 @@
       }
     ]
   },
+  "instagram_config": {
+    "connector_uid": "4b899211-fd12-410e-a8d2-264a409cbc78",
+    "enabled": true
+  },
   "rules": {
     "anti_hallucination": true,
     "data_verification": "required",

@@ -141,3 +141,58 @@ Hashtags：20-30個，三層策略（大眾 / 中量 / 精準）
 ---
 
 *資料來源：任務設定原始文件 | 版本：2026-06-15 | 排程系統：不設定 | GitHub：serenawct098-ai/IG-*
+
+
+## 附錄：IG Reels 自動排程 SOP (來自舊版整合)
+
+### 品牌視覺標準
+所有產出的 Reels 必須符合以下規範：
+- **Logo**: 必須包含 `Luna’s Stone Atelier` 官方圖騰。
+- **標籤**: 圖片/影片底部標註 `Luna’s Stone Atelier`。
+- **色調**: 
+  - 背景/主色：深紫藍色 `#1A1A3A`
+  - 文字/邊框：霧玫瑰金色 `#B4918F`
+  - 文案背景：暖米白色 `#F5F5DC`
+- **主題**: 天然礦石元素。
+
+### 自動化排程流程
+使用 `manus-config schedule` 進行排程。
+```bash
+manus-config schedule create \
+  --title "Reels 排程: [主題名稱]" \
+  --detail "使用 create_instagram 工具發布 Reels 到 IG月華星礦坊" \
+  --cron "0 0 18 * * *" \
+  --connector-uids "4b899211-fd12-410e-a8d2-264a409cbc78"
+```
+
+### 驗證機制
+- 每次發布前，系統會觸發 `create_instagram` 並在 UI 顯示確認卡。
+- 定期執行 `get_post_list` 檢查發布狀態。
+
+### Reels 排程腳本範本 (Python)
+```python
+import json
+import subprocess
+
+def schedule_reel(caption, media_url, cover_url, schedule_cron):
+    detail = {
+        "action": "create_instagram",
+        "params": {
+            "type": "reels",
+            "caption": caption,
+            "media": [{"type": "video", "media_url": media_url}],
+            "cover_url": cover_url
+        }
+    }
+    
+    cmd = [
+        "manus-config", "schedule", "create",
+        "--title", f"Reels: {caption[:20]}",
+        "--detail", json.dumps(detail),
+        "--cron", schedule_cron,
+        "--connector-uids", "4b899211-fd12-410e-a8d2-264a409cbc78"
+    ]
+    
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    return result.stdout
+```
