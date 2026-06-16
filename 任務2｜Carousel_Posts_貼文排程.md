@@ -4,6 +4,7 @@
 - 發布時間：每週二、五 12:00 HKT
 - 比例：4:5
 - 品牌：Luna’s Stone Atelier
+- 語言：中英雙語書面語 (Traditional Chinese - 品牌：Luna’s Stone Atelier English)
 
 ## 數據庫 (JSON)
 ```json
