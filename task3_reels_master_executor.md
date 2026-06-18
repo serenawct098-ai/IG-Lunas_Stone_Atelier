@@ -110,4 +110,4 @@
 ## 五、自動化排程指令 (System Link)
 系統將每週一、四 18:00 HKT 自動讀取此文件並調用 Instagram Connector 執行發布。
 - `runAsNewTask: false`
-- **排程狀態**：`vJkuOkOUG5T8ifzJmriTi2`（已激活）
+- **排程狀態**：`gCkJ9ttBFFtLwptvbGGW3M`（已激活）
