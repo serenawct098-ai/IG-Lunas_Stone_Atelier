@@ -26,11 +26,14 @@
 | :--- | :--- | :--- | :--- |
 | 週一/四 | Reels | 懸念與連載 | 破圈與拉新 |
 | 週二/五 | Carousel | 深度乾貨 | 權威與收藏 |
-| 週三/日 | Stories | 互動與 QA | 信任與轉化 |
+| 週一/四 20:00 | Stories | 呼應 Reels | 互動與流量回導 |
+| 週三 20:00 | Stories | Reels 延伸話題 | 收問答箱，增加互動 |
+| 週五 20:00 | Stories | 延伸 Carousel 話題 | 深度 QA，增加黏著度 |
+| 週日 20:00 | Stories | 本週互動整合 | 問答箱答題，信任轉化 |
 
 ### 3.2 品牌視覺鎖定 (Visual Identity)
 - **色彩**：深紫藍 #1A1A3A (主色) / 霧玫瑰金 #B4918F (文字/邊框)。
-- **比例**：4:5 (Posts) / 9:16 (Reels/Stories)。
+- **比例**：全格式統一使用 **4:5**（Posts / Reels / Stories 一律適用）。
 - **標籤**：Luna’s Stone Atelier 圖文僅供參考。
 
 ## 四、 增長里程碑 (Growth Milestones)
