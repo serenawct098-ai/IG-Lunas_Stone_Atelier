@@ -13,40 +13,34 @@
     ]
   },
   "colors": {
-    "primary": [
-      {
-        "name": "深海軍藍",
-        "hex": "#0D0D2B",
-        "usage": ["背景", "主色"]
-      },
-      {
-        "name": "月白銀",
-        "hex": "#E8E8F0",
-        "usage": ["主色", "文字背景"]
-      },
-      {
-        "name": "金色",
-        "hex": "#C9A84C",
-        "usage": ["主色", "強調"]
-      }
-    ],
+    "primary": {
+      "name": "深海軍藍",
+      "hex": "#0D0D2B",
+      "usage": ["背景", "主色"]
+    },
     "secondary": [
-      {
-        "name": "月白銀",
-        "hex": "#E8E8F0",
-        "usage": ["輔色"]
-      },
       {
         "name": "深紫",
         "hex": "#2D1B4E",
         "usage": ["輔色", "層次背景"]
+      },
+      {
+        "name": "霧玫瑰金",
+        "hex": "#B4918F",
+        "usage": ["輔色", "文字", "圖騰"]
+      },
+      {
+        "name": "月白銀",
+        "hex": "#E8E8F0",
+        "usage": ["輔色", "亮部", "邊框"]
+      },
+      {
+        "name": "金色",
+        "hex": "#C9A84C",
+        "usage": ["輔色", "強調", "點綴"]
       }
     ],
-    "accent": {
-      "name": "玫瑰金",
-      "hex": "#B76E79",
-      "usage": ["點綴", "圖騰", "邊框"]
-    }
+    "image_tag": "Luna's Stone Atelier 圖文僅供參考"
   },
   "instagram_config": {
     "connector_uid": "gCkJ9ttBFFtLwptvbGGW3M",
