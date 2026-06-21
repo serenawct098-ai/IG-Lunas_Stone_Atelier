@@ -13,31 +13,43 @@
     ]
   },
   "colors": {
-    "primary": {
-      "name": "深紫藍色",
-      "hex": "#1A1A3A",
-      "usage": ["主色", "背景"]
-    },
-    "secondary": {
-      "name": "霧玫瑰金色",
-      "hex": "#B4918F",
-      "usage": ["主文字", "圖騰", "邊框色"]
-    },
-    "accent": [
+    "primary": [
       {
-        "name": "墨綠色",
-        "hex": "#002D00",
+        "name": "深海軍藍",
+        "hex": "#0D0D2B",
+        "usage": ["背景", "主色"]
+      },
+      {
+        "name": "月白銀",
+        "hex": "#E8E8F0",
+        "usage": ["主色", "文字背景"]
+      },
+      {
+        "name": "金色",
+        "hex": "#C9A84C",
+        "usage": ["主色", "強調"]
+      }
+    ],
+    "secondary": [
+      {
+        "name": "月白銀",
+        "hex": "#E8E8F0",
         "usage": ["輔色"]
       },
       {
-        "name": "暖米白色",
-        "hex": "#F5F5DC",
-        "usage": ["輔色", "每張圖的文案邊框/背景"]
+        "name": "深紫",
+        "hex": "#2D1B4E",
+        "usage": ["輔色", "層次背景"]
       }
-    ]
+    ],
+    "accent": {
+      "name": "玫瑰金",
+      "hex": "#B76E79",
+      "usage": ["點綴", "圖騰", "邊框"]
+    }
   },
   "instagram_config": {
-    "connector_uid": "4b899211-fd12-410e-a8d2-264a409cbc78",
+    "connector_uid": "gCkJ9ttBFFtLwptvbGGW3M",
     "enabled": true
   },
   "rules": {
