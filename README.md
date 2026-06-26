@@ -1,104 +1,88 @@
-# IG- 礦石風水 Instagram 自動化運營知識庫
+# Luna's Stone Atelier — IG 自動化運營系統
 
-本倉庫收錄 Instagram 帳號 **@serenawct098-ai** 的完整 SOP 文件、發布日曆及跨平台協同策略，涵蓋 Stories、Carousel Posts 與 Reels 三大格式，以「一千零一夜礦石風水」為主題連載，執行週期為 **2026-06-15 至 2026-09-12（90天）**。
+> **帳號：** @serenawct098-ai
+> **主題：** 一千零一夜礦石風水系列
+> **執行週期：** 2026-06-15 至 2026-09-12（90 天）
+> **架構模式：** 文案與素材預生成備用 → GitHub Actions 按日期自動發佈
 
 ---
 
-## 📁 文件結構
+## 📁 檔案結構
 
 ```
-IG-/
-├── README.md                            ← 本文件（索引總覽）
-├── IG_Automation_Knowledge_Base.md      ← 自動化運營知識庫
-└── sop-calendars/                       ← SOP 發布日曆目錄
-    ├── cross_platform_orchestration.md
-    ├── 90day_stories_sop_calendar.md
-    ├── 90day_carousel_posts_sop_calendar.md
-    └── 90day_reels_sop_calendar.md
+IG-Lunas_Stone_Atelier/
+│
+├── README.md                    ← 本文件（系統總覽）
+├── KNOWLEDGE_BASE.md            ← 唯一知識庫 SSOT（品牌規範 + 礦物學 + 策略）
+│
+├── brand_config.json            ← 品牌設定（色碼、水印、IG 設定）
+├── mineralogy_data.json         ← 礦石資料（機器可讀版本）
+├── content_schedule.json        ← 90 日內容排程主檔（文案 + Manus Prompt）
+├── manus_prompt_pack.json       ← Manus 批量素材生成 Prompt 包
+├── manus_instructions.md        ← Manus 執行說明（掃描排程 → 批量生成圖文）
+│
+├── main.py                      ← 發佈引擎（讀取排程 → 呼叫 Meta Graph API）
+└── .github/
+    └── workflows/
+        └── ig-post.yml          ← GitHub Actions 排程觸發器
 ```
 
 ---
 
-## 📋 sop-calendars/ 文件索引
+## ⚙️ 系統運作邏輯
 
-### 1. `cross_platform_orchestration.md`
-**跨平台協同執行時間軸及三個任務 SOP 摘要**
-
-整合 Stories、Carousel Posts、Reels 三個任務的完整 SOP 說明，包含：
-- 三階段主題框架（破圈引流 → 信任建立 → 產品轉化）
-- 每則 Stories / 每篇 Carousel / 每集 Reels 的標準結構（SOP）
-- 跨平台協同設計（週一/四 Reels 18:00 → Stories 20:00；週二/五 Posts 12:00 → Stories 20:00）
-- 數據監控觸發條件（每14天）及第90天 SOP 結束通知規格
-- 語言規範（正體中文 + 英文字幕）
+```
+[KNOWLEDGE_BASE.md]  ←  所有內容的事實依據
+        ↓
+[content_schedule.json]  ←  90 日預生成文案 + Manus Prompt
+        ↓
+[Manus 批量生成圖文]  →  asset_url 回填到排程檔
+        ↓
+[GitHub Actions ig-post.yml]  ←  每日定時觸發
+        ↓
+[main.py]  →  讀取今日排程 → 呼叫 Meta Graph API → 發佈 IG
+```
 
 ---
 
-### 2. `90day_stories_sop_calendar.md`
-**90天 Stories SOP 發布日曆**
+## 🗓️ 發佈時間表（HKT）
 
-發布時間：**每週一、三、四、五、日 20:00 HKT**，目標 90 天內發布 30+ 則。
-
-| Phase | 日期範圍 | 主題策略 |
+| 格式 | 發佈時間 | 星期 |
 |---|---|---|
-| 破圈引流期 | 2026-06-15 – 2026-07-14 | 大眾痛點共鳴、礦石色彩美學、玄學改運入門 |
-| 信任建立期 | 2026-07-15 – 2026-08-13 | 科普鑑定知識、礦石保養禁忌、科學 vs 身心靈 |
-| 產品轉化期 | 2026-08-14 – 2026-09-12 | 生活場景應用、能量搭配推薦、開運佈局教學 |
-
-包含每個發布日的完整 JSON SOP（含視覺描述、廣東話文案、互動貼圖規格）及剩餘日期主題框架。
+| Stories | 20:00 | 一、三、四、五、日 |
+| Posts (Carousel) | 12:00 | 二、五 |
+| Reels | 18:00 | 一、四 |
 
 ---
 
-### 3. `90day_carousel_posts_sop_calendar.md`
-**90天 Carousel Posts SOP 發布日曆**
+## 🔧 GitHub Secrets 必要設定
 
-發布時間：**每週二、五 12:00 HKT**，目標 90 天內發布 25+ 篇。
+前往 **Settings → Secrets and variables → Actions** 新增：
 
-| Phase | 日期範圍 | 核心 KPI |
-|---|---|---|
-| 破圈引流期 | 2026-06-16 – 2026-07-14 | 收藏率（Save Rate）、分享率（Share Rate） |
-| 信任建立期 | 2026-07-17 – 2026-08-11 | 輪播翻頁率、追蹤轉化數 |
-| 產品轉化期 | 2026-08-14 – 2026-09-08 | 導購點擊率、Profile 訪問轉化 |
-
-包含每篇貼文的完整 JSON SOP（封面、乾貨內頁、封底 CTA、Caption 及 Hashtags 規格）。
+| Secret 名稱 | 說明 |
+|---|---|
+| `META_ACCESS_TOKEN` | Meta Graph API 長效存取 Token |
+| `IG_USER_ID` | Instagram Business 帳號數字 ID |
 
 ---
 
-### 4. `90day_reels_sop_calendar.md`
-**90天 Reels SOP 發布日曆「一千零一夜礦石風水系列」**
+## 📋 待辦事項（系統啟動清單）
 
-發布時間：**每週一、四 18:00 HKT**，目標 90 天內發布 25 集。
-
-| Phase | 集數 | 日期範圍 | 主題系列 |
-|---|---|---|---|
-| 破圈引流期 | Ep 1–8 | 2026-06-15 – 2026-07-09 | 禁忌與誤區系列 |
-| 信任建立期 | Ep 9–16 | 2026-07-13 – 2026-08-06 | 玄學科普系列 |
-| 產品轉化期 | Ep 17–25 | 2026-08-10 – 2026-09-07 | 場景應用系列 |
-
-採用「連載式懸念」策略，每集結尾 Cliffhanger。每集包含完整 JSON SOP（三語腳本：廣東話 VO + 正體中文字幕 + 英文字幕、分鏡視覺描述、配套 Caption 及 Hashtags）。
+- [ ] **Manus 批量生成圖文**：參照 `manus_instructions.md`，掃描 `content_schedule.json`，生成所有 Stories／Posts／Reels 素材，並將公開 URL 回填至各記錄的 `asset_url` 欄位
+- [ ] **設定 GitHub Secrets**：在 repo Settings 新增 `META_ACCESS_TOKEN` 與 `IG_USER_ID`
+- [ ] **驗證首發**：手動觸發 `workflow_dispatch` 測試第一條記錄能否成功發佈
 
 ---
 
-## 🗓️ 跨平台協同時間軸（每週）
+## 📊 數據監控
 
-| 星期 | 任務 | 時間 | 說明 |
-|---|---|---|---|
-| 一 | Reels 發布 | 18:00 HKT | 一千零一夜系列當集 |
-| 一 | Stories 發布 | 20:00 HKT | 呼應當日 Reels 主題 |
-| 二 | Carousel Post 發布 | 12:00 HKT | 深度科普乾貨 |
-| 二 | Stories 發布 | 20:00 HKT | 延伸 Post 話題 |
-| 三 | Stories 發布 | 20:00 HKT | 獨立主題 |
-| 四 | Reels 發布 | 18:00 HKT | 一千零一夜系列當集 |
-| 四 | Stories 發布 | 20:00 HKT | 呼應當日 Reels 主題 |
-| 五 | Carousel Post 發布 | 12:00 HKT | 深度科普乾貨 |
-| 五 | Stories 發布 | 20:00 HKT | 延伸 Post 話題 |
-| 日 | Stories 發布 | 20:00 HKT | 獨立主題 |
+每 **14 天 09:00 HKT** 建議人工檢視各格式核心 KPI：
+- **Stories**：互動率、問答箱回覆數
+- **Posts**：收藏率（Save Rate）、輪播翻頁率
+- **Reels**：完播率、追蹤轉化數
+
+第 90 天發布完成後，輸出總結並規劃下一輪 SOP 策略。
 
 ---
 
-## 📊 數據監控週期
-
-每 **14 天 09:00 HKT** 自動觸發數據報告，收集各格式核心 KPI 並對比上期增減。第 90 天發布完成後輸出總結通知，建議下一輪 SOP 策略。
-
----
-
-*最後更新：2026-06-15 | 由 Manus 自動整合推送*
+*最後更新：2026-06-27*
