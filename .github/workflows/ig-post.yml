@@ -13,50 +13,66 @@ on:
           - posts
           - reels
   schedule:
-    - cron: '0 12 * * 0,1,3,4,5' # Stories: Mon, Wed, Thu, Fri, Sun 20:00 HKT
-    - cron: '0 10 * * 2,5'       # Posts: Tue, Fri 18:00 HKT
-    - cron: '0 10 * * 1,4'       # Reels: Mon, Thu 18:00 HKT
+    # HKT = UTC+8
+    # Stories: 週一、週三、週四、週五、週日 20:00 HKT = UTC 12:00
+    - cron: '0 12 * * 0,1,3,4,5'
+    # Posts: 週二、週五 18:00 HKT = UTC 10:00
+    - cron: '0 10 * * 2,5'
+    # Reels: 週一、週四 18:00 HKT = UTC 10:00
+    - cron: '0 10 * * 1,4'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install openai requests
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install openai requests
+          fi
 
-      - name: Execute Instagram Post
-        env:
-          OPENAI_API_KEY: <LaTex>${{ secrets.OPENAI_API_KEY }}
-          INSTAGRAM_CONNECTOR_UID: $</LaTex>{{ secrets.INSTAGRAM_CONNECTOR_UID }}
+      - name: Determine Task Type
+        id: task
         run: |
-          # Determine task based on schedule or input
-          TASK="<LaTex>${{ github.event.inputs.task_type }}"
-          if [ -z "$</LaTex>TASK" ]; then
-            HOUR=<LaTex>$(date +%H)
-            DAY=$</LaTex>(date +%u)
-            if [ "<LaTex>$HOUR" == "12" ]; then
-              if [[ "$</LaTex>DAY" == "1" || "<LaTex>$DAY" == "3" || "$</LaTex>DAY" == "4" || "<LaTex>$DAY" == "5" || "$</LaTex>DAY" == "7" ]]; then TASK="stories"; fi
-            elif [ "<LaTex>$HOUR" == "10" ]; then
-              if [[ "$</LaTex>DAY" == "2" || "<LaTex>$DAY" == "5" ]]; then TASK="posts";
-              elif [[ "$</LaTex>DAY" == "1" || "<LaTex>$DAY" == "4" ]]; then TASK="reels";
+          TASK="${{ github.event.inputs.task_type }}"
+          if [ -z "$TASK" ]; then
+            HOUR=$(date -u +%H)
+            DOW=$(date -u +%u)  # 1=Mon ... 7=Sun
+            if [ "$HOUR" == "12" ]; then
+              # Stories schedule: Mon(1) Wed(3) Thu(4) Fri(5) Sun(7)
+              if [[ "$DOW" =~ ^(1|3|4|5|7)$ ]]; then TASK="stories"; fi
+            elif [ "$HOUR" == "10" ]; then
+              if [[ "$DOW" =~ ^(2|5)$ ]]; then TASK="posts";
+              elif [[ "$DOW" =~ ^(1|4)$ ]]; then TASK="reels";
               fi
             fi
           fi
-          
-          if [ ! -z "$</LaTex>TASK" ]; then
-            echo "Executing <LaTex>$TASK..."
-            export TASK_TYPE=$</LaTex>TASK
-            python main.py
-          else
-            echo "No task scheduled for this time slot."
-          fi
+          echo "task_type=$TASK" >> $GITHUB_OUTPUT
+          echo "Resolved task: $TASK"
+
+      - name: Execute Instagram Post
+        if: steps.task.outputs.task_type != ''
+        env:
+          TASK_TYPE: ${{ steps.task.outputs.task_type }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python main.py
+
+      - name: Skip Notice
+        if: steps.task.outputs.task_type == ''
+        run: echo "No task scheduled for this time slot. Skipping."
