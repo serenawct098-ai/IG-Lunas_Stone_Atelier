@@ -14,7 +14,7 @@
 - **專案名稱：** IG月華星礦坊
 - **品牌名稱：** Luna's Stone Atelier
 - **核心主題：** 天然礦石元素
-- **唯一正式 Logo：** `Lunas_Stone_Atelier_Transparent_Like_Fig3.png`（備用：`Lunas_Stone_Atelier_Final_BG_Perfect.png`）
+- **唯一正式 Logo：** `Lunas_Stone_Atelier_Transparent_Like_Fig3.png`
 - **圖片標籤 (Watermark)：** 所有圖片底部必須固定顯示 `Luna's Stone Atelier`
 
 ### 1.2 視覺色彩系統 (Color Palette)
