@@ -1,131 +1,62 @@
 name: Instagram Content Automation
 
-
-
 on:
-
   workflow_dispatch:
-  
     inputs:
-    
       task_type:
-      
         description: 'Task to run (stories, posts, reels)'
-        
         required: true
-        
         default: 'stories'
-        
         type: choice
-        
         options:
-        
           - stories
-          
           - posts
-          
           - reels
-          
   schedule:
-  
-    - cron: '0 12 * * *' # Stories: Daily 20:00 HKT
-    
-    - cron: '0 10 * * 2,5' # Posts: Tue, Fri 18:00 HKT
-    
-    - cron: '0 10 * * 1,4' # Reels: Mon, Thu 18:00 HKT
-    
-
+    - cron: '0 12 * * 0,1,3,4,5' # Stories: Mon, Wed, Thu, Fri, Sun 20:00 HKT
+    - cron: '0 10 * * 2,5'       # Posts: Tue, Fri 18:00 HKT
+    - cron: '0 10 * * 1,4'       # Reels: Mon, Thu 18:00 HKT
 
 jobs:
-
   publish:
-  
     runs-on: ubuntu-latest
-    
     steps:
-    
       - name: Checkout Repository
-      
         uses: actions/checkout@v4
-        
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai requests
 
       - name: Execute Instagram Post
-      
+        env:
+          OPENAI_API_KEY: <LaTex>${{ secrets.OPENAI_API_KEY }}
+          INSTAGRAM_CONNECTOR_UID: $</LaTex>{{ secrets.INSTAGRAM_CONNECTOR_UID }}
         run: |
-        
           # Determine task based on schedule or input
-          
-          TASK="${{ github.event.inputs.task_type }}"
-          
-          if [ -z "$TASK" ]; then
-          
-            HOUR=$(date +%H)
-            
-            DAY=$(date +%u)
-            
-            if [ "$HOUR" == "12" ]; then TASK="stories";
-            
-            elif [ "$HOUR" == "10" ]; then
-            
-              if [[ "$DAY" == "2" || "$DAY" == "5" ]]; then TASK="posts";
-              
-              elif [[ "$DAY" == "1" || "$DAY" == "4" ]]; then TASK="reels";
-              
+          TASK="<LaTex>${{ github.event.inputs.task_type }}"
+          if [ -z "$</LaTex>TASK" ]; then
+            HOUR=<LaTex>$(date +%H)
+            DAY=$</LaTex>(date +%u)
+            if [ "<LaTex>$HOUR" == "12" ]; then
+              if [[ "$</LaTex>DAY" == "1" || "<LaTex>$DAY" == "3" || "$</LaTex>DAY" == "4" || "<LaTex>$DAY" == "5" || "$</LaTex>DAY" == "7" ]]; then TASK="stories"; fi
+            elif [ "<LaTex>$HOUR" == "10" ]; then
+              if [[ "$</LaTex>DAY" == "2" || "<LaTex>$DAY" == "5" ]]; then TASK="posts";
+              elif [[ "$</LaTex>DAY" == "1" || "<LaTex>$DAY" == "4" ]]; then TASK="reels";
               fi
-              
             fi
-            
           fi
           
-
-          
-          echo "Executing $TASK..."
-          
-          # Note: Actual execution requires Manus agent integration or API calls.
-          
-          # This workflow serves as the central trigger and SOP repository.
-          
-          # Success notification will be sent back to the Manus session.
-          
-concurrency: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          if [ ! -z "$</LaTex>TASK" ]; then
+            echo "Executing <LaTex>$TASK..."
+            export TASK_TYPE=$</LaTex>TASK
+            python main.py
+          else
+            echo "No task scheduled for this time slot."
+          fi
