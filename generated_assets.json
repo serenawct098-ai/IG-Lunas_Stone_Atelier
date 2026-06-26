@@ -1,0 +1,36 @@
+[
+  {
+    "image_asset_key": "stories_2026-06-26",
+    "date": "2026-06-26",
+    "type": "stories",
+    "files": [
+      "assets/stories/stories_2026-06-26_slide1.png",
+      "assets/stories/stories_2026-06-26_slide2.png",
+      "assets/stories/stories_2026-06-26_slide3.png"
+    ],
+    "asset_url": "https://github.com/serenawct098-ai/IG-Lunas_Stone_Atelier/tree/main/assets/stories"
+  },
+  {
+    "image_asset_key": "post_2026-06-26",
+    "date": "2026-06-26",
+    "type": "posts",
+    "files": [
+      "assets/posts/post_2026-06-26_p1.png",
+      "assets/posts/post_2026-06-26_p2.png",
+      "assets/posts/post_2026-06-26_p3.png",
+      "assets/posts/post_2026-06-26_p4.png",
+      "assets/posts/post_2026-06-26_p5.png",
+      "assets/posts/post_2026-06-26_p6.png"
+    ],
+    "asset_url": "https://github.com/serenawct098-ai/IG-Lunas_Stone_Atelier/tree/main/assets/posts"
+  },
+  {
+    "image_asset_key": "reel_2026-06-29",
+    "date": "2026-06-29",
+    "type": "reels",
+    "files": [
+      "assets/reels/reel_2026-06-29.mp4"
+    ],
+    "asset_url": "https://github.com/serenawct098-ai/IG-Lunas_Stone_Atelier/tree/main/assets/reels"
+  }
+]

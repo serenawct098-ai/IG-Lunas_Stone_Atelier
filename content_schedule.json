@@ -3,7 +3,7 @@
     "date": "2026-06-26",
     "time_hkt": "20:00",
     "type": "stories",
-    "status": "pending",
+    "status": "generated",
     "title": "Stories #1｜白水晶｜禁忌與誤區",
     "caption": "今晚用一個最簡單角度，看懂白水晶。\n\n白水晶常被連結到頂輪／全脈輪平衡，但重點不是神化，而是先理解它的材質與保養邏輯。白水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：可短暫日曬，不宜長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
     "caption_hint": "白水晶｜禁忌與誤區",
@@ -30,13 +30,14 @@
       ],
       "cta": "投票：你有沒有這樣做過？"
     },
-    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：白水晶｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：白水晶｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。",
+    "asset_url": "https://github.com/serenawct098-ai/IG-Lunas_Stone_Atelier/tree/main/assets/stories"
   },
   {
     "date": "2026-06-26",
     "time_hkt": "12:00",
     "type": "posts",
-    "status": "pending",
+    "status": "generated",
     "title": "Post #1｜白水晶 深度輪播",
     "caption": "【白水晶｜輪播知識卡】\n\n你以為在淨化，其實在慢慢傷石。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 白水晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：頂輪／全脈輪平衡\n- 保養提醒：可短暫日曬，不宜長曝\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
     "caption_hint": "白水晶 輪播知識卡",
@@ -62,7 +63,8 @@
       },
       "watermark": "Luna's Stone Atelier 圖文僅供參考"
     },
-    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：白水晶 深度知識卡。比例 4:5。封面需要強 hook：『你以為在淨化，其實在慢慢傷石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：白水晶 深度知識卡。比例 4:5。封面需要強 hook：『你以為在淨化，其實在慢慢傷石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。",
+    "asset_url": "https://github.com/serenawct098-ai/IG-Lunas_Stone_Atelier/tree/main/assets/posts"
   },
   {
     "date": "2026-06-28",
@@ -134,7 +136,7 @@
     "date": "2026-06-29",
     "time_hkt": "18:00",
     "type": "reels",
-    "status": "pending",
+    "status": "generated",
     "title": "Reel #5｜一千零一夜礦石風水系列｜白水晶",
     "caption": "【一千零一夜礦石風水系列｜白水晶】\n\n別再這樣對待你的礦石。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 白水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 頂輪／全脈輪平衡｜提醒：可短暫日曬，不宜長曝。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
     "caption_hint": "白水晶 reels episode",
@@ -160,7 +162,8 @@
       },
       "watermark": "Luna's Stone Atelier 圖文僅供參考"
     },
-    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：白水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『別再這樣對待你的礦石。』。"
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：白水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『別再這樣對待你的礦石。』。",
+    "asset_url": "https://github.com/serenawct098-ai/IG-Lunas_Stone_Atelier/tree/main/assets/reels"
   },
   {
     "date": "2026-06-30",
