@@ -64,7 +64,7 @@ IG-Lunas_Stone_Atelier/
 - **Stories、Posts（Carousel）、Reels 必須各自獨立生成**
 - 同一日期若同時有多格式排程，必須分別生成完全不同的素材
 - **嚴禁以同一張圖充當多格式輸出**
-- 素材間可以「呼應同一主題」，但視覺設計、文字排版、結構必須各自完整獨立
+- 素材間可以「呼應同一主題」，但視覺設計、文字內容、排版、結構必須各自完整獨立不同
 
 ---
 
@@ -97,7 +97,7 @@ IG-Lunas_Stone_Atelier/
 | Secret 名稱 | 說明 |
 |---|---|
 | `META_ACCESS_TOKEN` | Meta Graph API 長效存取 Token |
-| `IG_USER_ID` | Instagram Business 帳號數字 ID |
+| `@lunasstoneatelier` | Instagram Business 帳號數字 ID |
 
 ---
 
