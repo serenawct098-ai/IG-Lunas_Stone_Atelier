@@ -1,23 +1,67 @@
 [
   {
-    "date": "2026-06-30",
-    "type": "posts",
-    "image_url": "https://your-cdn.com/images/post-2026-06-30.jpg",
-    "caption_hint": "紫水晶系列新品上架",
-    "status": "pending"
-  },
-  {
-    "date": "2026-06-30",
-    "type": "reels",
-    "image_url": "https://your-cdn.com/videos/reel-2026-06-30.mp4",
-    "caption_hint": "礦石淨化教學",
-    "status": "pending"
-  },
-  {
-    "date": "2026-07-01",
+    "date": "2026-06-26",
+    "time_hkt": "20:00",
     "type": "stories",
-    "image_url": "https://your-cdn.com/images/story-2026-07-01.jpg",
-    "caption_hint": "七月能量預告",
-    "status": "pending"
+    "status": "pending",
+    "title": "Stories #1｜白水晶｜禁忌與誤區",
+    "caption": "今晚用一個最簡單角度，看懂白水晶。\n\n白水晶常被連結到頂輪／全脈輪平衡，但重點不是神化，而是先理解它的材質與保養邏輯。白水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：可短暫日曬，不宜長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "白水晶 禁忌與誤區",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-06-26",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "禁忌與誤區",
+      "mineral": "白水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：白水晶｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-06-26",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #5｜一千零一夜礦石風水系列｜白水晶",
+    "caption": "【一千零一夜礦石風水系列｜白水晶】\n\n別再這樣對待你的礦石。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 白水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 頂輪／全脈輪平衡｜提醒：可短暫日曬，不宜長曝。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "白水晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-06-26",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "別再這樣對待你的礦石。",
+        "3_8s": "今晚主角是 白水晶，常見資料：SiO₂／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 頂輪／全脈輪平衡，但日常更要記住：可短暫日曬，不宜長曝。",
+        "15_22s": "若你正在面對需要 頂輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：白水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『別再這樣對待你的礦石。』。"
   }
 ]
