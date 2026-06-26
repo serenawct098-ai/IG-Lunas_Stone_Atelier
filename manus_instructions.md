@@ -1,6 +1,6 @@
 # Manus 批量素材生成指令 — Luna's Stone Atelier
 
-> **版本：** v2.2 | **最後更新：** 2026-06-27
+> **版本：** v2.3 | **最後更新：** 2026-06-27
 > **定位：** 給 Manus 的唯一執行說明。Manus 只負責批量生成視覺素材，不負責文案撰寫、排程管理或發佈。
 
 ---
@@ -22,8 +22,8 @@
 因此，所有素材輸出必須遵守以下規則：
 
 - **每一次 `map` 只輸出一個檔案**（單一 `file` 類型）
-- 多張圖（如 Stories 3 張、Carousel 6 頁）需要**對每張分別執行一次 `map`**，不得嘗試一次回傳多個檔案
-- `generated_assets.json` 的 `files` 欄位改為每張分別一條記錄（見下方範例）
+- 多張圖（如 Stories 3 張、Reels 6 張、Carousel 6 頁）需要**對每張分別執行一次 `map`**，不得嘗試一次回傳多個檔案
+- `generated_assets.json` 的每張圖各為獨立一條記錄（見下方範例）
 
 ---
 
@@ -48,29 +48,53 @@
 
 | 格式 | 生成規格 | 執行次數 |
 |---|---|---|
-| **Stories** | 3 張靜態圖，4:5（1080×1350px） | 每張分別執行→ **3 次** |
-| **Posts (Carousel)** | 6 頁靜態圖，4:5（1080×1350px） | 每頁分別執行→ **6 次** |
-| **Reels** | 15–30 秒動態影片，4:5（1080×1350px） | 一條記錄執行 **1 次** |
+| **Stories** | 3 張靜態圖文，4:5（1080×1350px） | 每張分別執行→ **3 次** |
+| **Posts (Carousel)** | 6 頁靜態圖文，4:5（1080×1350px） | 每頁分別執行→ **6 次** |
+| **Reels** | 6 張靜態圖文，4:5（1080×1350px） | 每張分別執行→ **6 次** |
 
-> ⚠️ Reels **必須為真正動態影片**，不得以靜態圖充當。
+> ⚠️ Reels 改為 **6 張具深度文字內容的靜態圖文序列**，不再生成動態影片（MP4）。
 
-### Step 3：檔名規則
+### Step 3：Reels 圖文結構（強制）
+
+Reels 的 6 張圖必須依以下固定結構排列，每張均需包含繁體中文主文字與英文輔助說明：
+
+| 張序 | 角色 | 內容要求 |
+|---|---|---|
+| **第 1 張** | **Hook（引子）** | 吸引注意的標題句（繁中）＋英文副標；視覺需突出、留白充裕 |
+| **第 2 張** | **知識點 A** | 礦石學核心事實（繁中詳述）＋英文精簡版；可搭配礦石示意排版 |
+| **第 3 張** | **知識點 B** | 第二個礦石知識點或深化說明（繁中）＋英文；圖文比例平衡 |
+| **第 4 張** | **知識點 C** | 第三個知識點或應用場景（繁中）＋英文；可用列點或數字排版 |
+| **第 5 張** | **知識點 D / 延伸** | 延伸知識、禁忌提示或選購貼士（繁中）＋英文；視覺稍作收斂 |
+| **第 6 張** | **CTA（行動呼籲）** | 邀請互動／儲存／追蹤（繁中）＋英文；品牌標誌感最強的一張 |
+
+**每張文字規範：**
+- 繁體中文主標題：字體大、粗、清晰易讀
+- 繁體中文正文：每張不超過 60 字
+- 英文輔助文字：置於中文下方，字體縮小至中文的 60%
+- 禁止使用簡體字
+
+### Step 4：檔名規則
 
 ```
 Stories 第 1 張 : assets/stories/stories_YYYY-MM-DD_slide1.png
 Stories 第 2 張 : assets/stories/stories_YYYY-MM-DD_slide2.png
 Stories 第 3 張 : assets/stories/stories_YYYY-MM-DD_slide3.png
 
-Posts 第 1 頁  : assets/posts/post_YYYY-MM-DD_p1.png
-Posts 第 2 頁  : assets/posts/post_YYYY-MM-DD_p2.png
-...            （共 6 頁）
+Posts 第 1 頁   : assets/posts/post_YYYY-MM-DD_p1.png
+Posts 第 2 頁   : assets/posts/post_YYYY-MM-DD_p2.png
+...             （共 6 頁）
 
-Reels         : assets/reels/reel_YYYY-MM-DD.mp4
+Reels 第 1 張   : assets/reels/reel_YYYY-MM-DD_s1.png
+Reels 第 2 張   : assets/reels/reel_YYYY-MM-DD_s2.png
+Reels 第 3 張   : assets/reels/reel_YYYY-MM-DD_s3.png
+Reels 第 4 張   : assets/reels/reel_YYYY-MM-DD_s4.png
+Reels 第 5 張   : assets/reels/reel_YYYY-MM-DD_s5.png
+Reels 第 6 張   : assets/reels/reel_YYYY-MM-DD_s6.png
 ```
 
-### Step 4：輸出 `generated_assets.json`
+### Step 5：輸出 `generated_assets.json`
 
-**每一張圖 / 每一頁 / 每一支影片各為一條記錄**，不得將多個檔案共用一條：
+**每一張圖各為一條獨立記錄**，不得將多個檔案共用一條：
 
 ```json
 [
@@ -83,27 +107,30 @@ Reels         : assets/reels/reel_YYYY-MM-DD.mp4
     "asset_url": ""
   },
   {
-    "image_asset_key": "stories_20260627_slide2",
-    "date": "2026-06-27",
-    "type": "stories",
-    "slide_index": 2,
-    "file_path": "assets/stories/stories_2026-06-27_slide2.png",
-    "asset_url": ""
-  },
-  {
-    "image_asset_key": "post_20260701_p1",
-    "date": "2026-07-01",
-    "type": "post",
-    "slide_index": 1,
-    "file_path": "assets/posts/post_2026-07-01_p1.png",
-    "asset_url": ""
-  },
-  {
-    "image_asset_key": "reel_20260630",
-    "date": "2026-06-30",
+    "image_asset_key": "reel_20260629_s1",
+    "date": "2026-06-29",
     "type": "reel",
-    "slide_index": null,
-    "file_path": "assets/reels/reel_2026-06-30.mp4",
+    "slide_index": 1,
+    "slide_role": "hook",
+    "file_path": "assets/reels/reel_2026-06-29_s1.png",
+    "asset_url": ""
+  },
+  {
+    "image_asset_key": "reel_20260629_s2",
+    "date": "2026-06-29",
+    "type": "reel",
+    "slide_index": 2,
+    "slide_role": "knowledge_a",
+    "file_path": "assets/reels/reel_2026-06-29_s2.png",
+    "asset_url": ""
+  },
+  {
+    "image_asset_key": "reel_20260629_s6",
+    "date": "2026-06-29",
+    "type": "reel",
+    "slide_index": 6,
+    "slide_role": "cta",
+    "file_path": "assets/reels/reel_2026-06-29_s6.png",
     "asset_url": ""
   }
 ]
@@ -139,6 +166,8 @@ Luna's Stone Atelier  圖文僅供參考
 
 - 繁體中文為主，英文為輔
 - 雙語排版時，中文置於英文上方
+- **英文字體大小為中文的 60%**
+- 禁止使用簡體字
 
 ### 4.4 礦石學資料
 
@@ -151,17 +180,19 @@ Luna's Stone Atelier  圖文僅供參考
 ## 5. 禁止事項
 
 - ❌ 禁止使用品牌色以外的任何顏色
-- ❌ 禁止以靜態圖充當 Reels 影片素材
+- ❌ 禁止生成 MP4 影片作為 Reels 素材（已改為 6 張靜態圖文）
 - ❌ 禁止捏造、修改礦石學數據
 - ❌ 禁止省略水印聲明
 - ❌ 禁止引入其他專案的視覺風格
 - ❌ 禁止在單一 `map` 輸出中回傳多個檔案（每次只輸出一個 `file`）
+- ❌ 禁止使用簡體字
+- ❌ Reels 各張禁止省略指定角色（Hook / 知識點 / CTA）
 
 ---
 
 ## 6. 完成後
 
 1. 將所有素材上傳至 repo `assets/` 目錄
-2. 提交 `generated_assets.json`（每張圖 / 頁 / 影片各一條記錄）
+2. 提交 `generated_assets.json`（每張圖各一條記錄，Reels 記錄需含 `slide_role` 欄位）
 3. 如能回填，更新 `content_schedule.json` 的 `asset_url` 欄位
 4. 通知操作者：批量生成完成，GitHub Actions 可按排程自動發佈
