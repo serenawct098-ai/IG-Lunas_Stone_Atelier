@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-06-30",
+    "type": "posts",
+    "image_url": "https://your-cdn.com/images/post-2026-06-30.jpg",
+    "caption_hint": "紫水晶系列新品上架",
+    "status": "pending"
+  },
+  {
+    "date": "2026-06-30",
+    "type": "reels",
+    "image_url": "https://your-cdn.com/videos/reel-2026-06-30.mp4",
+    "caption_hint": "礦石淨化教學",
+    "status": "pending"
+  },
+  {
+    "date": "2026-07-01",
+    "type": "stories",
+    "image_url": "https://your-cdn.com/images/story-2026-07-01.jpg",
+    "caption_hint": "七月能量預告",
+    "status": "pending"
+  }
+]
