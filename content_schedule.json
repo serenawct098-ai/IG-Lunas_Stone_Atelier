@@ -6,7 +6,7 @@
     "status": "pending",
     "title": "Stories #1｜白水晶｜禁忌與誤區",
     "caption": "今晚用一個最簡單角度，看懂白水晶。\n\n白水晶常被連結到頂輪／全脈輪平衡，但重點不是神化，而是先理解它的材質與保養邏輯。白水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：可短暫日曬，不宜長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
-    "caption_hint": "白水晶 禁忌與誤區",
+    "caption_hint": "白水晶｜禁忌與誤區",
     "image_generation": "manus_batch",
     "image_asset_key": "stories_2026-06-26",
     "visual_brief": {
@@ -34,6 +34,104 @@
   },
   {
     "date": "2026-06-26",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #1｜白水晶 深度輪播",
+    "caption": "【白水晶｜輪播知識卡】\n\n你以為在淨化，其實在慢慢傷石。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 白水晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：頂輪／全脈輪平衡\n- 保養提醒：可短暫日曬，不宜長曝\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "白水晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-06-26",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "你以為在淨化，其實在慢慢傷石。",
+        "白水晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：頂輪／全脈輪平衡",
+        "保養重點：可短暫日曬，不宜長曝",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：白水晶 深度知識卡。比例 4:5。封面需要強 hook：『你以為在淨化，其實在慢慢傷石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-06-28",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #2｜紫水晶｜入門科普",
+    "caption": "今晚用一個最簡單角度，看懂紫水晶。\n\n紫水晶常被連結到眉心輪／頂輪，但重點不是神化，而是先理解它的材質與保養邏輯。紫水晶的常見資料可整理為：化學式 SiO₂（含鐵致色）、莫氏硬度 7；日常尤其要留意：忌長時間曝曬，易褪色。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "紫水晶｜入門科普",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-06-28",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "入門科普",
+      "mineral": "紫水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：紫水晶｜入門科普。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-06-29",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #3｜粉晶｜保養與淨化",
+    "caption": "今晚用一個最簡單角度，看懂粉晶。\n\n粉晶常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。粉晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間日曬，易退色變白。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "粉晶｜保養與淨化",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-06-29",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "保養與淨化",
+      "mineral": "粉晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：粉晶｜保養與淨化。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-06-29",
     "time_hkt": "18:00",
     "type": "reels",
     "status": "pending",
@@ -41,7 +139,7 @@
     "caption": "【一千零一夜礦石風水系列｜白水晶】\n\n別再這樣對待你的礦石。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 白水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 頂輪／全脈輪平衡｜提醒：可短暫日曬，不宜長曝。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
     "caption_hint": "白水晶 reels episode",
     "image_generation": "manus_batch",
-    "image_asset_key": "reel_2026-06-26",
+    "image_asset_key": "reel_2026-06-29",
     "visual_brief": {
       "format": "reel_4_5",
       "duration_sec": "15-30",
@@ -63,5 +161,3130 @@
       "watermark": "Luna's Stone Atelier 圖文僅供參考"
     },
     "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：白水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『別再這樣對待你的礦石。』。"
+  },
+  {
+    "date": "2026-06-30",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #2｜紫水晶 深度輪播",
+    "caption": "【紫水晶｜輪播知識卡】\n\n很多人戴了很久，卻連礦石最基本屬性都搞錯。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 紫水晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂（含鐵致色）\n- 莫氏硬度：7\n- 常見對應：眉心輪／頂輪\n- 保養提醒：忌長時間曝曬，易褪色\n- 建議淨化：月光／薰香\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "紫水晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-06-30",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "很多人戴了很久，卻連礦石最基本屬性都搞錯。",
+        "紫水晶 基本資料：SiO₂（含鐵致色）／硬度 7",
+        "常連結脈輪：眉心輪／頂輪",
+        "保養重點：忌長時間曝曬，易褪色",
+        "建議淨化：月光／薰香",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：紫水晶 深度知識卡。比例 4:5。封面需要強 hook：『很多人戴了很久，卻連礦石最基本屬性都搞錯。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-01",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #4｜青金石｜脈輪對應",
+    "caption": "今晚用一個最簡單角度，看懂青金石。\n\n青金石常被連結到眉心輪／喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。青金石的常見資料可整理為：化學式 多礦物岩石、莫氏硬度 5–5.5；日常尤其要留意：忌水洗，避免長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "青金石｜脈輪對應",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-01",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "脈輪對應",
+      "mineral": "青金石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：青金石｜脈輪對應。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-02",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #5｜黃水晶｜真假辨別",
+    "caption": "今晚用一個最簡單角度，看懂黃水晶。\n\n黃水晶常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。黃水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黃水晶｜真假辨別",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-02",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "真假辨別",
+      "mineral": "黃水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黃水晶｜真假辨別。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-02",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #6｜一千零一夜礦石風水系列｜紫水晶",
+    "caption": "【一千零一夜礦石風水系列｜紫水晶】\n\n這個禁忌，很多人到現在還在做。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 紫水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂（含鐵致色）｜硬度 7｜常連結 眉心輪／頂輪｜提醒：忌長時間曝曬，易褪色。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "紫水晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-02",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "這個禁忌，很多人到現在還在做。",
+        "3_8s": "今晚主角是 紫水晶，常見資料：SiO₂（含鐵致色）／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 眉心輪／頂輪，但日常更要記住：忌長時間曝曬，易褪色。",
+        "15_22s": "若你正在面對需要 眉心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：紫水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『這個禁忌，很多人到現在還在做。』。"
+  },
+  {
+    "date": "2026-07-03",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #6｜黑曜石｜場景應用",
+    "caption": "今晚用一個最簡單角度，看懂黑曜石。\n\n黑曜石常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑曜石的常見資料可整理為：化學式 火山玻璃、莫氏硬度 5–5.5；日常尤其要留意：避免劇烈碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑曜石｜場景應用",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-03",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "場景應用",
+      "mineral": "黑曜石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑曜石｜場景應用。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-03",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #3｜粉晶 深度輪播",
+    "caption": "【粉晶｜輪播知識卡】\n\n不是所有閃亮都適合天天戴。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 粉晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：心輪\n- 保養提醒：忌長時間日曬，易退色變白\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "粉晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-03",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "不是所有閃亮都適合天天戴。",
+        "粉晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：心輪",
+        "保養重點：忌長時間日曬，易退色變白",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：粉晶 深度知識卡。比例 4:5。封面需要強 hook：『不是所有閃亮都適合天天戴。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-05",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #7｜黑碧璽｜情緒與能量",
+    "caption": "今晚用一個最簡單角度，看懂黑碧璽。\n\n黑碧璽常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑碧璽的常見資料可整理為：化學式 複雜硼矽酸鹽、莫氏硬度 7–7.5；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑碧璽｜情緒與能量",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-05",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "情緒與能量",
+      "mineral": "黑碧璽",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑碧璽｜情緒與能量。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-06",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #8｜拉長石｜配搭建議",
+    "caption": "今晚用一個最簡單角度，看懂拉長石。\n\n拉長石常被連結到眉心輪，但重點不是神化，而是先理解它的材質與保養邏輯。拉長石的常見資料可整理為：化學式 長石、莫氏硬度 6–6.5；日常尤其要留意：避免碰撞與化學清潔劑。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "拉長石｜配搭建議",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-06",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "配搭建議",
+      "mineral": "拉長石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：拉長石｜配搭建議。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-06",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #7｜一千零一夜礦石風水系列｜粉晶",
+    "caption": "【一千零一夜礦石風水系列｜粉晶】\n\n你以為它只是好看，其實它有明確屬性。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 粉晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 心輪｜提醒：忌長時間日曬，易退色變白。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "粉晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-06",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "你以為它只是好看，其實它有明確屬性。",
+        "3_8s": "今晚主角是 粉晶，常見資料：SiO₂／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 心輪，但日常更要記住：忌長時間日曬，易退色變白。",
+        "15_22s": "若你正在面對需要 心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：粉晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『你以為它只是好看，其實它有明確屬性。』。"
+  },
+  {
+    "date": "2026-07-07",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #4｜青金石 深度輪播",
+    "caption": "【青金石｜輪播知識卡】\n\n想招財，先別選錯石。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 青金石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：多礦物岩石\n- 莫氏硬度：5–5.5\n- 常見對應：眉心輪／喉輪\n- 保養提醒：忌水洗，避免長曝\n- 建議淨化：薰香／音叉\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "青金石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-07",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "想招財，先別選錯石。",
+        "青金石 基本資料：多礦物岩石／硬度 5–5.5",
+        "常連結脈輪：眉心輪／喉輪",
+        "保養重點：忌水洗，避免長曝",
+        "建議淨化：薰香／音叉",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：青金石 深度知識卡。比例 4:5。封面需要強 hook：『想招財，先別選錯石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-08",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #9｜海藍寶｜新手常見錯誤",
+    "caption": "今晚用一個最簡單角度，看懂海藍寶。\n\n海藍寶常被連結到喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。海藍寶的常見資料可整理為：化學式 綠柱石、莫氏硬度 7.5–8；日常尤其要留意：避免長時間高溫曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "海藍寶｜新手常見錯誤",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-08",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "新手常見錯誤",
+      "mineral": "海藍寶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：海藍寶｜新手常見錯誤。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-09",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #10｜虎眼石｜收藏級觀察",
+    "caption": "今晚用一個最簡單角度，看懂虎眼石。\n\n虎眼石常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。虎眼石的常見資料可整理為：化學式 石英、莫氏硬度 7；日常尤其要留意：避免長期強酸鹼接觸。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "虎眼石｜收藏級觀察",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-09",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "收藏級觀察",
+      "mineral": "虎眼石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：虎眼石｜收藏級觀察。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-09",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #8｜一千零一夜礦石風水系列｜青金石",
+    "caption": "【一千零一夜礦石風水系列｜青金石】\n\n真正影響能量感受的，不是價格。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 青金石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：多礦物岩石｜硬度 5–5.5｜常連結 眉心輪／喉輪｜提醒：忌水洗，避免長曝。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "青金石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-09",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "真正影響能量感受的，不是價格。",
+        "3_8s": "今晚主角是 青金石，常見資料：多礦物岩石／硬度 5–5.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 眉心輪／喉輪，但日常更要記住：忌水洗，避免長曝。",
+        "15_22s": "若你正在面對需要 眉心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：青金石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『真正影響能量感受的，不是價格。』。"
+  },
+  {
+    "date": "2026-07-10",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #11｜茶晶｜禁忌與誤區",
+    "caption": "今晚用一個最簡單角度，看懂茶晶。\n\n茶晶常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。茶晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "茶晶｜禁忌與誤區",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-10",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "禁忌與誤區",
+      "mineral": "茶晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：茶晶｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-10",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #5｜黃水晶 深度輪播",
+    "caption": "【黃水晶｜輪播知識卡】\n\n同樣是紫色礦石，作用可能完全不同。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 黃水晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：太陽神經叢\n- 保養提醒：忌長時間曝曬\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黃水晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-10",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "同樣是紫色礦石，作用可能完全不同。",
+        "黃水晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：太陽神經叢",
+        "保養重點：忌長時間曝曬",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：黃水晶 深度知識卡。比例 4:5。封面需要強 hook：『同樣是紫色礦石，作用可能完全不同。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-12",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #12｜捷克隕石｜入門科普",
+    "caption": "今晚用一個最簡單角度，看懂捷克隕石。\n\n捷克隕石常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。捷克隕石的常見資料可整理為：化學式 天然玻璃、莫氏硬度 5.5–6；日常尤其要留意：避免碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "捷克隕石｜入門科普",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-12",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "入門科普",
+      "mineral": "捷克隕石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：捷克隕石｜入門科普。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-13",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #13｜白水晶｜保養與淨化",
+    "caption": "今晚用一個最簡單角度，看懂白水晶。\n\n白水晶常被連結到頂輪／全脈輪平衡，但重點不是神化，而是先理解它的材質與保養邏輯。白水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：可短暫日曬，不宜長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "白水晶｜保養與淨化",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-13",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "保養與淨化",
+      "mineral": "白水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：白水晶｜保養與淨化。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-13",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #9｜一千零一夜礦石風水系列｜黃水晶",
+    "caption": "【一千零一夜礦石風水系列｜黃水晶】\n\n同一顆石，戴對位置很重要。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 黃水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 太陽神經叢｜提醒：忌長時間曝曬。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "黃水晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-13",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "同一顆石，戴對位置很重要。",
+        "3_8s": "今晚主角是 黃水晶，常見資料：SiO₂／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 太陽神經叢，但日常更要記住：忌長時間曝曬。",
+        "15_22s": "若你正在面對需要 太陽神經叢 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：黃水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『同一顆石，戴對位置很重要。』。"
+  },
+  {
+    "date": "2026-07-14",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #6｜黑曜石 深度輪播",
+    "caption": "【黑曜石｜輪播知識卡】\n\n買礦石前，先看這 3 件事。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 黑曜石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：火山玻璃\n- 莫氏硬度：5–5.5\n- 常見對應：海底輪\n- 保養提醒：避免劇烈碰撞\n- 建議淨化：薰香／音叉\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑曜石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-14",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "買礦石前，先看這 3 件事。",
+        "黑曜石 基本資料：火山玻璃／硬度 5–5.5",
+        "常連結脈輪：海底輪",
+        "保養重點：避免劇烈碰撞",
+        "建議淨化：薰香／音叉",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：黑曜石 深度知識卡。比例 4:5。封面需要強 hook：『買礦石前，先看這 3 件事。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-15",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #14｜紫水晶｜脈輪對應",
+    "caption": "今晚用一個最簡單角度，看懂紫水晶。\n\n紫水晶常被連結到眉心輪／頂輪，但重點不是神化，而是先理解它的材質與保養邏輯。紫水晶的常見資料可整理為：化學式 SiO₂（含鐵致色）、莫氏硬度 7；日常尤其要留意：忌長時間曝曬，易褪色。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "紫水晶｜脈輪對應",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-15",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "脈輪對應",
+      "mineral": "紫水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：紫水晶｜脈輪對應。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-16",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #15｜粉晶｜真假辨別",
+    "caption": "今晚用一個最簡單角度，看懂粉晶。\n\n粉晶常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。粉晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間日曬，易退色變白。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "粉晶｜真假辨別",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-16",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "真假辨別",
+      "mineral": "粉晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：粉晶｜真假辨別。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-16",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #10｜一千零一夜礦石風水系列｜黑曜石",
+    "caption": "【一千零一夜礦石風水系列｜黑曜石】\n\n如果你最近很亂，先看這顆。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 黑曜石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：火山玻璃｜硬度 5–5.5｜常連結 海底輪｜提醒：避免劇烈碰撞。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "黑曜石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-16",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "如果你最近很亂，先看這顆。",
+        "3_8s": "今晚主角是 黑曜石，常見資料：火山玻璃／硬度 5–5.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 海底輪，但日常更要記住：避免劇烈碰撞。",
+        "15_22s": "若你正在面對需要 海底輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：黑曜石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『如果你最近很亂，先看這顆。』。"
+  },
+  {
+    "date": "2026-07-17",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #16｜青金石｜場景應用",
+    "caption": "今晚用一個最簡單角度，看懂青金石。\n\n青金石常被連結到眉心輪／喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。青金石的常見資料可整理為：化學式 多礦物岩石、莫氏硬度 5–5.5；日常尤其要留意：忌水洗，避免長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "青金石｜場景應用",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-17",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "場景應用",
+      "mineral": "青金石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：青金石｜場景應用。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-17",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #7｜黑碧璽 深度輪播",
+    "caption": "【黑碧璽｜輪播知識卡】\n\n越常見的石，越容易被忽略真正價值。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 黑碧璽 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：複雜硼矽酸鹽\n- 莫氏硬度：7–7.5\n- 常見對應：海底輪\n- 保養提醒：避免重摔\n- 建議淨化：白水晶簇／薰香\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑碧璽 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-17",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "越常見的石，越容易被忽略真正價值。",
+        "黑碧璽 基本資料：複雜硼矽酸鹽／硬度 7–7.5",
+        "常連結脈輪：海底輪",
+        "保養重點：避免重摔",
+        "建議淨化：白水晶簇／薰香",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：黑碧璽 深度知識卡。比例 4:5。封面需要強 hook：『越常見的石，越容易被忽略真正價值。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-19",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #17｜黃水晶｜情緒與能量",
+    "caption": "今晚用一個最簡單角度，看懂黃水晶。\n\n黃水晶常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。黃水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黃水晶｜情緒與能量",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-19",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "情緒與能量",
+      "mineral": "黃水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黃水晶｜情緒與能量。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-20",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #18｜黑曜石｜配搭建議",
+    "caption": "今晚用一個最簡單角度，看懂黑曜石。\n\n黑曜石常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑曜石的常見資料可整理為：化學式 火山玻璃、莫氏硬度 5–5.5；日常尤其要留意：避免劇烈碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑曜石｜配搭建議",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-20",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "配搭建議",
+      "mineral": "黑曜石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑曜石｜配搭建議。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-20",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #11｜一千零一夜礦石風水系列｜黑碧璽",
+    "caption": "【一千零一夜礦石風水系列｜黑碧璽】\n\n很多人說沒感覺，是因為第一步就錯了。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 黑碧璽。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：複雜硼矽酸鹽｜硬度 7–7.5｜常連結 海底輪｜提醒：避免重摔。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "黑碧璽 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-20",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "很多人說沒感覺，是因為第一步就錯了。",
+        "3_8s": "今晚主角是 黑碧璽，常見資料：複雜硼矽酸鹽／硬度 7–7.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 海底輪，但日常更要記住：避免重摔。",
+        "15_22s": "若你正在面對需要 海底輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：黑碧璽。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『很多人說沒感覺，是因為第一步就錯了。』。"
+  },
+  {
+    "date": "2026-07-21",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #8｜拉長石 深度輪播",
+    "caption": "【拉長石｜輪播知識卡】\n\n這些保養習慣，正在偷偷縮短礦石壽命。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 拉長石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：長石\n- 莫氏硬度：6–6.5\n- 常見對應：眉心輪\n- 保養提醒：避免碰撞與化學清潔劑\n- 建議淨化：月光／薰香\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "拉長石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-21",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "這些保養習慣，正在偷偷縮短礦石壽命。",
+        "拉長石 基本資料：長石／硬度 6–6.5",
+        "常連結脈輪：眉心輪",
+        "保養重點：避免碰撞與化學清潔劑",
+        "建議淨化：月光／薰香",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：拉長石 深度知識卡。比例 4:5。封面需要強 hook：『這些保養習慣，正在偷偷縮短礦石壽命。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-22",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #19｜黑碧璽｜新手常見錯誤",
+    "caption": "今晚用一個最簡單角度，看懂黑碧璽。\n\n黑碧璽常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑碧璽的常見資料可整理為：化學式 複雜硼矽酸鹽、莫氏硬度 7–7.5；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑碧璽｜新手常見錯誤",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-22",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "新手常見錯誤",
+      "mineral": "黑碧璽",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑碧璽｜新手常見錯誤。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-23",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #20｜拉長石｜收藏級觀察",
+    "caption": "今晚用一個最簡單角度，看懂拉長石。\n\n拉長石常被連結到眉心輪，但重點不是神化，而是先理解它的材質與保養邏輯。拉長石的常見資料可整理為：化學式 長石、莫氏硬度 6–6.5；日常尤其要留意：避免碰撞與化學清潔劑。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "拉長石｜收藏級觀察",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-23",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "收藏級觀察",
+      "mineral": "拉長石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：拉長石｜收藏級觀察。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-23",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #12｜一千零一夜礦石風水系列｜拉長石",
+    "caption": "【一千零一夜礦石風水系列｜拉長石】\n\n先別急著買，先學會判斷。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 拉長石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：長石｜硬度 6–6.5｜常連結 眉心輪｜提醒：避免碰撞與化學清潔劑。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "拉長石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-23",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "先別急著買，先學會判斷。",
+        "3_8s": "今晚主角是 拉長石，常見資料：長石／硬度 6–6.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 眉心輪，但日常更要記住：避免碰撞與化學清潔劑。",
+        "15_22s": "若你正在面對需要 眉心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：拉長石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『先別急著買，先學會判斷。』。"
+  },
+  {
+    "date": "2026-07-24",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #21｜海藍寶｜禁忌與誤區",
+    "caption": "今晚用一個最簡單角度，看懂海藍寶。\n\n海藍寶常被連結到喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。海藍寶的常見資料可整理為：化學式 綠柱石、莫氏硬度 7.5–8；日常尤其要留意：避免長時間高溫曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "海藍寶｜禁忌與誤區",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-24",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "禁忌與誤區",
+      "mineral": "海藍寶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：海藍寶｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-24",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #9｜海藍寶 深度輪播",
+    "caption": "【海藍寶｜輪播知識卡】\n\n你以為在淨化，其實在慢慢傷石。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 海藍寶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：綠柱石\n- 莫氏硬度：7.5–8\n- 常見對應：喉輪\n- 保養提醒：避免長時間高溫曝曬\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "海藍寶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-24",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "你以為在淨化，其實在慢慢傷石。",
+        "海藍寶 基本資料：綠柱石／硬度 7.5–8",
+        "常連結脈輪：喉輪",
+        "保養重點：避免長時間高溫曝曬",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：海藍寶 深度知識卡。比例 4:5。封面需要強 hook：『你以為在淨化，其實在慢慢傷石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-26",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #22｜虎眼石｜入門科普",
+    "caption": "今晚用一個最簡單角度，看懂虎眼石。\n\n虎眼石常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。虎眼石的常見資料可整理為：化學式 石英、莫氏硬度 7；日常尤其要留意：避免長期強酸鹼接觸。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "虎眼石｜入門科普",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-26",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "入門科普",
+      "mineral": "虎眼石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：虎眼石｜入門科普。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-27",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #23｜茶晶｜保養與淨化",
+    "caption": "今晚用一個最簡單角度，看懂茶晶。\n\n茶晶常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。茶晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "茶晶｜保養與淨化",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-27",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "保養與淨化",
+      "mineral": "茶晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：茶晶｜保養與淨化。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-27",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #13｜一千零一夜礦石風水系列｜海藍寶",
+    "caption": "【一千零一夜礦石風水系列｜海藍寶】\n\n別再這樣對待你的礦石。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 海藍寶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：綠柱石｜硬度 7.5–8｜常連結 喉輪｜提醒：避免長時間高溫曝曬。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "海藍寶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-27",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "別再這樣對待你的礦石。",
+        "3_8s": "今晚主角是 海藍寶，常見資料：綠柱石／硬度 7.5–8。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 喉輪，但日常更要記住：避免長時間高溫曝曬。",
+        "15_22s": "若你正在面對需要 喉輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：海藍寶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『別再這樣對待你的礦石。』。"
+  },
+  {
+    "date": "2026-07-28",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #10｜虎眼石 深度輪播",
+    "caption": "【虎眼石｜輪播知識卡】\n\n很多人戴了很久，卻連礦石最基本屬性都搞錯。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 虎眼石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：石英\n- 莫氏硬度：7\n- 常見對應：太陽神經叢\n- 保養提醒：避免長期強酸鹼接觸\n- 建議淨化：薰香／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "虎眼石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-28",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "很多人戴了很久，卻連礦石最基本屬性都搞錯。",
+        "虎眼石 基本資料：石英／硬度 7",
+        "常連結脈輪：太陽神經叢",
+        "保養重點：避免長期強酸鹼接觸",
+        "建議淨化：薰香／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：虎眼石 深度知識卡。比例 4:5。封面需要強 hook：『很多人戴了很久，卻連礦石最基本屬性都搞錯。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-07-29",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #24｜捷克隕石｜脈輪對應",
+    "caption": "今晚用一個最簡單角度，看懂捷克隕石。\n\n捷克隕石常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。捷克隕石的常見資料可整理為：化學式 天然玻璃、莫氏硬度 5.5–6；日常尤其要留意：避免碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "捷克隕石｜脈輪對應",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-29",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "脈輪對應",
+      "mineral": "捷克隕石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：捷克隕石｜脈輪對應。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-30",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #25｜白水晶｜真假辨別",
+    "caption": "今晚用一個最簡單角度，看懂白水晶。\n\n白水晶常被連結到頂輪／全脈輪平衡，但重點不是神化，而是先理解它的材質與保養邏輯。白水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：可短暫日曬，不宜長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "白水晶｜真假辨別",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-30",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "真假辨別",
+      "mineral": "白水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：白水晶｜真假辨別。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-30",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #14｜一千零一夜礦石風水系列｜虎眼石",
+    "caption": "【一千零一夜礦石風水系列｜虎眼石】\n\n這個禁忌，很多人到現在還在做。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 虎眼石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：石英｜硬度 7｜常連結 太陽神經叢｜提醒：避免長期強酸鹼接觸。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "虎眼石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-07-30",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "這個禁忌，很多人到現在還在做。",
+        "3_8s": "今晚主角是 虎眼石，常見資料：石英／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 太陽神經叢，但日常更要記住：避免長期強酸鹼接觸。",
+        "15_22s": "若你正在面對需要 太陽神經叢 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：虎眼石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『這個禁忌，很多人到現在還在做。』。"
+  },
+  {
+    "date": "2026-07-31",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #26｜紫水晶｜場景應用",
+    "caption": "今晚用一個最簡單角度，看懂紫水晶。\n\n紫水晶常被連結到眉心輪／頂輪，但重點不是神化，而是先理解它的材質與保養邏輯。紫水晶的常見資料可整理為：化學式 SiO₂（含鐵致色）、莫氏硬度 7；日常尤其要留意：忌長時間曝曬，易褪色。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "紫水晶｜場景應用",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-07-31",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "場景應用",
+      "mineral": "紫水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：紫水晶｜場景應用。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-07-31",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #11｜茶晶 深度輪播",
+    "caption": "【茶晶｜輪播知識卡】\n\n不是所有閃亮都適合天天戴。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 茶晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：海底輪\n- 保養提醒：避免重摔\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "茶晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-07-31",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "不是所有閃亮都適合天天戴。",
+        "茶晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：海底輪",
+        "保養重點：避免重摔",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：茶晶 深度知識卡。比例 4:5。封面需要強 hook：『不是所有閃亮都適合天天戴。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-02",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #27｜粉晶｜情緒與能量",
+    "caption": "今晚用一個最簡單角度，看懂粉晶。\n\n粉晶常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。粉晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間日曬，易退色變白。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "粉晶｜情緒與能量",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-02",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "情緒與能量",
+      "mineral": "粉晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：粉晶｜情緒與能量。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-03",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #28｜青金石｜配搭建議",
+    "caption": "今晚用一個最簡單角度，看懂青金石。\n\n青金石常被連結到眉心輪／喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。青金石的常見資料可整理為：化學式 多礦物岩石、莫氏硬度 5–5.5；日常尤其要留意：忌水洗，避免長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "青金石｜配搭建議",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-03",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "配搭建議",
+      "mineral": "青金石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：青金石｜配搭建議。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-03",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #15｜一千零一夜礦石風水系列｜茶晶",
+    "caption": "【一千零一夜礦石風水系列｜茶晶】\n\n你以為它只是好看，其實它有明確屬性。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 茶晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 海底輪｜提醒：避免重摔。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "茶晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-03",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "你以為它只是好看，其實它有明確屬性。",
+        "3_8s": "今晚主角是 茶晶，常見資料：SiO₂／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 海底輪，但日常更要記住：避免重摔。",
+        "15_22s": "若你正在面對需要 海底輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：茶晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『你以為它只是好看，其實它有明確屬性。』。"
+  },
+  {
+    "date": "2026-08-04",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #12｜捷克隕石 深度輪播",
+    "caption": "【捷克隕石｜輪播知識卡】\n\n想招財，先別選錯石。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 捷克隕石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：天然玻璃\n- 莫氏硬度：5.5–6\n- 常見對應：心輪\n- 保養提醒：避免碰撞\n- 建議淨化：薰香／音叉\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "捷克隕石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-04",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "想招財，先別選錯石。",
+        "捷克隕石 基本資料：天然玻璃／硬度 5.5–6",
+        "常連結脈輪：心輪",
+        "保養重點：避免碰撞",
+        "建議淨化：薰香／音叉",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：捷克隕石 深度知識卡。比例 4:5。封面需要強 hook：『想招財，先別選錯石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-05",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #29｜黃水晶｜新手常見錯誤",
+    "caption": "今晚用一個最簡單角度，看懂黃水晶。\n\n黃水晶常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。黃水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黃水晶｜新手常見錯誤",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-05",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "新手常見錯誤",
+      "mineral": "黃水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黃水晶｜新手常見錯誤。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-06",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #30｜黑曜石｜收藏級觀察",
+    "caption": "今晚用一個最簡單角度，看懂黑曜石。\n\n黑曜石常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑曜石的常見資料可整理為：化學式 火山玻璃、莫氏硬度 5–5.5；日常尤其要留意：避免劇烈碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑曜石｜收藏級觀察",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-06",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "收藏級觀察",
+      "mineral": "黑曜石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑曜石｜收藏級觀察。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-06",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #16｜一千零一夜礦石風水系列｜捷克隕石",
+    "caption": "【一千零一夜礦石風水系列｜捷克隕石】\n\n真正影響能量感受的，不是價格。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 捷克隕石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：天然玻璃｜硬度 5.5–6｜常連結 心輪｜提醒：避免碰撞。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "捷克隕石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-06",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "真正影響能量感受的，不是價格。",
+        "3_8s": "今晚主角是 捷克隕石，常見資料：天然玻璃／硬度 5.5–6。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 心輪，但日常更要記住：避免碰撞。",
+        "15_22s": "若你正在面對需要 心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：捷克隕石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『真正影響能量感受的，不是價格。』。"
+  },
+  {
+    "date": "2026-08-07",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #31｜黑碧璽｜禁忌與誤區",
+    "caption": "今晚用一個最簡單角度，看懂黑碧璽。\n\n黑碧璽常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑碧璽的常見資料可整理為：化學式 複雜硼矽酸鹽、莫氏硬度 7–7.5；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑碧璽｜禁忌與誤區",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-07",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "禁忌與誤區",
+      "mineral": "黑碧璽",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑碧璽｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-07",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #13｜白水晶 深度輪播",
+    "caption": "【白水晶｜輪播知識卡】\n\n同樣是紫色礦石，作用可能完全不同。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 白水晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：頂輪／全脈輪平衡\n- 保養提醒：可短暫日曬，不宜長曝\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "白水晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-07",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "同樣是紫色礦石，作用可能完全不同。",
+        "白水晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：頂輪／全脈輪平衡",
+        "保養重點：可短暫日曬，不宜長曝",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：白水晶 深度知識卡。比例 4:5。封面需要強 hook：『同樣是紫色礦石，作用可能完全不同。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-09",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #32｜拉長石｜入門科普",
+    "caption": "今晚用一個最簡單角度，看懂拉長石。\n\n拉長石常被連結到眉心輪，但重點不是神化，而是先理解它的材質與保養邏輯。拉長石的常見資料可整理為：化學式 長石、莫氏硬度 6–6.5；日常尤其要留意：避免碰撞與化學清潔劑。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "拉長石｜入門科普",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-09",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "入門科普",
+      "mineral": "拉長石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：拉長石｜入門科普。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-10",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #33｜海藍寶｜保養與淨化",
+    "caption": "今晚用一個最簡單角度，看懂海藍寶。\n\n海藍寶常被連結到喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。海藍寶的常見資料可整理為：化學式 綠柱石、莫氏硬度 7.5–8；日常尤其要留意：避免長時間高溫曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "海藍寶｜保養與淨化",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-10",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "保養與淨化",
+      "mineral": "海藍寶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：海藍寶｜保養與淨化。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-10",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #17｜一千零一夜礦石風水系列｜白水晶",
+    "caption": "【一千零一夜礦石風水系列｜白水晶】\n\n同一顆石，戴對位置很重要。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 白水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 頂輪／全脈輪平衡｜提醒：可短暫日曬，不宜長曝。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "白水晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-10",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "同一顆石，戴對位置很重要。",
+        "3_8s": "今晚主角是 白水晶，常見資料：SiO₂／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 頂輪／全脈輪平衡，但日常更要記住：可短暫日曬，不宜長曝。",
+        "15_22s": "若你正在面對需要 頂輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：白水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『同一顆石，戴對位置很重要。』。"
+  },
+  {
+    "date": "2026-08-11",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #14｜紫水晶 深度輪播",
+    "caption": "【紫水晶｜輪播知識卡】\n\n買礦石前，先看這 3 件事。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 紫水晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂（含鐵致色）\n- 莫氏硬度：7\n- 常見對應：眉心輪／頂輪\n- 保養提醒：忌長時間曝曬，易褪色\n- 建議淨化：月光／薰香\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "紫水晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-11",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "買礦石前，先看這 3 件事。",
+        "紫水晶 基本資料：SiO₂（含鐵致色）／硬度 7",
+        "常連結脈輪：眉心輪／頂輪",
+        "保養重點：忌長時間曝曬，易褪色",
+        "建議淨化：月光／薰香",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：紫水晶 深度知識卡。比例 4:5。封面需要強 hook：『買礦石前，先看這 3 件事。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-12",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #34｜虎眼石｜脈輪對應",
+    "caption": "今晚用一個最簡單角度，看懂虎眼石。\n\n虎眼石常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。虎眼石的常見資料可整理為：化學式 石英、莫氏硬度 7；日常尤其要留意：避免長期強酸鹼接觸。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "虎眼石｜脈輪對應",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-12",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "脈輪對應",
+      "mineral": "虎眼石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：虎眼石｜脈輪對應。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-13",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #35｜茶晶｜真假辨別",
+    "caption": "今晚用一個最簡單角度，看懂茶晶。\n\n茶晶常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。茶晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "茶晶｜真假辨別",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-13",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "真假辨別",
+      "mineral": "茶晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：茶晶｜真假辨別。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-13",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #18｜一千零一夜礦石風水系列｜紫水晶",
+    "caption": "【一千零一夜礦石風水系列｜紫水晶】\n\n如果你最近很亂，先看這顆。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 紫水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂（含鐵致色）｜硬度 7｜常連結 眉心輪／頂輪｜提醒：忌長時間曝曬，易褪色。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "紫水晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-13",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "如果你最近很亂，先看這顆。",
+        "3_8s": "今晚主角是 紫水晶，常見資料：SiO₂（含鐵致色）／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 眉心輪／頂輪，但日常更要記住：忌長時間曝曬，易褪色。",
+        "15_22s": "若你正在面對需要 眉心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：紫水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『如果你最近很亂，先看這顆。』。"
+  },
+  {
+    "date": "2026-08-14",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #36｜捷克隕石｜場景應用",
+    "caption": "今晚用一個最簡單角度，看懂捷克隕石。\n\n捷克隕石常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。捷克隕石的常見資料可整理為：化學式 天然玻璃、莫氏硬度 5.5–6；日常尤其要留意：避免碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "捷克隕石｜場景應用",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-14",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "場景應用",
+      "mineral": "捷克隕石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：捷克隕石｜場景應用。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-14",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #15｜粉晶 深度輪播",
+    "caption": "【粉晶｜輪播知識卡】\n\n越常見的石，越容易被忽略真正價值。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 粉晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：心輪\n- 保養提醒：忌長時間日曬，易退色變白\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "粉晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-14",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "越常見的石，越容易被忽略真正價值。",
+        "粉晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：心輪",
+        "保養重點：忌長時間日曬，易退色變白",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：粉晶 深度知識卡。比例 4:5。封面需要強 hook：『越常見的石，越容易被忽略真正價值。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-16",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #37｜白水晶｜情緒與能量",
+    "caption": "今晚用一個最簡單角度，看懂白水晶。\n\n白水晶常被連結到頂輪／全脈輪平衡，但重點不是神化，而是先理解它的材質與保養邏輯。白水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：可短暫日曬，不宜長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "白水晶｜情緒與能量",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-16",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "情緒與能量",
+      "mineral": "白水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：白水晶｜情緒與能量。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-17",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #38｜紫水晶｜配搭建議",
+    "caption": "今晚用一個最簡單角度，看懂紫水晶。\n\n紫水晶常被連結到眉心輪／頂輪，但重點不是神化，而是先理解它的材質與保養邏輯。紫水晶的常見資料可整理為：化學式 SiO₂（含鐵致色）、莫氏硬度 7；日常尤其要留意：忌長時間曝曬，易褪色。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "紫水晶｜配搭建議",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-17",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "配搭建議",
+      "mineral": "紫水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：紫水晶｜配搭建議。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-17",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #19｜一千零一夜礦石風水系列｜粉晶",
+    "caption": "【一千零一夜礦石風水系列｜粉晶】\n\n很多人說沒感覺，是因為第一步就錯了。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 粉晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 心輪｜提醒：忌長時間日曬，易退色變白。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "粉晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-17",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "很多人說沒感覺，是因為第一步就錯了。",
+        "3_8s": "今晚主角是 粉晶，常見資料：SiO₂／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 心輪，但日常更要記住：忌長時間日曬，易退色變白。",
+        "15_22s": "若你正在面對需要 心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：粉晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『很多人說沒感覺，是因為第一步就錯了。』。"
+  },
+  {
+    "date": "2026-08-18",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #16｜青金石 深度輪播",
+    "caption": "【青金石｜輪播知識卡】\n\n這些保養習慣，正在偷偷縮短礦石壽命。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 青金石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：多礦物岩石\n- 莫氏硬度：5–5.5\n- 常見對應：眉心輪／喉輪\n- 保養提醒：忌水洗，避免長曝\n- 建議淨化：薰香／音叉\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "青金石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-18",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "這些保養習慣，正在偷偷縮短礦石壽命。",
+        "青金石 基本資料：多礦物岩石／硬度 5–5.5",
+        "常連結脈輪：眉心輪／喉輪",
+        "保養重點：忌水洗，避免長曝",
+        "建議淨化：薰香／音叉",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：青金石 深度知識卡。比例 4:5。封面需要強 hook：『這些保養習慣，正在偷偷縮短礦石壽命。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-19",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #39｜粉晶｜新手常見錯誤",
+    "caption": "今晚用一個最簡單角度，看懂粉晶。\n\n粉晶常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。粉晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間日曬，易退色變白。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "粉晶｜新手常見錯誤",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-19",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "新手常見錯誤",
+      "mineral": "粉晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：粉晶｜新手常見錯誤。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-20",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #40｜青金石｜收藏級觀察",
+    "caption": "今晚用一個最簡單角度，看懂青金石。\n\n青金石常被連結到眉心輪／喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。青金石的常見資料可整理為：化學式 多礦物岩石、莫氏硬度 5–5.5；日常尤其要留意：忌水洗，避免長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "青金石｜收藏級觀察",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-20",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "收藏級觀察",
+      "mineral": "青金石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：青金石｜收藏級觀察。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-20",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #20｜一千零一夜礦石風水系列｜青金石",
+    "caption": "【一千零一夜礦石風水系列｜青金石】\n\n先別急著買，先學會判斷。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 青金石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：多礦物岩石｜硬度 5–5.5｜常連結 眉心輪／喉輪｜提醒：忌水洗，避免長曝。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "青金石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-20",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "先別急著買，先學會判斷。",
+        "3_8s": "今晚主角是 青金石，常見資料：多礦物岩石／硬度 5–5.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 眉心輪／喉輪，但日常更要記住：忌水洗，避免長曝。",
+        "15_22s": "若你正在面對需要 眉心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：青金石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『先別急著買，先學會判斷。』。"
+  },
+  {
+    "date": "2026-08-21",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #41｜黃水晶｜禁忌與誤區",
+    "caption": "今晚用一個最簡單角度，看懂黃水晶。\n\n黃水晶常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。黃水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黃水晶｜禁忌與誤區",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-21",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "禁忌與誤區",
+      "mineral": "黃水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黃水晶｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-21",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #17｜黃水晶 深度輪播",
+    "caption": "【黃水晶｜輪播知識卡】\n\n你以為在淨化，其實在慢慢傷石。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 黃水晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：太陽神經叢\n- 保養提醒：忌長時間曝曬\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黃水晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-21",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "你以為在淨化，其實在慢慢傷石。",
+        "黃水晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：太陽神經叢",
+        "保養重點：忌長時間曝曬",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：黃水晶 深度知識卡。比例 4:5。封面需要強 hook：『你以為在淨化，其實在慢慢傷石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-23",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #42｜黑曜石｜入門科普",
+    "caption": "今晚用一個最簡單角度，看懂黑曜石。\n\n黑曜石常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑曜石的常見資料可整理為：化學式 火山玻璃、莫氏硬度 5–5.5；日常尤其要留意：避免劇烈碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑曜石｜入門科普",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-23",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "入門科普",
+      "mineral": "黑曜石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑曜石｜入門科普。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-24",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #43｜黑碧璽｜保養與淨化",
+    "caption": "今晚用一個最簡單角度，看懂黑碧璽。\n\n黑碧璽常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑碧璽的常見資料可整理為：化學式 複雜硼矽酸鹽、莫氏硬度 7–7.5；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑碧璽｜保養與淨化",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-24",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "保養與淨化",
+      "mineral": "黑碧璽",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑碧璽｜保養與淨化。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-24",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #21｜一千零一夜礦石風水系列｜黃水晶",
+    "caption": "【一千零一夜礦石風水系列｜黃水晶】\n\n別再這樣對待你的礦石。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 黃水晶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：SiO₂｜硬度 7｜常連結 太陽神經叢｜提醒：忌長時間曝曬。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "黃水晶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-24",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "別再這樣對待你的礦石。",
+        "3_8s": "今晚主角是 黃水晶，常見資料：SiO₂／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 太陽神經叢，但日常更要記住：忌長時間曝曬。",
+        "15_22s": "若你正在面對需要 太陽神經叢 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：黃水晶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『別再這樣對待你的礦石。』。"
+  },
+  {
+    "date": "2026-08-25",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #18｜黑曜石 深度輪播",
+    "caption": "【黑曜石｜輪播知識卡】\n\n很多人戴了很久，卻連礦石最基本屬性都搞錯。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 黑曜石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：火山玻璃\n- 莫氏硬度：5–5.5\n- 常見對應：海底輪\n- 保養提醒：避免劇烈碰撞\n- 建議淨化：薰香／音叉\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑曜石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-25",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "很多人戴了很久，卻連礦石最基本屬性都搞錯。",
+        "黑曜石 基本資料：火山玻璃／硬度 5–5.5",
+        "常連結脈輪：海底輪",
+        "保養重點：避免劇烈碰撞",
+        "建議淨化：薰香／音叉",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：黑曜石 深度知識卡。比例 4:5。封面需要強 hook：『很多人戴了很久，卻連礦石最基本屬性都搞錯。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-26",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #44｜拉長石｜脈輪對應",
+    "caption": "今晚用一個最簡單角度，看懂拉長石。\n\n拉長石常被連結到眉心輪，但重點不是神化，而是先理解它的材質與保養邏輯。拉長石的常見資料可整理為：化學式 長石、莫氏硬度 6–6.5；日常尤其要留意：避免碰撞與化學清潔劑。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "拉長石｜脈輪對應",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-26",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "脈輪對應",
+      "mineral": "拉長石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：拉長石｜脈輪對應。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-27",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #45｜海藍寶｜真假辨別",
+    "caption": "今晚用一個最簡單角度，看懂海藍寶。\n\n海藍寶常被連結到喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。海藍寶的常見資料可整理為：化學式 綠柱石、莫氏硬度 7.5–8；日常尤其要留意：避免長時間高溫曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "海藍寶｜真假辨別",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-27",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "真假辨別",
+      "mineral": "海藍寶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：海藍寶｜真假辨別。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-27",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #22｜一千零一夜礦石風水系列｜黑曜石",
+    "caption": "【一千零一夜礦石風水系列｜黑曜石】\n\n這個禁忌，很多人到現在還在做。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 黑曜石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：火山玻璃｜硬度 5–5.5｜常連結 海底輪｜提醒：避免劇烈碰撞。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "黑曜石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-27",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "這個禁忌，很多人到現在還在做。",
+        "3_8s": "今晚主角是 黑曜石，常見資料：火山玻璃／硬度 5–5.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 海底輪，但日常更要記住：避免劇烈碰撞。",
+        "15_22s": "若你正在面對需要 海底輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：黑曜石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『這個禁忌，很多人到現在還在做。』。"
+  },
+  {
+    "date": "2026-08-28",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #46｜虎眼石｜場景應用",
+    "caption": "今晚用一個最簡單角度，看懂虎眼石。\n\n虎眼石常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。虎眼石的常見資料可整理為：化學式 石英、莫氏硬度 7；日常尤其要留意：避免長期強酸鹼接觸。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "虎眼石｜場景應用",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-28",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "場景應用",
+      "mineral": "虎眼石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：虎眼石｜場景應用。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-28",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #19｜黑碧璽 深度輪播",
+    "caption": "【黑碧璽｜輪播知識卡】\n\n不是所有閃亮都適合天天戴。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 黑碧璽 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：複雜硼矽酸鹽\n- 莫氏硬度：7–7.5\n- 常見對應：海底輪\n- 保養提醒：避免重摔\n- 建議淨化：白水晶簇／薰香\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑碧璽 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-08-28",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "不是所有閃亮都適合天天戴。",
+        "黑碧璽 基本資料：複雜硼矽酸鹽／硬度 7–7.5",
+        "常連結脈輪：海底輪",
+        "保養重點：避免重摔",
+        "建議淨化：白水晶簇／薰香",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：黑碧璽 深度知識卡。比例 4:5。封面需要強 hook：『不是所有閃亮都適合天天戴。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-08-30",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #47｜茶晶｜情緒與能量",
+    "caption": "今晚用一個最簡單角度，看懂茶晶。\n\n茶晶常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。茶晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "茶晶｜情緒與能量",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-30",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "情緒與能量",
+      "mineral": "茶晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：茶晶｜情緒與能量。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-31",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #48｜捷克隕石｜配搭建議",
+    "caption": "今晚用一個最簡單角度，看懂捷克隕石。\n\n捷克隕石常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。捷克隕石的常見資料可整理為：化學式 天然玻璃、莫氏硬度 5.5–6；日常尤其要留意：避免碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "捷克隕石｜配搭建議",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-08-31",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "配搭建議",
+      "mineral": "捷克隕石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：捷克隕石｜配搭建議。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-08-31",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #23｜一千零一夜礦石風水系列｜黑碧璽",
+    "caption": "【一千零一夜礦石風水系列｜黑碧璽】\n\n你以為它只是好看，其實它有明確屬性。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 黑碧璽。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：複雜硼矽酸鹽｜硬度 7–7.5｜常連結 海底輪｜提醒：避免重摔。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "黑碧璽 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-08-31",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "你以為它只是好看，其實它有明確屬性。",
+        "3_8s": "今晚主角是 黑碧璽，常見資料：複雜硼矽酸鹽／硬度 7–7.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 海底輪，但日常更要記住：避免重摔。",
+        "15_22s": "若你正在面對需要 海底輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：黑碧璽。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『你以為它只是好看，其實它有明確屬性。』。"
+  },
+  {
+    "date": "2026-09-01",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #20｜拉長石 深度輪播",
+    "caption": "【拉長石｜輪播知識卡】\n\n想招財，先別選錯石。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 拉長石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：長石\n- 莫氏硬度：6–6.5\n- 常見對應：眉心輪\n- 保養提醒：避免碰撞與化學清潔劑\n- 建議淨化：月光／薰香\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "拉長石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-09-01",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "想招財，先別選錯石。",
+        "拉長石 基本資料：長石／硬度 6–6.5",
+        "常連結脈輪：眉心輪",
+        "保養重點：避免碰撞與化學清潔劑",
+        "建議淨化：月光／薰香",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：拉長石 深度知識卡。比例 4:5。封面需要強 hook：『想招財，先別選錯石。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-09-02",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #49｜白水晶｜新手常見錯誤",
+    "caption": "今晚用一個最簡單角度，看懂白水晶。\n\n白水晶常被連結到頂輪／全脈輪平衡，但重點不是神化，而是先理解它的材質與保養邏輯。白水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：可短暫日曬，不宜長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "白水晶｜新手常見錯誤",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-02",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "新手常見錯誤",
+      "mineral": "白水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：白水晶｜新手常見錯誤。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-03",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #50｜紫水晶｜收藏級觀察",
+    "caption": "今晚用一個最簡單角度，看懂紫水晶。\n\n紫水晶常被連結到眉心輪／頂輪，但重點不是神化，而是先理解它的材質與保養邏輯。紫水晶的常見資料可整理為：化學式 SiO₂（含鐵致色）、莫氏硬度 7；日常尤其要留意：忌長時間曝曬，易褪色。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "紫水晶｜收藏級觀察",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-03",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "收藏級觀察",
+      "mineral": "紫水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：紫水晶｜收藏級觀察。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-03",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #24｜一千零一夜礦石風水系列｜拉長石",
+    "caption": "【一千零一夜礦石風水系列｜拉長石】\n\n真正影響能量感受的，不是價格。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 拉長石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：長石｜硬度 6–6.5｜常連結 眉心輪｜提醒：避免碰撞與化學清潔劑。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "拉長石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-09-03",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "真正影響能量感受的，不是價格。",
+        "3_8s": "今晚主角是 拉長石，常見資料：長石／硬度 6–6.5。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 眉心輪，但日常更要記住：避免碰撞與化學清潔劑。",
+        "15_22s": "若你正在面對需要 眉心輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：拉長石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『真正影響能量感受的，不是價格。』。"
+  },
+  {
+    "date": "2026-09-04",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #51｜粉晶｜禁忌與誤區",
+    "caption": "今晚用一個最簡單角度，看懂粉晶。\n\n粉晶常被連結到心輪，但重點不是神化，而是先理解它的材質與保養邏輯。粉晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間日曬，易退色變白。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "粉晶｜禁忌與誤區",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-04",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "禁忌與誤區",
+      "mineral": "粉晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：粉晶｜禁忌與誤區。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-04",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #21｜海藍寶 深度輪播",
+    "caption": "【海藍寶｜輪播知識卡】\n\n同樣是紫色礦石，作用可能完全不同。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 海藍寶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：綠柱石\n- 莫氏硬度：7.5–8\n- 常見對應：喉輪\n- 保養提醒：避免長時間高溫曝曬\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "海藍寶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-09-04",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "同樣是紫色礦石，作用可能完全不同。",
+        "海藍寶 基本資料：綠柱石／硬度 7.5–8",
+        "常連結脈輪：喉輪",
+        "保養重點：避免長時間高溫曝曬",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：海藍寶 深度知識卡。比例 4:5。封面需要強 hook：『同樣是紫色礦石，作用可能完全不同。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-09-06",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #52｜青金石｜入門科普",
+    "caption": "今晚用一個最簡單角度，看懂青金石。\n\n青金石常被連結到眉心輪／喉輪，但重點不是神化，而是先理解它的材質與保養邏輯。青金石的常見資料可整理為：化學式 多礦物岩石、莫氏硬度 5–5.5；日常尤其要留意：忌水洗，避免長曝。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "青金石｜入門科普",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-06",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "入門科普",
+      "mineral": "青金石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：青金石｜入門科普。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-07",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #53｜黃水晶｜保養與淨化",
+    "caption": "今晚用一個最簡單角度，看懂黃水晶。\n\n黃水晶常被連結到太陽神經叢，但重點不是神化，而是先理解它的材質與保養邏輯。黃水晶的常見資料可整理為：化學式 SiO₂、莫氏硬度 7；日常尤其要留意：忌長時間曝曬。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黃水晶｜保養與淨化",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-07",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "保養與淨化",
+      "mineral": "黃水晶",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你有沒有這樣做過？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黃水晶｜保養與淨化。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-07",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #25｜一千零一夜礦石風水系列｜海藍寶",
+    "caption": "【一千零一夜礦石風水系列｜海藍寶】\n\n同一顆石，戴對位置很重要。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 海藍寶。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：綠柱石｜硬度 7.5–8｜常連結 喉輪｜提醒：避免長時間高溫曝曬。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "海藍寶 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-09-07",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "同一顆石，戴對位置很重要。",
+        "3_8s": "今晚主角是 海藍寶，常見資料：綠柱石／硬度 7.5–8。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 喉輪，但日常更要記住：避免長時間高溫曝曬。",
+        "15_22s": "若你正在面對需要 喉輪 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：海藍寶。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『同一顆石，戴對位置很重要。』。"
+  },
+  {
+    "date": "2026-09-08",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #22｜虎眼石 深度輪播",
+    "caption": "【虎眼石｜輪播知識卡】\n\n買礦石前，先看這 3 件事。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 虎眼石 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：石英\n- 莫氏硬度：7\n- 常見對應：太陽神經叢\n- 保養提醒：避免長期強酸鹼接觸\n- 建議淨化：薰香／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "虎眼石 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-09-08",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "買礦石前，先看這 3 件事。",
+        "虎眼石 基本資料：石英／硬度 7",
+        "常連結脈輪：太陽神經叢",
+        "保養重點：避免長期強酸鹼接觸",
+        "建議淨化：薰香／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：虎眼石 深度知識卡。比例 4:5。封面需要強 hook：『買礦石前，先看這 3 件事。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
+  },
+  {
+    "date": "2026-09-09",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #54｜黑曜石｜脈輪對應",
+    "caption": "今晚用一個最簡單角度，看懂黑曜石。\n\n黑曜石常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑曜石的常見資料可整理為：化學式 火山玻璃、莫氏硬度 5–5.5；日常尤其要留意：避免劇烈碰撞。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑曜石｜脈輪對應",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-09",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "脈輪對應",
+      "mineral": "黑曜石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "問答箱：你最想了解哪顆石？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑曜石｜脈輪對應。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-10",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #55｜黑碧璽｜真假辨別",
+    "caption": "今晚用一個最簡單角度，看懂黑碧璽。\n\n黑碧璽常被連結到海底輪，但重點不是神化，而是先理解它的材質與保養邏輯。黑碧璽的常見資料可整理為：化學式 複雜硼矽酸鹽、莫氏硬度 7–7.5；日常尤其要留意：避免重摔。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "黑碧璽｜真假辨別",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-10",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "真假辨別",
+      "mineral": "黑碧璽",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "滑桿：這題你覺得重要嗎？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：黑碧璽｜真假辨別。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-10",
+    "time_hkt": "18:00",
+    "type": "reels",
+    "status": "pending",
+    "title": "Reel #26｜一千零一夜礦石風水系列｜虎眼石",
+    "caption": "【一千零一夜礦石風水系列｜虎眼石】\n\n如果你最近很亂，先看這顆。\n\n這集用短短一段時間，帶你從資料、保養到使用情境，重新理解 虎眼石。真正有用的內容，不是誇大，而是讓你知道什麼可以做、什麼不應做。\n\n快速筆記：石英｜硬度 7｜常連結 太陽神經叢｜提醒：避免長期強酸鹼接觸。\n\nLuna's Stone Atelier 圖文僅供參考\n#Reels #天然礦石 #月華星礦坊 #LunasStoneAtelier",
+    "caption_hint": "虎眼石 reels episode",
+    "image_generation": "manus_batch",
+    "image_asset_key": "reel_2026-09-10",
+    "visual_brief": {
+      "format": "reel_4_5",
+      "duration_sec": "15-30",
+      "script": {
+        "0_3s": "如果你最近很亂，先看這顆。",
+        "3_8s": "今晚主角是 虎眼石，常見資料：石英／硬度 7。",
+        "8_15s": "很多人忽略的關鍵，是它常被連結到 太陽神經叢，但日常更要記住：避免長期強酸鹼接觸。",
+        "15_22s": "若你正在面對需要 太陽神經叢 的狀態，可先從理解這顆石的使用場景開始。",
+        "22_28s": "下一集我會講最常被做錯的一步，先收藏。"
+      },
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一條 15–30 秒 IG Reels 所需的完整視覺素材。主題：虎眼石。必須是動態短影音素材，不可用純靜態圖片充當影片。結構：0–3 秒 hook、3–12 秒內容、12–15 秒後 CTA。影片內不可有底部字幕，但可用設計感 graphic text 動態飛入。畫面必須顯示『Luna's Stone Atelier 圖文僅供參考』。比例 4:5。色彩嚴守品牌色。Hook 文字：『如果你最近很亂，先看這顆。』。"
+  },
+  {
+    "date": "2026-09-11",
+    "time_hkt": "20:00",
+    "type": "stories",
+    "status": "pending",
+    "title": "Stories #56｜拉長石｜場景應用",
+    "caption": "今晚用一個最簡單角度，看懂拉長石。\n\n拉長石常被連結到眉心輪，但重點不是神化，而是先理解它的材質與保養邏輯。拉長石的常見資料可整理為：化學式 長石、莫氏硬度 6–6.5；日常尤其要留意：避免碰撞與化學清潔劑。\n\n這則 Stories 會用 3 張畫面帶你快速記住：1) 這顆石最常被誤解的地方；2) 正確保養方式；3) 哪類人最適合先從它開始。\n\nLuna's Stone Atelier 圖文僅供參考\n#天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "拉長石｜場景應用",
+    "image_generation": "manus_batch",
+    "image_asset_key": "stories_2026-09-11",
+    "visual_brief": {
+      "format": "story_4_5",
+      "slides": 3,
+      "theme": "場景應用",
+      "mineral": "拉長石",
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考",
+      "graphic_text": [
+        "常見誤區",
+        "標準資料",
+        "保養提醒"
+      ],
+      "cta": "投票：你偏好實戴還是收藏？"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成 3 張 IG Stories 視覺。主題：拉長石｜場景應用。比例 4:5，背景以深海軍藍與深藍紫色層次為主，搭配霧玫瑰金與月白銀字體。每張畫面內必須清楚顯示『Luna's Stone Atelier 圖文僅供參考』。第1張做情緒式 hook，第2張做礦石標準資料卡，第3張做互動 CTA 卡。禁止使用與品牌無關色彩。繁中為主，英文輔助。"
+  },
+  {
+    "date": "2026-09-11",
+    "time_hkt": "12:00",
+    "type": "posts",
+    "status": "pending",
+    "title": "Post #23｜茶晶 深度輪播",
+    "caption": "【茶晶｜輪播知識卡】\n\n越常見的石，越容易被忽略真正價值。\n\n如果你想把礦石戴得更久、用得更準，第一步不是追求神秘感，而是先建立正確資料框架。這篇輪播整理了 茶晶 的基本屬性、常見對應、保養提醒與日常使用建議，方便你之後收藏回看。\n\n重點整理：\n- 化學式：SiO₂\n- 莫氏硬度：7\n- 常見對應：海底輪\n- 保養提醒：避免重摔\n- 建議淨化：月光／白水晶簇\n\nLuna's Stone Atelier 圖文僅供參考\n#礦石知識 #天然礦石 #LunasStoneAtelier #月華星礦坊",
+    "caption_hint": "茶晶 輪播知識卡",
+    "image_generation": "manus_batch",
+    "image_asset_key": "post_2026-09-11",
+    "visual_brief": {
+      "format": "carousel_4_5",
+      "slides": [
+        "越常見的石，越容易被忽略真正價值。",
+        "茶晶 基本資料：SiO₂／硬度 7",
+        "常連結脈輪：海底輪",
+        "保養重點：避免重摔",
+        "建議淨化：月光／白水晶簇",
+        "收藏這篇，之後對照選石更快。"
+      ],
+      "palette": {
+        "primary_bg": "#0D0D2B",
+        "secondary_bg": "#1A1A3A",
+        "accent": "#B4918F",
+        "gold": "#C9A84C",
+        "silver": "#E8E8F0",
+        "purple": "#2D1B4E"
+      },
+      "watermark": "Luna's Stone Atelier 圖文僅供參考"
+    },
+    "manus_prompt": "請為 Luna's Stone Atelier 生成一套 6 頁 IG Carousel 圖文。主題：茶晶 深度知識卡。比例 4:5。封面需要強 hook：『越常見的石，越容易被忽略真正價值。』；內頁依序呈現基本資料、脈輪對應、保養提醒、淨化方式，最後一頁做收藏 CTA。全套使用深海軍藍、深藍紫、霧玫瑰金、月白銀、金色，並在每頁清楚放置『Luna's Stone Atelier 圖文僅供參考』。風格要高級、神秘、知識型。"
   }
 ]
