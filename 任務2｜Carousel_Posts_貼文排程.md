@@ -4,7 +4,8 @@
 - **執行比例**: 4:5
 - **語言優先級**: 中文書面語為主，英文為輔 (嚴禁口語)
 - **視覺標籤**: 所有圖片必須包含標籤「Luna’s Stone Atelier 圖文僅供參考」
-- **移除項目**: 嚴禁出現任何品牌 Logo
+- **品牌 Logo**: 必須使用官方 Logo `/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png`
+
 - **執行環境**: 嚴禁開啟新任務，必須在原始任務中執行
 
 ## 二、 90 天內容矩陣 (100% 完整對應)
