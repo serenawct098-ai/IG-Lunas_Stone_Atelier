@@ -1,15 +1,15 @@
 # Instagram Content Automation
-# 
+#
 # 架構：GitHub = Scheduler（觸發器）| Manus = Publisher（執行器）
 #
 # 流程：
 #   1. Cron 觸發 → main.py 讀排程 + 礦石 SSOT
 #   2. 組裝 manus_task.json → commit 到 repo
-#   3. Manus 讀取 manus_task.json → 生成素材 → IG MCP 發布
-#   4. Manus 回填 result，更新 content_schedule.json status
+#   3. Manus 讀取 manus_task.json → 從 assets/ 取備用圖片及文案 → 透過 IG MCP 發布
+#   4. Manus 回填 published_url，更新 content_schedule.json status = published
 #
-# 不再需要：META_ACCESS_TOKEN（IG API 由 Manus MCP 負責）
-# 只需要：OPENAI_API_KEY（如有 AI caption 生成需求）
+# IG 發布由 Manus IG MCP 負責，不需要 IG_ACCESS_TOKEN
+# 只需要：OPENAI_API_KEY（Manus 批量生圖用）
 
 name: Instagram Content Scheduler
 
@@ -85,7 +85,7 @@ jobs:
         run: python main.py
 
       # ─── 將 manus_task.json commit 回 repo ─────────────────────
-      # Manus 讀取此檔案作為發布指令
+      # Manus 讀取此檔案，從 assets/ 取備用圖片及文案，透過 IG MCP 發布
       - name: Commit Manus Task
         if: steps.task.outputs.task_type != ''
         run: |
@@ -99,7 +99,7 @@ jobs:
         if: steps.task.outputs.task_type != ''
         run: |
           echo "✅ manus_task.json committed to repo."
-          echo "📌 Next: Manus reads manus_task.json → generate assets → publish via IG MCP"
+          echo "📌 Next: Manus reads manus_task.json → fetch assets/ → publish via IG MCP"
           echo "📌 After publish: Manus updates content_schedule.json status = published"
 
       - name: Skip Notice

@@ -1,4 +1,4 @@
-# Luna's Stone Atelier — 知識庫 v2.1
+# Luna's Stone Atelier — 知識庫 v2.2
 _最後更新：2026-06-27_
 
 ---
@@ -29,11 +29,13 @@ _最後更新：2026-06-27_
 
 所有格式規格定義於 `brand_config.json` → `format_specs`。
 
-| 格式 | 尺寸 | 輸出 |
-|------|------|------|
+| 格式 | 尺寸（4:5）| 輸出 |
+|------|------------|------|
 | Stories | 1080×1350 px | 1 PNG |
 | Posts | 1080×1350 px | 5 PNG |
 | Reels | 1080×1350 px | 6 PNG 中間素材 + 1 MP4（15–30 秒）|
+
+> 所有格式統一採用 **4:5（1080×1350 px）**。
 
 ---
 
@@ -88,22 +90,23 @@ _最後更新：2026-06-27_
 | Secret 名稱 | 說明 |
 |-------------|------|
 | `IG_USER_ID` | Instagram Business 帳號**數字 ID**（非 @handle，例：`17841400000000000`）|
-| `IG_ACCESS_TOKEN` | Meta Graph API Long-lived Access Token |
-| `OPENAI_API_KEY` | OpenAI API Key |
+| `OPENAI_API_KEY` | OpenAI API Key（Manus 批量生圖用）|
 
 > ⚠️ `IG_USER_ID` 的值是一串**純數字**，不是 `@lunas.stone.atelier` 帳號名稱。
+> IG 發布由 Manus IG MCP 負責，**不需要** `IG_ACCESS_TOKEN`。
 
 ---
 
 ## 7. 資料架構總覽
 
 ```
-礦石資料  ←  mineralogy_data.json  （SSOT，唯一真源，禁止在其他文件另行維護）
-品牌設定  ←  brand_config.json     （發佈時間、格式規格、三階段 CTA、色彩系統）
+礦石資料  ←  mineralogy_data.json   （SSOT，唯一真源，禁止在其他文件另行維護）
+品牌設定  ←  brand_config.json      （發佈時間、格式規格、三階段 CTA、色彩系統）
 排程內容  ←  content_schedule.json  （90天116條排程，stone_id 對應 SSOT）
 生成指引  ←  manus_instructions.md  （Manus AI 操作規則、格式規格、Caption 規則）
 素材記錄  ←  generated_assets.json  （Manus 回填，人工勿直接編輯資產 URL）
-知識總覽  ←  KNOWLEDGE_BASE.md     （本文件，系統導覽，不維護礦石表）
+知識總覽  ←  KNOWLEDGE_BASE.md      （本文件，系統導覽，不維護礦石表）
+批量生圖  ←  BATCH_GENERATE.md      （Manus 一次性批量生圖指引）
 ```
 
 ---

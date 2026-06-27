@@ -1,4 +1,4 @@
-# Manus 操作指引 v3.1
+# Manus 操作指引 v3.2
 _最後更新：2026-06-27_
 
 ---
@@ -17,7 +17,7 @@ _最後更新：2026-06-27_
 | 模式 | 觸發方式 | Manus 的工作 |
 |---|---|---|
 | **批量生圖模式** | 手動執行（一次性 / 更新時）| 讀取 `content_schedule.json` 全部 pending 項目 → 批量生成所有圖片/MP4 → 存入 `assets/` → 回填 `asset_url` → status 改為 `generated` |
-| **發布模式** | GitHub Actions 每日定時觸發 | 讀取 `manus_task.json` → 取 `assets/` 備用圖片及文案 → 透過 IG MCP 發布 → 回報完成（status 改為 `published`）|
+| **發布模式** | GitHub Actions 每日定時觸發 | 讀取 `manus_task.json` → 從 `assets/` 取備用圖片及文案 → 透過 IG MCP 發布至 Instagram → 回報完成（status 改為 `published`）|
 
 ### 1.2 發布模式詳細流程
 
@@ -35,26 +35,26 @@ _最後更新：2026-06-27_
         ├─ 套用文案、caption、hashtags
         │
         ▼
-  IG MCP 發布至 Instagram
+  透過 IG MCP 發布至 Instagram
         │
         ▼
   回填 published_url → status 改為 "published"
   回報完成至 GitHub
 ```
 
-> ⚠️ **Manus 在發布模式下不負責生圖。** 若 `asset_path` 對應的檔案不存在，須立即報錯（`status = "error"`），不得嘗試即時生成。
+> ⚠️ **Manus 在發布模式下不負責生圖。** 若 `asset_path` 對應檔案不存在，須立即報錯（`status = "error"`），不得嘗試即時生成。
 
 ---
 
 ## 2. 格式規格（嚴格遵守）
 
-| 格式 | 尺寸（4:5） | 輸出 | 時長 |
-|------|------|------|------|
-| Stories | 1080×1350 px | **1 PNG** | — |
-| Posts Carousel | 1080×1350 px | **5 PNG** | — |
-| Reels | 1080×1920 px | **6 PNG 中間素材 + 1 MP4** | 15–30 秒 |
+> **所有格式統一採用 4:5（1080×1350 px）。**
 
-> Stories 與 Posts 均採用 **4:5 比例（1080×1350 px）**，Reels 採用 9:16 全屏（1080×1920 px）。
+| 格式 | 尺寸 | 輸出 | 時長 |
+|------|------|------|------|
+| Stories | 1080×1350 px（4:5）| **1 PNG** | — |
+| Posts Carousel | 1080×1350 px（4:5）| **5 PNG** | — |
+| Reels | 1080×1350 px（4:5）| **6 PNG 中間素材 + 1 MP4** | 15–30 秒 |
 
 ---
 
@@ -91,7 +91,7 @@ _最後更新：2026-06-27_
 封面第一行文字**必須**含數字或問句（提升止滑率）。
 底部每張必須顯示：`Luna's Stone Atelier 圖文僅供參考`
 
-### 4.3 Reels（1080×1920 px，9:16，6 PNG → 1 MP4）
+### 4.3 Reels（1080×1350 px，4:5，6 PNG → 1 MP4）
 | 張 | 內容 |
 |---|---|
 | 1/6 | Hook 止滑（首 3 秒決定留存）：`「第N夜｜{stone_zh}的秘密」` + 礦石特寫 |

@@ -1,6 +1,7 @@
 # 🎨 一次性批量生圖指引
 
 > 此文件說明如何用 Manus 一次生成 90 天全部素材，存入 GitHub assets/ 備用。
+> 完成後，每日發布只需 Manus 取圖發布，消耗最小 token。
 
 ---
 
@@ -32,18 +33,20 @@
 
 ---
 
-## Manus 批量生圖指令
+## 素材規格（全部統一 4:5）
 
-從 `content_schedule.json` 讀取所有 `status: "pending"` 記錄，並按以下規則生成圖片：
+| 格式 | 尺寸 | 輸出 |
+|------|------|------|
+| Stories | **1080×1350 px（4:5）** | 1 PNG |
+| Posts Carousel | **1080×1350 px（4:5）** | 5 PNG（封面必須含數字或問句）|
+| Reels | **1080×1350 px（4:5）** | 6 PNG 中間素材 + 1 MP4（15–30 秒）|
 
-### 素材規格
-- **Stories**：1080×1920 px，1 張 PNG
-- **Posts Carousel**：1080×1350 px，5 張 PNG
-  - 封面必須含數字或問句（止滑設計）
-- **Reels**：1080×1920 px，6 張 PNG 中間素材 + 1 MP4（15–30 秒）
-  - 首張需含「第N夜｜{stone_zh}的秘密」 Hook
+> 所有格式統一 **4:5（1080×1350 px）**，禁止使用其他尺寸。
 
-### 品牌色彩
+---
+
+## 品牌色彩
+
 | 用途 | 色碼 |
 |------|------|
 | 主背景 | `#0D0D2B` |
@@ -52,8 +55,11 @@
 | 文字亮部 | `#E8E8F0` |
 | 金色點綴 | `#C9A84C` |
 
-### 石頭資料來源
-一律從 `mineralogy_data.json` 讀取（SSOT）。禁止自行輸入礦石資料。
+---
+
+## 礦石資料來源
+
+一律從 `mineralogy_data.json` 讀取（SSOT）。**禁止自行輸入礦石資料。**
 
 ---
 
@@ -71,15 +77,11 @@ assets: batch generate [Phase 1] 2026-06-15 to 2026-07-14 (30 entries)
 GitHub Actions 定時觸發
         ↓
    main.py 找今日任務
-   解析 assets/ 路徑
+   解析 assets/ 備用素材路徑
    寫入 manus_task.json（assets_ready: true）
         ↓
    Manus 讀取 manus_task.json
-   直接取備用圖片
-   IG MCP 發布
-   回報完成
+   從 assets/ 取備用圖片及文案
+   透過 IG MCP 發布至 Instagram
+   回填 published_url → status 改為 published
 ```
-
----
-
-_這樣 Manus 在發布時僅消耗最小 token，生圖工作已在事先完成。_

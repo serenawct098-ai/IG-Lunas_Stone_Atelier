@@ -1,5 +1,5 @@
 {
-  "_version": "2.1",
+  "_version": "2.2",
   "_last_updated": "2026-06-27",
   "brand": {
     "name": "Luna's Stone Atelier",
@@ -43,8 +43,8 @@
       "duration_sec": null
     },
     "reels": {
-      "ratio": "9:16",
-      "size": "1080x1920px",
+      "ratio": "4:5",
+      "size": "1080x1350px",
       "intermediate": "6 PNG",
       "output": "1 MP4",
       "duration_sec": "15-30"
@@ -85,7 +85,7 @@
   },
   "manus_workflow": {
     "mode_batch_generate": "手動執行：批量生成全部圖片存入 assets/，status 改為 generated",
-    "mode_publish": "GitHub Actions 定時觸發：Manus 讀取 manus_task.json → 取 assets/ 備用圖片及文案 → IG MCP 發布 → 回報完成",
+    "mode_publish": "GitHub Actions 定時觸發：Manus 讀取 manus_task.json → 從 assets/ 取備用圖片及文案 → 透過 IG MCP 發布 → 回報完成",
     "note": "發布模式下 Manus 不負責生圖，若 asset_path 不存在須立即報錯"
   }
 }
