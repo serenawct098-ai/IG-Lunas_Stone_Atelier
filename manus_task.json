@@ -1,5 +1,5 @@
 {
-  "_comment": "此檔案由 GitHub Actions 自動寫入。Manus 讀取後執行生成 + IG 發布。",
+  "_comment": "此檔案由 GitHub Actions 自動寫入。Manus 讀取後直接發布已備用素材到 IG。生圖工作已事先完成。",
   "task_id": null,
   "created_at": null,
   "source": "github_actions_scheduler",
@@ -8,11 +8,11 @@
   "schedule": {},
   "stone": {},
   "caption": "",
+  "asset_paths": [],
   "format_spec": {},
   "ig_algorithm_rules": {},
   "result": {
     "status": "idle",
-    "asset_urls": [],
     "media_id": null,
     "published_at": null,
     "error": null
