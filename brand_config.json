@@ -1,5 +1,5 @@
 {
-  "_version": "2.0",
+  "_version": "2.1",
   "_last_updated": "2026-06-27",
   "brand": {
     "name": "Luna's Stone Atelier",
@@ -31,17 +31,20 @@
   },
   "format_specs": {
     "stories": {
+      "ratio": "4:5",
       "size": "1080x1350px",
       "output": "1 PNG",
       "duration_sec": null
     },
     "posts": {
+      "ratio": "4:5",
       "size": "1080x1350px",
       "output": "5 PNG",
       "duration_sec": null
     },
     "reels": {
-      "size": "1080x1350px",
+      "ratio": "9:16",
+      "size": "1080x1920px",
       "intermediate": "6 PNG",
       "output": "1 MP4",
       "duration_sec": "15-30"
@@ -78,7 +81,11 @@
   },
   "github_secrets": {
     "IG_USER_ID": "Instagram Business 帳號數字 ID（非 handle）",
-    "IG_ACCESS_TOKEN": "Meta Graph API Long-lived Access Token",
-    "OPENAI_API_KEY": "OpenAI API Key（Manus 生圖用）"
+    "OPENAI_API_KEY": "OpenAI API Key（Manus 批量生圖用）"
+  },
+  "manus_workflow": {
+    "mode_batch_generate": "手動執行：批量生成全部圖片存入 assets/，status 改為 generated",
+    "mode_publish": "GitHub Actions 定時觸發：Manus 讀取 manus_task.json → 取 assets/ 備用圖片及文案 → IG MCP 發布 → 回報完成",
+    "note": "發布模式下 Manus 不負責生圖，若 asset_path 不存在須立即報錯"
   }
 }

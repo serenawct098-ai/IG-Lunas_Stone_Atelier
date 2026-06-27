@@ -1,4 +1,4 @@
-# Manus 操作指引 v3.0
+# Manus 操作指引 v3.1
 _最後更新：2026-06-27_
 
 ---
@@ -10,34 +10,51 @@ _最後更新：2026-06-27_
 
 ---
 
-## 1. 生成流程總覽
+## 1. 系統架構與 Manus 角色
+
+### 1.1 兩個工作模式
+
+| 模式 | 觸發方式 | Manus 的工作 |
+|---|---|---|
+| **批量生圖模式** | 手動執行（一次性 / 更新時）| 讀取 `content_schedule.json` 全部 pending 項目 → 批量生成所有圖片/MP4 → 存入 `assets/` → 回填 `asset_url` → status 改為 `generated` |
+| **發布模式** | GitHub Actions 每日定時觸發 | 讀取 `manus_task.json` → 取 `assets/` 備用圖片及文案 → 透過 IG MCP 發布 → 回報完成（status 改為 `published`）|
+
+### 1.2 發布模式詳細流程
 
 ```
-content_schedule.json
+【GitHub Actions 定時觸發】
         │
         ▼
-讀取當日記錄（status = "pending"）
-        │
-        ├─ type = stories  ──→ 生成 1 PNG
-        ├─ type = posts    ──→ 生成 5 PNG Carousel
-        └─ type = reels    ──→ 生成 6 PNG → 串接 1 MP4
+  main.py 組裝 manus_task.json
+  （含 asset_paths、caption、hashtags、cta）
         │
         ▼
- asset_url(s) 回填 content_schedule.json
+  Manus 讀取 manus_task.json
+        │
+        ├─ 從 assets/ 取備用圖片（已事先批量生成）
+        ├─ 套用文案、caption、hashtags
         │
         ▼
-發佈 IG（API / 手動）→ status 改為 "published"
+  IG MCP 發布至 Instagram
+        │
+        ▼
+  回填 published_url → status 改為 "published"
+  回報完成至 GitHub
 ```
+
+> ⚠️ **Manus 在發布模式下不負責生圖。** 若 `asset_path` 對應的檔案不存在，須立即報錯（`status = "error"`），不得嘗試即時生成。
 
 ---
 
 ## 2. 格式規格（嚴格遵守）
 
-| 格式 | 尺寸 | 輸出 | 時長 |
+| 格式 | 尺寸（4:5） | 輸出 | 時長 |
 |------|------|------|------|
 | Stories | 1080×1350 px | **1 PNG** | — |
 | Posts Carousel | 1080×1350 px | **5 PNG** | — |
-| Reels | 1080×1350 px | **6 PNG 中間素材 + 1 MP4** | 15–30 秒 |
+| Reels | 1080×1920 px | **6 PNG 中間素材 + 1 MP4** | 15–30 秒 |
+
+> Stories 與 Posts 均採用 **4:5 比例（1080×1350 px）**，Reels 採用 9:16 全屏（1080×1920 px）。
 
 ---
 
@@ -53,16 +70,16 @@ content_schedule.json
 
 ---
 
-## 4. 各格式生成規則
+## 4. 各格式生成規則（批量生圖模式用）
 
-### 4.1 Stories
+### 4.1 Stories（1080×1350 px，4:5）
 1. Hook 大字（`今日能量：{stone_zh}`）
 2. 礦石寫實插圖（居中，含細節紋理）
 3. 三點資訊：脈輪 / 主題關鍵詞 / 能量使用建議一句
 4. 互動文字：`「你的{stone_zh}故事？」`
 5. 底部免責聲明：`Luna's Stone Atelier 圖文僅供參考`
 
-### 4.2 Posts Carousel（5 張）
+### 4.2 Posts Carousel（1080×1350 px，4:5，共 5 張）
 | 張 | 內容 |
 |---|---|
 | 1/5 | 封面止滑卡：大標題含數字或問句 + 礦石全貌插圖 + 頁碼 |
@@ -74,7 +91,7 @@ content_schedule.json
 封面第一行文字**必須**含數字或問句（提升止滑率）。
 底部每張必須顯示：`Luna's Stone Atelier 圖文僅供參考`
 
-### 4.3 Reels（6 PNG → 1 MP4）
+### 4.3 Reels（1080×1920 px，9:16，6 PNG → 1 MP4）
 | 張 | 內容 |
 |---|---|
 | 1/6 | Hook 止滑（首 3 秒決定留存）：`「第N夜｜{stone_zh}的秘密」` + 礦石特寫 |
@@ -128,10 +145,10 @@ assets/reels/reel_{YYYY-MM-DD}.mp4
 
 | 值 | 意義 |
 |---|---|
-| `pending` | 待生成 |
-| `generated` | 素材已生成，待發佈 |
-| `published` | 已發佈至 IG |
-| `error` | 生成或發佈失敗，需人工介入 |
+| `pending` | 待生成（批量生圖模式處理）|
+| `generated` | 素材已存入 `assets/`，待 GitHub Actions 觸發發布 |
+| `published` | 已透過 IG MCP 發布至 Instagram |
+| `error` | 生成或發布失敗，需人工介入 |
 
 生成完成後將 `asset_url`（或 `asset_urls` 陣列）回填，並將 `status` 改為 `generated`。
 
