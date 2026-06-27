@@ -1,13 +1,13 @@
 {
-  "_version": "2.2",
+  "_version": "2.3",
   "_last_updated": "2026-06-27",
   "brand": {
     "name": "Luna's Stone Atelier",
     "ig_handle": "@lunas.stone.atelier",
     "ig_user_id_secret": "IG_USER_ID",
-    "tagline": "每一顆石頭，都是宇宙寄給你的信",
+    "tagline": "\u6bcf\u4e00\u984f\u77f3\u982d\uff0c\u90fd\u662f\u5b87\u5b99\u5bc4\u7d66\u4f60\u7684\u4fe1",
     "language": "zh-HK",
-    "disclaimer": "Luna's Stone Atelier 圖文僅供參考"
+    "disclaimer": "Luna's Stone Atelier \u5716\u6587\u50c5\u4f9b\u53c3\u8003"
   },
   "palette": {
     "background_primary": "#0D0D2B",
@@ -18,16 +18,17 @@
   },
   "publish_schedule": {
     "stories": "20:00 HKT",
-    "posts": "12:00 HKT",
+    "carousel_posts": "12:00 HKT",
     "reels": "18:00 HKT",
     "weekly_pattern": {
-      "Monday": ["reels@18:00", "stories@20:00"],
-      "Tuesday": ["posts@12:00"],
+      "Monday":    ["reels@18:00", "stories@20:00"],
+      "Tuesday":   ["carousel@12:00"],
       "Wednesday": ["stories@20:00"],
-      "Thursday": ["reels@18:00", "stories@20:00"],
-      "Friday": ["posts@12:00", "stories@20:00"],
-      "Sunday": ["stories@20:00"]
-    }
+      "Thursday":  ["reels@18:00", "stories@20:00"],
+      "Friday":    ["carousel@12:00", "stories@20:00"],
+      "Sunday":    ["stories@20:00"]
+    },
+    "note": "Carousel \u767c\u5e03\u65e5\uff1a\u9031\u4e8c\u3001\u9031\u4e94 12:00 HKT | Reels \u767c\u5e03\u65e5\uff1a\u9031\u4e00\u3001\u9031\u56db 18:00 HKT | Stories\uff1a\u9031\u4e09\u3001\u9031\u56db\u3001\u9031\u65e5 20:00 HKT"
   },
   "format_specs": {
     "stories": {
@@ -36,56 +37,94 @@
       "output": "1 PNG",
       "duration_sec": null
     },
-    "posts": {
+    "carousel_posts": {
       "ratio": "4:5",
       "size": "1080x1350px",
       "output": "5 PNG",
-      "duration_sec": null
+      "duration_sec": null,
+      "cover_rule": "\u5c01\u9762\u7b2c\u4e00\u884c\u5fc5\u9808\u542b\u6578\u5b57\u6216\u554f\u53e5",
+      "save_rate_target": "saves-to-likes ratio > 0.15",
+      "swipe_completion_target": "> 70%"
     },
     "reels": {
       "ratio": "4:5",
       "size": "1080x1350px",
       "intermediate": "6 PNG",
       "output": "1 MP4",
-      "duration_sec": "15-30"
+      "duration_sec": "15-30",
+      "hook_3sec_target": "> 60%",
+      "watch_through_target": "> 70%",
+      "sends_reach_target": "> 3%",
+      "no_tiktok_watermark": true,
+      "subtitles_required": true
     }
   },
   "phases": {
     "1": {
-      "label": "破圈引流",
-      "period": "2026-06-15 → 2026-07-14",
-      "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事"
+      "label": "\u7834\u5708\u5f15\u6d41",
+      "carousel_period": "2026-06-16 \u2192 2026-07-14",
+      "reels_period": "2026-06-15 \u2192 2026-07-09",
+      "carousel_posts": 9,
+      "reels_episodes": 8,
+      "cta": "\ud83d\udc49 \u8ffd\u8e64 @lunas.stone.atelier \u4e0d\u932f\u904e\u6bcf\u96c6\u7926\u77f3\u6545\u4e8b"
     },
     "2": {
-      "label": "信任建立",
-      "period": "2026-07-15 → 2026-08-13",
-      "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識"
+      "label": "\u4fe1\u4efb\u5efa\u7acb",
+      "carousel_period": "2026-07-17 \u2192 2026-08-11",
+      "reels_period": "2026-07-13 \u2192 2026-08-06",
+      "carousel_posts": 8,
+      "reels_episodes": 8,
+      "cta": "\ud83d\udd16 \u6536\u85cf\u5099\u7528 | \u8ffd\u8e64\u89e3\u9396\u66f4\u591a\u9451\u5b9a\u77e5\u8b58"
     },
     "3": {
-      "label": "產品轉化",
-      "period": "2026-08-14 → 2026-09-12",
-      "cta": "✨ 點 Profile 連結查看精選礦石系列"
+      "label": "\u7522\u54c1\u8f49\u5316",
+      "carousel_period": "2026-08-14 \u2192 2026-09-08",
+      "reels_period": "2026-08-10 \u2192 2026-09-07",
+      "carousel_posts": 8,
+      "reels_episodes": 9,
+      "cta": "\u2728 \u9ede Profile \u9023\u7d50\u67e5\u770b\u7cbe\u9078\u7926\u77f3\u7cfb\u5217"
     }
   },
   "series": {
-    "reels_series_name": "一千零一夜礦石風水系列",
+    "carousel_series_name": "\u7926\u77f3\u77e5\u8b58\u4e7e\u8ca8 Carousel SOP",
+    "carousel_target_posts": 25,
+    "reels_series_name": "\u4e00\u5343\u96f6\u4e00\u591c\u7926\u77f3\u98a8\u6c34\u7cfb\u5217",
     "reels_target_episodes": 25,
-    "hashtag_base": ["#礦石", "#水晶能量", "#天然礦石"],
+    "hashtag_strategy": "3-5\u500b\u7cbe\u6e96\u76f8\u95dc\u6a19\u7c64\uff082026\u5e74\u6700\u4f73\u5be6\u8e10\uff09",
     "hashtag_max": 5,
     "caption_seo_first_line": true,
-    "first_90min_engagement": true
+    "first_90min_engagement": true,
+    "shares_priority": "Shares/Sends \u662f #1 \u6f14\u7b97\u6cd5\u6392\u540d\u8a0a\u865f",
+    "carousel_vs_single_image": "Carousel \u5e73\u5747 5\u00d7 \u6536\u85cf\u7387"
+  },
+  "algorithm_targets_2026": {
+    "carousel": {
+      "saves_to_likes_ratio": "> 0.15",
+      "swipe_completion_rate": "> 70%",
+      "first_90min_saves": "\u6700\u95dc\u9375\uff0c\u9802 1 \u5c0f\u6642\u52a0\u901f\u5206\u767c"
+    },
+    "reels": {
+      "3sec_hold_rate": "> 60%",
+      "watch_through_rate": "> 70%",
+      "sends_reach_ratio": "> 3%",
+      "replay_rate": "\u9ad8\u8cea\u5167容\u8a0a\u865f"
+    }
+  },
+  "monitoring_schedule": {
+    "carousel_review_days": ["D14 (2026-06-30)", "D28 (2026-07-14)", "D42 (2026-07-28)", "D56 (2026-08-11)", "D70 (2026-08-25)", "D84 (2026-09-08)"],
+    "reels_review_days": ["D14 (2026-06-29)", "D28 (2026-07-13)", "D42 (2026-07-27)", "D56 (2026-08-10)", "D70 (2026-08-24)", "D84 (2026-09-07)"]
   },
   "data_source": {
     "mineralogy_ssot": "mineralogy_data.json",
-    "note": "所有礦石文案、科學數據、脈輪對應必須以 mineralogy_data.json 為唯一真源，禁止在其他檔案另行維護礦石資料表"
+    "note": "\u6240\u6709\u7926\u77f3\u6587\u6848\u3001\u79d1\u5b78\u6578\u64da\u3001\u8108\u8f2a\u5c0d\u61c9\u5fc5\u9808\u4ee5 mineralogy_data.json \u70ba\u552f\u4e00\u771f\u6e90\uff0c\u7981\u6b62\u5728\u5176\u4ed6\u6a94\u6848\u53e6\u884c\u7dad\u8b77\u7926\u77f3\u8cc7\u6599\u8868"
   },
   "github_secrets": {
-    "IG_USER_ID": "Instagram Business 帳號數字 ID（非 handle）",
-    "OPENAI_API_KEY": "OpenAI API Key（Manus 批量生圖用）"
+    "IG_USER_ID": "Instagram Business \u5e33\u865f\u6578\u5b57 ID\uff08\u975e handle\uff09",
+    "OPENAI_API_KEY": "OpenAI API Key\uff08Manus \u6279\u91cf\u751f\u5716\u7528\uff09"
   },
   "manus_workflow": {
-    "mode_batch_generate": "手動執行：批量生成全部圖片存入 assets/，status 改為 generated",
-    "mode_publish": "GitHub Actions 定時觸發：Manus 讀取 manus_task.json → 從 assets/ 取備用圖片及文案 → 透過 IG MCP 發布 → 回報完成",
-    "note": "發布模式下 Manus 不負責生圖，若 asset_path 不存在須立即報錯"
+    "mode_batch_generate": "\u624b\u52d5\u57f7\u884c\uff1a\u6279\u91cf\u751f\u6210\u5168\u90e8\u5716\u7247\u5b58\u5165 assets/\uff0cstatus \u6539\u70ba generated",
+    "mode_publish": "GitHub Actions \u5b9a\u6642\u89f8\u767c\uff1aManus \u8b80\u53d6 manus_task.json \u2192 \u5f9e assets/ \u53d6\u5099\u7528\u5716\u7247\u53ca\u6587\u6848 \u2192 \u900f\u904e IG MCP \u767c\u5e03 \u2192 \u56de\u5831\u5b8c\u6210",
+    "note": "\u767c\u5e03\u6a21\u5f0f\u4e0b Manus \u4e0d\u8ca0\u8cac\u751f\u5716\uff0c\u82e5 asset_path \u4e0d\u5b58\u5728\u9808\u7acb\u5373\u5831\u932f"
   }
 }
