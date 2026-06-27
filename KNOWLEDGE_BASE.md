@@ -1,15 +1,16 @@
-# Luna's Stone Atelier — 知識庫 v2.0
+# Luna's Stone Atelier — 知識庫 v2.1
 _最後更新：2026-06-27_
 
 ---
 
-## ⚠️ 礦石資料唯一真源聲明
+## ⚠️ 礦石資料唯一真源聲明（SSOT）
 
-> **本文件不維護礦石資料表。**
-> 所有礦石的科學數據、脈輪對應、保養建議、鑑別方法，
+> **本文件不維護任何礦石資料表。**
+> 所有礦石的科學數據、脈輪對應、光學效應、保養建議、鑑別方法，
 > **一律以 `mineralogy_data.json` 為唯一真源（SSOT）。**
 >
-> 如需查詢礦石資訊，請直接讀取 `mineralogy_data.json`，對應 `id` 欄位。
+> 如需查詢礦石資訊，請直接讀取 `mineralogy_data.json`，使用 `id` 欄位對應。
+> 禁止在本文件或任何其他文件另行維護礦石資料表。
 
 ---
 
@@ -32,7 +33,7 @@ _最後更新：2026-06-27_
 |------|------|------|
 | Stories | 1080×1350 px | 1 PNG |
 | Posts | 1080×1350 px | 5 PNG |
-| Reels | 1080×1350 px | 6 PNG + 1 MP4（15–30 秒）|
+| Reels | 1080×1350 px | 6 PNG 中間素材 + 1 MP4（15–30 秒）|
 
 ---
 
@@ -52,11 +53,11 @@ _最後更新：2026-06-27_
 
 發佈時間定義於 `brand_config.json` → `publish_schedule`。
 
-| 格式 | 發佈時間（HKT）|
-|------|---------------|
-| Stories | 20:00 |
-| Posts | 12:00 |
-| Reels | 18:00 |
+| 格式 | 發佈時間（HKT）| 每週次數 |
+|------|---------------|----------|
+| Reels | 18:00 | 2次（週一、週四）|
+| Posts | 12:00 | 2次（週二、週五）|
+| Stories | 20:00 | 6次（週一至週五、週日）|
 
 ---
 
@@ -66,14 +67,17 @@ _最後更新：2026-06-27_
 - 目標集數：25 集（每週 2 次）
 - 每集結尾必須預告下集礦石，形成追劇感
 - 集數記錄於 `content_schedule.json` → `episode` 欄位
+- 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ### 5.2 今日能量卡（Stories）
 - 每次發佈單一礦石能量主題
 - 必須包含互動問句
+- 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ### 5.3 礦石深度科普（Posts Carousel）
 - 每次 5 張，涵蓋科學 / 美學 / 能量 / 保養
-- 封面必須含數字或問句
+- 封面必須含數字或問句（止滑設計）
+- 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ---
 
@@ -83,20 +87,33 @@ _最後更新：2026-06-27_
 
 | Secret 名稱 | 說明 |
 |-------------|------|
-| `IG_USER_ID` | Instagram Business 帳號**數字 ID**（非 @handle）|
+| `IG_USER_ID` | Instagram Business 帳號**數字 ID**（非 @handle，例：`17841400000000000`）|
 | `IG_ACCESS_TOKEN` | Meta Graph API Long-lived Access Token |
 | `OPENAI_API_KEY` | OpenAI API Key |
 
-> ⚠️ `IG_USER_ID` 的值是一串數字，不是 `@lunas.stone.atelier`。
+> ⚠️ `IG_USER_ID` 的值是一串**純數字**，不是 `@lunas.stone.atelier` 帳號名稱。
 
 ---
 
 ## 7. 資料架構總覽
 
 ```
-礦石資料  ←  mineralogy_data.json  （SSOT，唯一真源）
-品牌設定  ←  brand_config.json
-排程內容  ←  content_schedule.json
-生成指引  ←  manus_instructions.md
-知識總覽  ←  KNOWLEDGE_BASE.md（本文件）
+礦石資料  ←  mineralogy_data.json  （SSOT，唯一真源，禁止在其他文件另行維護）
+品牌設定  ←  brand_config.json     （發佈時間、格式規格、三階段 CTA、色彩系統）
+排程內容  ←  content_schedule.json  （90天116條排程，stone_id 對應 SSOT）
+生成指引  ←  manus_instructions.md  （Manus AI 操作規則、格式規格、Caption 規則）
+素材記錄  ←  generated_assets.json  （Manus 回填，人工勿直接編輯資產 URL）
+知識總覽  ←  KNOWLEDGE_BASE.md     （本文件，系統導覽，不維護礦石表）
 ```
+
+---
+
+## 8. 2026 IG 演算法重點規則
+
+詳細規則見 `manus_instructions.md` §5–§6。摘要：
+
+- **SEO First Line**：Caption 第一行必須含礦石名稱 + 功能關鍵詞
+- **Hashtag 控制**：每則 3–5 個，主題相關，禁止堆砌
+- **Save/Share 導向**：Posts 優先優化 Save；Reels 優先優化 Share
+- **首 90 分鐘**：發佈後立即 Stories 轉發，帳號主 10 分鐘內自行留言引導互動
+- **Reels Hook**：首 3 秒必須有止滑鉤（`第N夜｜{礦石}的秘密`）
