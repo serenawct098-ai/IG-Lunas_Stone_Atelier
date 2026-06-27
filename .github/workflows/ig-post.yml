@@ -1,10 +1,23 @@
-name: Instagram Content Automation
+# Instagram Content Automation
+# 
+# 架構：GitHub = Scheduler（觸發器）| Manus = Publisher（執行器）
+#
+# 流程：
+#   1. Cron 觸發 → main.py 讀排程 + 礦石 SSOT
+#   2. 組裝 manus_task.json → commit 到 repo
+#   3. Manus 讀取 manus_task.json → 生成素材 → IG MCP 發布
+#   4. Manus 回填 result，更新 content_schedule.json status
+#
+# 不再需要：META_ACCESS_TOKEN（IG API 由 Manus MCP 負責）
+# 只需要：OPENAI_API_KEY（如有 AI caption 生成需求）
+
+name: Instagram Content Scheduler
 
 on:
   workflow_dispatch:
     inputs:
       task_type:
-        description: 'Task to run'
+        description: 'Task to run (stories / posts / reels)'
         required: true
         default: 'stories'
         type: choice
@@ -13,26 +26,25 @@ on:
           - posts
           - reels
   schedule:
-    # All cron times are UTC  (HKT = UTC+8)
-    # Stories: Mon/Wed/Thu/Fri/Sun  20:00 HKT = 12:00 UTC
-    - cron: '0 12 * * 0,1,3,4,5'
-    # Posts: Tue/Fri  12:00 HKT = 04:00 UTC
+    # All cron times are UTC (HKT = UTC+8)
+    # Stories: Mon/Tue/Wed/Thu/Fri/Sun  20:00 HKT = 12:00 UTC
+    - cron: '0 12 * * 0,1,2,3,4,5'
+    # Posts:   Tue/Fri  12:00 HKT = 04:00 UTC
     - cron: '0 4 * * 2,5'
-    # Reels: Mon/Thu  18:00 HKT = 10:00 UTC
+    # Reels:   Mon/Thu  18:00 HKT = 10:00 UTC
     - cron: '0 10 * * 1,4'
 
-# Prevent duplicate runs from race-condition cron overlaps
 concurrency:
-  group: ig-publish-${{ github.ref }}
+  group: ig-scheduler-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
-  contents: write   # needed for mark_published to commit schedule update
+  contents: write  # 需要寫入 manus_task.json 並 commit
 
 jobs:
-  publish:
+  schedule:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: Checkout Repository
@@ -47,11 +59,9 @@ jobs:
           cache: 'pip'
 
       - name: Install Dependencies
-        run: |
-          pip install --upgrade pip
-          pip install requests
+        run: pip install --upgrade pip requests
 
-      # ─── Determine which task to run ───────────────────────────────
+      # ─── 解析今日應執行的任務類型 ───────────────────────────────
       - name: Determine Task Type
         id: task
         run: |
@@ -59,36 +69,39 @@ jobs:
           if [ -z "$TASK" ]; then
             HOUR=$(date -u +%H)
             DOW=$(date -u +%u)   # 1=Mon ... 7=Sun
-            # Stories  = 12 UTC  on days 1,3,4,5,7
-            if   [ "$HOUR" = "12" ] && [[ "$DOW" =~ ^(1|3|4|5|7)$ ]]; then TASK="stories"
-            # Posts    = 04 UTC  on days 2,5
-            elif [ "$HOUR" = "04" ] && [[ "$DOW" =~ ^(2|5)$ ]];       then TASK="posts"
-            # Reels    = 10 UTC  on days 1,4
-            elif [ "$HOUR" = "10" ] && [[ "$DOW" =~ ^(1|4)$ ]];       then TASK="reels"
+            if   [ "$HOUR" = "12" ] && [[ "$DOW" =~ ^(1|2|3|4|5|7)$ ]]; then TASK="stories"
+            elif [ "$HOUR" = "04" ] && [[ "$DOW" =~ ^(2|5)$ ]];          then TASK="posts"
+            elif [ "$HOUR" = "10" ] && [[ "$DOW" =~ ^(1|4)$ ]];          then TASK="reels"
             fi
           fi
           echo "task_type=${TASK}" >> $GITHUB_OUTPUT
           echo "Resolved task type: ${TASK:-'(none — skipping)'}"
 
-      # ─── Publish ───────────────────────────────────────────────────
-      - name: Publish to Instagram
+      # ─── 組裝 manus_task.json ────────────────────────────────────
+      - name: Build Manus Task
         if: steps.task.outputs.task_type != ''
         env:
-          TASK_TYPE:          ${{ steps.task.outputs.task_type }}
-          META_ACCESS_TOKEN:  ${{ secrets.META_ACCESS_TOKEN }}
-          IG_USER_ID:         ${{ secrets.IG_USER_ID }}
+          TASK_TYPE: ${{ steps.task.outputs.task_type }}
         run: python main.py
 
-      # ─── Commit schedule update if mark_published wrote changes ────
-      - name: Commit schedule update
+      # ─── 將 manus_task.json commit 回 repo ─────────────────────
+      # Manus 讀取此檔案作為發布指令
+      - name: Commit Manus Task
         if: steps.task.outputs.task_type != ''
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content_schedule.json
-          git diff --cached --quiet || git commit -m "chore: mark published [${{ steps.task.outputs.task_type }}] $(date -u +%Y-%m-%d)"
+          git add manus_task.json
+          git diff --cached --quiet || git commit -m "task: [${{ steps.task.outputs.task_type }}] $(date -u +%Y-%m-%d) — awaiting Manus publish"
           git push
+
+      - name: Task Ready Notice
+        if: steps.task.outputs.task_type != ''
+        run: |
+          echo "✅ manus_task.json committed to repo."
+          echo "📌 Next: Manus reads manus_task.json → generate assets → publish via IG MCP"
+          echo "📌 After publish: Manus updates content_schedule.json status = published"
 
       - name: Skip Notice
         if: steps.task.outputs.task_type == ''
-        run: echo "No task scheduled for this cron slot — skipping."
+        run: echo "ℹ️  No task scheduled for this cron slot — skipping."

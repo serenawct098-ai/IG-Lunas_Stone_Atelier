@@ -1,0 +1,20 @@
+{
+  "_comment": "此檔案由 GitHub Actions 自動寫入。Manus 讀取後執行生成 + IG 發布。",
+  "task_id": null,
+  "created_at": null,
+  "source": "github_actions_scheduler",
+  "publish_platform": "instagram",
+  "publish_via": "manus_ig_mcp",
+  "schedule": {},
+  "stone": {},
+  "caption": "",
+  "format_spec": {},
+  "ig_algorithm_rules": {},
+  "result": {
+    "status": "idle",
+    "asset_urls": [],
+    "media_id": null,
+    "published_at": null,
+    "error": null
+  }
+}

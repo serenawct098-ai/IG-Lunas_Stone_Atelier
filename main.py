@@ -1,276 +1,168 @@
+"""
+main.py — GitHub Actions Scheduler Entry Point
+
+角色：純排程觸發器
+- 讀取 content_schedule.json，找出今日 pending 任務
+- 從 mineralogy_data.json 讀取石頭 SSOT 資料
+- 組裝「任務指令 JSON」寫入 manus_task.json
+- GitHub Actions 完成後，Manus 讀取 manus_task.json 執行生成 + 發布
+- 發布完成後 Manus 呼叫 mark_published() 更新 status
+
+不再呼叫 Meta Graph API。所有 IG 發布由 Manus MCP 負責。
+"""
+
 import os
 import json
 import datetime
-import time
-import requests
+import sys
 
-IG_USER_ID = os.getenv('IG_USER_ID')
-META_ACCESS_TOKEN = os.getenv('META_ACCESS_TOKEN')
-META_BASE = "https://graph.facebook.com/v21.0"
 SCHEDULE_FILE = 'content_schedule.json'
-
-# ── Retry settings ────────────────────────────────────────────
-MAX_RETRIES = 3
-RETRY_BACKOFF = [2, 5, 10]  # seconds between retries
-
-
-def _post_with_retry(url, data, timeout=60):
-    """POST with exponential backoff retry."""
-    for attempt in range(MAX_RETRIES):
-        try:
-            res = requests.post(url, data=data, timeout=timeout)
-            res.raise_for_status()
-            return res
-        except requests.exceptions.HTTPError as e:
-            status = e.response.status_code if e.response else None
-            # Do not retry on 4xx client errors (except 429 rate limit)
-            if status and 400 <= status < 500 and status != 429:
-                print(f"❌ HTTP {status} client error — no retry: {e}")
-                raise
-            print(f"⚠️ Attempt {attempt+1}/{MAX_RETRIES} failed ({status}): {e}")
-        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
-            print(f"⚠️ Attempt {attempt+1}/{MAX_RETRIES} network error: {e}")
-        if attempt < MAX_RETRIES - 1:
-            wait = RETRY_BACKOFF[attempt]
-            print(f"   Retrying in {wait}s...")
-            time.sleep(wait)
-    raise RuntimeError(f"All {MAX_RETRIES} attempts failed for POST {url}")
-
-
-def _get_with_retry(url, params, timeout=30):
-    """GET with exponential backoff retry."""
-    for attempt in range(MAX_RETRIES):
-        try:
-            res = requests.get(url, params=params, timeout=timeout)
-            res.raise_for_status()
-            return res
-        except Exception as e:
-            print(f"⚠️ GET attempt {attempt+1}/{MAX_RETRIES} failed: {e}")
-        if attempt < MAX_RETRIES - 1:
-            time.sleep(RETRY_BACKOFF[attempt])
-    raise RuntimeError(f"All {MAX_RETRIES} GET attempts failed for {url}")
+MINERALOGY_FILE = 'mineralogy_data.json'
+TASK_OUTPUT_FILE = 'manus_task.json'
 
 
 # ── Schedule helpers ──────────────────────────────────────────
 
-def load_schedule():
-    if not os.path.exists(SCHEDULE_FILE):
-        print(f"⚠️ Schedule file not found: {SCHEDULE_FILE}")
-        return []
-    with open(SCHEDULE_FILE, 'r', encoding='utf-8') as f:
+def load_json(path):
+    if not os.path.exists(path):
+        print(f"⚠️  File not found: {path}")
+        return None
+    with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
-def save_schedule(schedule):
-    with open(SCHEDULE_FILE, 'w', encoding='utf-8') as f:
-        json.dump(schedule, f, ensure_ascii=False, indent=2)
+def save_json(path, data):
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def get_today_entry(task_type):
+    """從排程找出今日 pending 任務。"""
     today = datetime.date.today().isoformat()
-    # Accept both 'post' and 'posts' for legacy compatibility
+    schedule = load_json(SCHEDULE_FILE)
+    if not schedule:
+        return None
+    # 支援 'post' / 'posts' 別名相容
     match_types = {task_type}
     if task_type == 'posts':
         match_types.add('post')
     elif task_type == 'post':
         match_types.add('posts')
-    for entry in load_schedule():
+    for entry in schedule:
         if (entry.get('date') == today
                 and entry.get('type') in match_types
                 and entry.get('status') == 'pending'):
             return entry
-    print(f"ℹ️ No pending {task_type} entry for today ({today}).")
+    print(f"ℹ️  No pending '{task_type}' entry for today ({today}).")
     return None
 
 
-def mark_published(entry, media_id):
-    """Update schedule file to mark entry as published."""
-    schedule = load_schedule()
+def get_stone_data(stone_id):
+    """從 SSOT mineralogy_data.json 讀取石頭資料。"""
+    data = load_json(MINERALOGY_FILE)
+    if not data:
+        return {}
+    stones = data if isinstance(data, list) else data.get('stones', [])
+    for stone in stones:
+        if stone.get('id') == stone_id:
+            return stone
+    print(f"⚠️  Stone '{stone_id}' not found in mineralogy_data.json")
+    return {}
+
+
+def mark_published(entry, media_id='pending_manus'):
+    """標記排程項目為已發布（由 Manus 完成後回呼，或人工確認）。"""
+    schedule = load_json(SCHEDULE_FILE)
+    if not schedule:
+        return
     for item in schedule:
-        if item.get('date') == entry.get('date') and item.get('type') == entry.get('type'):
+        if (item.get('date') == entry.get('date')
+                and item.get('type') == entry.get('type')):
             item['status'] = 'published'
-            item['published_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
+            item['published_at'] = datetime.datetime.now(
+                datetime.timezone.utc).isoformat()
             item['media_id'] = str(media_id)
             break
-    save_schedule(schedule)
-    print(f"✅ Schedule updated: {entry.get('date')} {entry.get('type')} → published (media_id: {media_id})")
+    save_json(SCHEDULE_FILE, schedule)
+    print(f"✅ Schedule updated: {entry.get('date')} {entry.get('type')} → published")
 
 
-def _check_env():
-    missing = []
-    if not META_ACCESS_TOKEN:
-        missing.append('META_ACCESS_TOKEN')
-    if not IG_USER_ID:
-        missing.append('IG_USER_ID')
-    if missing:
-        print(f"❌ Missing env vars: {', '.join(missing)}")
-        return False
-    return True
+# ── Task builder ──────────────────────────────────────────────
 
+def build_manus_task(entry, stone_data):
+    """
+    組裝給 Manus 的任務指令 JSON。
+    Manus 讀取此檔案後，執行：
+      1. 按 format_spec 生成圖片素材
+      2. 用內置 IG MCP 發布
+      3. 更新 content_schedule.json status = published
+    """
+    task_type = entry.get('type', '')
 
-def _wait_for_container(container_id, max_retries=20, interval=6):
-    """Poll container status until FINISHED or ERROR (required for Reels)."""
-    for i in range(max_retries):
-        try:
-            res = _get_with_retry(
-                f"{META_BASE}/{container_id}",
-                params={"fields": "status_code", "access_token": META_ACCESS_TOKEN}
-            )
-            status = res.json().get('status_code', '')
-            print(f"   Container status ({i+1}/{max_retries}): {status}")
-            if status == 'FINISHED':
-                return True
-            if status == 'ERROR':
-                print("❌ Container processing returned ERROR.")
-                return False
-        except Exception as e:
-            print(f"⚠️ Status poll error: {e}")
-        time.sleep(interval)
-    print("❌ Container did not finish within the wait window.")
-    return False
-
-
-# ── Publish functions ─────────────────────────────────────────
-
-def publish_stories(image_url, caption=None):
-    if not _check_env():
-        return False, None
-    payload = {
-        "image_url": image_url,
-        "media_type": "STORIES",
-        "access_token": META_ACCESS_TOKEN
+    # 格式規格對應（與 brand_config.json 保持一致）
+    format_specs = {
+        'stories': {'slides': 1, 'dimensions': '1080x1920', 'has_video': False},
+        'post':    {'slides': 5, 'dimensions': '1080x1350', 'has_video': False},
+        'posts':   {'slides': 5, 'dimensions': '1080x1350', 'has_video': False},
+        'reels':   {'slides': 6, 'dimensions': '1080x1920', 'has_video': True, 'video_duration': '15-30s'},
     }
-    if caption:
-        payload["caption"] = caption
-    try:
-        res = _post_with_retry(f"{META_BASE}/{IG_USER_ID}/media", payload)
-        container_id = res.json().get('id')
-        if not container_id:
-            print(f"❌ Stories container creation failed: {res.text}")
-            return False, None
-        pub = _post_with_retry(
-            f"{META_BASE}/{IG_USER_ID}/media_publish",
-            {"creation_id": container_id, "access_token": META_ACCESS_TOKEN}
-        )
-        media_id = pub.json().get('id')
-        print(f"✅ Stories published! Media ID: {media_id}")
-        return True, media_id
-    except Exception as e:
-        print(f"❌ Stories publish error: {e}")
-        return False, None
 
+    task = {
+        'task_id': f"{entry.get('date')}_{task_type}",
+        'created_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        'source': 'github_actions_scheduler',
+        'publish_platform': 'instagram',
+        'publish_via': 'manus_ig_mcp',
 
-def publish_carousel(image_urls, caption):
-    """Upload each slide as a carousel child, then publish as CAROUSEL."""
-    if not _check_env():
-        return False, None
-    if not image_urls:
-        print("❌ No image URLs provided for carousel.")
-        return False, None
+        # 排程資訊
+        'schedule': {
+            'date': entry.get('date'),
+            'type': task_type,
+            'phase': entry.get('phase', ''),
+            'cta': entry.get('cta', ''),
+            'episode': entry.get('episode'),  # Reels 集數（若有）
+            'next_stone_id': entry.get('next_stone_id'),  # Cliffhanger 預告
+        },
 
-    child_ids = []
-    for idx, url in enumerate(image_urls, 1):
-        try:
-            res = _post_with_retry(
-                f"{META_BASE}/{IG_USER_ID}/media",
-                {"image_url": url, "is_carousel_item": "true", "access_token": META_ACCESS_TOKEN}
-            )
-            cid = res.json().get('id')
-            if cid:
-                child_ids.append(cid)
-                print(f"   Slide {idx}/{len(image_urls)} uploaded: {cid}")
-            else:
-                print(f"⚠️ Slide {idx} returned no ID.")
-        except Exception as e:
-            print(f"❌ Carousel slide {idx} error: {e}")
+        # 石頭 SSOT 資料
+        'stone': {
+            'id': stone_data.get('id', entry.get('stone_id', '')),
+            'zh': stone_data.get('name_zh', entry.get('stone_zh', '')),
+            'en': stone_data.get('name_en', ''),
+            'hardness': stone_data.get('hardness', ''),
+            'color': stone_data.get('color', ''),
+            'optical_effects': stone_data.get('optical_effects', []),
+            'body_focus': stone_data.get('body_focus', []),
+            'use_cases': stone_data.get('use_cases', []),
+            'care_tips': stone_data.get('care_tips', ''),
+            'synthetic_signs': stone_data.get('synthetic_signs', ''),
+        },
 
-    if not child_ids:
-        print("❌ No carousel children created — aborting.")
-        return False, None
+        # Caption（若排程已預填；否則由 Manus 生成）
+        'caption': entry.get('caption', ''),
+        'caption_note': '如 caption 為空，由 Manus 按品牌語調生成。首行必須含石頭名稱 + 功能關鍵字。',
 
-    try:
-        res = _post_with_retry(
-            f"{META_BASE}/{IG_USER_ID}/media",
-            {
-                "media_type": "CAROUSEL",
-                "children": ",".join(child_ids),
-                "caption": caption,
-                "access_token": META_ACCESS_TOKEN
-            }
-        )
-        container_id = res.json().get('id')
-        if not container_id:
-            print(f"❌ Carousel container failed: {res.text}")
-            return False, None
-        pub = _post_with_retry(
-            f"{META_BASE}/{IG_USER_ID}/media_publish",
-            {"creation_id": container_id, "access_token": META_ACCESS_TOKEN}
-        )
-        media_id = pub.json().get('id')
-        print(f"✅ Carousel published! Media ID: {media_id} ({len(child_ids)} slides)")
-        return True, media_id
-    except Exception as e:
-        print(f"❌ Carousel publish error: {e}")
-        return False, None
+        # 格式規格
+        'format_spec': format_specs.get(task_type, {}),
 
+        # 2026 IG 演算法規則（提醒 Manus）
+        'ig_algorithm_rules': {
+            'hashtags': '3-5個，主題相關，禁止堆砌',
+            'save_share': 'Posts 優先優化 Save；Reels 優先優化 Share',
+            'reels_hook': '首3秒必須有止滑鉤（第N夜｜{石頭}的秘密）',
+            'first_90min': '發布後立即 Stories 轉發，帳號主10分鐘內自行留言引導互動',
+        },
 
-def publish_photo_post(image_url, caption):
-    """Fallback: single-image post."""
-    if not _check_env():
-        return False, None
-    try:
-        res = _post_with_retry(
-            f"{META_BASE}/{IG_USER_ID}/media",
-            {"image_url": image_url, "caption": caption, "access_token": META_ACCESS_TOKEN}
-        )
-        container_id = res.json().get('id')
-        if not container_id:
-            print(f"❌ Photo post container failed: {res.text}")
-            return False, None
-        pub = _post_with_retry(
-            f"{META_BASE}/{IG_USER_ID}/media_publish",
-            {"creation_id": container_id, "access_token": META_ACCESS_TOKEN}
-        )
-        media_id = pub.json().get('id')
-        print(f"✅ Photo post published! Media ID: {media_id}")
-        return True, media_id
-    except Exception as e:
-        print(f"❌ Photo post publish error: {e}")
-        return False, None
-
-
-def publish_reel(video_url, caption):
-    if not _check_env():
-        return False, None
-    try:
-        res = _post_with_retry(
-            f"{META_BASE}/{IG_USER_ID}/media",
-            {
-                "video_url": video_url,
-                "media_type": "REELS",
-                "caption": caption,
-                "access_token": META_ACCESS_TOKEN
-            },
-            timeout=90
-        )
-        container_id = res.json().get('id')
-        if not container_id:
-            print(f"❌ Reel container creation failed: {res.text}")
-            return False, None
-        print("⏳ Waiting for Reel container to process...")
-        if not _wait_for_container(container_id):
-            return False, None
-        pub = _post_with_retry(
-            f"{META_BASE}/{IG_USER_ID}/media_publish",
-            {"creation_id": container_id, "access_token": META_ACCESS_TOKEN},
-            timeout=90
-        )
-        media_id = pub.json().get('id')
-        print(f"✅ Reel published! Media ID: {media_id}")
-        return True, media_id
-    except Exception as e:
-        print(f"❌ Reel publish error: {e}")
-        return False, None
+        # 執行後 Manus 需回填
+        'result': {
+            'status': 'pending',
+            'asset_urls': [],
+            'media_id': None,
+            'published_at': None,
+            'error': None,
+        }
+    }
+    return task
 
 
 # ── Entry point ───────────────────────────────────────────────
@@ -279,52 +171,27 @@ if __name__ == '__main__':
     task_type = os.getenv('TASK_TYPE', '').strip().lower()
     if not task_type:
         print('❌ TASK_TYPE env var not set.')
-        raise SystemExit(1)
+        sys.exit(1)
 
     entry = get_today_entry(task_type)
     if not entry:
-        print(f"⏭️ Nothing to publish for '{task_type}' today.")
-        raise SystemExit(0)
+        print(f"⏭️  Nothing to publish for '{task_type}' today.")
+        sys.exit(0)
 
-    caption = entry.get('caption', '')
-    # Support both 'asset_url' (single) and 'asset_urls' (carousel array)
-    asset_url = entry.get('asset_url') or entry.get('image_url', '')
-    asset_urls = entry.get('asset_urls', [])
+    stone_id = entry.get('stone_id', '')
+    stone_data = get_stone_data(stone_id) if stone_id else {}
 
-    print(f"📅 Date      : {entry.get('date')}")
-    print(f"🗓️  Type      : {task_type}")
-    print(f"📝 Caption   : {caption[:100]}{'...' if len(caption) > 100 else ''}")
-    print(f"🔗 asset_url : {asset_url or '(none)'}")
-    print(f"🖼️  asset_urls: {len(asset_urls)} slides")
+    task = build_manus_task(entry, stone_data)
+    save_json(TASK_OUTPUT_FILE, task)
 
-    ok, media_id = False, None
+    print(f"""✅ Manus task assembled:
+   task_id  : {task['task_id']}
+   type     : {task_type}
+   stone    : {task['stone']['zh']} ({task['stone']['id']})
+   phase    : {task['schedule']['phase']}
+   slides   : {task['format_spec'].get('slides', 'N/A')}
+   has_video: {task['format_spec'].get('has_video', False)}
+   → Written to {TASK_OUTPUT_FILE}
+""")
 
-    if task_type == 'stories':
-        if not asset_url:
-            print('⚠️ No asset_url for stories — skipping.')
-            raise SystemExit(0)
-        ok, media_id = publish_stories(asset_url, caption)
-
-    elif task_type in ('post', 'posts'):
-        if asset_urls:
-            ok, media_id = publish_carousel(asset_urls, caption)
-        elif asset_url:
-            ok, media_id = publish_photo_post(asset_url, caption)
-        else:
-            print('⚠️ No asset_url / asset_urls for post — skipping.')
-            raise SystemExit(0)
-
-    elif task_type == 'reels':
-        if not asset_url:
-            print('⚠️ No asset_url for reels — skipping.')
-            raise SystemExit(0)
-        ok, media_id = publish_reel(asset_url, caption)
-
-    else:
-        print(f'❌ Unknown task_type: "{task_type}"')
-        raise SystemExit(1)
-
-    if ok and media_id:
-        mark_published(entry, media_id)
-
-    raise SystemExit(0 if ok else 1)
+    sys.exit(0)
