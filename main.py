@@ -6,7 +6,7 @@ import requests
 
 IG_USER_ID = os.getenv('IG_USER_ID')
 META_ACCESS_TOKEN = os.getenv('META_ACCESS_TOKEN')
-META_BASE = "https://graph.facebook.com/v19.0"
+META_BASE = "https://graph.facebook.com/v21.0"
 SCHEDULE_FILE = 'content_schedule.json'
 
 
@@ -25,9 +25,15 @@ def save_schedule(schedule):
 
 def get_today_entry(task_type):
     today = datetime.date.today().isoformat()
+    # Accept both 'post' and 'posts' to handle legacy entries
+    match_types = [task_type]
+    if task_type == 'posts':
+        match_types.append('post')
+    elif task_type == 'post':
+        match_types.append('posts')
     for entry in load_schedule():
         if (entry.get('date') == today
-                and entry.get('type') == task_type
+                and entry.get('type') in match_types
                 and entry.get('status') == 'pending'):
             return entry
     print(f"ℹ️ No pending {task_type} entry for today ({today}).")
@@ -250,7 +256,7 @@ if __name__ == '__main__':
             raise SystemExit(0)
         ok, media_id = publish_stories(asset_url, caption)
 
-    elif task_type == 'post':
+    elif task_type in ('post', 'posts'):
         if asset_urls:
             ok, media_id = publish_carousel(asset_urls, caption)
         elif asset_url:
