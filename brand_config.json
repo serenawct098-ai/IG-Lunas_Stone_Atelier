@@ -1,198 +1,92 @@
 {
-  
   "brand": {
-    
     "name": "Luna's Stone Atelier",
-    
     "project": "月華星礦坊",
-    
     "logo": {
-      
       "description": "官方圖騰作為品牌唯一的正式 Logo",
-      
       "file_path": "/home/ubuntu/upload/Lunas_Stone_Atelier_Transparent_Like_Fig3.png"
-      
     },
-    
     "watermark": "Luna's Stone Atelier 圖文僅供參考",
-    
     "language": "中文書面語為主，英文為輔",
-    
     "themes": [
-      
       "天然礦石元素"
-      
     ]
-    
   },
-  
   "colors": {
-    
     "primary": [
-      
       {
-        
         "name": "深海軍藍",
-        
         "hex": "#0D0D2B",
-        
         "usage": ["主背景", "核心視覺"]
-        
       },
-      
       {
-        
         "name": "深藍紫色",
-        
         "hex": "#1A1A3A",
-        
         "usage": ["次要背景", "主色層次"]
-        
       }
-      
     ],
-    
     "secondary": [
-      
       {
-        
         "name": "深紫",
-        
         "hex": "#2D1B4E",
-        
         "usage": ["輔色", "對比背景"]
-        
       },
-      
       {
-        
         "name": "霧玫瑰金",
-        
         "hex": "#B4918F",
-        
         "usage": ["輔色", "主文字", "圖騰"]
-        
       },
-      
       {
-        
         "name": "月白銀",
-        
         "hex": "#E8E8F0",
-        
         "usage": ["輔色", "亮部強調", "邊框"]
-        
       },
-      
       {
-        
         "name": "金色",
-        
         "hex": "#C9A84C",
-        
         "usage": ["輔色", "點綴", "高亮"]
-        
       }
-      
     ],
-    
     "image_tag": "Luna's Stone Atelier 圖文僅供參考"
-    
   },
-  
   "instagram_config": {
-    
     "connector_uid": "gCkJ9ttBFFtLwptvbGGW3M",
-    
     "enabled": true
-    
   },
-  
   "rules": {
-    
     "anti_hallucination": true,
-    
     "data_verification": "required",
-    
     "image_tag_rule": "所有圖片必須在畫面內明確顯示 Luna's Stone Atelier 圖文僅供參考，不可僅寫在文案中",
-    
     "aspect_ratio": "4:5",
-    
     "forbidden": [
-      
       "AI幻覺",
-      
       "自行腦補",
-      
       "自創文獻資料"
-      
     ]
-    
+  },
+  "publishing_schedule": {
+    "timezone": "HKT",
+    "stories": {
+      "days": ["Monday", "Wednesday", "Thursday", "Friday", "Sunday"],
+      "time": "20:00"
+    },
+    "posts": {
+      "days": ["Tuesday", "Friday"],
+      "time": "12:00"
+    },
+    "reels": {
+      "days": ["Monday", "Thursday"],
+      "time": "18:00"
+    }
+  },
+  "algorithm_2026": {
+    "feed_priority_signals": ["share", "save", "comment", "like"],
+    "carousel_advantage": "Carousel 平均觸及高於單圖，為知識型帳號核心格式",
+    "save_rate_target": {
+      "saves_to_likes_ratio_gt": 0.15,
+      "first_90_minutes_focus": true
+    },
+    "hashtag_best_practice": "每篇使用 3–5 個精準標籤",
+    "caption_seo_priority": "Caption 第一行優先放核心關鍵字與主題"
   }
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
