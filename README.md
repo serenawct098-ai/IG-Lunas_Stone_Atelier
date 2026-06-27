@@ -1,142 +1,78 @@
-# Luna's Stone Atelier — IG 自動化運營系統
+# 🌙 Luna's Stone Atelier — IG 自動化系統
 
-> **帳號：** @lunas.stone.atelier
-> **主題：** 一千零一夜礦石風水系列
-> **執行週期：** 2026-06-15 至 2026-09-12（90 天）
-> **架構模式：** 文案與素材預生成備用 → GitHub Actions 按日期自動發佈
+> 一個結合礦物學知識與身心靈能量的 Instagram 內容自動化品牌系統。
 
 ---
 
-## 📁 檔案結構與層級說明
+## 📁 檔案架構
 
 ```
-IG-Lunas_Stone_Atelier/
-│
-├── README.md                    ← 本文件（系統總覽 + 維護入口）
-├── KNOWLEDGE_BASE.md            ← 唯一知識庫 SSOT（品牌 + 內容策略 + 格式規格）
-│
-├── brand_config.json            ← 品牌設定機器讀版（色碼、水印、IG 設定）
-├── mineralogy_data.json         ← 礦石資料唯一 SSOT（機器讀版）
-├── content_schedule.json        ← 90 日內容排程主檔（文案 + Manus Prompt）
-├── manus_instructions.md        ← Manus 執行說明（掃描排程 → 批量生成圖文／影片）
-├── generated_assets.json        ← Manus 批量生成後回填的資產記錄
-│
-├── main.py                      ← 發佈引擎（讀取排程 → 呼叫 Meta Graph API）
-└── .github/
-    └── workflows/
-        └── ig-post.yml          ← GitHub Actions 排程觸發器
-```
-
-### 五層級分工
-
-| 層級 | 文件 | 作用 | 需要更改時 |
-|---|---|---|---|
-| **SSOT 知識層** | `KNOWLEDGE_BASE.md` | 品牌、策略、格式規格、SOP | 改規範改此文件 |
-| **礦石 SSOT 層** | `mineralogy_data.json` | 礦石資料唯一真值源 | 改礦石資料改此檔案 |
-| **排程層** | `content_schedule.json` | 90 日文案與排程 | 改文案改此檔案 |
-| **素材生成層** | `manus_instructions.md` | Manus 批量生成圖文／影片的完整指引 | 改生成流程改此文件 |
-| **發佈層** | `main.py` + `.github/workflows/ig-post.yml` | GitHub Actions 自動發佈 | 改發佈邏輯改此兩檔 |
-| **機器讀配置層** | `brand_config.json` | 腳本讀取用品牌與 IG 設定 | 改品牌配置改此檔 |
-
----
-
-## ⚙️ 系統運作邏輯
-
-```
-[KNOWLEDGE_BASE.md]          ←  品牌規範 / 內容策略 / 格式規格 / SOP
-[mineralogy_data.json]      ←  礦石資料唯一真值源
-        ↓
-[content_schedule.json]      ←  90 日預生成文案 + Manus Prompt
-        ↓
-[Manus 批量生成素材]         →  Stories PNG / Posts PNG×5 / Reels MP4
-        ↓ asset_url 回填
-[generated_assets.json]      ←  資產記錄（中間檔 + 最終輸出）
-        ↓
-[GitHub Actions ig-post.yml] ←  每日定時觸發（不依賴即時 AI）
-        ↓
-[main.py]  →  讀取今日排程 → 呼叫 Meta Graph API → 發佈 IG
+├── mineralogy_data.json      ← 礦石資料 SSOT（唯一真源）
+├── brand_config.json         ← 品牌設定、發佈時間、格式規格
+├── content_schedule.json     ← 90天排程（116條記錄）
+├── manus_instructions.md     ← Manus AI 生成指引
+├── KNOWLEDGE_BASE.md         ← 系統知識總覽
+├── generated_assets.json     ← 已生成素材記錄
+├── assets/
+│   ├── stories/              ← Stories PNG
+│   ├── posts/                ← Posts Carousel PNG
+│   └── reels/                ← Reels PNG + MP4
+└── .github/workflows/        ← GitHub Actions 自動化
 ```
 
 ---
 
-## 🎯 核心規則：三格式內容必須獨立生成
+## ⚠️ 核心原則：SSOT
 
-> ⚠️ **重要原則，不可妥協**
+**礦石資料唯一真源 = `mineralogy_data.json`**
 
-- **Stories、Posts（Carousel）、Reels 必須各自獨立生成**
-- 同一日期若同時有多格式排程，必須分別生成完全不同的素材
-- **嚴禁以同一張圖充當多格式輸出**
-- 素材間可以「呼應同一主題」，但視覺設計、文字內容、排版、結構必須各自完整獨立不同
+所有礦石文案、科學數據、脈輪對應，一律從 `mineralogy_data.json` 讀取，
+禁止在其他文件另行維護礦石資料表。
 
 ---
 
-## 📐 格式規格速查
+## 🔑 GitHub Secrets 設定
 
-| 格式 | 比例 | 最終輸出 | 數量 |
-|---|---|---|---|
-| Stories | 4:5（1080×1350px） | 單張 PNG | 1 張 |
-| Posts (Carousel) | 4:5（1080×1350px） | 5 張 PNG 套組 | 5 張 |
-| Reels | 4:5（1080×1350px） | **15–30 秒 MP4**（由 6 張圖文卡串接生成） | 6 張 PNG 中間檔 + 1 支 MP4 |
-
-> 詳細生成流程與規格，見 `manus_instructions.md`。
-
----
-
-## 🗓️ 發佈時間表（HKT）
-
-| 格式 | 發佈時間 | 星期 |
-|---|---|---|
-| Stories | 20:00 | 一、三、四、五、日 |
-| Posts (Carousel) | 12:00 | 二、五 |
-| Reels | 18:00 | 一、四 |
-
----
-
-## 🔧 GitHub Secrets 必要設定
-
-前往 **Settings → Secrets and variables → Actions** 新增：
+前往 **Settings → Secrets and variables → Actions**，新增以下 Secrets：
 
 | Secret 名稱 | 說明 |
-|---|---|
-| `META_ACCESS_TOKEN` | Meta Graph API 長效存取 Token |
-| `IG_USER_ID` | Instagram Business 帳號數字 ID |
+|-------------|------|
+| `IG_USER_ID` | Instagram Business 帳號**數字 ID**（非 @handle，範例：`17841400000000000`）|
+| `IG_ACCESS_TOKEN` | Meta Graph API Long-lived Access Token |
+| `OPENAI_API_KEY` | OpenAI API Key |
 
 ---
 
-## 📋 啟動清單
+## 📅 發佈節奏
 
-- [ ] **Manus 批量生成素材**：交付 `manus_instructions.md` 給 Manus，讓 Manus 掃描 `content_schedule.json` 一次過批量生成所有 Stories PNG / Posts PNG 套組 / Reels MP4，並將 URL 回填至 `content_schedule.json` 的 `asset_url` 欄位及 `generated_assets.json`
-- [ ] **設定 GitHub Secrets**：在 repo Settings 新增 `META_ACCESS_TOKEN` 與 `IG_USER_ID`
-- [ ] **驗證首發**：手動觸發 `workflow_dispatch` 測試第一條記錄能否成功發佈
-
----
-
-## 📊 數據監控
-
-每 **14 天 09:00 HKT** 建議人工檢視各格式核心 KPI：
-
-| 格式 | 核心 KPI |
-|---|---|
-| Stories | 互動率、問答箱回覆數 |
-| Posts | 收藏率（Save Rate）、輪播翻頁率 |
-| Reels | 完播率、追蹤轉化數 |
-
-第 90 天發佈完成後，輸出總結並規劃下一輪 SOP 策略。
+| 格式 | 發佈時間（HKT）| 每週次數 |
+|------|---------------|----------|
+| Reels | 18:00 | 2次（週一、週四）|
+| Posts | 12:00 | 2次（週二、週五）|
+| Stories | 20:00 | 6次（週一至週五、週日）|
 
 ---
 
-## 🛠️ 維護指南
+## 🚀 快速開始
 
-| 需要修改的事項 | 變更哪一個檔案 |
-|---|---|
-| 品牌規範、內容策略、格式規格、協同 SOP | `KNOWLEDGE_BASE.md` |
-| 礦石資料內容 | `mineralogy_data.json` |
-| 文案內容、發佈日期、Manus Prompt | `content_schedule.json` |
-| Manus 生成素材的執行方式 | `manus_instructions.md` |
-| 發佈邏輯、API 呼叫 | `main.py` |
-| 自動化排程時間 | `.github/workflows/ig-post.yml` |
-| 品牌配置與 IG 設定 | `brand_config.json` |
+1. 克隆此 repo
+2. 設定好三個 GitHub Secrets（見上表）
+3. 檢查 `content_schedule.json`，確認今日排程
+4. 使用 Manus 按照 `manus_instructions.md` 生成素材
+5. 素材生成後回填 `asset_url`，將 `status` 改為 `generated`
+6. 發佈至 IG，將 `status` 改為 `published`
 
 ---
 
-*最後更新：2026-06-27 | 由 Perplexity AI 同步上下文所有重要更新*
+## 📊 90天排程總覽（2026-06-15 → 2026-09-12）
+
+| 格式 | 條數 |
+|------|------|
+| Reels | 26 |
+| Posts Carousel | 26 |
+| Stories | 64 |
+| **合計** | **116** |
+
+---
+
+_Luna's Stone Atelier © 2026_

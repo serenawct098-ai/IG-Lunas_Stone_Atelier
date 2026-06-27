@@ -1,219 +1,146 @@
-# Manus 批量素材生成執行說明
-
-> **版本：** v2.2 | **最後更新：** 2026-06-27 | **執行對象：** Manus AI
->
-> 本文件為 Manus 執行素材批量生成的唯一操作指引。
-> 生成前必須先完整讀取本文件，嚴格遵守所有規格，不得自行推斷或捏造資料。
+# Manus 操作指引 v3.0
+_最後更新：2026-06-27_
 
 ---
 
-## 一、任務概述
+## 0. 礦石資料唯一真源（SSOT）
 
-掃描 `content_schedule.json`，按每條記錄的 `manus_prompt` 欄位，**一次過**批量生成所有 Stories、Posts（Carousel）、Reels 素材，並將最終資產 URL 回填至各記錄的 `asset_url` 欄位。
-
-> **重要：三種格式必須獨立生成，互不混用，不得以同一張圖充當多種格式輸出。**
-
----
-
-## 二、核心規則（所有格式通用）
-
-### 2.1 品牌色（必須嚴格遵守）
-| 角色 | 名稱 | HEX |
-|---|---|---|
-| 主背景 | 深海軍藍 | `#0D0D2B` |
-| 次要背景 | 深藍紫色 | `#1A1A3A` |
-| 輔色 | 深紫 | `#2D1B4E` |
-| 主文字／圖騰 | 霧玫瑰金 | `#B4918F` |
-| 亮部強調 | 月白銀 | `#E8E8F0` |
-| 點綴 | 金色 | `#C9A84C` |
-
-**禁止使用任何品牌色以外的顏色。**
-
-### 2.2 標籤（強制）
-- 所有畫面底部必須清楚顯示：`Luna's Stone Atelier 圖文僅供參考`
-- 標籤文字不得被裁切、遠擋或縮小至難以辨識
-
-### 2.3 語言規範
-- 繁體中文為主，英文為輔
-- 雙語排版時中文置於英文上方
-- 嚴禁使用簡體字／其他自創文字／亂碼
-
-### 2.4 礦石資料
-- 所有礦石數據必須以 `mineralogy_data.json` 為唯一依據
-- 缺乏資料時拒絕捏造，留空或標記「待補充」
-
-### 2.5 三格式獨立生成原則（核心規則）
-- **Stories、Posts、Reels 必須各自獨立生成**
-- 同一日期若同時有三格式排程，必須分別生成三組完全不同的素材
-- 嚴禁以同一張靜態圖充當多格式輸出
-- 素材間可以「呼應同一主題」，但視覺設計、文字內容、排版、結構必須各自完整獨立不同
-
-### 2.6 2026 演算法執行重點（強制納入輸出）
-- Feed 內容以 **Shares 與 Saves** 為首要優化指標，文案與封面必須具備「想轉發／想收藏」的理由
-- Carousel 為 Feed 主力格式；封面必須在 0.3 秒內止滑，內頁需保留「不完整感」以推高 swipe completion
-- Caption 第一行必須放核心 SEO 關鍵字，不得把重點藏到文案後段
-- Hashtag 每篇只用 **3–5 個精準標籤**，不得沿用舊式大量泛標籤
-- 發布後首 90 分鐘屬加速分發窗口，CTA 設計需鼓勵早期留言、收藏、分享
-
-### 2.7 Reels 腳本欄位（content_schedule.json 必須支援）
-每條 reels 記錄除 `manus_prompt` 外，必須讀取並保留以下欄位：
-- `series_hook`
-- `next_episode_preview`
-- `visual_prompts.hook` / `develop` / `climax` / `cta`
-- `script.0_3s`
-- `script.3_15s`
-- `script.15_25s`
-- `script.25_30s`
-
-每段 `script` 內必須保留：
-- `cantonese_vo`
-- `zh_subtitle`
-- `en_subtitle`
-
-⚠️ Manus 不得刪改上述欄位結構；生成圖卡與 MP4 時必須按節奏對齊腳本。
+> **所有礦石文案、科學數據、脈輪對應、保養資訊，必須以 `mineralogy_data.json` 為唯一來源。**
+> 禁止自行編寫或引用其他文件中的礦石資料表。讀取時使用 `stone_id` 欄位對應 `mineralogy_data.json` 的 `id` 欄位。
 
 ---
 
-## 三、格式規格
-
-### 3.1 Stories 格式規格
-- **比例：** 4:5（1080×1350px）
-- **輸出：** 單張 PNG（或 JPG）
-- **結構：**
-  - Hook 行（大字，吸引停留）
-  - 主要資訊（1–3 個重點，配圖或礦石插圖）
-  - 互動元素文字（如：「留言你想解答的問題」）
-  - 標籤（底部）
-- **檔名：** `assets/stories/story_YYYY-MM-DD.png`
-
-### 3.2 Posts（Carousel）格式規格
-- **比例：** 4:5（1080×1350px）
-- **輸出：** 5 張 PNG，組成 1 套 Carousel
-- **卡片結構（固定 5 張）：**
-  1. 封面止滑卡（Hook + 頁碼標示（1/5））
-  2. 科學定位（成分、硬度、化學式）
-  3. 美學亮點（色澤、光學效應）
-  4. 能量與心理（脈輪、使用建議）
-  5. 保養提醒 + CTA（行動呼籲 + 底部標籤）
-- **檔名：**
-  - `assets/posts/post_YYYY-MM-DD_s1.png` … `_s5.png`
-- **asset_url 回填：** 填入 5 張圖的 URL 陣列
-
-### 3.3 Reels 格式規格（⚠️ 注意：輸出為 MP4 短影片）
-- **比例：** 4:5（1080×1350px）
-- **最終輸出：** 1 支 15–30 秒 MP4 短影片
-- **生成流程：**
-  1. 先生成 **6 張 4:5 靜態圖文卡**（PNG）
-  2. 再將 6 張圖文卡串接，輸出成 **1 支 MP4**
-- **6 張卡片結構（固定）：**
-  1. Hook（大字止滑，製造好奇）
-  2. 知識點 A（科學定位）
-  3. 知識點 B（美學亮點）
-  4. 知識點 C（能量主題）
-  5. 知識點 D（延伸應用／保養）
-  6. CTA（收藏 / 追蹤 / 點擊了解更多）
-- **MP4 規格：**
-  - 每張停留時間：2.5–5 秒（總長 15–30 秒）
-  - 轉場：簡潔品牌一致（淡入淡出或位移），不可花巧
-  - 可加輕微動態（縮放、淡入淡出），但核心仍是圖文卡
-  - 底部標籤必須在整段影片全程可見
-  - 禁止底部字幕；可使用畫面內圖形文字（graphic text）
-- **檔名：**
-  - 中間素材：`assets/reels/reel_YYYY-MM-DD_s1.png` … `_s6.png`
-  - 最終影片：`assets/reels/reel_YYYY-MM-DD.mp4`
-- **asset_url 回填：** 填入最終 MP4 的 URL
-
----
-
-## 四、執行步驟
+## 1. 生成流程總覽
 
 ```
-步驟 1：讀取 content_schedule.json
-  → 逐條掃描所有記錄
-  → 按 type 分類為：stories / post / reels
-
-步驟 2：批量生成 Stories 素材
-  → 逐條按 manus_prompt 生成 1 張 PNG
-  → 存檔至 assets/stories/
-
-步驟 3：批量生成 Posts 素材
-  → 逐條按 manus_prompt 生成 5 張 PNG（Carousel 套組）
-  → 存檔至 assets/posts/
-
-步驟 4：批量生成 Reels 素材
-  → 逐條按 manus_prompt 生成 6 張 PNG 圖文卡
-  → 將 6 張卡串接輸出成 1 支 15–30 秒 MP4
-  → 存檔至 assets/reels/
-  → 按 script 欄位節奏對齊各段內容
-
-步驟 5：更新 generated_assets.json
-  → 記錄每條記錄的所有已生成資產（PNG 中間檔 + 最終輸出 URL）
-
-步驟 6：回填 content_schedule.json
-  → 將最終資產 URL 填入對應記錄的 asset_url 欄位
-  → Stories → PNG URL
-  → Posts → 5 張 PNG URL 陣列
-  → Reels → MP4 URL
+content_schedule.json
+        │
+        ▼
+讀取當日記錄（status = "pending"）
+        │
+        ├─ type = stories  ──→ 生成 1 PNG
+        ├─ type = posts    ──→ 生成 5 PNG Carousel
+        └─ type = reels    ──→ 生成 6 PNG → 串接 1 MP4
+        │
+        ▼
+ asset_url(s) 回填 content_schedule.json
+        │
+        ▼
+發佈 IG（API / 手動）→ status 改為 "published"
 ```
 
 ---
 
-## 五、generated_assets.json 記錄格式
+## 2. 格式規格（嚴格遵守）
 
-```json
-{
-  "generated_at": "YYYY-MM-DDTHH:MM:SS+08:00",
-  "assets": [
-    {
-      "date": "YYYY-MM-DD",
-      "type": "stories",
-      "final_asset": "https://..../assets/stories/story_YYYY-MM-DD.png"
-    },
-    {
-      "date": "YYYY-MM-DD",
-      "type": "post",
-      "slides": [
-        "https://..../assets/posts/post_YYYY-MM-DD_s1.png",
-        "https://..../assets/posts/post_YYYY-MM-DD_s2.png",
-        "https://..../assets/posts/post_YYYY-MM-DD_s3.png",
-        "https://..../assets/posts/post_YYYY-MM-DD_s4.png",
-        "https://..../assets/posts/post_YYYY-MM-DD_s5.png"
-      ],
-      "final_asset": "https://..../assets/posts/post_YYYY-MM-DD_s1.png"
-    },
-    {
-      "date": "YYYY-MM-DD",
-      "type": "reels",
-      "frames": [
-        "https://..../assets/reels/reel_YYYY-MM-DD_s1.png",
-        "https://..../assets/reels/reel_YYYY-MM-DD_s2.png",
-        "https://..../assets/reels/reel_YYYY-MM-DD_s3.png",
-        "https://..../assets/reels/reel_YYYY-MM-DD_s4.png",
-        "https://..../assets/reels/reel_YYYY-MM-DD_s5.png",
-        "https://..../assets/reels/reel_YYYY-MM-DD_s6.png"
-      ],
-      "final_asset": "https://..../assets/reels/reel_YYYY-MM-DD.mp4"
-    }
-  ]
-}
+| 格式 | 尺寸 | 輸出 | 時長 |
+|------|------|------|------|
+| Stories | 1080×1350 px | **1 PNG** | — |
+| Posts Carousel | 1080×1350 px | **5 PNG** | — |
+| Reels | 1080×1350 px | **6 PNG 中間素材 + 1 MP4** | 15–30 秒 |
+
+---
+
+## 3. 品牌色彩系統
+
+```
+主背景：#0D0D2B（深海藍黑）
+次背景：#1A1A3A
+文字主色：#B4918F（霧玫瑰金）
+文字亮部：#E8E8F0
+金色點綴：#C9A84C
 ```
 
 ---
 
-## 六、禁止事項清單
+## 4. 各格式生成規則
 
-| ❌ 禁止 | ✅ 正確做法 |
+### 4.1 Stories
+1. Hook 大字（`今日能量：{stone_zh}`）
+2. 礦石寫實插圖（居中，含細節紋理）
+3. 三點資訊：脈輪 / 主題關鍵詞 / 能量使用建議一句
+4. 互動文字：`「你的{stone_zh}故事？」`
+5. 底部免責聲明：`Luna's Stone Atelier 圖文僅供參考`
+
+### 4.2 Posts Carousel（5 張）
+| 張 | 內容 |
 |---|---|
-| 以同一張圖充當多格式輸出 | 每格式獨立生成 |
-| Reels 只輸出靜態 PNG | Reels 必須輸出 MP4 |
-| Reels 只輸出 MP4 而不保留 PNG 中間檔 | PNG 中間檔與 MP4 均須保存 |
-| 捏造礦石數據 | 以 mineralogy_data.json 為唯一依據 |
-| 使用品牌色以外顏色 | 嚴格使用六色品牌色系 |
-| 標籤置於文案而非畫面 | 標籤必須嵌入圖片底部 |
-| 使用簡體字 | 全繁體中文 |
-| AI 自行推斷未列礦石資料 | 缺乏資料時標記「待補充」 |
-| Reels 不按 script 欄位生成 | 按 script.0_3s / 3_15s / 15_25s / 25_30s 逐段對齊 |
+| 1/5 | 封面止滑卡：大標題含數字或問句 + 礦石全貌插圖 + 頁碼 |
+| 2/5 | 科學定位：化學式 / 莫氏硬度 / 分類（讀 `mineralogy_data.json`）|
+| 3/5 | 美學亮點：色澤 / 光學效應 / 天然特徵辨別 |
+| 4/5 | 能量與心理：脈輪 / 主題 / 使用建議 |
+| 5/5 | 保養提醒 + CTA：淨化方式 / 禁忌 / 呼籲追蹤 |
+
+封面第一行文字**必須**含數字或問句（提升止滑率）。
+底部每張必須顯示：`Luna's Stone Atelier 圖文僅供參考`
+
+### 4.3 Reels（6 PNG → 1 MP4）
+| 張 | 內容 |
+|---|---|
+| 1/6 | Hook 止滑（首 3 秒決定留存）：`「第N夜｜{stone_zh}的秘密」` + 礦石特寫 |
+| 2/6 | 知識點A 科學定位 |
+| 3/6 | 知識點B 美學亮點 |
+| 4/6 | 知識點C 能量主題 |
+| 5/6 | 知識點D 保養禁忌 |
+| 6/6 | CTA Cliffhanger：`「下集預告：{next_stone_zh}」` + 追蹤號召 |
+
+**MP4 規格：**
+- 每張停留 2.5–5 秒（總長 15–30 秒）
+- 轉場：淡入淡出
+- 底部標籤全程可見
+- **禁止**底部字幕條（Caption Bar），改用 Graphic Text
+- `asset_url` 回填為最終 MP4 的 URL
 
 ---
 
-*本文件最後由 Perplexity AI 依上下文更新記錄同步更新於 2026-06-27。*
+## 5. Caption 寫作規則（IG 2026 演算法）
+
+1. **SEO First Line**：第一行必須含目標關鍵詞（礦石名稱 + 功能），這是搜尋收錄的核心
+2. **Hashtag 控制**：每則 3–5 個，主題相關，避免堆砌
+3. **CTA 必備**：每則均須包含行動號召，按階段調整措辭（見 `brand_config.json` phases）
+4. **互動誘導**：Stories 必須有問句，Posts 以「滑動查看」引導，Reels 以「下集預告」引導追蹤
+
+---
+
+## 6. 首 90 分鐘互動策略
+
+發佈後 90 分鐘是 IG 演算法評估窗口，Manus 需協助以下操作：
+- 發佈後立即於 Stories 轉發貼文（製造初始流量）
+- 準備 3 條「引導互動」留言範本，由帳號主在發佈後 10 分鐘內自行留言
+- 監控首 90 分鐘 Save/Share 數字，Save 導向優先（Posts > Reels > Stories）
+
+---
+
+## 7. 檔案命名規範
+
+```
+assets/stories/story_{YYYY-MM-DD}.png
+assets/posts/post_{YYYY-MM-DD}_s1.png … _s5.png
+assets/reels/reel_{YYYY-MM-DD}_s1.png … _s6.png
+assets/reels/reel_{YYYY-MM-DD}.mp4
+```
+
+---
+
+## 8. 狀態管理
+
+`content_schedule.json` 中每條記錄的 `status` 欄位：
+
+| 值 | 意義 |
+|---|---|
+| `pending` | 待生成 |
+| `generated` | 素材已生成，待發佈 |
+| `published` | 已發佈至 IG |
+| `error` | 生成或發佈失敗，需人工介入 |
+
+生成完成後將 `asset_url`（或 `asset_urls` 陣列）回填，並將 `status` 改為 `generated`。
+
+---
+
+## 9. 免責聲明規範
+
+所有素材底部**必須**顯示以下文字：
+
+> Luna's Stone Atelier 圖文僅供參考
+
+禁止省略或更改措辭。

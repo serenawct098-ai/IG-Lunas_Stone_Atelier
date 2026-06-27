@@ -1,0 +1,13 @@
+[
+  {
+    "_meta": {
+      "version": "2.0",
+      "generated": "2026-06-27",
+      "period": "2026-06-15 → 2026-09-12",
+      "total_entries": 116,
+      "breakdown": {"reels": 26, "posts": 26, "stories": 64},
+      "data_source": "mineralogy_data.json",
+      "ssot_note": "礦石資料唯一真源為 mineralogy_data.json，stone_id 欄位與 mineralogy_data.json id 欄位嚴格對應"
+    }
+  }
+]
