@@ -13,10 +13,10 @@
 IG-Lunas_Stone_Atelier/
 │
 ├── README.md                    ← 本文件（系統總覽 + 維護入口）
-├── KNOWLEDGE_BASE.md            ← 唯一知識庫 SSOT（品牌 + 礦石 + 策略全部在此）
+├── KNOWLEDGE_BASE.md            ← 唯一知識庫 SSOT（品牌 + 內容策略 + 格式規格）
 │
 ├── brand_config.json            ← 品牌設定機器讀版（色碼、水印、IG 設定）
-├── mineralogy_data.json         ← 礦石資料機器讀版
+├── mineralogy_data.json         ← 礦石資料唯一 SSOT（機器讀版）
 ├── content_schedule.json        ← 90 日內容排程主檔（文案 + Manus Prompt）
 ├── manus_instructions.md        ← Manus 執行說明（掃描排程 → 批量生成圖文／影片）
 ├── generated_assets.json        ← Manus 批量生成後回填的資產記錄
@@ -31,18 +31,20 @@ IG-Lunas_Stone_Atelier/
 
 | 層級 | 文件 | 作用 | 需要更改時 |
 |---|---|---|---|
-| **SSOT 知識層** | `KNOWLEDGE_BASE.md` | 品牌、礦石、策略、格式規格全部在此 | 改規範改此文件 |
+| **SSOT 知識層** | `KNOWLEDGE_BASE.md` | 品牌、策略、格式規格、SOP | 改規範改此文件 |
+| **礦石 SSOT 層** | `mineralogy_data.json` | 礦石資料唯一真值源 | 改礦石資料改此檔案 |
 | **排程層** | `content_schedule.json` | 90 日文案與排程 | 改文案改此檔案 |
 | **素材生成層** | `manus_instructions.md` | Manus 批量生成圖文／影片的完整指引 | 改生成流程改此文件 |
 | **發佈層** | `main.py` + `.github/workflows/ig-post.yml` | GitHub Actions 自動發佈 | 改發佈邏輯改此兩檔 |
-| **機器讀配置層** | `brand_config.json` + `mineralogy_data.json` | 腳本讀取用 JSON | 改品牌或礦石機讀版改此兩檔 |
+| **機器讀配置層** | `brand_config.json` | 腳本讀取用品牌與 IG 設定 | 改品牌配置改此檔 |
 
 ---
 
 ## ⚙️ 系統運作邏輯
 
 ```
-[KNOWLEDGE_BASE.md]          ←  所有內容的事實依據（SSOT）
+[KNOWLEDGE_BASE.md]          ←  品牌規範 / 內容策略 / 格式規格 / SOP
+[mineralogy_data.json]      ←  礦石資料唯一真值源
         ↓
 [content_schedule.json]      ←  90 日預生成文案 + Manus Prompt
         ↓
@@ -97,7 +99,7 @@ IG-Lunas_Stone_Atelier/
 | Secret 名稱 | 說明 |
 |---|---|
 | `META_ACCESS_TOKEN` | Meta Graph API 長效存取 Token |
-| `@lunasstoneatelier` | Instagram Business 帳號數字 ID |
+| `IG_USER_ID` | Instagram Business 帳號數字 ID |
 
 ---
 
@@ -127,11 +129,13 @@ IG-Lunas_Stone_Atelier/
 
 | 需要修改的事項 | 變更哪一個檔案 |
 |---|---|
-| 品牌規範、礦石資料、內容策略、格式規格 | `KNOWLEDGE_BASE.md` |
+| 品牌規範、內容策略、格式規格、協同 SOP | `KNOWLEDGE_BASE.md` |
+| 礦石資料內容 | `mineralogy_data.json` |
 | 文案內容、發佈日期、Manus Prompt | `content_schedule.json` |
 | Manus 生成素材的執行方式 | `manus_instructions.md` |
 | 發佈邏輯、API 呼叫 | `main.py` |
 | 自動化排程時間 | `.github/workflows/ig-post.yml` |
+| 品牌配置與 IG 設定 | `brand_config.json` |
 
 ---
 
