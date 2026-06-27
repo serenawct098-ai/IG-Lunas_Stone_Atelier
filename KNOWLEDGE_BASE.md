@@ -1,4 +1,4 @@
-# Luna's Stone Atelier — 知識庫 v2.2
+# Luna's Stone Atelier — 知識庫 v2.3
 _最後更新：2026-06-27_
 
 ---
@@ -16,10 +16,10 @@ _最後更新：2026-06-27_
 
 ## 1. 品牌定位
 
-**Luna's Stone Atelier** 是一個深耕礦石文化、結合礦物學知識與身心靈能量的 Instagram 內容品牌。
+**Luna's Stone Atelier** 是一個深耕礦石文化、結合矿物學知識與身心靈能量的 Instagram 內容品牌。
 
-核心價值：
-- **知識深度**：每一顆礦石皆有科學根據，拒絕偽科學
+核心價値：
+- **知識深度**：每一顏礦石皆有科學根據，拒絕偽科學
 - **美學質感**：深海星空視覺語言，神秘而溫柔
 - **能量誠信**：能量描述均以「參考」定位，附免責聲明
 
@@ -32,34 +32,36 @@ _最後更新：2026-06-27_
 | 格式 | 尺寸（4:5）| 輸出 |
 |------|------------|------|
 | Stories | 1080×1350 px | 1 PNG |
-| Posts | 1080×1350 px | 5 PNG |
+| Posts Carousel | 1080×1350 px | 5 PNG |
 | Reels | 1080×1350 px | 6 PNG 中間素材 + 1 MP4（15–30 秒）|
 
 > 所有格式統一採用 **4:5（1080×1350 px）**。
 
 ---
 
-## 3. 三階段發佈策略
+## 3. 三階段發布策略
 
 階段定義詳見 `brand_config.json` → `phases`。
 
-| 階段 | 時期 | 核心目標 |
-|------|------|---------|
-| 破圈引流 | 2026-06-15 → 07-14 | 觸及新受眾，建立品牌印象 |
-| 信任建立 | 2026-07-15 → 08-13 | 深度知識輸出，建立專業信任 |
-| 產品轉化 | 2026-08-14 → 09-12 | 引導至產品頁，促成購買 |
+| 階段 | Carousel 時期 | Reels 時期 | 貼文策略 |
+|------|-------------|-----------|----------|
+| 破圈引流 | 2026-06-16 → 07-14 | 2026-06-15 → 07-09 | 追蹤號召，建立首印象 |
+| 信任建立 | 2026-07-17 → 08-11 | 2026-07-13 → 08-06 | 收藏號召，展示專業深度 |
+| 產品轉化 | 2026-08-14 → 09-08 | 2026-08-10 → 09-07 | Profile 連結，導導購買 |
 
 ---
 
-## 4. 發佈時間表
+## 4. 發布時間表
 
-發佈時間定義於 `brand_config.json` → `publish_schedule`。
+發布時間定義於 `brand_config.json` → `publish_schedule`。
 
-| 格式 | 發佈時間（HKT）| 每週次數 |
-|------|---------------|----------|
-| Reels | 18:00 | 2次（週一、週四）|
-| Posts | 12:00 | 2次（週二、週五）|
-| Stories | 20:00 | 6次（週一至週五、週日）|
+| 格式 | 發布時間（HKT）| 每週次數 | 發布日 |
+|------|---------------|---------|-------|
+| Reels | 18:00 | 2 次 | 週一、週四 |
+| Posts Carousel | 12:00 | 2 次 | 週二、週五 |
+| Stories | 20:00 | 3 次 | 週三、週四、週日 |
+
+> Stories 另在 Reels 發布日（週一、週四）將加发轉發貼文引導觸及。
 
 ---
 
@@ -72,13 +74,14 @@ _最後更新：2026-06-27_
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ### 5.2 今日能量卡（Stories）
-- 每次發佈單一礦石能量主題
+- 每次發布單一礦石能量主題
 - 必須包含互動問句
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
-### 5.3 礦石深度科普（Posts Carousel）
+### 5.3 礦石知識乾貨（Posts Carousel）
 - 每次 5 張，涵蓋科學 / 美學 / 能量 / 保養
-- 封面必須含數字或問句（止滑設計）
+- **封面必須含數字或問句**（止滑設計）
+- **第 5 張必須含「收藏」導向 CTA**（Save Rate 是 Carousel 最高排名訊號）
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ---
@@ -92,7 +95,7 @@ _最後更新：2026-06-27_
 | `IG_USER_ID` | Instagram Business 帳號**數字 ID**（非 @handle，例：`17841400000000000`）|
 | `OPENAI_API_KEY` | OpenAI API Key（Manus 批量生圖用）|
 
-> ⚠️ `IG_USER_ID` 的值是一串**純數字**，不是 `@lunas.stone.atelier` 帳號名稱。
+> ⚠️ `IG_USER_ID` 的値是一串**純數字**，不是 `@lunas.stone.atelier` 帳號名稱。
 > IG 發布由 Manus IG MCP 負責，**不需要** `IG_ACCESS_TOKEN`。
 
 ---
@@ -101,8 +104,8 @@ _最後更新：2026-06-27_
 
 ```
 礦石資料  ←  mineralogy_data.json   （SSOT，唯一真源，禁止在其他文件另行維護）
-品牌設定  ←  brand_config.json      （發佈時間、格式規格、三階段 CTA、色彩系統）
-排程內容  ←  content_schedule.json  （90天116條排程，stone_id 對應 SSOT）
+品牌設定  ←  brand_config.json      （發布時間、格式規格、三階段 CTA、色彩系統）
+排程內容  ←  content_schedule.json  （90天排程，stone_id 對應 SSOT）
 生成指引  ←  manus_instructions.md  （Manus AI 操作規則、格式規格、Caption 規則）
 素材記錄  ←  generated_assets.json  （Manus 回填，人工勿直接編輯資產 URL）
 知識總覽  ←  KNOWLEDGE_BASE.md      （本文件，系統導覽，不維護礦石表）
@@ -113,10 +116,20 @@ _最後更新：2026-06-27_
 
 ## 8. 2026 IG 演算法重點規則
 
-詳細規則見 `manus_instructions.md` §5–§6。摘要：
+詳細規則見 `manus_instructions.md` §5–6。各指標目標基準：
 
+| 格式 | 關鍵指標 | 目標 | 達標後效果 |
+|---|---|---|---|
+| Carousel | saves-to-likes ratio | > 0.15 | 觸及提升 230–340% |
+| Carousel | swipe completion rate | > 70% | 系統推薦 Explore |
+| Reels | 3 秒留存率 | > 60% | 觸及比弱 Hook 高 5–10× |
+| Reels | 完播率 | > 70% | 系統推 Explore |
+| Reels | Sends/Reach | > 3% | 5–10× 額外觸及 |
+
+操作要點：
 - **SEO First Line**：Caption 第一行必須含礦石名稱 + 功能關鍵詞
-- **Hashtag 控制**：每則 3–5 個，主題相關，禁止堆砌
-- **Save/Share 導向**：Posts 優先優化 Save；Reels 優先優化 Share
-- **首 90 分鐘**：發佈後立即 Stories 轉發，帳號主 10 分鐘內自行留言引導互動
+- **Hashtag 控制**：每則 3–5 個，主題相關，禁止堆砂
+- **Save/Share 導向**：Posts 導向 Save；Reels 導向 Share（Sends）
+- **首 90 分鐘**：發布後立即 Stories 轉發，帳號主 10 分鐘內自行留言引導互動
 - **Reels Hook**：首 3 秒必須有止滑鉤（`第N夜｜{礦石}的秘密`）
+- **禁止 TikTok 水印**：有水印的 Reels 被演算法降級
