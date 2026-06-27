@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       task_type:
-        description: 'Task to run (stories/posts/reels)'
+        description: 'Task to run'
         required: true
         default: 'stories'
         type: choice
@@ -13,27 +13,37 @@ on:
           - posts
           - reels
   schedule:
-    # 所有時間為 UTC（HKT = UTC+8）
-    # Stories：週一、三、四、五、日  20:00 HKT = 12:00 UTC
+    # All cron times are UTC  (HKT = UTC+8)
+    # Stories: Mon/Wed/Thu/Fri/Sun  20:00 HKT = 12:00 UTC
     - cron: '0 12 * * 0,1,3,4,5'
-    # Posts：週二、五  12:00 HKT = 04:00 UTC
+    # Posts: Tue/Fri  12:00 HKT = 04:00 UTC
     - cron: '0 4 * * 2,5'
-    # Reels：週一、四  18:00 HKT = 10:00 UTC
+    # Reels: Mon/Thu  18:00 HKT = 10:00 UTC
     - cron: '0 10 * * 1,4'
+
+# Prevent duplicate runs from race-condition cron overlaps
+concurrency:
+  group: ig-publish-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # needed for mark_published to commit schedule update
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: Set up Python 3.11
+      - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: 'pip'
 
       - name: Install Dependencies
@@ -41,7 +51,7 @@ jobs:
           pip install --upgrade pip
           pip install requests
 
-      # ── 判斷本次觸發應執行哪種任務 ──────────────────────────
+      # ─── Determine which task to run ───────────────────────────────
       - name: Determine Task Type
         id: task
         run: |
@@ -49,15 +59,18 @@ jobs:
           if [ -z "$TASK" ]; then
             HOUR=$(date -u +%H)
             DOW=$(date -u +%u)   # 1=Mon ... 7=Sun
+            # Stories  = 12 UTC  on days 1,3,4,5,7
             if   [ "$HOUR" = "12" ] && [[ "$DOW" =~ ^(1|3|4|5|7)$ ]]; then TASK="stories"
+            # Posts    = 04 UTC  on days 2,5
             elif [ "$HOUR" = "04" ] && [[ "$DOW" =~ ^(2|5)$ ]];       then TASK="posts"
+            # Reels    = 10 UTC  on days 1,4
             elif [ "$HOUR" = "10" ] && [[ "$DOW" =~ ^(1|4)$ ]];       then TASK="reels"
             fi
           fi
-          echo "task_type=$TASK" >> $GITHUB_OUTPUT
-          echo "Resolved task: $TASK"
+          echo "task_type=${TASK}" >> $GITHUB_OUTPUT
+          echo "Resolved task type: ${TASK:-'(none — skipping)'}"
 
-      # ── 讀取排程並發佈（不呼叫任何 AI API）─────────────────
+      # ─── Publish ───────────────────────────────────────────────────
       - name: Publish to Instagram
         if: steps.task.outputs.task_type != ''
         env:
@@ -66,6 +79,16 @@ jobs:
           IG_USER_ID:         ${{ secrets.IG_USER_ID }}
         run: python main.py
 
+      # ─── Commit schedule update if mark_published wrote changes ────
+      - name: Commit schedule update
+        if: steps.task.outputs.task_type != ''
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content_schedule.json
+          git diff --cached --quiet || git commit -m "chore: mark published [${{ steps.task.outputs.task_type }}] $(date -u +%Y-%m-%d)"
+          git push
+
       - name: Skip Notice
         if: steps.task.outputs.task_type == ''
-        run: echo "No task scheduled for this cron slot. Skipping."
+        run: echo "No task scheduled for this cron slot — skipping."
