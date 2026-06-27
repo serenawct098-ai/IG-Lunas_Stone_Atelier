@@ -1,0 +1,8 @@
+{
+  "_schema_version": "1.0",
+  "_description": "Manus 批量生成後回填的資產記錄。每條記錄對應 content_schedule.json 中的一條排程。",
+  "_last_updated": "",
+  "_note": "Manus 完成生成後，將每條資產的最終URL回填至此檔案及 content_schedule.json 的 asset_url 欄位。格式見 KNOWLEDGE_BASE.md 第5節。",
+  "generated_at": "",
+  "assets": []
+}
