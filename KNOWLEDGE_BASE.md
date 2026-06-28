@@ -118,7 +118,6 @@ _最後更新：2026-06-29_
 品牌設定  ←  brand_config.json      （發布時間、格式規格、三階段 CTA、色彩系統）
 排程內容  ←  content_schedule.json  （90天排程 111 條：Reels 25 + Posts 25 + Stories 61，stone_id 對應 SSOT）
 生成指引  ←  manus_instructions.md  （Manus AI 操作規則 v5.0、格式規格、Caption 規則）
-素材記錄  ←  generated_assets.json  （Manus 回填，人工勿直接編輯資產 URL）
 知識總覽  ←  KNOWLEDGE_BASE.md      （本文件，系統導覽，不維護礦石表）
 批量生圖  ←  BATCH_GENERATE.md      （Manus 一次性批量生圖指引）
 ```

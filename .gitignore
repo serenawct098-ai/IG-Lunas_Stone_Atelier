@@ -3,3 +3,11 @@ __pycache__/
 generated_assets.json
 manus_task.json
 .DS_Store
+
+# 素材由 Manus 外部批量生成，不納入版控（僅保留目錄結構）
+assets/posts/*
+assets/reels/*
+assets/stories/*
+!assets/posts/.gitkeep
+!assets/reels/.gitkeep
+!assets/stories/.gitkeep

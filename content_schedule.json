@@ -1,7 +1,7 @@
 [
   {
     "_meta": {
-      "version": "2.3",
+      "version": "2.4",
       "generated": "2026-06-29",
       "period": "2026-06-15 → 2026-09-08",
       "total_entries": 111,
@@ -31,7 +31,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "⚠️ 3種水晶千萬不要曬太陽！你中招了嗎？",
     "series_hook": "還有一種最多人有，曬太陽不只褪色，還會⋯⋯",
     "next_episode_preview": "第2集：那一種連蛋白石都比不上，一曬即裂——你有它嗎？",
@@ -78,7 +77,8 @@
       "#香港風水",
       "#crystalhealing",
       "#玄學"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-06-15",
@@ -89,7 +89,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 紫水晶對應眉心輪，是冥想與睡眠的經典枕邊石，幫助鎮定減壓。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-16",
@@ -166,7 +167,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 茶晶對應海底輪，是接地穩定的能量石，幫助焦慮的心回到身體。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-18",
@@ -180,7 +182,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "💀 這塊石頭一曬即裂——你家裡有嗎？",
     "series_hook": "蛋白石含天然水分，日曬等於幫它脫水——就是這樣殘忍",
     "next_episode_preview": "第3集：你有沒有養著一顆假水晶而不知道？（識別方法下集公開）",
@@ -226,7 +227,8 @@
       "#開運水晶",
       "#香港風水",
       "#玄學"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-06-18",
@@ -237,7 +239,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 拉長石對應眉心輪，是靈性工作者的保護石，開啟內在直覺。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-19",
@@ -314,7 +317,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 黑曜石對應海底輪，是強力防護石，幫助切斷不健康的連結。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-21",
@@ -325,7 +329,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 黑碧璽對應海底輪，是接地與防護兼具的界線之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-22",
@@ -339,7 +344,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "🔍 你養著假水晶幾年？3個肉眼測試即刻知！",
     "series_hook": "最貴不代表最真——有種仿品連專家都要放大鏡才認得出",
     "next_episode_preview": "第4集：這塊石放錯位置等於破財——你家裡擺了嗎？",
@@ -384,7 +388,8 @@
       "#風水",
       "#香港風水",
       "#開運"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-06-22",
@@ -395,7 +400,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 瑪瑙性質溫和穩定，是日常佩戴與情緒緩衝的安心之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-23",
@@ -472,7 +478,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 綠東陵石對應心輪，是幸運與機會之石，帶來樂觀心境。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-25",
@@ -486,7 +493,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "💸 礦石放錯位置等於破財！這3個位置千萬別放",
     "series_hook": "黑曜石放睡房——能量太強導致失眠+人際摩擦，風水師親口話",
     "next_episode_preview": "第5集：命理師揭秘——哪塊石跟你八字相剋？",
@@ -531,7 +537,8 @@
       "#fengshui",
       "#玄學",
       "#香港風水"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-06-25",
@@ -542,7 +549,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 海藍寶對應喉輪，是溝通與表達之石，助你自信開口。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-26",
@@ -619,7 +627,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 藍晶石對應眉心輪，能快速清理雜念、協助專注與決斷。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-28",
@@ -630,7 +639,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 藍磷灰石對應喉輪，是表達、創意與學習動力之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-29",
@@ -644,7 +654,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "你的八字同礦石相剋？命理師揭秘",
     "caption": "⚡ 你的八字同礦石相剋？（第5集）\n命理師揭秘：五行決定你適合用哪種礦石\n選錯了不是沒有效，是反效果！\n💾 收藏 | 追蹤查看下集",
     "series_hook": "還有一種最常見的招財石，命中某類人用了反破財",
@@ -691,7 +700,8 @@
       "#水晶能量",
       "#命理",
       "#開運"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-06-29",
@@ -702,7 +712,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 橄欖石對應心輪，是輕盈樂觀之石，幫助釋放負面情緒。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-06-30",
@@ -779,7 +790,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 翡翠對應心輪，象徵平安、富足與長期的穩定。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-02",
@@ -793,7 +805,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "脈輪失衡點影響你的財運？（第1集）",
     "caption": "💛 脈輪失衡影響財運？（第6集）\n太陽神經叢堵塞 = 拖延 + 無自信 + 決策困難\n不是玄學，是你每日都感受到的現象！\n💾 收藏 | 追蹤查看第7集自測",
     "series_hook": "太陽神經叢失衡的症狀，你想不到有多少人是這樣",
@@ -807,7 +818,7 @@
     "script": {
       "0_3s": {
         "vo": "你賺不到錢，原因可能不是風水——是這個脈輪出了問題！",
-        "zh_subtitle": "搵不到錢，原因可能不是風水——是這個脈輪出了問題！",
+        "zh_subtitle": "找不到錢，原因可能不是風水——是這個脈輪出了問題！",
         "en_subtitle": "Can't attract wealth? It might not be feng shui — it could be THIS chakra."
       },
       "3_15s": {
@@ -839,7 +850,8 @@
       "#礦石知識",
       "#身心靈",
       "#crystalhealing"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-02",
@@ -850,7 +862,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 綠松石對應喉輪，是旅行護身與誠實表達之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-03",
@@ -927,7 +940,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 透石膏對應頂輪，是淨化空間、提升振頻的療癒之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-05",
@@ -938,7 +952,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 黃鐵礦對應太陽神經叢，是財富顯化與行動力之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-06",
@@ -952,7 +967,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "三分鐘脈輪自測——你最需要哪塊石？",
     "caption": "🌈 三分鐘脈輪自測！（第7集）\n三個問題 → 找出你最需要的能量方向\n不需要算命，自己都可以做到！\n💾 收藏 | 追蹤查看第8集答案",
     "series_hook": "測出來之後，是配石是擺陣，答案在第8集",
@@ -998,7 +1012,8 @@
       "#crystalhealing",
       "#香港風水",
       "#水晶能量"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-06",
@@ -1009,7 +1024,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 神經緊繃、思緒過載時，紫水晶能舒緩頭部壓力、安定心神。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-07",
@@ -1022,7 +1038,7 @@
     "status": "pending",
     "asset_urls": null,
     "post_title": "黑系礦石比較：黑曜石 vs 黑碧璽，你該選哪個？",
-    "caption": "黑曜石 vs 黑碧璽——都是黑色，選錯完全不一樣效果 🖤\n\n很多人以為黑系礦石都一樣，但其實從成分、硬度到能量風格，兩者差別很大 🔬\n\n✦ 黑曜石：火山玻璃，硬度 5–5.5，能量急而直接\n✦ 黑碧璽：碧璽結晶，硬度 7–7.5，防護穩定持久\n✦ 情緒清理選前者，日常防護選後者\n\n💾 收藏這篇，按你需要選啱一種\n👇 留言：你是哪種人？我幫你診斷",
+    "caption": "黑曜石 vs 黑碧璽——都是黑色，選錯完全不一樣效果 🖤\n\n很多人以為黑系礦石都一樣，但其實從成分、硬度到能量風格，兩者差別很大 🔬\n\n✦ 黑曜石：火山玻璃，硬度 5–5.5，能量急而直接\n✦ 黑碧璽：碧璽結晶，硬度 7–7.5，防護穩定持久\n✦ 情緒清理選前者，日常防護選後者\n\n💾 收藏這篇，按你需要選對一種\n👇 留言：你是哪種人？我幫你診斷",
     "post_number": 7,
     "pages": [
       {
@@ -1086,7 +1102,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 工作壓力大、思緒紛亂時，茶晶能釋放負面能量、穩住情緒。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-09",
@@ -1100,7 +1117,6 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "礦石入門三件套：第一套組合公式（破圈完結篇）",
     "caption": "✦ 礦石入門三件套：完整組合公式（第8集）\n白水晶＋黑碧璽＋粉晶——三角能量場，有完整邏輯\n不是買多=效果好，選對比買多更重要！\n💾 收藏 | 追蹤查看第9集",
     "series_hook": "三塊背後的能量邏輯，不是隨便選——是有完整理論",
@@ -1146,7 +1162,8 @@
       "#crystalhealing",
       "#水晶能量",
       "#香港風水"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-09",
@@ -1157,7 +1174,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 經常出入人多場域？拉長石能建立能量邊界、保護共感體質。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-10",
@@ -1234,7 +1252,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 容易吸收他人情緒的人，黑曜石能清除負向能量、穩住自我。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-12",
@@ -1245,7 +1264,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 長時間使用電子產品？黑碧璽有助減少電磁與情緒干擾。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-13",
@@ -1256,10 +1276,9 @@
     "episode": 9,
     "next_stone_id": "agate_general",
     "next_stone_zh": "瑪瑙",
-    "phase": "1",
+    "phase": "2",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "🌟 紫微斗數命盤配礦石（第1集）：四化飛星與守護石",
     "series_hook": "化祿、化權、化科、化忌——四化不同，礦石能量補足方向完全不同",
     "next_episode_preview": "第10集：按宮位缺陷選礦石——哪個宮位空宮代表什麼缺失？",
@@ -1304,7 +1323,8 @@
       "#玄學",
       "#香港風水",
       "#紫微"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-13",
@@ -1315,7 +1335,8 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 瑪瑙依顏色對應不同脈輪，紅瑪瑙對應海底輪、助接地。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-14",
@@ -1392,7 +1413,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 求職、轉職或創業初期，綠東陵石象徵把握機會的好運。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-16",
@@ -1406,7 +1428,6 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "🏠 紫微宮位 × 礦石（第2集）：空宮代表能量缺口",
     "series_hook": "命宮空宮不是沒有東西——是你要靠後天工具去補足的位置",
     "next_episode_preview": "第11集：奇門遁甲時空佈局——最強時機配礦石開運法",
@@ -1450,7 +1471,8 @@
       "#香港命理",
       "#礦石",
       "#開運"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-16",
@@ -1461,7 +1483,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 演講、簡報或談判前，海藍寶能舒緩緊張、穩定表達。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-17",
@@ -1530,7 +1553,7 @@
     ]
   },
   {
-    "date": "2026-07-18",
+    "date": "2026-07-17",
     "type": "stories",
     "time_hkt": "20:00",
     "stone_id": "kyanite",
@@ -1538,7 +1561,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 決策前佩戴藍晶石，幫助思緒清晰、看清重點。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-19",
@@ -1549,7 +1573,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 寫作或創作卡關時，藍磷灰石為你注入靈感與動力。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-20",
@@ -1563,7 +1588,6 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "奇門遁甲×礦石：吉時佈局最強開運法（第1集）",
     "caption": "🌟 奇門遁甲×礦石：吉時啟動最強開運法（第11集）\n同一塊石，吉時啟動vs隨便擺——效果是天壤之別\n下集教你計算！\n💾 收藏 | 追蹤查看第12集",
     "series_hook": "最強吉時窗口每個月只有幾日——下集教你算！",
@@ -1609,7 +1633,8 @@
       "#crystalfengshui",
       "#時空佈局",
       "#水晶擺陣"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-20",
@@ -1620,7 +1645,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 情緒容易壓抑時，橄欖石為心區帶來放鬆與寬心。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-21",
@@ -1697,7 +1723,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 翡翠適合長期佩戴護身，是傳家與保值的東方瑰寶。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-23",
@@ -1711,7 +1738,6 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "奇門遁甲吉時自算教學（第2集）",
     "caption": "📱 奇門吉時自算教學（第12集）\n手機5分鐘算出最強礦石啟動時窗\n三大吉門：生門、開門、休門——你識選嗎？\n💾 收藏 | 追蹤查看第13集方位表",
     "series_hook": "算到吉時之後，礦石要如何擺放？方位是關鍵",
@@ -1757,7 +1783,8 @@
       "#crystalfengshui",
       "#排盤教學",
       "#水晶擺陣"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-23",
@@ -1768,7 +1795,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 出行頻繁時佩戴綠松石，象徵一路平安與保護。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-24",
@@ -1837,7 +1865,7 @@
     ]
   },
   {
-    "date": "2026-07-25",
+    "date": "2026-07-24",
     "type": "stories",
     "time_hkt": "20:00",
     "stone_id": "selenite",
@@ -1845,7 +1873,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 透石膏能淨化其他礦石，是水晶收藏者的必備清理石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-26",
@@ -1856,7 +1885,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 擺在辦公桌上的黃鐵礦，象徵招財與提振事業動能。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-27",
@@ -1870,9 +1900,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "礦石方位佈局完整指南：八方位對照表",
-    "caption": "🧭 礦石方位佈局：八方位對照表（第13集）\n東木、南火、西金、北水——方位錯了，礦石能量發揮不出來\n你屋企的石擺是啱位嗎？\n💾 收藏 | 追蹤查看第14集",
+    "caption": "🧭 礦石方位佈局：八方位對照表（第13集）\n東木、南火、西金、北水——方位錯了，礦石能量發揮不出來\n你家中的礦石擺放位置對嗎？\n💾 收藏 | 追蹤查看第14集",
     "series_hook": "東方放白水晶 vs 北方放白水晶——能量作用完全不同",
     "next_episode_preview": "第14集：礦石淨化科學全解",
     "visual_prompts": {
@@ -1916,7 +1945,8 @@
       "#五行方位",
       "#crystalfengshui",
       "#水晶擺陣"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-27",
@@ -1927,7 +1957,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 想提升直覺與靈性覺察？紫水晶是讀牌與占卜的最佳輔助石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-28",
@@ -2004,7 +2035,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 茶晶象徵能量場的收尾與落地，適合療癒後的收斂。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-30",
@@ -2018,7 +2050,6 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "礦石淨化科學全解：4種方法哪種最有效？",
     "caption": "🔊 礦石淨化科學全解（第14集）\n4種方法：月光 / 聲波 / 白水晶簇 / 薰香\n你用緊最多那種，可能效果最有限！\n💾 收藏 | 追蹤查看第15集答案",
     "series_hook": "聲波淨化vs月光淨化——科學同玄學各有根據，但是⋯⋯",
@@ -2064,7 +2095,8 @@
       "#crystalcare",
       "#水晶淨化",
       "#身心靈"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-07-30",
@@ -2075,7 +2107,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 拉長石的暈彩象徵看見潛意識模式，協助自我覺察。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-07-31",
@@ -2152,7 +2185,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 黑曜石由火山玻璃形成，能量直接，適合面對內在陰影。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-02",
@@ -2163,7 +2197,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 黑碧璽硬度達 7–7.5，防護穩定持久，適合日常佩戴。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-03",
@@ -2177,7 +2212,6 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "你真是感應到礦石能量嗎？——科學解釋",
     "caption": "🔬 你真是感應到礦石能量嗎？（第15集）\n科學解說：壓電效應 + 安慰劑效應 + 意圖錨點\n玄學同科學不是對立——是同一回事的不同語言！\n💾 收藏 | 追蹤查看第16集",
     "series_hook": "安慰劑效應也是真實效果——但有種更深層的解釋",
@@ -2223,7 +2257,8 @@
       "#crystalhealing",
       "#香港風水",
       "#壓電效應"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-03",
@@ -2234,7 +2269,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 情緒起伏時，瑪瑙能溫和調整心緒、帶來踏實感。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-04",
@@ -2311,7 +2347,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 綠東陵石溫和療癒心輪，幫助修復受傷的情緒。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-06",
@@ -2325,9 +2362,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "礦石FAQ大揭秘：你問最多的10個問題（信任建立完結篇）",
-    "caption": "❓ 礦石FAQ大揭秘（第16集）\n90天最多人問的10個問題，一集答晒\n最後一個問題——是最核心的財富真相！\n💾 收藏 | 追蹤查看第17集",
+    "caption": "❓ 礦石FAQ大揭秘（第16集）\n90天最多人問的10個問題，一集全部解答\n最後一個問題——是最核心的財富真相！\n💾 收藏 | 追蹤查看第17集",
     "series_hook": "最後一個問題，是關於礦石同財富關係的核心真相",
     "next_episode_preview": "第17集（產品轉化期）：職場礦石場景應用",
     "visual_prompts": {
@@ -2371,7 +2407,8 @@
       "#crystalhealing",
       "#身心靈",
       "#水晶迷思"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-06",
@@ -2382,7 +2419,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 海藍寶守護喉部與呼吸系統，象徵清澈順暢的溝通。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-07",
@@ -2451,7 +2489,7 @@
     ]
   },
   {
-    "date": "2026-08-08",
+    "date": "2026-08-07",
     "type": "stories",
     "time_hkt": "20:00",
     "stone_id": "kyanite",
@@ -2459,7 +2497,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 冥想與閱讀時使用藍晶石，能讓心思迅速沉靜下來。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-09",
@@ -2470,7 +2509,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 學習新知時佩戴藍磷灰石，幫助維持專注與求知熱情。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-10",
@@ -2481,10 +2521,9 @@
     "episode": 17,
     "next_stone_id": "peridot",
     "next_stone_zh": "橄欖石",
-    "phase": "2",
+    "phase": "3",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "🏢 辦公室放這塊石，3個月升職加薪真實故事",
     "series_hook": "不是它有魔法——是礦石幫它建立了更清晰的自信同決策狀態",
     "next_episode_preview": "第18集：失眠多夢真是因為睡房礦石放錯了——完整修正方案",
@@ -2528,7 +2567,8 @@
       "#開運礦石",
       "#玄學",
       "#香港風水"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-10",
@@ -2539,7 +2579,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 橄欖石的明亮綠意象徵新生，協助轉化沉重的心情。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-11",
@@ -2616,7 +2657,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 翡翠溫潤內斂，象徵平衡氣血、護佑日常平安。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-13",
@@ -2627,10 +2669,9 @@
     "episode": 18,
     "next_stone_id": "turquoise",
     "next_stone_zh": "綠松石",
-    "phase": "2",
+    "phase": "3",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "失眠多夢：睡房礦石放錯了——完整修正方案",
     "caption": "😴 失眠多夢？睡房礦石放錯了（第18集）\n黑曜石＋捷克隕石＋虎眼石——這三種立刻拎走\n修正方案兩步，但第二步大部分人捨不得！\n💾 收藏 | 追蹤查看第19集",
     "series_hook": "修正方案只需兩步，但第二步大部分人捨不得做",
@@ -2676,7 +2717,8 @@
       "#crystalhealing",
       "#睡眠問題",
       "#身心靈"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-13",
@@ -2687,7 +2729,8 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 綠松石守護溝通與呼吸，幫助坦誠而真實的表達。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-14",
@@ -2756,7 +2799,7 @@
     ]
   },
   {
-    "date": "2026-08-15",
+    "date": "2026-08-14",
     "type": "stories",
     "time_hkt": "20:00",
     "stone_id": "selenite",
@@ -2764,7 +2807,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 在空間擺放透石膏，幫助提升環境振頻、連結高我。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-16",
@@ -2775,7 +2819,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 想增強意志力與行動力？黃鐵礦點燃內在的金色能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-17",
@@ -2789,7 +2834,6 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "感情篇：粉晶真是可以招桃花？完整邏輯拆解",
     "caption": "🩷 粉晶招桃花還是招爛桃花？（第19集）\n答案在你的心輪狀態——不在礦石本身\n心輪未開先療癒，先有好石才有好緣！\n💾 收藏 | 追蹤查看第20集",
     "series_hook": "心輪未打開之前用粉晶，吸引的是⋯⋯而不是你以為那種人",
@@ -2835,7 +2879,8 @@
       "#crystalhealing",
       "#感情礦石",
       "#身心靈"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-17",
@@ -2846,7 +2891,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 紫水晶有助於放下過度執著與依賴，回到平靜的自己。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-18",
@@ -2923,7 +2969,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 能量敏感、容易心浮氣躁的人，茶晶有助沉澱與安定。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-20",
@@ -2937,7 +2984,6 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "礦石開光淨化儀式全程記錄（第1集）",
     "caption": "✨ 礦石開光淨化儀式全程記錄（第20集）\n做了五年，第一次完整拍出來給你看\n四個步驟，最後一步是最關鍵——下集揭曉！\n💾 收藏 | 追蹤查看第21集",
     "series_hook": "儀式的最後一步，是最多人省略但最關鍵的一步",
@@ -2983,7 +3029,8 @@
       "#crystalhealing",
       "#身心靈",
       "#水晶儀式"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-20",
@@ -2994,7 +3041,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 占卜與療癒時佩戴拉長石，可穩定能量、減少外界干擾。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-21",
@@ -3071,7 +3119,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 職場壓力大、出入能量混亂場域時，黑曜石是隨身防護首選。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-23",
@@ -3082,7 +3131,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 能量敏感、住在高壓環境的人，黑碧璽幫助建立界線感。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-24",
@@ -3096,7 +3146,6 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "開光儀式第2集：意圖設定——你說錯了嗎？",
     "caption": "🗣️ 開光意圖設定方法（第21集）\n說什麼比做什麼更重要！三層意圖語言對比\n第三層是最少人用但最有效的說法 💡\n💾 收藏 | 追蹤查看第22集",
     "series_hook": "意圖語言有三個層次——第三層是最少人知但最有效的",
@@ -3142,7 +3191,8 @@
       "#crystalhealing",
       "#身心靈",
       "#水晶冥想"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-24",
@@ -3153,7 +3203,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 瑪瑙象徵穩定身體能量與循環，是百搭的防護石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-25",
@@ -3232,7 +3283,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 想保持樂觀與開放？綠東陵石為心區注入綠意能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-27",
@@ -3246,7 +3298,6 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "礦石搭配禁忌：這兩塊千萬別同時佩戴！",
     "caption": "⚡ 礦石搭配禁忌：這兩塊千萬別同時戴！（第22集）\n黑曜石＋捷克隕石 = 能量場同時承受兩個相反方向\n準備好面對劇烈轉變先可以試！\n💾 收藏 | 追蹤查看第23集",
     "series_hook": "還有一對組合，能量方向完全相反，戴在一起等於⋯⋯",
@@ -3292,7 +3343,8 @@
       "#crystalhealing",
       "#礦石搭配",
       "#高頻礦石"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-27",
@@ -3303,7 +3355,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 人際溝通壓力大時，海藍寶帶來如海水般的平靜。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-28",
@@ -3380,7 +3433,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 藍晶石守護神經系統與思維清晰，是專注工作的好夥伴。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-30",
@@ -3391,7 +3445,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 藍磷灰石象徵骨骼與代謝能量，呼應穩健的成長節奏。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-08-31",
@@ -3405,7 +3460,6 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "月亮週期×礦石能量學：每個月最強充電時機",
     "caption": "🌕 月亮週期×礦石能量學（第23集）\n新月種意圖、滿月充能量、殘月釋放舊能量\n農曆十五後三日是全月最強礦石啟動時機！\n💾 收藏 | 追蹤查看第24集",
     "series_hook": "農曆十五滿月後三日是「能量高峰期」——怎樣把握？",
@@ -3451,7 +3505,8 @@
       "#crystalhealing",
       "#身心靈",
       "#滿月儀式"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-08-31",
@@ -3462,13 +3517,14 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 想為生活添點輕快？橄欖石帶來樂觀與舒展的能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
   },
   {
-    "date": "2026-08-28",
+    "date": "2026-09-01",
     "type": "posts",
     "time_hkt": "12:00",
-    "stone_id": "multi",
+    "stone_id": "garnet_red",
     "stone_zh": "12生肖守護石",
     "phase": "3",
     "cta": "🛒 Profile 連結選購你的守護石",
@@ -3549,7 +3605,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 想要長久的安定能量？翡翠是世代相傳的護身之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-09-03",
@@ -3563,7 +3620,6 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "礦石採購完全指南：哪裡買才能保證買到天然？",
     "caption": "🔍 礦石採購完全指南：哪裡買才有保障？（第24集）\n三個你以為安全的渠道，其實是假貨最集中的地方\n最危險的是直播電商——認證書無法核實！\n💾 收藏 | 追蹤查看第25集大結局",
     "series_hook": "最後一個渠道你絕對想不到——是最多人用但最少監管的地方",
@@ -3609,7 +3665,8 @@
       "#crystalhealing",
       "#身心靈",
       "#礦石真偽"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-09-03",
@@ -3620,7 +3677,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 需要護身與勇氣時，綠松石帶來天空般的守護能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-09-04",
@@ -3697,7 +3755,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 冥想或睡眠時，透石膏為能量場帶來純淨與安寧。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-09-06",
@@ -3708,7 +3767,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 黃鐵礦金屬光澤象徵豐盛，是招財佈置的經典選擇。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-09-07",
@@ -3722,7 +3782,6 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null,
     "episode_title": "🌙 一千零一夜礦石風水系列完結篇：你學到了什麼？",
     "series_hook": "25集，從「水晶是否迷信」到「按命盤與脈輪配礦石的完整知識體系」",
     "next_episode_preview": "第二季預告：更深入的個人命盤礦石諮詢系列（敬請期待）",
@@ -3767,7 +3826,8 @@
       "#香港風水",
       "#crystalseries",
       "#開運"
-    ]
+    ],
+    "asset_urls": null
   },
   {
     "date": "2026-09-07",
@@ -3778,7 +3838,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_urls": null,
+    "caption": "✨ 睡前將紫水晶置於枕邊，有助改善睡眠品質與深層放鬆。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
   },
   {
     "date": "2026-09-08",

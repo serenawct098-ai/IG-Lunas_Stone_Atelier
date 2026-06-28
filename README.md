@@ -13,8 +13,7 @@
 ├── manus_instructions.md     ← Manus AI 操作指引 v5.0
 ├── BATCH_GENERATE.md         ← Manus 一次性批量生圖指引
 ├── KNOWLEDGE_BASE.md         ← 系統知識總覽
-├── generated_assets.json     ← 已生成素材記錄（Manus 自動回填）
-├── assets/
+├── assets/                   ← 素材由 Manus 外部批量生成並管理
 │   ├── stories/              ← story_{YYYY-MM-DD}.png
 │   ├── posts/                ← post_{YYYY-MM-DD}_s1.png … _s5.png
 │   └── reels/                ← reel_{YYYY-MM-DD}_s1.png … _s6.png + .mp4
@@ -58,7 +57,7 @@
 ### 第一步：事先一次性批量生圖
 1. 克隆此 repo
 2. 按照 `BATCH_GENERATE.md` 指引，讓 Manus 一次生成 90 天全部素材
-3. Manus 透過 GitHub MCP 將圖片 commit 到 `assets/`，並回填 `generated_assets.json`
+3. Manus 透過 GitHub MCP 將圖片 commit 到 `assets/`（素材由外部批量生成並管理）
 
 ### 第二步：自動發布（Event-Driven Pull）
 4. GitHub Actions 依排程觸發，組裝並 commit `manus_task.json` 到 repo
