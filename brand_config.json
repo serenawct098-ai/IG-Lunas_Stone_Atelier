@@ -6,7 +6,7 @@
     "R1_anti_hallucination": "生成前必須透過 GitHub MCP 核實 mineralogy_data.json，礦石功效 100% 可溯源，無對應記錄禁止編造",
     "R2_disclaimer": "Luna's Stone Atelier 圖文僅供參考",
     "R2_disclaimer_position": "每一張圖文及 Reels MP4 全程底部必現",
-    "R3_language_order": "繁體中文為主、英文為輔；中英並存時中文在上、英文在下",
+    "R3_language_order": "繁體中文書面語為主、英文為輔；中英並存時中文在上、英文在下",
     "R4_no_duplicate_copy": "主題可相同，但跨格式/跨日期文案必須不同，嚴禁重複使用同一段圖文/caption/script",
     "R5_reject_stale_script": "每次透過 GitHub MCP 抓取最新 content_schedule.json / manus_task.json，拒絕快取及過期排程腳本",
     "R6_logo_lock": "嚴禁以任何圖騰/礦石圖案作為官方 LOGO或被誤導為官方 LOGO；品牌名一律使用文字商標「Luna's Stone Atelier」",
