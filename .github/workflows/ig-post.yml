@@ -72,10 +72,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
 
-      - name: Install Dependencies
-        run: pip install --upgrade pip requests
+      # main.py 只使用 Python 標準庫（os / json / datetime / sys），無需安裝任何套件
 
       # ─── 解析今日應執行的任務類型 ───────────────────────────────
       - name: Determine Task Type
