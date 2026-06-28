@@ -1,0 +1,133 @@
+{
+  "_patch_meta": {
+    "target": "content_schedule.json",
+    "target_episodes": [11, 12],
+    "patch_date": "2026-06-28",
+    "ssot_source": "ziwei_qimen/engines/qimen_fengshui_layout_module_v0.1.json",
+    "reason": "原文奇門篇缺乏具體落地知識，重寫依 SSOT 查表（八門吉凶、2026飛星方位、物件五行對應），全面改為書面語",
+    "language_rule": "繁體中文書面語為主，英文為輔；cantonese_vo 欄位保留粵語供錄音使用"
+  },
+
+  "reels_ep11": {
+    "date": "2026-07-20",
+    "type": "reels",
+    "time_hkt": "18:00",
+    "stone_id": "garnet_red",
+    "stone_zh": "多種礦石",
+    "episode": 11,
+    "next_stone_id": "peridot",
+    "next_stone_zh": "橄欖石",
+    "phase": "2",
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多奇門佈局知識",
+    "status": "pending",
+    "asset_url": null,
+    "episode_title": "💰 2026財位在哪裡？奇門遁甲礦石催財佈局",
+    "series_hook": "2026正財位在正東，八白左輔當旺——同一塊礦石，放對方位效果完全不同",
+    "next_episode_preview": "第12集：按你的求財目的選不同吉門——奇門吉時佈局完整計算教學",
+    "visual_prompts": {
+      "hook": "家居俯視平面圖出現，正東方位被金色光環標示，疊加大字『2026主財位——你擺對了嗎？』，視覺震撼。",
+      "develop": "九宮格方位圖逐格亮起：正東八白大吉、東北四綠文昌、東南九紫喜慶各亮金色；正南五黃紅色禁止符號閃爍。每格旁邊飛入對應礦石名稱。",
+      "climax": "鏡頭聚焦正東：黃鐵礦球、利比亞黃金隕石、金曜石三顆排成一列，金色光芒，疊加『八白左輔 2026主財位』文字。",
+      "cta": "動態追蹤按鈕：『第12集：奇門求財 vs 求事業——吉門選法不同』"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "2026年嘅正財位係正東——你個礦石擺咗係度未？",
+        "zh_subtitle": "2026年正財位在正東——你的礦石擺對位置了嗎？",
+        "en_subtitle": "2026's main wealth direction is DUE EAST. Is your crystal there yet?"
+      },
+      "3_15s": {
+        "cantonese_vo": "奇門遁甲配合九宮飛星，2026年有三個大吉方位：正東八白左輔——正財置業；東北四綠文昌——讀書策劃；東南九紫右弼——喜慶名聲。正東要擺黃鐵礦球、利比亞黃金隕石或金曜石——全部係土屬，配合八白旺財！",
+        "zh_subtitle": "2026三大吉位：正東八白（正財）、東北四綠（文昌）、東南九紫（喜慶）。正東催財擺土屬礦石：黃鐵礦球、利比亞黃金隕石、金曜石。",
+        "en_subtitle": "2026's 3 auspicious sectors: East (wealth), NE (intellect), SE (celebration). For East wealth: place earth-element stones — Pyrite, Libyan Gold Tektite, Golden Obsidian."
+      },
+      "15_25s": {
+        "cantonese_vo": "但係要注意——正南是五黃廉貞，2026年絕對禁區，任何礦石都唔可以擺係度，包括化煞石；西南七赤破財位，西北二黑病符位，要用黑碧璽或白水晶簇化解。",
+        "zh_subtitle": "⚠️ 正南五黃廉貞：2026絕對禁區，切勿擺設任何物件。西南七赤破財位、西北二黑病符位：需用黑碧璽或白水晶簇化煞。",
+        "en_subtitle": "⚠️ Due South = 5 Yellow: absolute forbidden zone in 2026. SW (7 Red) + NW (2 Black) are afflicted sectors — use Black Tourmaline or Clear Quartz cluster to neutralize."
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤，下集教你按不同目的選奇門吉門催旺！",
+        "zh_subtitle": "追蹤帳號，下集：按目的選奇門吉門——求財 vs 求事業完全不同",
+        "en_subtitle": "Follow — next ep: choose the RIGHT auspicious door for your specific goal. Wealth vs career — totally different!"
+      }
+    },
+    "caption": "💰 2026財位在哪裡？奇門遁甲礦石催財佈局（第11集）\n\n同一塊礦石，放對方位效果天壤之別。\n奇門遁甲配九宮飛星，2026年的方位格局已定 🧭\n\n✦ 正東八白左輔：2026主財位，擺土屬礦石（黃鐵礦球、金曜石）\n✦ 東北四綠文昌：讀書考試、品牌策劃首選方位\n✦ 東南九紫右弼：喜慶桃花，紅紋石、紫水晶最對應\n⚠️ 正南五黃廉貞：2026絕對禁區，切勿擺設任何物件\n\n💾 收藏這篇，對照你的家居方位即刻調整\n👇 留言：你的正東方位現在擺了什麼？",
+    "hashtags": [
+      "#奇門遁甲",
+      "#九宮飛星",
+      "#2026財位",
+      "#礦石風水",
+      "#催財佈局",
+      "#qimendunjia",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#水晶擺陣"
+    ]
+  },
+
+  "reels_ep12": {
+    "date": "2026-07-27",
+    "type": "reels",
+    "time_hkt": "18:00",
+    "stone_id": "citrine",
+    "stone_zh": "多種礦石",
+    "episode": 12,
+    "next_stone_id": "quartz_clear",
+    "next_stone_zh": "白水晶",
+    "phase": "2",
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多奇門佈局知識",
+    "status": "pending",
+    "asset_url": null,
+    "episode_title": "🚪 奇門八門選法：求財 vs 求事業，吉門完全不同",
+    "series_hook": "生門求財、開門求事業——選錯吉門等於方向走反了",
+    "next_episode_preview": "第13集：家居九宮方位礦石完整佈局圖——一張圖解決全部問題",
+    "visual_prompts": {
+      "hook": "八扇門以九宮格動畫依次出現，三扇金色（吉）、兩扇白色（平）、三扇紅色（凶），大字『八門選錯，催旺變催衰』。",
+      "develop": "三吉門各自獨立特寫：生門（土屬、求財）配黃水晶與金髮晶；開門（金屬、事業）配白水晶球；休門（水屬、健康貴人）配黑曜石與黑碧璽。每門旁邊飛入對應礦石。",
+      "climax": "景門（平）特寫——適合宣傳行銷、品牌見光。最後畫面：四門各自的礦石排列，字幕『同一個方向，目的不同，礦石不同』。",
+      "cta": "『第13集：完整家居礦石佈局圖！』追蹤特效彈出。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "奇門八門你選對咗未？生門求財、開門求事業——選錯即係方向走反！",
+        "zh_subtitle": "奇門八門你選對了嗎？生門求財、開門求事業——選錯就是方向走反了！",
+        "en_subtitle": "Eight Doors in Qi Men — did you choose correctly? Life Door for wealth, Open Door for career — wrong choice means walking backwards."
+      },
+      "3_15s": {
+        "cantonese_vo": "三吉門各有用途：生門係土屬，主求財置業，擺黃水晶、金髮晶；開門係金屬，主事業官運，擺白水晶球、白水晶柱；休門係水屬，主健康貴人談判，擺黑曜石、黑碧璽穩住能量場。",
+        "zh_subtitle": "三吉門：生門（土）求財→黃水晶、金髮晶；開門（金）求事業→白水晶球；休門（水）求健康貴人→黑曜石、黑碧璽。",
+        "en_subtitle": "Three auspicious doors: Life Door (earth/wealth) → Citrine, Gold Rutile; Open Door (metal/career) → Clear Quartz sphere; Rest Door (water/health-benefactor) → Black Obsidian, Black Tourmaline."
+      },
+      "15_25s": {
+        "cantonese_vo": "景門係平門，火屬，主宣傳文書見光——最適合做品牌或社交媒體的人；三凶門死驚傷，凶門落宮唔擺催旺石，要改擺化煞石——黑碧璽或白水晶簇，吸收凶氣而非放大。",
+        "zh_subtitle": "景門（火屬）適合宣傳、品牌創作。三凶門（死傷驚）落宮：不擺催旺石，改用黑碧璽或白水晶簇化煞。",
+        "en_subtitle": "Scene Door (fire): ideal for branding & social media. For the 3 inauspicious doors: never place wealth crystals — use Black Tourmaline or Clear Quartz to neutralize instead."
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤，下集一張圖解決家居全部礦石佈局！",
+        "zh_subtitle": "追蹤帳號，下集：家居九宮完整礦石佈局圖一圖解決",
+        "en_subtitle": "Follow — next ep: one complete home crystal grid map. Everything solved in one image!"
+      }
+    },
+    "caption": "🚪 奇門八門選法——求財 vs 求事業，礦石完全不同（第12集）\n\n奇門遁甲不只是「找吉方」——吉門選錯，催旺方向完全走反。\n\n✦ 生門（土屬）= 求財置業 → 黃水晶、金髮晶\n✦ 開門（金屬）= 事業官運 → 白水晶球、白水晶柱\n✦ 休門（水屬）= 健康貴人 → 黑曜石、黑碧璽\n✦ 景門（火屬）= 宣傳品牌 → 紫水晶、紅紋石\n⚠️ 凶門落宮：不擺催旺石，改用化煞石\n\n💾 收藏這篇，佈局礦石前先對照吉門\n👇 留言：你現在最想催旺哪個方面——財、事業還是感情？",
+    "hashtags": [
+      "#奇門遁甲",
+      "#八門選法",
+      "#奇門吉門",
+      "#礦石風水",
+      "#催財佈局",
+      "#qimendunjia",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#生門",
+      "#水晶擺陣"
+    ]
+  }
+}
