@@ -989,7 +989,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -997,7 +997,10 @@
       "body": "翡翠對應心輪，象徵平安、富足與長期的穩定。",
       "en_text": "Jade symbolizes peace, abundance and stability.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-01.png"
+    ]
   },
   {
     "date": "2026-07-02",
@@ -1090,7 +1093,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1098,7 +1101,10 @@
       "body": "綠松石對應喉輪，是旅行護身與誠實表達之石。",
       "en_text": "Turquoise protects travelers and honest expression.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-02.png"
+    ]
   },
   {
     "date": "2026-07-03",
@@ -1178,7 +1184,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1186,7 +1192,10 @@
       "body": "透石膏對應頂輪，是淨化空間、提升振頻的療癒之石。",
       "en_text": "Selenite cleanses space and lifts your vibration.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-03.png"
+    ]
   },
   {
     "date": "2026-07-05",
@@ -1195,7 +1204,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1203,7 +1212,10 @@
       "body": "黃鐵礦對應太陽神經叢，是財富顯化與行動力之石。",
       "en_text": "Pyrite ignites wealth, willpower and action.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-05.png"
+    ]
   },
   {
     "date": "2026-07-06",
@@ -1294,7 +1306,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1302,7 +1314,10 @@
       "body": "神經緊繃、思緒過載時，紫水晶能舒緩頭部壓力、安定心神。",
       "en_text": "Amethyst calms the mind and soothes the spirit.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-06.png"
+    ]
   },
   {
     "date": "2026-07-07",
@@ -1382,7 +1397,7 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1390,7 +1405,10 @@
       "body": "工作壓力大、思緒紛亂時，茶晶能釋放負面能量、穩住情緒。",
       "en_text": "Smoky Quartz grounds you and releases stress.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-08.png"
+    ]
   },
   {
     "date": "2026-07-09",
@@ -1481,7 +1499,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1489,7 +1507,10 @@
       "body": "經常出入人多場域？拉長石能建立能量邊界、保護共感體質。",
       "en_text": "Labradorite shields your energy and awakens intuition.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-09.png"
+    ]
   },
   {
     "date": "2026-07-10",
@@ -1569,7 +1590,7 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1577,7 +1598,10 @@
       "body": "容易吸收他人情緒的人，黑曜石能清除負向能量、穩住自我。",
       "en_text": "Obsidian offers powerful protection and clarity.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-10.png"
+    ]
   },
   {
     "date": "2026-07-12",
@@ -1586,7 +1610,7 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1594,7 +1618,10 @@
       "body": "長時間使用電子產品？黑碧璽有助減少電磁與情緒干擾。",
       "en_text": "Black Tourmaline grounds and guards your boundaries.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-12.png"
+    ]
   },
   {
     "date": "2026-07-13",
@@ -1684,7 +1711,7 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "1",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1692,7 +1719,10 @@
       "body": "瑪瑙依顏色對應不同脈輪，紅瑪瑙對應海底輪、助接地。",
       "en_text": "Agate brings gentle stability and calm.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-13.png"
+    ]
   },
   {
     "date": "2026-07-14",
@@ -1772,7 +1802,7 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1780,7 +1810,10 @@
       "body": "求職、轉職或創業初期，綠東陵石象徵把握機會的好運。",
       "en_text": "Green Aventurine attracts luck and opportunity.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-15.png"
+    ]
   },
   {
     "date": "2026-07-16",
@@ -1869,7 +1902,7 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1877,7 +1910,10 @@
       "body": "演講、簡報或談判前，海藍寶能舒緩緊張、穩定表達。",
       "en_text": "Aquamarine eases communication and self-expression.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-16.png"
+    ]
   },
   {
     "date": "2026-07-17",
@@ -1957,7 +1993,7 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1965,7 +2001,10 @@
       "body": "決策前佩戴藍晶石，幫助思緒清晰、看清重點。",
       "en_text": "Kyanite clears the mind and sharpens focus.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-17.png"
+    ]
   },
   {
     "date": "2026-07-19",
@@ -1974,7 +2013,7 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1982,7 +2021,10 @@
       "body": "寫作或創作卡關時，藍磷灰石為你注入靈感與動力。",
       "en_text": "Blue Apatite fuels creativity and learning.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-19.png"
+    ]
   },
   {
     "date": "2026-07-20",
@@ -2073,7 +2115,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2081,7 +2123,10 @@
       "body": "情緒容易壓抑時，橄欖石為心區帶來放鬆與寬心。",
       "en_text": "Peridot lightens the heart and releases negativity.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-20.png"
+    ]
   },
   {
     "date": "2026-07-21",
@@ -2161,7 +2206,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2169,7 +2214,10 @@
       "body": "翡翠適合長期佩戴護身，是傳家與保值的東方瑰寶。",
       "en_text": "Jade symbolizes peace, abundance and stability.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-22.png"
+    ]
   },
   {
     "date": "2026-07-23",
@@ -2260,7 +2308,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2268,7 +2316,10 @@
       "body": "出行頻繁時佩戴綠松石，象徵一路平安與保護。",
       "en_text": "Turquoise protects travelers and honest expression.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-23.png"
+    ]
   },
   {
     "date": "2026-07-24",
@@ -2348,7 +2399,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2356,7 +2407,10 @@
       "body": "透石膏能淨化其他礦石，是水晶收藏者的必備清理石。",
       "en_text": "Selenite cleanses space and lifts your vibration.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-24.png"
+    ]
   },
   {
     "date": "2026-07-26",
@@ -2365,7 +2419,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2373,7 +2427,10 @@
       "body": "擺在辦公桌上的黃鐵礦，象徵招財與提振事業動能。",
       "en_text": "Pyrite ignites wealth, willpower and action.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-26.png"
+    ]
   },
   {
     "date": "2026-07-27",
@@ -2464,7 +2521,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2472,7 +2529,10 @@
       "body": "想提升直覺與靈性覺察？紫水晶是讀牌與占卜的最佳輔助石。",
       "en_text": "Amethyst calms the mind and soothes the spirit.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-27.png"
+    ]
   },
   {
     "date": "2026-07-28",
@@ -2552,7 +2612,7 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2560,7 +2620,10 @@
       "body": "茶晶象徵能量場的收尾與落地，適合療癒後的收斂。",
       "en_text": "Smoky Quartz grounds you and releases stress.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-29.png"
+    ]
   },
   {
     "date": "2026-07-30",
@@ -2651,7 +2714,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2659,7 +2722,10 @@
       "body": "拉長石的暈彩象徵看見潛意識模式，協助自我覺察。",
       "en_text": "Labradorite shields your energy and awakens intuition.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-30.png"
+    ]
   },
   {
     "date": "2026-07-31",
@@ -2739,7 +2805,7 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2747,7 +2813,10 @@
       "body": "黑曜石由火山玻璃形成，能量直接，適合面對內在陰影。",
       "en_text": "Obsidian offers powerful protection and clarity.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-07-31.png"
+    ]
   },
   {
     "date": "2026-08-02",
@@ -2756,7 +2825,7 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2764,7 +2833,10 @@
       "body": "黑碧璽硬度達 7–7.5，防護穩定持久，適合日常佩戴。",
       "en_text": "Black Tourmaline grounds and guards your boundaries.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-02.png"
+    ]
   },
   {
     "date": "2026-08-03",
@@ -2855,7 +2927,7 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2863,7 +2935,10 @@
       "body": "情緒起伏時，瑪瑙能溫和調整心緒、帶來踏實感。",
       "en_text": "Agate brings gentle stability and calm.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-03.png"
+    ]
   },
   {
     "date": "2026-08-04",
@@ -2943,7 +3018,7 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2951,7 +3026,10 @@
       "body": "綠東陵石溫和療癒心輪，幫助修復受傷的情緒。",
       "en_text": "Green Aventurine attracts luck and opportunity.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-05.png"
+    ]
   },
   {
     "date": "2026-08-06",
@@ -3042,7 +3120,7 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3050,7 +3128,10 @@
       "body": "海藍寶守護喉部與呼吸系統，象徵清澈順暢的溝通。",
       "en_text": "Aquamarine eases communication and self-expression.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-06.png"
+    ]
   },
   {
     "date": "2026-08-07",
@@ -3130,7 +3211,7 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3138,7 +3219,10 @@
       "body": "冥想與閱讀時使用藍晶石，能讓心思迅速沉靜下來。",
       "en_text": "Kyanite clears the mind and sharpens focus.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-07.png"
+    ]
   },
   {
     "date": "2026-08-09",
@@ -3147,7 +3231,7 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3155,7 +3239,10 @@
       "body": "學習新知時佩戴藍磷灰石，幫助維持專注與求知熱情。",
       "en_text": "Blue Apatite fuels creativity and learning.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-09.png"
+    ]
   },
   {
     "date": "2026-08-10",
@@ -3244,7 +3331,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3252,7 +3339,10 @@
       "body": "橄欖石的明亮綠意象徵新生，協助轉化沉重的心情。",
       "en_text": "Peridot lightens the heart and releases negativity.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-10.png"
+    ]
   },
   {
     "date": "2026-08-11",
@@ -3332,7 +3422,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3340,7 +3430,10 @@
       "body": "翡翠溫潤內斂，象徵平衡氣血、護佑日常平安。",
       "en_text": "Jade symbolizes peace, abundance and stability.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-12.png"
+    ]
   },
   {
     "date": "2026-08-13",
@@ -3431,7 +3524,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3439,7 +3532,10 @@
       "body": "綠松石守護溝通與呼吸，幫助坦誠而真實的表達。",
       "en_text": "Turquoise protects travelers and honest expression.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-13.png"
+    ]
   },
   {
     "date": "2026-08-14",
@@ -3519,7 +3615,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3527,7 +3623,10 @@
       "body": "在空間擺放透石膏，幫助提升環境振頻、連結高我。",
       "en_text": "Selenite cleanses space and lifts your vibration.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-14.png"
+    ]
   },
   {
     "date": "2026-08-16",
@@ -3536,7 +3635,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3544,7 +3643,10 @@
       "body": "想增強意志力與行動力？黃鐵礦點燃內在的金色能量。",
       "en_text": "Pyrite ignites wealth, willpower and action.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-16.png"
+    ]
   },
   {
     "date": "2026-08-17",
@@ -3635,7 +3737,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3643,7 +3745,10 @@
       "body": "紫水晶有助於放下過度執著與依賴，回到平靜的自己。",
       "en_text": "Amethyst calms the mind and soothes the spirit.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-17.png"
+    ]
   },
   {
     "date": "2026-08-18",
@@ -3723,7 +3828,7 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3731,7 +3836,10 @@
       "body": "能量敏感、容易心浮氣躁的人，茶晶有助沉澱與安定。",
       "en_text": "Smoky Quartz grounds you and releases stress.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-19.png"
+    ]
   },
   {
     "date": "2026-08-20",
@@ -3822,7 +3930,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3830,7 +3938,10 @@
       "body": "占卜與療癒時佩戴拉長石，可穩定能量、減少外界干擾。",
       "en_text": "Labradorite shields your energy and awakens intuition.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-20.png"
+    ]
   },
   {
     "date": "2026-08-21",
@@ -3910,7 +4021,7 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3918,7 +4029,10 @@
       "body": "職場壓力大、出入能量混亂場域時，黑曜石是隨身防護首選。",
       "en_text": "Obsidian offers powerful protection and clarity.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-21.png"
+    ]
   },
   {
     "date": "2026-08-23",
@@ -3927,7 +4041,7 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3935,7 +4049,10 @@
       "body": "能量敏感、住在高壓環境的人，黑碧璽幫助建立界線感。",
       "en_text": "Black Tourmaline grounds and guards your boundaries.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-23.png"
+    ]
   },
   {
     "date": "2026-08-24",
@@ -4026,7 +4143,7 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4034,7 +4151,10 @@
       "body": "瑪瑙象徵穩定身體能量與循環，是百搭的防護石。",
       "en_text": "Agate brings gentle stability and calm.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-24.png"
+    ]
   },
   {
     "date": "2026-08-25",
@@ -4116,7 +4236,7 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4124,7 +4244,10 @@
       "body": "想保持樂觀與開放？綠東陵石為心區注入綠意能量。",
       "en_text": "Green Aventurine attracts luck and opportunity.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-26.png"
+    ]
   },
   {
     "date": "2026-08-27",
@@ -4215,7 +4338,7 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4223,7 +4346,10 @@
       "body": "人際溝通壓力大時，海藍寶帶來如海水般的平靜。",
       "en_text": "Aquamarine eases communication and self-expression.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-27.png"
+    ]
   },
   {
     "date": "2026-08-28",
@@ -4320,7 +4446,7 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4328,7 +4454,10 @@
       "body": "藍磷灰石象徵骨骼與代謝能量，呼應穩健的成長節奏。",
       "en_text": "Blue Apatite fuels creativity and learning.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-30.png"
+    ]
   },
   {
     "date": "2026-08-31",
@@ -4419,7 +4548,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4427,7 +4556,10 @@
       "body": "想為生活添點輕快？橄欖石帶來樂觀與舒展的能量。",
       "en_text": "Peridot lightens the heart and releases negativity.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-31.png"
+    ]
   },
   {
     "date": "2026-09-01",
@@ -4517,7 +4649,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4525,7 +4657,10 @@
       "body": "想要長久的安定能量？翡翠是世代相傳的護身之石。",
       "en_text": "Jade symbolizes peace, abundance and stability.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-09-02.png"
+    ]
   },
   {
     "date": "2026-09-03",
@@ -4616,7 +4751,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4624,7 +4759,10 @@
       "body": "需要護身與勇氣時，綠松石帶來天空般的守護能量。",
       "en_text": "Turquoise protects travelers and honest expression.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-09-03.png"
+    ]
   },
   {
     "date": "2026-09-04",
@@ -4704,7 +4842,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4712,7 +4850,10 @@
       "body": "冥想或睡眠時，透石膏為能量場帶來純淨與安寧。",
       "en_text": "Selenite cleanses space and lifts your vibration.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-09-04.png"
+    ]
   },
   {
     "date": "2026-09-06",
@@ -4721,7 +4862,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4729,7 +4870,10 @@
       "body": "黃鐵礦金屬光澤象徵豐盛，是招財佈置的經典選擇。",
       "en_text": "Pyrite ignites wealth, willpower and action.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-09-06.png"
+    ]
   },
   {
     "date": "2026-09-07",
@@ -4819,7 +4963,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4827,7 +4971,10 @@
       "body": "睡前將紫水晶置於枕邊，有助改善睡眠品質與深層放鬆。",
       "en_text": "Amethyst calms the mind and soothes the spirit.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-09-07.png"
+    ]
   },
   {
     "date": "2026-09-08",
