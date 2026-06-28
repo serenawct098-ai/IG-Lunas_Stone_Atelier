@@ -14,6 +14,19 @@ _最後更新：2026-06-28_
 
 ---
 
+## 0.5 六大核心規範摘要（完整規定見 manus_instructions.md §0.5）
+
+| 規範 | 重點 |
+|---|---|
+| **R1 防幻覺** | 生成前必透過 GitHub MCP 核實 `mineralogy_data.json`，礦石功效 100% 可溯源，無對應記錄禁止編造 |
+| **R2 底部標籤** | 每張圖文及 Reels MP4 全程底部顯示「Luna's Stone Atelier 圖文僅供參考」 |
+| **R3 語言規範** | 繁體中文為主、英文為輔；中英並存時中文在上、英文在下 |
+| **R4 禁重複文案** | 主題可同，但跨格式/跨日期文案必須不同 |
+| **R5 拒過期腳本** | 每次抓取最新 `content_schedule.json` / `manus_task.json`，拒絕快取及舊版 |
+| **R6 品牌視覺** | 無圖騰冒充 LOGO；文字商標「Luna's Stone Atelier」；遵守 4:5 安全區 |
+
+---
+
 ## 1. 品牌定位
 
 **Luna's Stone Atelier** 是一個深耕礦石文化、結合礦物學知識與身心靈能量的 Instagram 內容品牌。
@@ -66,7 +79,7 @@ _最後更新：2026-06-28_
 ## 5. 連載系列
 
 ### 5.1 一千零一夜礦石風水系列（Reels）
-- 目標集數：25 集（每週 2 次）
+- 目標集數：**25 集**（Ep 1–25，每週 2 次・週一/四）
 - 每集結尾必須預告下集礦石，形成追劇感
 - 集數記錄於 `content_schedule.json` → `episode` 欄位
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取
@@ -77,6 +90,7 @@ _最後更新：2026-06-28_
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ### 5.3 礦石知識乾貨（Posts Carousel）
+- 目標篇數：**25 篇**（Post 1–25，每週 2 次・週二/五）
 - 每次 5 張，涵蓋科學 / 美學 / 能量 / 保養
 - **封面必須含數字或問句**（止滑設計）
 - **第 5 張必須含「收藏」導向 CTA**（Save Rate 是 Carousel 最高排名訊號）
@@ -102,7 +116,7 @@ _最後更新：2026-06-28_
 ```
 礦石資料  ←  mineralogy_data.json   （SSOT，31 種礦石，禁止在其他文件另行維護）
 品牌設定  ←  brand_config.json      （發布時間、格式規格、三階段 CTA、色彩系統）
-排程內容  ←  content_schedule.json  （90天排程，stone_id 對應 SSOT）
+排程內容  ←  content_schedule.json  （90天排程 111 條：Reels 25 + Posts 25 + Stories 61，stone_id 對應 SSOT）
 生成指引  ←  manus_instructions.md  （Manus AI 操作規則 v5.0、格式規格、Caption 規則）
 素材記錄  ←  generated_assets.json  （Manus 回填，人工勿直接編輯資產 URL）
 知識總覽  ←  KNOWLEDGE_BASE.md      （本文件，系統導覽，不維護礦石表）

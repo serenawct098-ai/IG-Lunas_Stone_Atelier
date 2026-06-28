@@ -45,6 +45,17 @@
 
 ---
 
+## 生圖規範必查清單（每張必遵，詳見 manus_instructions.md §0.5 R1–R6）
+
+- [ ] **R1 防幻覺**：礦石資訊已透過 GitHub MCP 核實 `mineralogy_data.json`（`stone_id` 對應 `id`），無對應記錄絕不編造
+- [ ] **R2 底部標籤**：每張圖文及 Reels MP4 全程底部顯示「Luna's Stone Atelier 圖文僅供參考」
+- [ ] **R3 語言排版**：繁體中文為主、英文為輔；中英並存時中文在上、英文在下
+- [ ] **R4 跨格式差異化**：主題可同，但 Stories/Posts/Reels 文案必須不同，禁重複
+- [ ] **R5 拒過期腳本**：使用透過 GitHub MCP 抓取的最新 `content_schedule.json`，不用本地舊版
+- [ ] **R6 品牌視覺**：無圖騰冒充 LOGO；文字商標「Luna's Stone Atelier」；資訊落在 4:5 安全區內（上下≥120px、左右≥80px）
+
+---
+
 ## 品牌色彩
 
 | 用途 | 色碼 |

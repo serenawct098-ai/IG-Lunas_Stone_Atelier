@@ -9,7 +9,7 @@
 ```
 ├── mineralogy_data.json      ← 礦石資料 SSOT（唯一真源，31 種礦石）
 ├── brand_config.json         ← 品牌設定、發布時間、格式規格、色彩系統
-├── content_schedule.json     ← 90天排程（116條記錄）
+├── content_schedule.json     ← 90天排程（111條記錄：Reels 25 + Posts 25 + Stories 61）
 ├── manus_instructions.md     ← Manus AI 操作指引 v5.0
 ├── BATCH_GENERATE.md         ← Manus 一次性批量生圖指引
 ├── KNOWLEDGE_BASE.md         ← 系統知識總覽
@@ -71,14 +71,16 @@
 
 ---
 
-## 📊 90天排程總覽（2026-06-15 → 2026-09-12）
+## 📊 90天排程總覽（2026-06-15 → 2026-09-08）
 
-| 格式 | 條數 |
-|------|------|
-| Reels（一千零一夜系列）| 26 |
-| Posts Carousel | 26 |
-| Stories | 64 |
-| **合計** | **116** |
+| 格式 | 條數 | 集/篇數 |
+|------|------|------|
+| Reels（一千零一夜系列）| 25 | Ep 1–25 |
+| Posts Carousel | 25 | Post 1–25 |
+| Stories | 61 | — |
+| **合計** | **111** | — |
+
+> 數字唯一真源 = `content_schedule.json` → `_meta.breakdown`。Reels/Posts 各 25（達 SOP 目標），與 `manus_instructions.md` §11.2/§11.3、`brand_config.json` → `series` 完全對齊。
 
 ---
 

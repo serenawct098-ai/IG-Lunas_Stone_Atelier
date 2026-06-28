@@ -17,10 +17,8 @@ Manus 工作分配：
   Reels    → 6 PNG 中間素材 + 1 MP4 (20–30s)
                ※ 6 PNG 為內部轉製素材，不上傳 IG；IG 只發布最終 MP4
 
-不需要的憑證（由 Manus IG MCP 負責發布）：
-  OPENAI_API_KEY  — 已移除
-  IG_ACCESS_TOKEN — 已移除（IG 發布由 Manus IG MCP 負責）
-  IG_USER_ID      — 已移除（與 Manus IG MCP 無關）
+不使用任何憑證 / GitHub Secrets：GitHub 與 Manus 透過 MCP 互通。
+  IG 發布由 Manus IG MCP 全權負責；main.py 僅使用 TASK_TYPE 環境變數。
 """
 
 import os
