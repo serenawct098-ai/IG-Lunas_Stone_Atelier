@@ -132,7 +132,7 @@
   },
   "data_source": {
     "mineralogy_ssot": "mineralogy_data.json",
-    "mineralogy_count": 31,
+    "mineralogy_count": 33,
     "note": "所有礦石文案、科學數據、脈輪對應必須以 mineralogy_data.json 為唯一真源，禁止在其他檔案另行維護礦石資料表"
   },
   "connection": {

@@ -7,7 +7,7 @@
 ## 📁 檔案架構
 
 ```
-├── mineralogy_data.json      ← 礦石資料 SSOT（唯一真源，31 種礦石）
+├── mineralogy_data.json      ← 礦石資料 SSOT（唯一真源，33 種礦石）
 ├── brand_config.json         ← 品牌設定、發布時間、格式規格、色彩系統
 ├── content_schedule.json     ← 90天排程（111條記錄：Reels 25 + Posts 25 + Stories 61）
 ├── manus_instructions.md     ← Manus AI 操作指引 v5.0
@@ -25,7 +25,7 @@
 
 ## ⚠️ 核心原則：SSOT
 
-**礦石資料唯一真源 = `mineralogy_data.json`**（共 **31 種礦石**）
+**礦石資料唯一真源 = `mineralogy_data.json`**（共 **33 種礦石**）
 
 所有礦石文案、科學數據、脈輪對應，一律從 `mineralogy_data.json` 讀取。
 禁止在任何其他文件另行維護礦石資料表。

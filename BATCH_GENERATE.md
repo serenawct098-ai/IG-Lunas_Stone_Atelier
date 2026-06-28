@@ -12,7 +12,7 @@
         ↓
    Manus 透過 GitHub MCP 讀取 content_schedule.json
    對每一條 pending 記錄：
-     • 根據 stone_id 讀取 mineralogy_data.json（SSOT，31 種礦石）
+     • 根據 stone_id 讀取 mineralogy_data.json（SSOT，33 種礦石）
      • 按 format_spec 生成圖片
      • 存入 assets/{type}/{filename}
         ↓
@@ -70,7 +70,7 @@
 
 ## 礦石資料來源
 
-一律透過 **GitHub MCP** 讀取 `mineralogy_data.json`（SSOT，共 **31 種礦石**）。
+一律透過 **GitHub MCP** 讀取 `mineralogy_data.json`（SSOT，共 **33 種礦石**）。
 **禁止自行輸入礦石資料。**
 
 ---

@@ -8,7 +8,7 @@
 #   - 不需要任何 GitHub Secrets（無 MANUS_API_KEY、IG_ACCESS_TOKEN、IG_USER_ID、OPENAI_API_KEY）
 #
 # 流程：
-#   1. Cron 觸發 → main.py 讀排程 + 礦石 SSOT（mineralogy_data.json，共 31 種礦石）
+#   1. Cron 觸發 → main.py 讀排程 + 礦石 SSOT（mineralogy_data.json，共 33 種礦石）
 #   2. 組裝 manus_task.json → commit 到 repo
 #   3. Manus 透過 GitHub MCP 偵測到新 commit → 主動讀取 manus_task.json
 #   4. Manus 被觸發後：
@@ -95,7 +95,7 @@ jobs:
           echo "Resolved task type: ${TASK:-'(none — skipping)'}"
 
       # ─── 組裝 manus_task.json ────────────────────────────────────
-      # main.py 讀取 mineralogy_data.json（SSOT，31 種礦石）及 content_schedule.json
+      # main.py 讀取 mineralogy_data.json（SSOT，33 種礦石）及 content_schedule.json
       - name: Build Manus Task
         if: steps.task.outputs.task_type != ''
         env:

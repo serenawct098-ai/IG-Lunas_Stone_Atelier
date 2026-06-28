@@ -7,7 +7,7 @@ _最後更新：2026-06-28_
 
 > **本文件不維護任何礦石資料表。**
 > 所有礦石的科學數據、脈輪對應、光學效應、保養建議、鑑別方法，
-> **一律以 `mineralogy_data.json` 為唯一真源（SSOT）**（共 **31 種礦石**）。
+> **一律以 `mineralogy_data.json` 為唯一真源（SSOT）**（共 **33 種礦石**）。
 >
 > 如需查詢礦石資訊，請直接讀取 `mineralogy_data.json`，使用 `id` 欄位對應。
 > 禁止在本文件或任何其他文件另行維護礦石資料表。
@@ -114,7 +114,7 @@ _最後更新：2026-06-28_
 ## 7. 資料架構總覽
 
 ```
-礦石資料  ←  mineralogy_data.json   （SSOT，31 種礦石，禁止在其他文件另行維護）
+礦石資料  ←  mineralogy_data.json   （SSOT，33 種礦石，禁止在其他文件另行維護）
 品牌設定  ←  brand_config.json      （發布時間、格式規格、三階段 CTA、色彩系統）
 排程內容  ←  content_schedule.json  （90天排程 111 條：Reels 25 + Posts 25 + Stories 61，stone_id 對應 SSOT）
 生成指引  ←  manus_instructions.md  （Manus AI 操作規則 v5.0、格式規格、Caption 規則）

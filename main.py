@@ -3,7 +3,7 @@ main.py — GitHub Actions Scheduler Entry Point
 
 角色：純排程觸發器
 - 讀 content_schedule.json 找今日 pending 任務
-- 讀 mineralogy_data.json 組裝石頭資料（SSOT，共 31 種礦石，唯一真源）
+- 讀 mineralogy_data.json 組裝石頭資料（SSOT，共 33 種礦石，唯一真源）
 - 指向 assets/ 內已備用素材路徑（圖片已事先由 Manus 批量生成）
 - 寫入 manus_task.json → Manus 讀取後直接發布，不需再生圖
 
@@ -27,7 +27,7 @@ import datetime
 import sys
 
 SCHEDULE_FILE   = 'content_schedule.json'
-MINERALOGY_FILE = 'mineralogy_data.json'  # SSOT — 共 31 種礦石
+MINERALOGY_FILE = 'mineralogy_data.json'  # SSOT — 共 33 種礦石
 TASK_OUTPUT_FILE = 'manus_task.json'
 
 
@@ -60,7 +60,7 @@ def get_today_entry(task_type):
 
 
 def get_stone_data(stone_id):
-    """從 mineralogy_data.json（SSOT，31 種礦石）讀取石頭資料。"""
+    """從 mineralogy_data.json（SSOT，33 種礦石）讀取石頭資料。"""
     data = load_json(MINERALOGY_FILE)
     if not data:
         return {}
@@ -68,7 +68,7 @@ def get_stone_data(stone_id):
     for stone in stones:
         if stone.get('id') == stone_id:
             return stone
-    print(f"⚠️  Stone '{stone_id}' not found in mineralogy_data.json (SSOT: 31 stones)")
+    print(f"⚠️  Stone '{stone_id}' not found in mineralogy_data.json (SSOT: 33 stones)")
     return {}
 
 
@@ -159,8 +159,8 @@ def build_manus_task(entry, stone_data):
         'publish_platform': 'instagram',
         'publish_via':  'manus_ig_mcp',
 
-        # 礦石資料唯一真源：mineralogy_data.json（31 種礦石）
-        'ssot_note': 'All mineral data sourced exclusively from mineralogy_data.json (31 stones)',
+        # 礦石資料唯一真源：mineralogy_data.json（33 種礦石）
+        'ssot_note': 'All mineral data sourced exclusively from mineralogy_data.json (33 stones)',
 
         'schedule': {
             'date':          entry.get('date'),
