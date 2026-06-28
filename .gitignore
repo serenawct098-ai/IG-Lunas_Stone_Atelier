@@ -4,10 +4,8 @@ generated_assets.json
 manus_task.json
 .DS_Store
 
-# 素材由 Manus 外部批量生成，不納入版控（僅保留目錄結構）
-assets/posts/*
-assets/reels/*
-assets/stories/*
-!assets/posts/.gitkeep
-!assets/reels/.gitkeep
-!assets/stories/.gitkeep
+# 素材由 Manus 批量生成，PNG/MP4 納入版控（Manus commit 後 GitHub Actions 可讀取發布）
+# 不追蹤：暫存檔、原始素材、非標準格式
+assets/**/*.tmp
+assets/**/*.raw
+assets/**/*.bak
