@@ -15,6 +15,8 @@ _最後更新：2026-06-28_
 
 > 以下 6 條為系統不可覆寫規範。Manus 每次執行（生圖或發布）前必須逐條核對，任一違反即停止並報錯。
 
+> **職責分工（文案組裝收歸 GitHub）**：所有貼文文案（caption / Posts 各頁 / Reels script）由 **GitHub（main.py 組裝 `content_schedule.json` 內容）** 負責，寫入 `manus_task.json` 的 `content` 區塊。**Manus 角色 = EXTRACT_AND_PUBLISH_ONLY**：只提取 `content` + `asset_paths` 透過 IG MCP 發布，禁止自行生成或改寫任何文案。若文案未備齊，main.py 報錯停止（status=error），不發布。
+
 ### R1 防幻覺強制核實 SOP
 - 生成任何礦石文案/科學數據/脈輪對應/保養資訊前，**必須透過 GitHub MCP 讀取 `mineralogy_data.json` 並逐條核實**。
 - 以 `stone_id` 對應 `mineralogy_data.json` 的 `id`；**若無對應記錄，禁止自行編造、猜測或引用外部資料**，並將該條 status 改為 `error` 待人工判斷。
@@ -76,7 +78,7 @@ _最後更新：2026-06-28_
 | 模式 | 觸發方式 | Manus 的工作 |
 |---|---|---|
 | **批量生圖模式** | 手動執行（一次性 / 更新時）| 讀取 `content_schedule.json` 全部 pending 項目 → 批量生成所有圖片/MP4 → 存入 `assets/` → 回填 `asset_url` → status 改為 `generated` |
-| **發布模式** | GitHub Actions 定時觸發（Event-Driven Pull）| 讀取 `manus_task.json` → 從 `assets/` 取備用圖片及文案 → 透過 IG MCP 發布至 Instagram → 回報完成（status 改為 `published`）|
+| **發布模式** | GitHub Actions 定時觸發（Event-Driven Pull）| 讀取 `manus_task.json` → 取 `content`（GitHub 已組裝好的完整文案）+ `asset_paths`（備用圖片）→ 透過 IG MCP 發布至 Instagram → 回報完成（status 改為 `published`）。**只提取發布，禁止生成或改寫文案** |
 
 ### 1.3 不需要的憑證
 

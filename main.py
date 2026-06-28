@@ -7,9 +7,13 @@ main.py — GitHub Actions Scheduler Entry Point
 - 指向 assets/ 內已備用素材路徑（圖片已事先由 Manus 批量生成）
 - 寫入 manus_task.json → Manus 讀取後直接發布，不需再生圖
 
-Manus 工作分配：
-  「事先」 Manus 一次性批量生成 90 天全部素材 → commit 到 assets/
-  「發布時」 Manus 只讀 manus_task.json → 取出備用圖片 → IG MCP 發布
+分工（文案組裝收歸 GitHub）：
+  「事先」 Manus 一次性批量生成 90 天全部圖片 → commit 到 assets/
+  「每天」 GitHub Actions 觸發 main.py → 從 content_schedule.json 組裝「完整文案」+ 圖片路徑 → 寫 manus_task.json
+  「發布」 Manus 只讀 manus_task.json → 取 content（文案）+ asset_paths（圖片）→ IG MCP 發布 → 回報
+
+⚠️ Manus 角色 = EXTRACT_AND_PUBLISH_ONLY：不生成、不改寫任何文案。
+   文案全部由 GitHub（main.py 組裝 content_schedule.json 內容）負責；若文案未備齊，main.py 報錯停止。
 
 格式規格（全格式統一 1080×1350 px）：
   Stories  → 1 PNG
@@ -117,6 +121,54 @@ def resolve_asset_paths(entry):
     return []
 
 
+def assemble_content(entry, task_type):
+    """
+    GitHub 端文案組裝（Manus 只提取發布，不生成）。
+    從 content_schedule.json 的排程記錄取出完整文案，組裝成 content 區塊。
+    若 caption 缺失，視為文案未備齊 → 觸發 error（見 __main__），
+    Manus 不再負責生成任何文案。
+    """
+    caption  = (entry.get('caption') or '').strip()
+    hashtags = entry.get('hashtags', [])
+
+    content = {
+        'caption':  caption,
+        'hashtags': hashtags,
+    }
+
+    if task_type in ('post', 'posts'):
+        # Carousel：每頁文字（封面/內頁/封底）全部組好供 Manus 套圖發布
+        content['post_number'] = entry.get('post_number')
+        content['post_title']  = entry.get('post_title', '')
+        content['pages']       = entry.get('pages', [])
+
+    elif task_type == 'reels':
+        # Reels：MP4 字幕腳本、視覺提示、連載鉤子全部組好
+        content['episode']              = entry.get('episode')
+        content['episode_title']        = entry.get('episode_title', '')
+        content['series_hook']          = entry.get('series_hook', '')
+        content['next_episode_preview'] = entry.get('next_episode_preview', '')
+        content['visual_prompts']       = entry.get('visual_prompts', {})
+        content['script']               = entry.get('script', {})
+
+    elif task_type == 'stories':
+        # Stories：單張文字
+        content['story_title'] = entry.get('story_title', entry.get('post_title', ''))
+
+    return content
+
+
+def content_is_ready(entry, task_type):
+    """文案是否已由 GitHub 端備齊。caption 為核心必填；Posts 需 pages、Reels 需 script。"""
+    if not (entry.get('caption') or '').strip():
+        return False, 'caption 為空（GitHub 端文案未備齊，Manus 不負責生成）'
+    if task_type in ('post', 'posts') and not entry.get('pages'):
+        return False, 'posts 缺 pages 內頁文案'
+    if task_type == 'reels' and not entry.get('script'):
+        return False, 'reels 缺 script 字幕腳本'
+    return True, ''
+
+
 def build_manus_task(entry, stone_data):
     task_type = entry.get('type', '')
 
@@ -151,6 +203,7 @@ def build_manus_task(entry, stone_data):
     }
 
     asset_paths = resolve_asset_paths(entry)
+    content = assemble_content(entry, task_type)
 
     return {
         'task_id':      f"{entry.get('date')}_{task_type}",
@@ -184,8 +237,8 @@ def build_manus_task(entry, stone_data):
             'synthetic_signs': stone_data.get('synthetic_signs', ''),
         },
 
-        'caption':      entry.get('caption', ''),
-        'caption_note': '如 caption 為空，由 Manus 按品牌語調生成。首行必須含石頭名稱 + 功能關鍵字。',
+        # content：GitHub 端組裝完成的完整文案（Manus 直接取用，不生成）
+        'content': content,
 
         # asset_paths:
         #   Stories → PNG 路徑
@@ -222,6 +275,19 @@ if __name__ == '__main__':
     if not entry:
         print(f"⏭️  Nothing to publish for '{task_type}' today.")
         sys.exit(0)
+
+    # 文案組裝收歸 GitHub：Manus 不生成，若文案未備齊即報錯停止
+    ready, reason = content_is_ready(entry, task_type)
+    if not ready:
+        err_task = {
+            'task_id': f"{entry.get('date')}_{task_type}",
+            'created_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            'manus_role': 'EXTRACT_AND_PUBLISH_ONLY',
+            'result': {'status': 'error', 'error': f"文案未備齊：{reason}。請先在 content_schedule.json 補齊文案。"},
+        }
+        save_json(TASK_OUTPUT_FILE, err_task)
+        print(f"❌ 文案未備齊，不發布：{reason}")
+        sys.exit(1)
 
     stone_id   = entry.get('stone_id', '')
     stone_data = get_stone_data(stone_id) if stone_id else {}
