@@ -3,13 +3,24 @@ main.py — GitHub Actions Scheduler Entry Point
 
 角色：純排程觸發器
 - 讀 content_schedule.json 找今日 pending 任務
-- 讀 mineralogy_data.json 組裝石頭資料（SSOT）
-- 指向 assets/ 內已備用素材路徑（圖片已事先就小 Manus 批量生成）
+- 讀 mineralogy_data.json 組裝石頭資料（SSOT，共 31 種礦石，唯一真源）
+- 指向 assets/ 內已備用素材路徑（圖片已事先由 Manus 批量生成）
 - 寫入 manus_task.json → Manus 讀取後直接發布，不需再生圖
 
 Manus 工作分配：
   「事先」 Manus 一次性批量生成 90 天全部素材 → commit 到 assets/
   「發布時」 Manus 只讀 manus_task.json → 取出備用圖片 → IG MCP 發布
+
+格式規格（全格式統一 1080×1350 px）：
+  Stories  → 1 PNG
+  Posts    → 5 PNG (Carousel)
+  Reels    → 6 PNG 中間素材 + 1 MP4 (20–30s)
+               ※ 6 PNG 為內部轉製素材，不上傳 IG；IG 只發布最終 MP4
+
+不需要的憑證（由 Manus IG MCP 負責發布）：
+  OPENAI_API_KEY  — 已移除
+  IG_ACCESS_TOKEN — 已移除（IG 發布由 Manus IG MCP 負責）
+  IG_USER_ID      — 已移除（與 Manus IG MCP 無關）
 """
 
 import os
@@ -17,8 +28,8 @@ import json
 import datetime
 import sys
 
-SCHEDULE_FILE = 'content_schedule.json'
-MINERALOGY_FILE = 'mineralogy_data.json'
+SCHEDULE_FILE   = 'content_schedule.json'
+MINERALOGY_FILE = 'mineralogy_data.json'  # SSOT — 共 31 種礦石
 TASK_OUTPUT_FILE = 'manus_task.json'
 
 
@@ -51,6 +62,7 @@ def get_today_entry(task_type):
 
 
 def get_stone_data(stone_id):
+    """從 mineralogy_data.json（SSOT，31 種礦石）讀取石頭資料。"""
     data = load_json(MINERALOGY_FILE)
     if not data:
         return {}
@@ -58,7 +70,7 @@ def get_stone_data(stone_id):
     for stone in stones:
         if stone.get('id') == stone_id:
             return stone
-    print(f"⚠️  Stone '{stone_id}' not found in mineralogy_data.json")
+    print(f"⚠️  Stone '{stone_id}' not found in mineralogy_data.json (SSOT: 31 stones)")
     return {}
 
 
@@ -67,25 +79,35 @@ def resolve_asset_paths(entry):
     解析已備用素材路徑。
     先檢查 entry 內的 asset_paths / asset_urls，
     再檢查 assets/ 目錄內對應日期檔案。
+
+    Reels 規格：
+      - 6 PNG 為中間轉製素材（不上傳 IG）
+      - 1 MP4 為最終發布格式（20–30 秒）
+      - manus_task.json 的 asset_paths 只填寫 MP4 路徑供 Manus IG MCP 發布
     """
     # 1. 排程預填的路徑
     paths = entry.get('asset_paths') or entry.get('asset_urls', [])
     if paths:
         return paths
 
-    # 2. 自動推断 assets/ 內的檔案名（根據日期 + 類型）
+    # 2. 自動推斷 assets/ 內的檔案名（根據日期 + 類型）
     date = entry.get('date', '')
-    t = entry.get('type', '')
+    t    = entry.get('type', '')
     base = 'assets'
+
     if t == 'stories':
+        # Stories: 1 PNG (1080×1350)
         guessed = [f"{base}/stories/story_{date}.png"]
+
     elif t in ('post', 'posts'):
+        # Posts Carousel: 5 PNG (1080×1350)
         guessed = [f"{base}/posts/post_{date}_s{i}.png" for i in range(1, 6)]
+
     elif t == 'reels':
-        guessed = (
-            [f"{base}/reels/reel_{date}_s{i}.png" for i in range(1, 7)]
-            + [f"{base}/reels/reel_{date}.mp4"]
-        )
+        # Reels: 最終發布只用 MP4 (20–30s)
+        # 6 PNG 中間素材由 Manus 在批量生圖模式時生成，存於 assets/reels/
+        # 此處只回傳 MP4 路徑給 Manus IG MCP 發布用
+        guessed = [f"{base}/reels/reel_{date}.mp4"]
     else:
         guessed = []
 
@@ -99,20 +121,48 @@ def resolve_asset_paths(entry):
 
 def build_manus_task(entry, stone_data):
     task_type = entry.get('type', '')
+
+    # 全格式統一 1080×1350 px
     format_specs = {
-        'stories': {'slides': 1,  'dimensions': '1080x1920', 'has_video': False},
-        'post':    {'slides': 5,  'dimensions': '1080x1350', 'has_video': False},
-        'posts':   {'slides': 5,  'dimensions': '1080x1350', 'has_video': False},
-        'reels':   {'slides': 6,  'dimensions': '1080x1920', 'has_video': True, 'video_duration': '15-30s'},
+        'stories': {
+            'slides': 1,
+            'dimensions': '1080x1350',
+            'has_video': False,
+            'output': '1 PNG'
+        },
+        'post': {
+            'slides': 5,
+            'dimensions': '1080x1350',
+            'has_video': False,
+            'output': '5 PNG (Carousel)'
+        },
+        'posts': {
+            'slides': 5,
+            'dimensions': '1080x1350',
+            'has_video': False,
+            'output': '5 PNG (Carousel)'
+        },
+        'reels': {
+            'intermediate_slides': 6,
+            'dimensions': '1080x1350',
+            'has_video': True,
+            'video_duration': '20-30s',
+            'output': '1 MP4（由 6 PNG 中間素材轉製，20–30 秒）',
+            'ig_publish': 'MP4 only — 6 PNG 為中間素材，不上傳 IG'
+        },
     }
+
     asset_paths = resolve_asset_paths(entry)
 
     return {
-        'task_id': f"{entry.get('date')}_{task_type}",
-        'created_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        'source': 'github_actions_scheduler',
+        'task_id':      f"{entry.get('date')}_{task_type}",
+        'created_at':   datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        'source':       'github_actions_scheduler',
         'publish_platform': 'instagram',
-        'publish_via': 'manus_ig_mcp',
+        'publish_via':  'manus_ig_mcp',
+
+        # 礦石資料唯一真源：mineralogy_data.json（31 種礦石）
+        'ssot_note': 'All mineral data sourced exclusively from mineralogy_data.json (31 stones)',
 
         'schedule': {
             'date':          entry.get('date'),
@@ -124,24 +174,27 @@ def build_manus_task(entry, stone_data):
         },
 
         'stone': {
-            'id':             stone_data.get('id',           entry.get('stone_id', '')),
-            'zh':             stone_data.get('name_zh',      entry.get('stone_zh', '')),
-            'en':             stone_data.get('name_en',      ''),
-            'hardness':       stone_data.get('hardness',     ''),
-            'color':          stone_data.get('color',        ''),
-            'optical_effects':stone_data.get('optical_effects', []),
-            'body_focus':     stone_data.get('body_focus',   []),
-            'use_cases':      stone_data.get('use_cases',    []),
-            'care_tips':      stone_data.get('care_tips',    ''),
-            'synthetic_signs':stone_data.get('synthetic_signs', ''),
+            'id':              stone_data.get('id',              entry.get('stone_id', '')),
+            'zh':              stone_data.get('name_zh',         entry.get('stone_zh', '')),
+            'en':              stone_data.get('name_en',         ''),
+            'hardness':        stone_data.get('hardness',        ''),
+            'color':           stone_data.get('color',           ''),
+            'optical_effects': stone_data.get('optical_effects', []),
+            'body_focus':      stone_data.get('body_focus',      []),
+            'use_cases':       stone_data.get('use_cases',       []),
+            'care_tips':       stone_data.get('care_tips',       ''),
+            'synthetic_signs': stone_data.get('synthetic_signs', ''),
         },
 
         'caption':      entry.get('caption', ''),
         'caption_note': '如 caption 為空，由 Manus 按品牌語調生成。首行必須含石頭名稱 + 功能關鍵字。',
 
-        # 偶先就小備用素材路徑（Manus 批量生圖後存於此）
-        'asset_paths': asset_paths,
-        'assets_ready': len(asset_paths) > 0,
+        # asset_paths:
+        #   Stories → PNG 路徑
+        #   Posts   → 5 PNG 路徑
+        #   Reels   → MP4 路徑（6 PNG 中間素材不列入，不上傳 IG）
+        'asset_paths':   asset_paths,
+        'assets_ready':  len(asset_paths) > 0,
 
         'format_spec': format_specs.get(task_type, {}),
 
@@ -172,16 +225,17 @@ if __name__ == '__main__':
         print(f"⏭️  Nothing to publish for '{task_type}' today.")
         sys.exit(0)
 
-    stone_id = entry.get('stone_id', '')
+    stone_id   = entry.get('stone_id', '')
     stone_data = get_stone_data(stone_id) if stone_id else {}
-    task = build_manus_task(entry, stone_data)
+    task       = build_manus_task(entry, stone_data)
     save_json(TASK_OUTPUT_FILE, task)
 
     print(f"""✅ manus_task.json ready:
-   task_id     : {task['task_id']}
-   type        : {task_type}
-   stone       : {task['stone']['zh']} ({task['stone']['id']})
-   assets_ready: {task['assets_ready']} ({len(task['asset_paths'])} files)
-   phase       : {task['schedule']['phase']}
+   task_id      : {task['task_id']}
+   type         : {task_type}
+   stone        : {task['stone']['zh']} ({task['stone']['id']})
+   assets_ready : {task['assets_ready']} ({len(task['asset_paths'])} files)
+   phase        : {task['schedule']['phase']}
+   dimensions   : 1080x1350 px (unified across all formats)
 """)
     sys.exit(0)
