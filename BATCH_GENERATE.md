@@ -12,7 +12,7 @@
         ↓
    Manus 讀 content_schedule.json
    對每一條 pending 記錄：
-     • 根據 stone_id 讀取 mineralogy_data.json（SSOT）
+     • 根據 stone_id 讀取 mineralogy_data.json（SSOT，31 種礦石）
      • 按 format_spec 生成圖片
      • 存入 assets/{type}/{filename}
         ↓
@@ -39,7 +39,7 @@
 |------|------|------|
 | Stories | **1080×1350 px（4:5）** | 1 PNG |
 | Posts Carousel | **1080×1350 px（4:5）** | 5 PNG（封面必須含數字或問句）|
-| Reels | **1080×1350 px（4:5）** | 6 PNG 中間素材 + 1 MP4（15–30 秒）|
+| Reels | **1080×1350 px（4:5）** | 6 PNG 中間素材 + 1 MP4（**20–30 秒**）|
 
 > 所有格式統一 **4:5（1080×1350 px）**，禁止使用其他尺寸。
 
@@ -59,7 +59,7 @@
 
 ## 礦石資料來源
 
-一律從 `mineralogy_data.json` 讀取（SSOT）。**禁止自行輸入礦石資料。**
+一律從 `mineralogy_data.json` 讀取（SSOT，共 **31 種礦石**）。**禁止自行輸入礦石資料。**
 
 ---
 
@@ -71,17 +71,24 @@ assets: batch generate [Phase 1] 2026-06-15 to 2026-07-14 (30 entries)
 
 ---
 
-## 備用完成後的發布流程
+## 備用完成後的發布流程（Event-Driven Pull）
 
 ```
-GitHub Actions 定時觸發
+GitHub Actions 定時觸發（唯一觸發源）
         ↓
    main.py 找今日任務
    解析 assets/ 備用素材路徑
    寫入 manus_task.json（assets_ready: true）
+   commit manus_task.json 到 repo
         ↓
-   Manus 讀取 manus_task.json
+   manus_trigger.py 主動呼叫 Manus API → 喚醒 Manus Task
+        ↓
+   Manus 被喚醒後（無 Polling / 無 Webhook）：
+   透過 GitHub MCP 讀取 manus_task.json
    從 assets/ 取備用圖片及文案
    透過 IG MCP 發布至 Instagram
    回填 published_url → status 改為 published
+   → 進入休眠
 ```
+
+> ⚠️ Manus 不做 Webhook 監聽，不做持續 Polling，避免 Token 浪費與系統不穩定。

@@ -1,10 +1,9 @@
 {
-  "_version": "2.3",
-  "_last_updated": "2026-06-27",
+  "_version": "2.4",
+  "_last_updated": "2026-06-28",
   "brand": {
     "name": "Luna's Stone Atelier",
     "ig_handle": "@lunas.stone.atelier",
-    "ig_user_id_secret": "IG_USER_ID",
     "tagline": "\u6bcf\u4e00\u984f\u77f3\u982d\uff0c\u90fd\u662f\u5b87\u5b99\u5bc4\u7d66\u4f60\u7684\u4fe1",
     "language": "zh-HK",
     "disclaimer": "Luna's Stone Atelier \u5716\u6587\u50c5\u4f9b\u53c3\u8003"
@@ -26,9 +25,10 @@
       "Wednesday": ["stories@20:00"],
       "Thursday":  ["reels@18:00", "stories@20:00"],
       "Friday":    ["carousel@12:00", "stories@20:00"],
+      "Saturday":  [],
       "Sunday":    ["stories@20:00"]
     },
-    "note": "Carousel \u767c\u5e03\u65e5\uff1a\u9031\u4e8c\u3001\u9031\u4e94 12:00 HKT | Reels \u767c\u5e03\u65e5\uff1a\u9031\u4e00\u3001\u9031\u56db 18:00 HKT | Stories\uff1a\u9031\u4e09\u3001\u9031\u56db\u3001\u9031\u65e5 20:00 HKT"
+    "note": "Carousel \u767c\u5e03\u65e5\uff1a\u9031\u4e8c\u3001\u9031\u4e94 12:00 HKT | Reels \u767c\u5e03\u65e5\uff1a\u9031\u4e00\u3001\u9031\u56db 18:00 HKT | Stories\uff1a\u9031\u4e00\u3001\u9031\u4e09\u3001\u9031\u56db\u3001\u9031\u4e94\u3001\u9031\u65e5 20:00 HKT\uff085 \u6b21/\u9031\uff09"
   },
   "format_specs": {
     "stories": {
@@ -51,7 +51,7 @@
       "size": "1080x1350px",
       "intermediate": "6 PNG",
       "output": "1 MP4",
-      "duration_sec": "15-30",
+      "duration_sec": "20-30",
       "hook_3sec_target": "> 60%",
       "watch_through_target": "> 70%",
       "sends_reach_target": "> 3%",
@@ -107,7 +107,7 @@
       "3sec_hold_rate": "> 60%",
       "watch_through_rate": "> 70%",
       "sends_reach_ratio": "> 3%",
-      "replay_rate": "\u9ad8\u8cea\u5167容\u8a0a\u865f"
+      "replay_rate": "\u9ad8\u8cea\u5167\u5bb9\u8a0a\u865f"
     }
   },
   "monitoring_schedule": {
@@ -116,15 +116,20 @@
   },
   "data_source": {
     "mineralogy_ssot": "mineralogy_data.json",
+    "mineralogy_count": 31,
     "note": "\u6240\u6709\u7926\u77f3\u6587\u6848\u3001\u79d1\u5b78\u6578\u64da\u3001\u8108\u8f2a\u5c0d\u61c9\u5fc5\u9808\u4ee5 mineralogy_data.json \u70ba\u552f\u4e00\u771f\u6e90\uff0c\u7981\u6b62\u5728\u5176\u4ed6\u6a94\u6848\u53e6\u884c\u7dad\u8b77\u7926\u77f3\u8cc7\u6599\u8868"
   },
   "github_secrets": {
-    "IG_USER_ID": "Instagram Business \u5e33\u865f\u6578\u5b57 ID\uff08\u975e handle\uff09",
-    "OPENAI_API_KEY": "OpenAI API Key\uff08Manus \u6279\u91cf\u751f\u5716\u7528\uff09"
+    "MANUS_API_KEY": "Manus API Key\uff08GitHub Actions \u5594\u9192 Manus Task \u7528\uff09",
+    "_deprecated": ["OPENAI_API_KEY", "IG_USER_ID", "IG_ACCESS_TOKEN"]
   },
   "manus_workflow": {
+    "trigger_mechanism": "Event-Driven Pull",
+    "trigger_source": "GitHub Actions \u662f\u552f\u4e00\u89f8\u767c\u6e90\uff0c\u900f\u904e manus_trigger.py \u5594\u9192 Manus",
+    "manus_polling": false,
+    "manus_webhook": false,
     "mode_batch_generate": "\u624b\u52d5\u57f7\u884c\uff1a\u6279\u91cf\u751f\u6210\u5168\u90e8\u5716\u7247\u5b58\u5165 assets/\uff0cstatus \u6539\u70ba generated",
-    "mode_publish": "GitHub Actions \u5b9a\u6642\u89f8\u767c\uff1aManus \u8b80\u53d6 manus_task.json \u2192 \u5f9e assets/ \u53d6\u5099\u7528\u5716\u7247\u53ca\u6587\u6848 \u2192 \u900f\u904e IG MCP \u767c\u5e03 \u2192 \u56de\u5831\u5b8c\u6210",
+    "mode_publish": "GitHub Actions \u5b9a\u6642\u89f8\u767c\uff08Event-Driven Pull\uff09\uff1aManus \u88ab\u5594\u9192\u5f8c\u8b80\u53d6 manus_task.json \u2192 \u5f9e assets/ \u53d6\u5099\u7528\u5716\u7247\u53ca\u6587\u6848 \u2192 \u900f\u904e IG MCP \u767c\u5e03 \u2192 \u56de\u5831\u5b8c\u6210 \u2192 \u4f11\u7720",
     "note": "\u767c\u5e03\u6a21\u5f0f\u4e0b Manus \u4e0d\u8ca0\u8cac\u751f\u5716\uff0c\u82e5 asset_path \u4e0d\u5b58\u5728\u9808\u7acb\u5373\u5831\u932f"
   }
 }

@@ -1,5 +1,5 @@
-# Luna's Stone Atelier — 知識庫 v2.3
-_最後更新：2026-06-27_
+# Luna's Stone Atelier — 知識庫 v2.4
+_最後更新：2026-06-28_
 
 ---
 
@@ -7,7 +7,7 @@ _最後更新：2026-06-27_
 
 > **本文件不維護任何礦石資料表。**
 > 所有礦石的科學數據、脈輪對應、光學效應、保養建議、鑑別方法，
-> **一律以 `mineralogy_data.json` 為唯一真源（SSOT）。**
+> **一律以 `mineralogy_data.json` 為唯一真源（SSOT）**（共 **31 種礦石**）。
 >
 > 如需查詢礦石資訊，請直接讀取 `mineralogy_data.json`，使用 `id` 欄位對應。
 > 禁止在本文件或任何其他文件另行維護礦石資料表。
@@ -16,10 +16,10 @@ _最後更新：2026-06-27_
 
 ## 1. 品牌定位
 
-**Luna's Stone Atelier** 是一個深耕礦石文化、結合矿物學知識與身心靈能量的 Instagram 內容品牌。
+**Luna's Stone Atelier** 是一個深耕礦石文化、結合礦物學知識與身心靈能量的 Instagram 內容品牌。
 
-核心價値：
-- **知識深度**：每一顏礦石皆有科學根據，拒絕偽科學
+核心價值：
+- **知識深度**：每一顆礦石皆有科學根據，拒絕偽科學
 - **美學質感**：深海星空視覺語言，神秘而溫柔
 - **能量誠信**：能量描述均以「參考」定位，附免責聲明
 
@@ -33,7 +33,7 @@ _最後更新：2026-06-27_
 |------|------------|------|
 | Stories | 1080×1350 px | 1 PNG |
 | Posts Carousel | 1080×1350 px | 5 PNG |
-| Reels | 1080×1350 px | 6 PNG 中間素材 + 1 MP4（15–30 秒）|
+| Reels | 1080×1350 px | 6 PNG 中間素材 + 1 MP4（20–30 秒）|
 
 > 所有格式統一採用 **4:5（1080×1350 px）**。
 
@@ -47,7 +47,7 @@ _最後更新：2026-06-27_
 |------|-------------|-----------|----------|
 | 破圈引流 | 2026-06-16 → 07-14 | 2026-06-15 → 07-09 | 追蹤號召，建立首印象 |
 | 信任建立 | 2026-07-17 → 08-11 | 2026-07-13 → 08-06 | 收藏號召，展示專業深度 |
-| 產品轉化 | 2026-08-14 → 09-08 | 2026-08-10 → 09-07 | Profile 連結，導導購買 |
+| 產品轉化 | 2026-08-14 → 09-08 | 2026-08-10 → 09-07 | Profile 連結，導向購買 |
 
 ---
 
@@ -59,9 +59,9 @@ _最後更新：2026-06-27_
 |------|---------------|---------|-------|
 | Reels | 18:00 | 2 次 | 週一、週四 |
 | Posts Carousel | 12:00 | 2 次 | 週二、週五 |
-| Stories | 20:00 | 3 次 | 週三、週四、週日 |
+| Stories | 20:00 | 5 次 | 週一、週三、週四、週五、週日 |
 
-> Stories 另在 Reels 發布日（週一、週四）將加发轉發貼文引導觸及。
+> Stories 在 Reels 發布日（週一、週四）同步加發，引導觸及。
 
 ---
 
@@ -92,21 +92,26 @@ _最後更新：2026-06-27_
 
 | Secret 名稱 | 說明 |
 |-------------|------|
-| `IG_USER_ID` | Instagram Business 帳號**數字 ID**（非 @handle，例：`17841400000000000`）|
-| `OPENAI_API_KEY` | OpenAI API Key（Manus 批量生圖用）|
+| `MANUS_API_KEY` | Manus API Key（GitHub Actions 喚醒 Manus Task 用）|
 
-> ⚠️ `IG_USER_ID` 的値是一串**純數字**，不是 `@lunas.stone.atelier` 帳號名稱。
-> IG 發布由 Manus IG MCP 負責，**不需要** `IG_ACCESS_TOKEN`。
+> IG 發布由 Manus IG MCP 全權負責。
+> 以下憑證**不需要**設定，禁止引用：`IG_ACCESS_TOKEN`、`IG_USER_ID`、`OPENAI_API_KEY`。
+
+### 觸發機制：Event-Driven Pull
+
+- **GitHub Actions 是唯一觸發源**，依排程主動呼叫 Manus API
+- Manus **不做** Webhook 監聽，**不做**持續 Polling（避免 Token 浪費與系統不穩定）
+- Manus 被喚醒後：讀取 `manus_task.json` → 取備用圖片 → IG MCP 發布 → 更新 status → 休眠
 
 ---
 
 ## 7. 資料架構總覽
 
 ```
-礦石資料  ←  mineralogy_data.json   （SSOT，唯一真源，禁止在其他文件另行維護）
+礦石資料  ←  mineralogy_data.json   （SSOT，唯一真源，31 種礦石，禁止在其他文件另行維護）
 品牌設定  ←  brand_config.json      （發布時間、格式規格、三階段 CTA、色彩系統）
 排程內容  ←  content_schedule.json  （90天排程，stone_id 對應 SSOT）
-生成指引  ←  manus_instructions.md  （Manus AI 操作規則、格式規格、Caption 規則）
+生成指引  ←  manus_instructions.md  （Manus AI 操作規則 v5.0、格式規格、Caption 規則）
 素材記錄  ←  generated_assets.json  （Manus 回填，人工勿直接編輯資產 URL）
 知識總覽  ←  KNOWLEDGE_BASE.md      （本文件，系統導覽，不維護礦石表）
 批量生圖  ←  BATCH_GENERATE.md      （Manus 一次性批量生圖指引）
@@ -128,7 +133,7 @@ _最後更新：2026-06-27_
 
 操作要點：
 - **SEO First Line**：Caption 第一行必須含礦石名稱 + 功能關鍵詞
-- **Hashtag 控制**：每則 3–5 個，主題相關，禁止堆砂
+- **Hashtag 控制**：每則 3–5 個，主題相關，禁止堆砌
 - **Save/Share 導向**：Posts 導向 Save；Reels 導向 Share（Sends）
 - **首 90 分鐘**：發布後立即 Stories 轉發，帳號主 10 分鐘內自行留言引導互動
 - **Reels Hook**：首 3 秒必須有止滑鉤（`第N夜｜{礦石}的秘密`）
