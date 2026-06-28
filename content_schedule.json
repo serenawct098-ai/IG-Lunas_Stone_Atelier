@@ -16,12 +16,7 @@
       "full_scripts": {
         "posts_full": 25,
         "reels_full": 25
-      },
-      "patch_applied": [
-        "post23_zodiac_guardian_stone",
-        "cantonese_vo_to_vo_written_chinese",
-        "reels_ep11_ep12_qimen_rewrite"
-      ]
+      }
     }
   },
   {
