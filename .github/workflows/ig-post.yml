@@ -2,28 +2,25 @@
 #
 # 架構：GitHub = Scheduler（觸發器）| Manus = Publisher（執行器）
 #
+# 連接機制：GitHub 與 Manus 均透過 MCP（Model Context Protocol）互通
+#   - Manus 透過 GitHub MCP 直接讀取 repo 中的 manus_task.json
+#   - 所有 IG 發布由 Manus IG MCP 負責
+#   - 不需要任何 GitHub Secrets（無 MANUS_API_KEY、IG_ACCESS_TOKEN、IG_USER_ID、OPENAI_API_KEY）
+#
 # 流程：
 #   1. Cron 觸發 → main.py 讀排程 + 礦石 SSOT（mineralogy_data.json，共 31 種礦石）
 #   2. 組裝 manus_task.json → commit 到 repo
-#   3. GitHub Actions 透過 manus_trigger.py 喚醒 Manus Task
-#   4. Manus 被喚醒後：透過 GitHub MCP 讀取 manus_task.json
+#   3. Manus 透過 GitHub MCP 偵測到新 commit → 主動讀取 manus_task.json
+#   4. Manus 被觸發後：
 #      → 從 assets/ 取 image_paths 對應的備用圖片及文案
 #      → 透過 IG MCP 發布至 Instagram
 #      → 回填 published_url，更新 content_schedule.json status = published
 #      → 進入休眠
 #
-# 連接機制：GitHub 與 Manus 均透過 MCP 互通
-#   - 所有 IG 發布由 Manus IG MCP 負責
-#   - 不需要 IG_ACCESS_TOKEN、IG_USER_ID、OPENAI_API_KEY
-#
 # 觸發機制：Event-Driven Pull（事件驅動型主動拉取）
-#   - GitHub Actions 是唯一觸發源，透過 manus_trigger.py 喚醒 Manus
-#   - Manus 不做 Webhook 監聽，不做持續 Polling，避免 Token 浪費與系統不穩定
-#   - Manus 被喚醒後：
-#       1. 連接 GitHub MCP → 直接讀取最新 manus_task.json
-#       2. 精準執行：根據 image_paths 從 assets/ 提取備用圖片
-#       3. 透過 IG MCP 完成發布
-#       4. 更新狀態 → 再次進入休眠
+#   - GitHub Actions commit manus_task.json 是唯一觸發訊號
+#   - Manus 透過 GitHub MCP 主動拉取，不做 Webhook 監聽，不做持續 Polling
+#   - 避免 Token 浪費與系統不穩定
 #
 # 發布規格（全格式統一 1080×1350 px）：
 #   Stories  ：逢一、三、四、五、日  20:00 HKT → 1 PNG
@@ -108,38 +105,23 @@ jobs:
         run: python main.py
 
       # ─── 將 manus_task.json commit 回 repo ─────────────────────
-      # Manus 透過 GitHub MCP 讀取此檔案，無需額外授權
+      # Manus 透過 GitHub MCP 讀取此檔案，無需任何 Secret 或 API Key
       - name: Commit Manus Task
         if: steps.task.outputs.task_type != ''
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add manus_task.json
-          git diff --cached --quiet || git commit -m "task: [${{ steps.task.outputs.task_type }}] $(date -u +%Y-%m-%d) — awaiting Manus publish"
+          git diff --cached --quiet || git commit -m "task: [${{ steps.task.outputs.task_type }}] $(date -u +%Y-%m-%d) — awaiting Manus publish via GitHub MCP"
           git push
-
-      # ─── 主動喚醒 Manus（Event-Driven Pull）─────────────────────
-      # GitHub Actions 是唯一觸發源：
-      #   1. manus_trigger.py 呼叫 Manus API，主動喚醒 Manus Task
-      #   2. Manus 被喚醒後：
-      #      - 透過 GitHub MCP 讀取最新 manus_task.json
-      #      - 根據 image_paths 從 assets/ 提取備用圖片
-      #      - 透過 IG MCP 完成發布
-      #      - 更新狀態 → 再次進入休眠
-      # 無 Webhook 監聽，無持續 Polling，不浪費 Token
-      - name: Trigger Manus Task (Event-Driven Pull)
-        if: steps.task.outputs.task_type != ''
-        env:
-          TASK_TYPE: ${{ steps.task.outputs.task_type }}
-          MANUS_API_KEY: ${{ secrets.MANUS_API_KEY }}
-        run: python manus_trigger.py
 
       - name: Task Ready Notice
         if: steps.task.outputs.task_type != ''
         run: |
           echo "✅ manus_task.json committed to repo."
-          echo "✅ Manus triggered via Event-Driven Pull."
-          echo "📌 Manus flow: GitHub MCP → read manus_task.json → fetch assets/ image_paths → IG MCP publish → sleep"
+          echo "📌 Manus will detect via GitHub MCP → read manus_task.json → fetch assets/ image_paths → IG MCP publish → sleep"
+          echo "📌 Connection: GitHub MCP (read/write repo) + IG MCP (publish Instagram)"
+          echo "📌 No API keys required — all via MCP"
           echo "📌 After publish: Manus updates content_schedule.json status = published"
           echo "📌 Dimensions: 1080x1350 px (all formats: Stories / Posts / Reels)"
 

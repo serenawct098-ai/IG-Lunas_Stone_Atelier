@@ -1,4 +1,4 @@
-# Luna's Stone Atelier — 知識庫 v2.4
+# Luna's Stone Atelier — 知識庫 v2.5
 _最後更新：2026-06-28_
 
 ---
@@ -61,8 +61,6 @@ _最後更新：2026-06-28_
 | Posts Carousel | 12:00 | 2 次 | 週二、週五 |
 | Stories | 20:00 | 5 次 | 週一、週三、週四、週五、週日 |
 
-> Stories 在 Reels 發布日（週一、週四）同步加發，引導觸及。
-
 ---
 
 ## 5. 連載系列
@@ -86,29 +84,34 @@ _最後更新：2026-06-28_
 
 ---
 
-## 6. GitHub 環境設定
+## 6. 連接機制與 GitHub 環境
 
-### 必要 Secrets（Settings → Secrets and variables → Actions）
+### 連接方式：MCP（Model Context Protocol）
 
-| Secret 名稱 | 說明 |
-|-------------|------|
-| `MANUS_API_KEY` | Manus API Key（GitHub Actions 喚醒 Manus Task 用）|
+> GitHub 與 Manus 的所有連接，**完全透過 MCP 實現，不需要任何 API Key 或額外 Secret。**
 
-> IG 發布由 Manus IG MCP 全權負責。
-> 以下憑證**不需要**設定，禁止引用：`IG_ACCESS_TOKEN`、`IG_USER_ID`、`OPENAI_API_KEY`。
+| MCP 連接 | 用途 |
+|----------|------|
+| **GitHub MCP** | Manus 直接讀取 repo 中的 `manus_task.json`、`content_schedule.json` 等檔案，以及 commit 回填狀態 |
+| **IG MCP** | Manus 完成 Instagram 發布 |
 
-### 觸發機制：Event-Driven Pull
+### 不需要設定的憑證
 
-- **GitHub Actions 是唯一觸發源**，依排程主動呼叫 Manus API
-- Manus **不做** Webhook 監聽，**不做**持續 Polling（避免 Token 浪費與系統不穩定）
-- Manus 被喚醒後：讀取 `manus_task.json` → 取備用圖片 → IG MCP 發布 → 更新 status → 休眠
+以下憑證**一律不需要**，禁止在任何步驟中引用：
+
+| 憑證 | 原因 |
+|------|------|
+| `MANUS_API_KEY` | GitHub↔Manus 透過 MCP 連接，無需 API Key |
+| `OPENAI_API_KEY` | 系統不使用 OpenAI API |
+| `IG_ACCESS_TOKEN` | IG 發布由 Manus IG MCP 全權負責 |
+| `IG_USER_ID` | 與 Manus IG MCP 運作無關 |
 
 ---
 
 ## 7. 資料架構總覽
 
 ```
-礦石資料  ←  mineralogy_data.json   （SSOT，唯一真源，31 種礦石，禁止在其他文件另行維護）
+礦石資料  ←  mineralogy_data.json   （SSOT，31 種礦石，禁止在其他文件另行維護）
 品牌設定  ←  brand_config.json      （發布時間、格式規格、三階段 CTA、色彩系統）
 排程內容  ←  content_schedule.json  （90天排程，stone_id 對應 SSOT）
 生成指引  ←  manus_instructions.md  （Manus AI 操作規則 v5.0、格式規格、Caption 規則）

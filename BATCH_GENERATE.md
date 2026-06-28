@@ -10,15 +10,15 @@
 ```
 一次性操作（開始或更新時）
         ↓
-   Manus 讀 content_schedule.json
+   Manus 透過 GitHub MCP 讀取 content_schedule.json
    對每一條 pending 記錄：
      • 根據 stone_id 讀取 mineralogy_data.json（SSOT，31 種礦石）
      • 按 format_spec 生成圖片
      • 存入 assets/{type}/{filename}
         ↓
-   commit 到 GitHub repo
+   Manus 透過 GitHub MCP commit 到 repo
         ↓
-   備用完成！GitHub Actions 每次發布時直接取用
+   備用完成！GitHub Actions 每次觸發後由 Manus 透過 GitHub MCP 直接取用
 ```
 
 ---
@@ -59,7 +59,8 @@
 
 ## 礦石資料來源
 
-一律從 `mineralogy_data.json` 讀取（SSOT，共 **31 種礦石**）。**禁止自行輸入礦石資料。**
+一律透過 **GitHub MCP** 讀取 `mineralogy_data.json`（SSOT，共 **31 種礦石**）。
+**禁止自行輸入礦石資料。**
 
 ---
 
@@ -81,10 +82,9 @@ GitHub Actions 定時觸發（唯一觸發源）
    寫入 manus_task.json（assets_ready: true）
    commit manus_task.json 到 repo
         ↓
-   manus_trigger.py 主動呼叫 Manus API → 喚醒 Manus Task
+   Manus 透過 GitHub MCP 主動讀取最新 manus_task.json
+   （無 Polling，無 Webhook，無 MANUS_API_KEY）
         ↓
-   Manus 被喚醒後（無 Polling / 無 Webhook）：
-   透過 GitHub MCP 讀取 manus_task.json
    從 assets/ 取備用圖片及文案
    透過 IG MCP 發布至 Instagram
    回填 published_url → status 改為 published
