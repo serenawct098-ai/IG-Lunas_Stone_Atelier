@@ -29,7 +29,7 @@
 |------|----------|------|
 | Stories | `assets/stories/story_{YYYY-MM-DD}.png` | `assets/stories/story_2026-07-01.png` |
 | Posts | `assets/posts/post_{YYYY-MM-DD}_s1.png` … `_s5.png` | `assets/posts/post_2026-07-02_s1.png` |
-| Reels | `assets/reels/reel_{YYYY-MM-DD}_s1.png` … `_s6.png` + `.mp4` | `assets/reels/reel_2026-07-05.mp4` |
+| Reels | `assets/reels/reel_{YYYY-MM-DD}_p1.png` … `_p6.png` + `.mp4` | `assets/reels/reel_2026-07-05.mp4` |
 
 ---
 
@@ -39,7 +39,7 @@
 |------|------|------|
 | Stories | **1080×1350 px（4:5）** | 1 PNG |
 | Posts Carousel | **1080×1350 px（4:5）** | 5 PNG（封面必須含數字或問句）|
-| Reels | **1080×1350 px（4:5）** | 6 PNG 中間素材 + 1 MP4（**20–30 秒**）|
+| Reels | **1080×1350 px（4:5）** | 6 幀圖文 PNG（p1–p6，文字燒入畫面）+ 1 MP4（**20–30 秒**，無旁白／無字幕軌）|
 
 > 所有格式統一 **4:5（1080×1350 px）**，禁止使用其他尺寸。
 

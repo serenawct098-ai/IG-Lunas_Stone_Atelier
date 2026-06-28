@@ -16,7 +16,7 @@
 ├── assets/                   ← 素材由 Manus 外部批量生成並管理
 │   ├── stories/              ← story_{YYYY-MM-DD}.png
 │   ├── posts/                ← post_{YYYY-MM-DD}_s1.png … _s5.png
-│   └── reels/                ← reel_{YYYY-MM-DD}_s1.png … _s6.png + .mp4
+│   └── reels/                ← reel_{YYYY-MM-DD}_p1.png … _p6.png + .mp4（6 幀圖文，文字燒入畫面）
 └── .github/workflows/        ← GitHub Actions 自動化
 ```
 
@@ -101,7 +101,7 @@
 |------|------------|------|
 | Stories | 1080×1350 px | 1 PNG |
 | Posts | 1080×1350 px | 5 PNG |
-| Reels | 1080×1350 px | 6 PNG 中間素材 → 1 MP4（20–30 秒）|
+| Reels | 1080×1350 px | 6 幀圖文 PNG（p1–p6，文字燒入畫面）→ 1 MP4（20–30 秒，無旁白／無字幕軌）|
 
 ---
 

@@ -1,7 +1,7 @@
 [
   {
     "_meta": {
-      "version": "2.4",
+      "version": "2.5",
       "generated": "2026-06-29",
       "period": "2026-06-15 → 2026-09-08",
       "total_entries": 111,
@@ -16,7 +16,8 @@
       "full_scripts": {
         "posts_full": 25,
         "reels_full": 25
-      }
+      },
+      "reel_format": "image_frames_only"
     }
   },
   {
@@ -40,26 +41,42 @@
       "climax": "手持一塊褪色粉晶特寫，紋理清晰，顏色明顯偏白，畫面突然黑屏——白字「還有一種⋯⋯」",
       "cta": "動態文字彈出：「第2集：最危險那塊是？」追蹤按鈕特效，倒計時感設計。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "注意！你每天日曬的水晶，其實已經損壞了！",
-        "zh_subtitle": "你每天曬太陽的水晶，其實已經廢掉了！",
-        "en_subtitle": "Stop! Your crystals are being RUINED by sunlight."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "你的水晶正在被太陽曬壞",
+        "body": "每天日曬的水晶，其實已經在永久損壞。",
+        "en_text": "Sunlight is RUINING your crystals."
       },
-      "3_15s": {
-        "vo": "紫水晶、粉晶、海藍寶——這三種礦石含鐵和錳，一見太陽就褪色，能量也隨之流失。這不是消磁，是真的損壞了！",
-        "zh_subtitle": "紫水晶、粉晶、海藍寶含鐵和錳，曝曬即褪色，不是淨化，是損壞。",
-        "en_subtitle": "Amethyst, Rose Quartz, Aquamarine — iron & manganese cause permanent fading. That's not cleansing. That's damage."
+      "p2": {
+        "role": "develop",
+        "headline": "這3種一曬就褪色",
+        "body": "紫水晶、粉晶、海藍寶含鐵與錳，曝曬即褪色。",
+        "en_text": "Amethyst, Rose Quartz, Aquamarine fade fast."
       },
-      "15_25s": {
-        "vo": "還有一種，幾乎每個人都有，它一曬太陽不只褪色，還會……",
-        "zh_subtitle": "還有一種幾乎人人都有，曬太陽不只褪色，還會⋯⋯",
-        "en_subtitle": "And there's one more — almost everyone has it — sunlight doesn't just fade it, it actually—"
+      "p3": {
+        "role": "develop",
+        "headline": "這不是淨化，是損壞",
+        "body": "日曬讓能量隨色彩一同流失，損壞無法挽回。",
+        "en_text": "That's not cleansing — that's permanent damage."
       },
-      "25_30s": {
-        "vo": "追蹤我，第2集為你解答！",
-        "zh_subtitle": "追蹤帳號，下集繼續揭秘",
-        "en_subtitle": "Follow for Part 2 — dropping Thursday!"
+      "p4": {
+        "role": "climax",
+        "headline": "還有一種人人都有",
+        "body": "它一曬太陽不只褪色，還會發生更嚴重的事⋯⋯",
+        "en_text": "One more — almost everyone owns it."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "最危險的那塊是？",
+        "body": "曬太陽不只褪色，後果比你想像更嚴重。",
+        "en_text": "Sunlight doesn't just fade it — it actually—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第2集為你揭曉",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow for Part 2."
       }
     },
     "caption": "⚠️ 你的水晶一直這樣曬著？！（第1集）\n這3種水晶見太陽就廢：紫水晶 / 粉晶 / 海藍寶\n不是迷信——是礦石化學成分問題 🔬\n💾 收藏留底 | 追蹤查看第2集答案",
@@ -191,26 +208,42 @@
       "climax": "特寫蛋白石裂縫——象徵性黑屏+白字：「損壞無法修復⋯⋯你有多少塊是這樣？」",
       "cta": "動態文字：「第3集：你養著假水晶？」追蹤特效彈出。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "就是這塊——你一曬它，它立刻龜裂，永久損壞！",
-        "zh_subtitle": "就是這塊——曬太陽直接龜裂，永久損壞！",
-        "en_subtitle": "This one — one day in sunlight and it cracks. Forever."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "曬一天，永久龜裂",
+        "body": "就是這塊——一曬太陽立刻龜裂，永久損壞。",
+        "en_text": "One day in sunlight and it cracks forever."
       },
-      "3_15s": {
-        "vo": "蛋白石（Opal）本身含水，成分是SiO₂加水。日曬等於對它強制脫水——遊彩效應消失、表面龜裂，這種損壞是無法挽救的！",
-        "zh_subtitle": "蛋白石含水結構（SiO₂·nH₂O），日曬導致失水龜裂，遊彩效應永久消失，無法修復。",
-        "en_subtitle": "Opal contains 3–20% water. Direct sunlight dehydrates it — the play-of-color vanishes, cracks appear. Permanent damage."
+      "p2": {
+        "role": "develop",
+        "headline": "蛋白石是含水礦石",
+        "body": "成分為 SiO₂·nH₂O，本身結構帶水。",
+        "en_text": "Opal holds 3–20% water inside its structure."
       },
-      "15_25s": {
-        "vo": "現在問你——你是否以為日曬是最天然的消磁方法？如果是，你可能已經毀了你最美的那塊石⋯⋯",
-        "zh_subtitle": "你是否認為日曬是最天然的淨化方式？如果是，你可能已毀掉了最珍貴的那塊礦石。",
-        "en_subtitle": "Did you think sunlight was the safest way to cleanse crystals? You may have already destroyed your best one."
+      "p3": {
+        "role": "develop",
+        "headline": "日曬＝強制脫水",
+        "body": "失水導致龜裂，遊彩效應永久消失，無法修復。",
+        "en_text": "Sun dehydrates it — play-of-color vanishes."
       },
-      "25_30s": {
-        "vo": "追蹤我，下集教你識別假水晶！",
-        "zh_subtitle": "追蹤帳號，下集：識別假水晶方法公開",
-        "en_subtitle": "Follow — next ep: how to spot fake crystals. Monday!"
+      "p4": {
+        "role": "climax",
+        "headline": "你以為日曬最天然？",
+        "body": "若你這樣想，可能已毀掉最珍貴的那塊石。",
+        "en_text": "Thought sunlight was safest? Think again."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "最美那塊，最易毀",
+        "body": "最珍貴的礦石，往往最禁不起陽光直射。",
+        "en_text": "You may have already destroyed your best one."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "下集：識別假水晶",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — next: how to spot fakes."
       }
     },
     "caption": "💀 蛋白石一曬太陽就龜裂？！（第2集）\n它含天然水分——日曬等於強制脫水，損壞永久無法修復\n這個是礦物學知識，不是迷信 🔬\n💾 收藏保護你的礦石 | 👆 第1集是什麼？查看Profile置頂",
@@ -353,26 +386,42 @@
       "climax": "揭曉：左邊天然有棉絮+冰涼感，右邊玻璃有圓形氣泡+無冰涼感。畫面停在「還有第四個方法⋯⋯」黑屏。",
       "cta": "「第4集：礦石放錯位置 = 破財？」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "這兩塊看起來一樣——但有一塊是玻璃，你知不知道哪塊是假的？",
-        "zh_subtitle": "這兩塊看起來一樣——但其中一塊是玻璃。你能分辨嗎？",
-        "en_subtitle": "These two look identical. One is glass. Can you tell which?"
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "一塊是玻璃，你分得出嗎？",
+        "body": "這兩塊看起來一樣，但其中一塊是假的。",
+        "en_text": "Two look identical. One is glass."
       },
-      "3_15s": {
-        "vo": "三個肉眼測試：第一，用10倍放大鏡——天然石有棉絮和氣液包裹體，玻璃有圓形氣泡；第二，手握感溫——天然石英有冰涼感；第三，顏色是否太均一？天然石顏色深淺不會那麼完美！",
-        "zh_subtitle": "測試1：放大鏡看內含物（棉絮vs圓形氣泡）；測試2：手握冰涼感；測試3：顏色是否過度均一。",
-        "en_subtitle": "Test 1: magnify — natural stone has inclusions, glass has round bubbles. Test 2: cold to touch. Test 3: colour too perfect = suspicious."
+      "p2": {
+        "role": "develop",
+        "headline": "測試1+2：包裹體與手感",
+        "body": "放大鏡看內含物（棉絮vs氣泡），手握感冰涼。",
+        "en_text": "Magnify for inclusions; natural feels cold."
       },
-      "15_25s": {
-        "vo": "以上三個你都能運用。但還有第四個方法——是最準確的那個，不需要任何工具，任何人都能做到⋯⋯",
-        "zh_subtitle": "以上三個你學到了，但還有第四個方法——最準確、無需工具，任何人都能做。",
-        "en_subtitle": "You now know three tests. But there's a 4th — the most accurate one. No tools needed. Anyone can do it—"
+      "p3": {
+        "role": "develop",
+        "headline": "測試3：顏色太完美？",
+        "body": "天然礦石深淺不均，顏色過度均一就要小心。",
+        "en_text": "Colour too perfect = suspicious."
       },
-      "25_30s": {
-        "vo": "追蹤我，下集告訴你！",
-        "zh_subtitle": "追蹤帳號，下集繼續揭秘",
-        "en_subtitle": "Follow for Part 4 — dropping Thursday!"
+      "p4": {
+        "role": "climax",
+        "headline": "還有第4個方法",
+        "body": "最準確、無需任何工具，任何人都能做到⋯⋯",
+        "en_text": "There's a 4th — the most accurate one."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "不需工具，人人能做",
+        "body": "這個方法最準，卻最少人知道。",
+        "en_text": "No tools needed. Anyone can do it—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "下集揭曉第4招",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow for Part 4."
       }
     },
     "caption": "🔍 你養著假水晶幾年都不知道？（第3集）\n3個肉眼即測方法：放大鏡氣泡 / 手握冰涼感 / 顏色均一度\n第四個最準確方法——下集才公開 👀\n💾 收藏留底 | 追蹤查看完整系列",
@@ -502,26 +551,42 @@
       "climax": "「第三個位置你想不到是哪裡⋯⋯」黑屏懸念，配神秘音效。",
       "cta": "「第5集：你八字相剋的石頭是？」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "警告！你家中有礦石嗎？有三個位置擺放等於破財！",
-        "zh_subtitle": "警告！家中有礦石嗎？三個位置放了等於破財！",
-        "en_subtitle": "Warning! 3 spots in your home where crystals DRAIN your wealth."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "3個位置擺石＝破財",
+        "body": "家中有礦石嗎？這三個位置擺錯等於漏財。",
+        "en_text": "3 spots where crystals DRAIN your wealth."
       },
-      "3_15s": {
-        "vo": "第一：廁所附近——水氣重，礦石能量被沖走；第二：黑曜石放睡房——保護能量過強，影響睡眠和感情；第三個你想不到，是最多人犯的錯誤⋯⋯",
-        "zh_subtitle": "錯誤1：廁所旁（水氣沖散能量）；錯誤2：黑曜石放睡房（能量過強影響睡眠）；錯誤3留到下一秒⋯⋯",
-        "en_subtitle": "Mistake 1: near toilets (water drains energy). Mistake 2: black obsidian in the bedroom (too intense). Mistake 3 is the one everyone makes—"
+      "p2": {
+        "role": "develop",
+        "headline": "錯誤1：廁所旁",
+        "body": "水氣重，礦石能量被沖散流走。",
+        "en_text": "Near toilets — water drains the energy."
       },
-      "15_25s": {
-        "vo": "第三個位置，是你每天都會去、還以為是最安全的地方⋯⋯但礦石放在那裡，反而會⋯⋯",
-        "zh_subtitle": "第三個地方你每天都去，以為最安全，但礦石放那裡反而會⋯⋯",
-        "en_subtitle": "The 3rd spot — you go there every day, you think it's safe — but placing crystals there actually—"
+      "p3": {
+        "role": "develop",
+        "headline": "錯誤2：黑曜石放睡房",
+        "body": "保護能量過強，影響睡眠與感情流通。",
+        "en_text": "Black obsidian in bedroom — too intense."
       },
-      "25_30s": {
-        "vo": "追蹤我，第5集繼續！",
-        "zh_subtitle": "追蹤帳號，下集繼續",
-        "en_subtitle": "Follow — Part 5 Monday. Don't miss it."
+      "p4": {
+        "role": "climax",
+        "headline": "第3個位置最多人犯",
+        "body": "你每天都會去，還以為那裡最安全⋯⋯",
+        "en_text": "Mistake 3 — the one everyone makes."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "最安全？其實最傷",
+        "body": "礦石放那裡，反而會默默耗散你的能量。",
+        "en_text": "You think it's safe — but it actually—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第5集繼續揭秘",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Part 5."
       }
     },
     "caption": "💸 礦石放錯位置等於破財——你中招了嗎？（第4集）\n廁所旁 / 黑曜石入睡房 / ＋第三個最多人犯的錯誤（下集揭曉）\n風水佈局不是擺好就算——位置同方向都有學問 🏠\n💾 收藏 | 追蹤查看完整系列",
@@ -664,26 +729,42 @@
       "climax": "畫面聚焦最常見招財石，旁邊問號符號閃爍，黑屏白字：「命中某類人用了它反破財⋯⋯」",
       "cta": "動態追蹤按鈕彈出：「第6集：脈輪影響財運？」倒計時感特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "注意！你選的礦石可能是你命中的天敵——命理師告訴你！",
-        "zh_subtitle": "你選的礦石可能是你命中天敵——命理師揭密！",
-        "en_subtitle": "Wait — your crystal might be your destiny nemesis. A fate reader reveals all."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "你的礦石可能是命中天敵",
+        "body": "選錯礦石，反而與你的命格相剋。",
+        "en_text": "Your crystal might be your destiny nemesis."
       },
-      "3_15s": {
-        "vo": "八字命格決定你五行缺什麼。缺火的人選紅石榴石補行動力，正確！但五行木旺的人，再加木屬性礦石反而令能量失衡——賺不到錢就是這個原因！",
-        "zh_subtitle": "八字五行缺什麼，決定你該選什麼礦石。五行木旺者再加木屬性礦石，能量反而失衡。",
-        "en_subtitle": "Your BaZi determines which element you're lacking. Adding the wrong elemental crystal to an already dominant element creates imbalance."
+      "p2": {
+        "role": "develop",
+        "headline": "八字決定你缺什麼",
+        "body": "五行缺什麼，決定你該補哪種礦石。",
+        "en_text": "BaZi reveals which element you lack."
       },
-      "15_25s": {
-        "vo": "還有一種，是市場上賣得最多的招財石——命中某類人使用後，不是旺財，而是反過來破財⋯⋯",
-        "zh_subtitle": "還有一種市場最暢銷的招財石——命中某類人使用後反而破財⋯⋯",
-        "en_subtitle": "And there's one bestselling wealth crystal — for certain destiny types, it actually drains wealth instead—"
+      "p3": {
+        "role": "develop",
+        "headline": "補錯＝能量失衡",
+        "body": "木旺者再加木屬性礦石，能量反而失衡。",
+        "en_text": "Wrong element creates imbalance."
       },
-      "25_30s": {
-        "vo": "追蹤我，第6集告訴你是什麼石！",
-        "zh_subtitle": "追蹤帳號，第6集揭曉是哪種石",
-        "en_subtitle": "Follow for Episode 6 — we'll reveal which one. Don't miss it!"
+      "p4": {
+        "role": "climax",
+        "headline": "最暢銷的招財石",
+        "body": "市場賣最多的那種，對某些人反而破財。",
+        "en_text": "The bestselling wealth crystal—"
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "旺財還是破財？",
+        "body": "命中某類人使用後，財運不升反降⋯⋯",
+        "en_text": "For some, it drains wealth instead—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第6集揭曉是哪種石",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Episode 6 reveals it."
       }
     },
     "hashtags": [
@@ -815,26 +896,42 @@
       "climax": "螢幕閃爍，症狀清單繼續延伸，最後一行出現「你想不到有多少人是這樣——」黑屏，音效突然停。",
       "cta": "「第7集：脈輪自測來了！」追蹤特效彈出。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "你賺不到錢，原因可能不是風水——是這個脈輪出了問題！",
-        "zh_subtitle": "找不到錢，原因可能不是風水——是這個脈輪出了問題！",
-        "en_subtitle": "Can't attract wealth? It might not be feng shui — it could be THIS chakra."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "賺不到錢，不是風水問題",
+        "body": "真正的原因，可能是這個脈輪出了問題。",
+        "en_text": "Can't attract wealth? It might be THIS chakra."
       },
-      "3_15s": {
-        "vo": "太陽神經叢（Solar Plexus Chakra）是自信和行動力的能量中心。它失衡的時候，你會拖延、決策困難、容易被人影響意志——是否很熟悉？這些是財運差的根源！",
-        "zh_subtitle": "太陽神經叢失衡時，你會拖延、決策困難、容易被他人影響意志——這是財運不佳的根源。",
-        "en_subtitle": "A blocked Solar Plexus causes procrastination, indecision, and weak willpower — the real root of poor financial energy."
+      "p2": {
+        "role": "develop",
+        "headline": "太陽神經叢＝行動中心",
+        "body": "它是自信與行動力的能量中心。",
+        "en_text": "The Solar Plexus powers confidence and action."
       },
-      "15_25s": {
-        "vo": "太陽神經叢失衡的症狀，你想不到有多少人是這樣——而且有一種礦石，是最直接對應這個脈輪的⋯⋯",
-        "zh_subtitle": "太陽神經叢失衡的症狀，你不會想到有多少人是這樣——還有一種礦石直接對應這個脈輪⋯⋯",
-        "en_subtitle": "The symptoms of a blocked solar plexus are more common than you'd think — and there's one crystal that targets it directly—"
+      "p3": {
+        "role": "develop",
+        "headline": "失衡：拖延、難決策",
+        "body": "易被他人影響意志，正是財運差的根源。",
+        "en_text": "Blocked: procrastination, weak willpower."
       },
-      "25_30s": {
-        "vo": "追蹤，第7集三分鐘自測脈輪！",
-        "zh_subtitle": "追蹤帳號，第7集：脈輪三分鐘自測",
-        "en_subtitle": "Follow — Episode 7: 3-minute chakra self-test!"
+      "p4": {
+        "role": "climax",
+        "headline": "原來這麼多人中招",
+        "body": "太陽神經叢失衡的症狀，比你想像更普遍。",
+        "en_text": "More common than you'd ever think."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "有一種石直接對應",
+        "body": "一種礦石最直接對應這個脈輪⋯⋯",
+        "en_text": "One crystal targets it directly—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第7集：脈輪自測",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep7: 3-min chakra test."
       }
     },
     "hashtags": [
@@ -977,26 +1074,42 @@
       "climax": "測試結束，畫面停在三個可能答案（海底輪/太陽神經叢/喉輪），旁邊問號，「配石還是擺陣——答案在第8集！」",
       "cta": "「第8集：三件套組合公式！」追蹤特效彈出。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "不需要命理師！三個問題測出你最需要的能量！",
-        "zh_subtitle": "不需要命理師！三個問題測出你最需要的能量！",
-        "en_subtitle": "No need for a fate reader! 3 questions reveal which energy you're missing most."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "3個問題測出你缺的能量",
+        "body": "不需要命理師，自己就能測出最缺的能量。",
+        "en_text": "3 questions reveal the energy you're missing."
       },
-      "3_15s": {
-        "vo": "問題一：你最近是否容易失眠、思緒停不下來？→ 頂輪或眉心輪需要調整。問題二：你是否拖延、對決策沒有信心？→ 太陽神經叢失衡。問題三：你是否想表達但總是說不出口？→ 喉輪堵塞。",
-        "zh_subtitle": "問1：失眠思緒停不下→頂輪失衡；問2：拖延決策困難→太陽神經叢；問3：說不出口→喉輪堵塞。",
-        "en_subtitle": "Q1: Can't sleep, mind racing? → Crown chakra. Q2: Procrastinating, indecisive? → Solar Plexus. Q3: Can't speak your truth? → Throat chakra."
+      "p2": {
+        "role": "develop",
+        "headline": "問1+2：失眠？拖延？",
+        "body": "思緒停不下→頂輪；拖延沒信心→太陽神經叢。",
+        "en_text": "Racing mind → Crown. Indecisive → Solar Plexus."
       },
-      "15_25s": {
-        "vo": "測出來你是哪一個？是配對應礦石，還是直接擺陣？答案在第8集——三件套組合公式全部告訴你！",
-        "zh_subtitle": "測出結果後，是配礦石還是擺陣？答案在第8集——三件套組合公式全揭曉！",
-        "en_subtitle": "Got your result? Should you wear a crystal or set up a grid? The answer's in Episode 8 — full formula revealed!"
+      "p3": {
+        "role": "develop",
+        "headline": "問3：說不出口？",
+        "body": "想表達卻總是說不出口→喉輪堵塞。",
+        "en_text": "Can't speak your truth? → Throat chakra."
       },
-      "25_30s": {
-        "vo": "追蹤，週四第8集！",
-        "zh_subtitle": "追蹤帳號，週四第8集見",
-        "en_subtitle": "Follow — Episode 8 drops Thursday. See you there!"
+      "p4": {
+        "role": "climax",
+        "headline": "測完，然後呢？",
+        "body": "是配對應礦石，還是直接擺陣？",
+        "en_text": "Got your result — wear it or grid it?"
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "三件套組合公式",
+        "body": "答案在第8集，完整組合公式全部揭曉。",
+        "en_text": "The full formula drops in Episode 8."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "週四第8集見",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep8 Thursday."
       }
     },
     "hashtags": [
@@ -1127,26 +1240,42 @@
       "climax": "三塊礦石聚合成三角形閃光，「三塊背後的能量邏輯——不是隨便選，是有完整理論⋯⋯」",
       "cta": "「第9集：紫微命盤配礦石！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "如果你只能擁有三塊石，就是這三塊——白水晶、黑碧璽、粉晶！",
-        "zh_subtitle": "如果只能有三塊礦石，就是這三塊——白水晶、黑碧璽、粉晶！",
-        "en_subtitle": "If you could only have three crystals — it's these three: Clear Quartz, Black Tourmaline, Rose Quartz!"
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "只能擁有3塊，就選這3塊",
+        "body": "白水晶、黑碧璽、粉晶——新手必備三件套。",
+        "en_text": "If you owned only 3: these three."
       },
-      "3_15s": {
-        "vo": "白水晶放中央——放大其他礦石和你自己的意圖；黑碧璽放前面——防護接地，都市人必備；粉晶放後面——情感滋養，補回每天消耗的心輪能量。三角形擺位，不是隨便選的！",
-        "zh_subtitle": "白水晶放大意圖（中央），黑碧璽前方防護，粉晶後方情感滋養——三角形能量場，不是隨便配的。",
-        "en_subtitle": "Clear Quartz amplifies (center). Black Tourmaline protects (front). Rose Quartz nurtures (back). A triangle — with real energetic logic behind it."
+      "p2": {
+        "role": "develop",
+        "headline": "白水晶放中央",
+        "body": "放大其他礦石與你自身的意圖。",
+        "en_text": "Clear Quartz centre — amplifies intention."
       },
-      "15_25s": {
-        "vo": "三塊背後的能量邏輯，不是隨便選——是有一套完整理論，正在使用的人都這樣說⋯⋯",
-        "zh_subtitle": "三塊背後的能量邏輯，不是隨便選——是有一套完整理論在支撐的⋯⋯",
-        "en_subtitle": "The logic behind these three isn't random — there's a complete energetic theory behind it, and people who use it say—"
+      "p3": {
+        "role": "develop",
+        "headline": "黑碧璽前、粉晶後",
+        "body": "黑碧璽防護接地，粉晶補回心輪能量。",
+        "en_text": "Tourmaline shields; Rose Quartz nourishes."
       },
-      "25_30s": {
-        "vo": "追蹤，第9集深入紫微命盤配石！",
-        "zh_subtitle": "追蹤帳號，第9集：紫微命盤配礦石",
-        "en_subtitle": "Follow for Episode 9 — BaZi crystal matching deep dive!"
+      "p4": {
+        "role": "climax",
+        "headline": "三角形擺位有講究",
+        "body": "不是隨便排——位置決定能量場的流動。",
+        "en_text": "The triangle layout isn't random."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "配對更進一步",
+        "body": "下集用紫微命盤，把礦石配到你身上。",
+        "en_text": "Next level: match to your own chart."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第9集：紫微配礦石",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep9: Zi Wei crystals."
       }
     },
     "hashtags": [
@@ -1288,26 +1417,42 @@
       "climax": "「化忌最多人忽略——但它決定了你用哪塊石最有效⋯⋯你的化忌是哪個星？」黑屏懸念。",
       "cta": "「第10集：宮位空宮 = 能量缺失點」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "你的紫微命盤裡面，藏著一塊屬於你的守護石——大部分人都不知道是哪塊！",
-        "zh_subtitle": "你的紫微命盤裡，藏著一塊屬於你的守護石——大多數人都不知道是哪塊。",
-        "en_subtitle": "Your Zi Wei chart holds the key to your guardian crystal — most people never find it."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "命盤藏著你的守護石",
+        "body": "你的紫微命盤裡，藏著屬於你的那塊石。",
+        "en_text": "Your Zi Wei chart holds your guardian crystal."
       },
-      "3_15s": {
-        "vo": "四化是關鍵：化祿對應豐盛流動——用黃水晶；化權對應意志執行——用虎眼石；化科對應智慧學習——用海藍寶；化忌對應阻礙轉化——必須用黑碧璽化解，不是壓制！",
-        "zh_subtitle": "四化對應：化祿→黃水晶；化權→虎眼石；化科→海藍寶；化忌→黑碧璽化解。",
-        "en_subtitle": "4 Transformations: Hua Lu = Citrine (flow), Hua Quan = Tiger Eye (will), Hua Ke = Aquamarine (wisdom), Hua Ji = Black Tourmaline (transform, not suppress)."
+      "p2": {
+        "role": "develop",
+        "headline": "四化是關鍵",
+        "body": "化祿→黃水晶；化權→虎眼石。",
+        "en_text": "Hua Lu=Citrine; Hua Quan=Tiger Eye."
       },
-      "15_25s": {
-        "vo": "但是⋯⋯化忌落在哪個宮位，礦石用法是不同的。化忌落財帛宮和化忌落夫妻宮——是兩種完全不同的解法⋯⋯",
-        "zh_subtitle": "化忌落入不同宮位，礦石使用方式完全不同——化忌落財帛宮 vs 夫妻宮，是兩套解法。",
-        "en_subtitle": "Hua Ji in different houses requires completely different crystal approaches. Finance vs. Relationships — totally different solutions—"
+      "p3": {
+        "role": "develop",
+        "headline": "化科、化忌怎麼配",
+        "body": "化科→海藍寶；化忌→黑碧璽化解，不是壓制。",
+        "en_text": "Hua Ke=Aquamarine; Hua Ji=Tourmaline."
       },
-      "25_30s": {
-        "vo": "第10集，宮位配石完整講解——追蹤不要走開！",
-        "zh_subtitle": "第10集：宮位空宮與礦石配對完整指南",
-        "en_subtitle": "Part 10: house-by-house crystal guide. Follow — dropping Thursday!"
+      "p4": {
+        "role": "climax",
+        "headline": "化忌落宮位，解法不同",
+        "body": "落在哪個宮位，礦石用法完全不一樣。",
+        "en_text": "Hua Ji's house changes everything."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "財帛宮vs夫妻宮",
+        "body": "同樣化忌，兩個宮位是兩套完全不同的解法。",
+        "en_text": "Finance vs Relationships — totally different."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第10集：宮位配石",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep10: house-by-house guide."
       }
     },
     "caption": "🌟 紫微命盤配礦石——第1集（第9集）\n四化飛星 × 礦石能量配對：化祿/化權/化科/化忌各有對應\n化忌落不同宮位，解法完全不同——下集深入拆解 👀\n💾 收藏 | 追蹤查看完整紫微礦石系列",
@@ -1437,26 +1582,42 @@
       "climax": "「但是！不是每個空宮都是壞事——有種空宮是⋯⋯」黑屏，神秘感強。",
       "cta": "「第11集：奇門遁甲 × 礦石最強時機佈局」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "你命盤有沒有空宮？空宮不是沒有東西——是你人生有個能量缺口！",
-        "zh_subtitle": "命盤有空宮？空宮不是沒有——是你人生的能量缺口！",
-        "en_subtitle": "Empty palace in your chart? That's not nothing — it's an energy gap in your life."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "命盤空宮＝能量缺口",
+        "body": "空宮不是沒有東西，是你人生的能量缺口。",
+        "en_text": "An empty palace is an energy gap."
       },
-      "3_15s": {
-        "vo": "三個最關鍵的宮位：命宮空——用白水晶作基礎能量場補足；財帛宮空——黃水晶加虎眼石；夫妻宮空——粉晶配月光石，補陰柔流動的感情能量。",
-        "zh_subtitle": "命宮空→白水晶；財帛宮空→黃水晶+虎眼石；夫妻宮空→粉晶+月光石。",
-        "en_subtitle": "Life palace empty → Clear Quartz. Wealth palace → Citrine + Tiger Eye. Relationship palace → Rose Quartz + Moonstone."
+      "p2": {
+        "role": "develop",
+        "headline": "命宮空→白水晶",
+        "body": "用白水晶作基礎能量場補足命宮。",
+        "en_text": "Life palace empty → Clear Quartz."
       },
-      "15_25s": {
-        "vo": "但是有種空宮——不是缺失，是留白。是你人生最有彈性的地方，礦石用錯反而會限制你⋯⋯",
-        "zh_subtitle": "有種空宮是「留白」而非缺失——礦石用錯反而會限制你的可能性。",
-        "en_subtitle": "But some empty palaces are freedom, not lack. Wrong crystals there actually limit your potential—"
+      "p3": {
+        "role": "develop",
+        "headline": "財帛、夫妻宮怎麼補",
+        "body": "財帛宮空→黃水晶＋虎眼石；夫妻宮空→粉晶＋月光石。",
+        "en_text": "Wealth → Citrine+Tiger Eye; Love → Rose+Moonstone."
       },
-      "25_30s": {
-        "vo": "追蹤，第11集奇門遁甲出場！",
-        "zh_subtitle": "追蹤帳號，第11集：奇門遁甲礦石佈局",
-        "en_subtitle": "Follow — Part 11: Qi Men Dun Jia crystal timing. Thursday!"
+      "p4": {
+        "role": "climax",
+        "headline": "有種空宮是留白",
+        "body": "它不是缺失，而是你人生最有彈性之處。",
+        "en_text": "Some empty palaces are freedom, not lack."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "用錯反而限制你",
+        "body": "在留白宮位放錯礦石，會限制你的可能性。",
+        "en_text": "Wrong crystals there limit your potential—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第11集：奇門遁甲",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep11: Qi Men timing."
       }
     },
     "caption": "🏠 紫微空宮 × 礦石補足法（第10集）\n命宮/財帛/夫妻宮空——各有對應礦石補足策略\n但有種空宮用錯石反而會限制你——下集深入講 👀\n💾 收藏 | 追蹤查看奇門遁甲篇",
@@ -1598,26 +1759,42 @@
       "climax": "吉時窗口聚焦，「最強吉時每個月只有幾日——下集教你算！」黑屏白字，懸念感極強。",
       "cta": "「第12集：奇門吉時計算！」追蹤特效彈出。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "同一塊石，不同時間擺放，效果可以差十倍！",
-        "zh_subtitle": "同一塊礦石，不同時間擺放，效果可以差十倍！",
-        "en_subtitle": "Same crystal. Different timing. Ten times the difference in effect."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "同塊石，效果差十倍",
+        "body": "同一塊礦石，不同時間擺放，效果天差地別。",
+        "en_text": "Same crystal, different timing, 10× the effect."
       },
-      "3_15s": {
-        "vo": "奇門遁甲是中國傳統時空學問，核心是「天時、地利、人和」三合一。礦石擺陣在奇門吉時啟動，能量場與天時對齊——這不是迷信，是時間維度的運用！",
-        "zh_subtitle": "奇門遁甲核心是「天時、地利、人和」。礦石擺陣在吉時啟動，能量場與天時對齊。",
-        "en_subtitle": "Qi Men Dun Jia is the ancient Chinese art of auspicious timing. Activating a crystal grid during an auspicious window aligns your energy field with heaven time."
+      "p2": {
+        "role": "develop",
+        "headline": "奇門遁甲：天地人",
+        "body": "核心是「天時、地利、人和」三合一。",
+        "en_text": "Qi Men: heaven, earth, and human aligned."
       },
-      "15_25s": {
-        "vo": "最強吉時窗口每個月只有幾天——你不算不知道，算出之後礦石效果是另一個層次⋯⋯下集教你計算！",
-        "zh_subtitle": "最強吉時每月只有幾日——計算出來後礦石效果是另一個層次。下集教你算！",
-        "en_subtitle": "Peak auspicious windows happen only a few days per month — once you calculate them, your crystal work enters another dimension. Next ep shows you how!"
+      "p3": {
+        "role": "develop",
+        "headline": "吉時啟動，與天時對齊",
+        "body": "礦石擺陣在吉時啟動，能量與天時對齊。",
+        "en_text": "Activate at an auspicious window."
       },
-      "25_30s": {
-        "vo": "追蹤，下集教你計算奇門吉時！",
-        "zh_subtitle": "追蹤帳號，下集教你計算奇門吉時",
-        "en_subtitle": "Follow — next episode: how to calculate your Qi Men auspicious timing!"
+      "p4": {
+        "role": "climax",
+        "headline": "吉時每月只有幾天",
+        "body": "最強的吉時窗口，每個月只出現幾天。",
+        "en_text": "Peak windows: only a few days a month."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "算出來＝另一個層次",
+        "body": "算出吉時後，礦石效果完全是另一個境界。",
+        "en_text": "Calculate it — and enter another dimension."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "下集教你計算吉時",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — next: calculate your timing."
       }
     },
     "hashtags": [
@@ -1748,26 +1925,42 @@
       "climax": "奇門盤完成，吉時標注閃光，「算到吉時之後，礦石要如何擺放？方位是關鍵⋯⋯」懸念收尾。",
       "cta": "「第13集：方位×礦石對照！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "手機就可以算奇門盤——5分鐘學會，立刻使用！",
-        "zh_subtitle": "手機就能算奇門盤——5分鐘學會，馬上用！",
-        "en_subtitle": "Your phone can calculate a Qi Men chart — learn it in 5 minutes, use it today!"
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "手機5分鐘算奇門盤",
+        "body": "用手機就能算奇門盤——5分鐘學會，馬上用。",
+        "en_text": "Calculate a Qi Men chart on your phone."
       },
-      "3_15s": {
-        "vo": "打開奇門排盤 App，輸入你想激活礦石的日期和時間——查看時干是否落在「生門、開門、休門」三個吉門之一。如果是，這個時窗擺石啟動，能量支持最強！",
-        "zh_subtitle": "輸入日期時間→看時干是否落在生門、開門、休門（三大吉門）→確認即可啟動礦石。",
-        "en_subtitle": "Input date and time → check if the time falls on Life Gate, Open Gate, or Rest Gate (the 3 auspicious gates) → that's your crystal activation window."
+      "p2": {
+        "role": "develop",
+        "headline": "輸入日期與時間",
+        "body": "打開排盤App，輸入要激活礦石的日期時間。",
+        "en_text": "Open the app; input date and time."
       },
-      "15_25s": {
-        "vo": "算出吉時之後，礦石要如何擺放？方位不對，時間對了也是白費⋯⋯方位是關鍵，下集告訴你！",
-        "zh_subtitle": "算出吉時之後，礦石方位擺錯也是白費——方位是關鍵，下集揭曉！",
-        "en_subtitle": "Once you have your auspicious time — placement direction matters just as much. Get it wrong and the timing is wasted. Next episode reveals the direction map!"
+      "p3": {
+        "role": "develop",
+        "headline": "看三大吉門",
+        "body": "時干落在生門、開門、休門，即為啟動時窗。",
+        "en_text": "Check Life, Open, or Rest Gate."
       },
-      "25_30s": {
-        "vo": "追蹤，第13集方位對照表！",
-        "zh_subtitle": "追蹤帳號，第13集方位×礦石對照表",
-        "en_subtitle": "Follow — Episode 13: direction and crystal alignment chart!"
+      "p4": {
+        "role": "climax",
+        "headline": "算對時間還不夠",
+        "body": "方位不對，時間對了也是白費功夫。",
+        "en_text": "Right time, wrong direction = wasted."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "方位才是關鍵",
+        "body": "礦石要擺在對的方位，能量才真正啟動。",
+        "en_text": "Placement direction matters just as much."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第13集：方位對照表",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep13: direction chart."
       }
     },
     "hashtags": [
@@ -1910,26 +2103,42 @@
       "climax": "東方白水晶 vs 北方白水晶對比閃爍，「同樣是白水晶，放不同方向，能量作用完全不同⋯⋯」懸念感強。",
       "cta": "「第14集：礦石淨化科學！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "你一直搞錯——礦石不是擺得好看就算，方向不對就是徒勞無功！",
-        "zh_subtitle": "你一直搞錯了——礦石不是擺好看就算，方向不對是白費功夫！",
-        "en_subtitle": "You've been doing it wrong — crystals aren't just decoration. Wrong direction, zero effect."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "方向不對，全是徒勞",
+        "body": "礦石不是擺好看就算，方向錯就白費功夫。",
+        "en_text": "Wrong direction, zero effect."
       },
-      "3_15s": {
-        "vo": "傳統五行方位對應：東方屬木，放綠系礦石（綠東陵石）強化生長力；南方屬火，放紅系礦石補行動力；西方屬金，放白水晶最合適；北方屬水，海藍寶助流通能量！",
-        "zh_subtitle": "東木（綠東陵石）、南火（紅石榴石）、西金（白水晶）、北水（海藍寶）——五行方位決定礦石能量方向。",
-        "en_subtitle": "East=Wood (Green Aventurine), South=Fire (Red Garnet), West=Metal (Clear Quartz), North=Water (Aquamarine) — elemental direction determines crystal energy."
+      "p2": {
+        "role": "develop",
+        "headline": "東木、南火",
+        "body": "東方屬木放綠東陵石；南方屬火放紅石榴石。",
+        "en_text": "East=Wood (Aventurine); South=Fire (Garnet)."
       },
-      "15_25s": {
-        "vo": "東方放白水晶 vs 北方放白水晶——能量作用完全不同，不是「擺了就算」——你依然可能放錯了⋯⋯",
-        "zh_subtitle": "東方放白水晶 vs 北方放白水晶——能量作用截然不同，你可能現在還放錯了⋯⋯",
-        "en_subtitle": "Clear Quartz in the East vs the North — completely different energetic effects. You might still have yours wrong right now—"
+      "p3": {
+        "role": "develop",
+        "headline": "西金、北水",
+        "body": "西方屬金放白水晶；北方屬水放海藍寶。",
+        "en_text": "West=Metal (Quartz); North=Water (Aquamarine)."
       },
-      "25_30s": {
-        "vo": "追蹤，第14集礦石淨化科學！",
-        "zh_subtitle": "追蹤帳號，第14集礦石淨化科學全解",
-        "en_subtitle": "Follow — Episode 14: the science of crystal cleansing!"
+      "p4": {
+        "role": "climax",
+        "headline": "東放vs北放，完全不同",
+        "body": "同一塊白水晶，東方與北方作用截然不同。",
+        "en_text": "Same quartz, East vs North — different effects."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "你可能還放錯了",
+        "body": "擺了不等於擺對，你現在可能仍放錯方位。",
+        "en_text": "You might still have yours wrong now—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第14集：淨化科學",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep14: cleansing science."
       }
     },
     "hashtags": [
@@ -2060,26 +2269,42 @@
       "climax": "聲波淨化 vs 月光淨化兩種方法對決，「科學同玄學各有根據，但是⋯⋯其中有一種其實最多人用但效果最有限！」",
       "cta": "「第15集：你能感應礦石能量嗎？」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "你正在使用的淨化方法——可能根本沒有用！",
-        "zh_subtitle": "你正在使用的淨化方法——可能根本沒有效果！",
-        "en_subtitle": "The crystal cleansing method you're using right now — might be completely useless."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "你的淨化方法可能沒用",
+        "body": "你正在用的淨化方法，可能根本沒有效果。",
+        "en_text": "Your cleansing method might be useless."
       },
-      "3_15s": {
-        "vo": "四種常見方法比較：月光淨化（月光非直射，安全溫和，能量學與時間學均支持）；聲波淨化（頌缽振動確實移除表面靜電，有物理根據）；白水晶簇（能量學認為最通用）；薰香（煙霧表面接觸，對部分礦石不夠透徹）",
-        "zh_subtitle": "月光（安全溫和）、聲波（物理根據）、白水晶簇（能量學通用）、薰香（表面效果有限）——四種各有優缺。",
-        "en_subtitle": "Moonlight (safe & gentle), Sound waves (physically removes static), Clear Quartz cluster (energetically universal), Smoke (surface only, limited penetration) — each has pros and cons."
+      "p2": {
+        "role": "develop",
+        "headline": "月光與聲波",
+        "body": "月光安全溫和；頌缽聲波移除表面靜電，有物理根據。",
+        "en_text": "Moonlight: gentle. Sound: removes static."
       },
-      "15_25s": {
-        "vo": "聲波淨化 vs 月光淨化——科學和玄學各有根據，但其中有一種最多人用但效果最有限⋯⋯你猜到是哪個嗎？",
-        "zh_subtitle": "科學和玄學各有根據，但其中一種最多人用、效果卻最有限——你猜到是哪個？",
-        "en_subtitle": "Sound vs moonlight — both have backing. But one is used by the most people yet delivers the least. Can you guess which one—"
+      "p3": {
+        "role": "develop",
+        "headline": "水晶簇與薰香",
+        "body": "白水晶簇能量學最通用；薰香只作用表面，較有限。",
+        "en_text": "Quartz cluster: universal. Smoke: surface only."
       },
-      "25_30s": {
-        "vo": "追蹤，下集：你是否真的感應到礦石能量？",
-        "zh_subtitle": "追蹤帳號，下集：你能感應礦石能量嗎？",
-        "en_subtitle": "Follow — next episode: can you really feel crystal energy? The science answer might surprise you!"
+      "p4": {
+        "role": "climax",
+        "headline": "科學與玄學各有根據",
+        "body": "四種方法各有優缺，但其中一種效果最有限。",
+        "en_text": "Both science and metaphysics have a say."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "最多人用，效果最差",
+        "body": "最普遍的那一種，反而效果最有限——猜到了嗎？",
+        "en_text": "Most used, least effective — guess which?"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "下集：你感應得到嗎",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — next: can you feel the energy?"
       }
     },
     "hashtags": [
@@ -2222,26 +2447,42 @@
       "climax": "「安慰劑效應也是真實效果——但還有種更深層的解釋，是心理學同玄學都認同的⋯⋯」",
       "cta": "「第16集：礦石FAQ大揭秘！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "水晶有能量，感覺是玄學還是心理學？答案令你意外！",
-        "zh_subtitle": "水晶有能量感覺是玄學還是心理學？答案出乎意料！",
-        "en_subtitle": "Is crystal energy mysticism or psychology? The answer will surprise you."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "玄學還是心理學？",
+        "body": "水晶的能量感，究竟是玄學還是心理學？",
+        "en_text": "Crystal energy: mysticism or psychology?"
       },
-      "3_15s": {
-        "vo": "科學層面：石英壓電效應真實存在（是工業技術，不是玄學）；心理學層面：你對礦石的期待製造真實的神經化學變化——安慰劑效應不是假效果，是腦科學！礦石是意圖設定的實體錨點。",
-        "zh_subtitle": "石英壓電效應（工業物理事實）+ 安慰劑效應（腦科學）+ 意圖錨點（心理學）——三個層次都有根據。",
-        "en_subtitle": "Quartz piezoelectricity is real physics. Placebo effect is real brain chemistry. Crystal as intention anchor is real psychology. Three layers of reality."
+      "p2": {
+        "role": "develop",
+        "headline": "石英壓電效應是真的",
+        "body": "那是工業技術裡的物理事實，不是玄學。",
+        "en_text": "Quartz piezoelectricity is real physics."
       },
-      "15_25s": {
-        "vo": "安慰劑效應也是真實效果——但還有一種更深層的解釋，是科學和玄學都認同的交集⋯⋯",
-        "zh_subtitle": "安慰劑效應是真實效果——但還有一種更深層的解釋，是科學與玄學的交集⋯⋯",
-        "en_subtitle": "Placebo is real effect — but there's a deeper explanation that both science and metaphysics agree on—"
+      "p3": {
+        "role": "develop",
+        "headline": "安慰劑＝真實腦科學",
+        "body": "你的期待製造真實的神經化學變化。",
+        "en_text": "Placebo is real brain chemistry."
       },
-      "25_30s": {
-        "vo": "追蹤，第16集礦石FAQ最多人問的問題！",
-        "zh_subtitle": "追蹤帳號，第16集礦石FAQ大揭秘",
-        "en_subtitle": "Follow — Episode 16: the most-asked crystal questions, answered!"
+      "p4": {
+        "role": "climax",
+        "headline": "礦石是意圖的錨點",
+        "body": "它是你設定意圖時，最實在的實體錨點。",
+        "en_text": "A crystal is a physical intention anchor."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "科學與玄學的交集",
+        "body": "還有一種更深的解釋，是兩者都認同的⋯⋯",
+        "en_text": "A deeper truth both sides agree on—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第16集：FAQ大揭秘",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep16: most-asked questions."
       }
     },
     "hashtags": [
@@ -2372,26 +2613,42 @@
       "climax": "最後一個問題浮現：「礦石可以令我真正有錢嗎？」——「最後一個問題，是關於礦石同財富關係的核心真相⋯⋯」",
       "cta": "「第17集：職場礦石應用！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "90天最多人問我的問題是⋯⋯連我都想不到！",
-        "zh_subtitle": "90天最多人問我的問題是——連我都猜不到！",
-        "en_subtitle": "The most-asked question in 90 days — even I didn't expect this one."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "90天最多人問的問題",
+        "body": "連我都猜不到——這是90天裡最多人問的。",
+        "en_text": "The most-asked question in 90 days."
       },
-      "3_15s": {
-        "vo": "快問快答：礦石要開光嗎？→ 開光是一種意圖設定儀式，非必要但有助提升使用意識；男生可以戴礦石嗎？→ 絕對可以，礦物學沒有性別之分；月亮水有效嗎？→ 蒸餾水在月光下無物理變化，但儀式本身的心理效果是真實的！",
-        "zh_subtitle": "開光非必要但有助意圖設定；男生當然可以戴；月亮水物理上無變化，但儀式心理效果是真實的。",
-        "en_subtitle": "Blessing ritual? Optional but intention-setting is real. Men wear crystals? Absolutely — mineralogy has no gender. Moon water? No physical change, but ritual psychology is real."
+      "p2": {
+        "role": "develop",
+        "headline": "開光？男生能戴？",
+        "body": "開光非必要但助意圖設定；男生當然可以戴。",
+        "en_text": "Blessing: optional. Men: absolutely yes."
       },
-      "15_25s": {
-        "vo": "最後一個問題——是最多人問、最多人糾結的：「礦石可以令我真正有錢嗎？」答案是⋯⋯",
-        "zh_subtitle": "最後一個問題：「礦石可以真正令我有錢嗎？」答案是⋯⋯",
-        "en_subtitle": "The final question — the one everyone really wants to know: 'Can crystals actually make me rich?' The answer is—"
+      "p3": {
+        "role": "develop",
+        "headline": "月亮水有效嗎？",
+        "body": "物理上無變化，但儀式的心理效果是真實的。",
+        "en_text": "Moon water: no physics, but real ritual."
       },
-      "25_30s": {
-        "vo": "追蹤，第17集職場礦石應用！",
-        "zh_subtitle": "追蹤帳號，第17集職場礦石應用場景",
-        "en_subtitle": "Follow — Episode 17: crystals in the workplace. See you there!"
+      "p4": {
+        "role": "climax",
+        "headline": "最多人糾結的一題",
+        "body": "「礦石可以令我真正有錢嗎？」",
+        "en_text": "'Can crystals actually make me rich?'"
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "答案是⋯⋯",
+        "body": "這個問題的真正答案，比你想的更務實。",
+        "en_text": "The answer is—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第17集：職場應用",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep17: crystals at work."
       }
     },
     "hashtags": [
@@ -2533,26 +2790,42 @@
       "climax": "「但是⋯⋯這三塊石要按正確方位擺才有效。其中有一個位置，90%人都擺錯了⋯⋯」",
       "cta": "「想知正確擺法？追蹤我，下集教你！」動態特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "他是我的客人——辦公桌加了三塊石，三個月後升職加薪。是真實故事！",
-        "zh_subtitle": "這是我的客戶——辦公桌加了三塊礦石，三個月後升職加薪。真實故事。",
-        "en_subtitle": "My client added 3 crystals to her desk. 3 months later — promoted. Real story."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "3塊石，3個月升職",
+        "body": "我的客戶在辦公桌加了三塊石，三個月後升職加薪。",
+        "en_text": "3 desk crystals. 3 months later — promoted."
       },
-      "3_15s": {
-        "vo": "不是魔法——是礦石幫他建立了每天的心理狀態：黃水晶——提醒自己值得成功；黑碧璽——建立職場界線感；白水晶——保持思路清晰。三塊石，三個心理錨點！",
-        "zh_subtitle": "礦石作為心理錨點：黃水晶（自信錨點）、黑碧璽（界線感錨點）、白水晶（清晰思考錨點）。",
-        "en_subtitle": "Not magic — 3 psychological anchors: Citrine (self-worth), Black Tourmaline (boundaries), Clear Quartz (clarity). One crystal per mindset."
+      "p2": {
+        "role": "develop",
+        "headline": "不是魔法，是心理錨點",
+        "body": "黃水晶提醒你值得成功，建立自信。",
+        "en_text": "Not magic — Citrine anchors self-worth."
       },
-      "15_25s": {
-        "vo": "但是這三塊石——擺在桌上哪個位置，是有講究的。有一個位置大部分人都擺錯，反而會令能量散掉⋯⋯",
-        "zh_subtitle": "這三塊石的擺放位置有講究——有一個位置大多數人都放錯了，反而會分散能量。",
-        "en_subtitle": "But placement matters. There's one position most people get wrong — it actually disperses the energy instead—"
+      "p3": {
+        "role": "develop",
+        "headline": "界線感＋清晰思考",
+        "body": "黑碧璽建立職場界線，白水晶保持思路清晰。",
+        "en_text": "Tourmaline: boundaries. Quartz: clarity."
       },
-      "25_30s": {
-        "vo": "追蹤我，下集完整教學！",
-        "zh_subtitle": "追蹤帳號，下集辦公桌礦石擺放完整教學",
-        "en_subtitle": "Follow — next ep: the exact placement guide. Thursday!"
+      "p4": {
+        "role": "climax",
+        "headline": "位置擺錯，能量散掉",
+        "body": "這三塊石擺在桌上哪個位置，大有講究。",
+        "en_text": "Placement matters more than you think."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "一個位置最多人錯",
+        "body": "有個位置大多數人都放錯，反而散掉能量。",
+        "en_text": "One spot most people get wrong—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "下集：完整擺放教學",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — next: the placement guide."
       }
     },
     "caption": "🏢 辦公桌加3塊礦石，3個月升職——客戶真實故事（第17集）\n黃水晶（自信）/ 黑碧璽（界線）/ 白水晶（清晰）= 職場能量三件套\n擺放位置有講究——90%人放錯，下集教學 👀\n💾 收藏 | 追蹤查看完整職場礦石系列",
@@ -2682,26 +2955,42 @@
       "climax": "修正方案兩步出現：第一步（移走禁忌石）輕鬆達成，第二步出現時停頓——「大部分人捨不得做第二步⋯⋯」懸念。",
       "cta": "「第19集：感情礦石！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "你失眠是不是因為睡房有塊石放錯位置？",
-        "zh_subtitle": "你失眠是不是因為睡房有塊石放錯了位置？",
-        "en_subtitle": "Is your insomnia caused by a crystal placed in the wrong spot in your bedroom?"
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "失眠，可能是石放錯了",
+        "body": "你的失眠，是不是睡房有塊石放錯位置？",
+        "en_text": "Is a misplaced crystal causing your insomnia?"
       },
-      "3_15s": {
-        "vo": "三種睡房禁忌礦石：黑曜石（能量太強，影響睡眠和感情流通）、捷克隕石（高頻刺激，令敏感人士難以入眠）、虎眼石（決策戰鬥能量，不適合休息場域）——全部移走！",
-        "zh_subtitle": "三種臥室禁忌石：黑曜石、捷克隕石、虎眼石——能量過強影響睡眠，全部移走。",
-        "en_subtitle": "3 bedroom crystals to remove: Black Obsidian (too intense), Moldavite (too high frequency), Tiger's Eye (battle energy) — remove them all."
+      "p2": {
+        "role": "develop",
+        "headline": "睡房禁忌：黑曜石",
+        "body": "能量太強，影響睡眠與感情流通。",
+        "en_text": "Black Obsidian — too intense for sleep."
       },
-      "15_25s": {
-        "vo": "修正方案只需兩步。第一步大家都做得到。但第二步——大部分人捨不得做，是因為第二步要把最美的那塊石暫時放在另一個房間⋯⋯",
-        "zh_subtitle": "修正方案只需兩步。第一步容易，但第二步大部分人不捨得——那是把最美的那塊石暫時移到別的房間。",
-        "en_subtitle": "Two steps to fix it. Step one is easy. Step two — most people can't bring themselves to do it: moving their favorite crystal out of the bedroom."
+      "p3": {
+        "role": "develop",
+        "headline": "隕石與虎眼石也要移走",
+        "body": "捷克隕石高頻刺激，虎眼石是戰鬥能量，皆不宜。",
+        "en_text": "Moldavite & Tiger's Eye — remove them too."
       },
-      "25_30s": {
-        "vo": "追蹤，第19集感情礦石修復！",
-        "zh_subtitle": "追蹤帳號，第19集感情礦石療癒",
-        "en_subtitle": "Follow — Episode 19: crystals for relationship healing!"
+      "p4": {
+        "role": "climax",
+        "headline": "修正只要兩步",
+        "body": "第一步人人做得到，第二步才是關鍵。",
+        "en_text": "Two steps to fix it. Step one is easy."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "第二步，最多人捨不得",
+        "body": "要把最美的那塊石，暫時移到別的房間。",
+        "en_text": "Step two — moving your most-loved crystal out."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第19集：感情療癒",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep19: relationship healing."
       }
     },
     "hashtags": [
@@ -2844,26 +3133,42 @@
       "climax": "「心輪未打開之前用粉晶，吸引的不是你以為那種人——而是⋯⋯」停頓，懸念感極強。",
       "cta": "「第20集：礦石開光儀式！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "粉晶是招桃花還是招爛桃花？完全是兩回事！",
-        "zh_subtitle": "粉晶是招桃花還是招爛桃花？完全是兩回事！",
-        "en_subtitle": "Does Rose Quartz attract real love or attract the wrong people? They're completely different things."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "招桃花還是招爛桃花？",
+        "body": "粉晶招的是好桃花，還是爛桃花？完全兩回事。",
+        "en_text": "Real love or the wrong people?"
       },
-      "3_15s": {
-        "vo": "粉晶對應心血管和情緒中心（心輪）。心輪的狀態決定你吸引什麼類型的關係——心輪是恐懼和防禦的，它會吸引令你繼續恐懼的關係；心輪是開放和療癒的，才能吸引真正滋養的連結！",
-        "zh_subtitle": "粉晶對應心輪。心輪恐懼防禦→吸引讓你繼續受傷的關係；心輪開放療癒→吸引真正滋養的連結。",
-        "en_subtitle": "Rose Quartz works through the heart chakra. A defended heart attracts relationships that reinforce fear. An open heart attracts genuine nourishing connections."
+      "p2": {
+        "role": "develop",
+        "headline": "粉晶對應心輪",
+        "body": "心輪的狀態，決定你吸引什麼樣的關係。",
+        "en_text": "Rose Quartz works through the heart chakra."
       },
-      "15_25s": {
-        "vo": "心輪未打開之前用粉晶，吸引的是⋯⋯而不是你以為的那種人。所以粉晶第一步不是用來招桃花，是用來打開你自己的心輪！",
-        "zh_subtitle": "心輪未開前用粉晶，吸引的不是你以為的那種人。所以粉晶第一步是打開你自己的心輪！",
-        "en_subtitle": "Before your heart chakra opens, Rose Quartz attracts what you fear rather than what you want. Step one isn't attracting others — it's opening your own heart."
+      "p3": {
+        "role": "develop",
+        "headline": "恐懼的心，吸引傷害",
+        "body": "心輪封閉防禦，只會吸引讓你繼續受傷的人。",
+        "en_text": "A defended heart attracts more fear."
       },
-      "25_30s": {
-        "vo": "追蹤，第20集礦石開光儀式全程直播！",
-        "zh_subtitle": "追蹤帳號，第20集礦石開光儀式全記錄",
-        "en_subtitle": "Follow — Episode 20: full crystal blessing ritual, filmed for the first time!"
+      "p4": {
+        "role": "climax",
+        "headline": "先打開自己的心輪",
+        "body": "心輪未開前用粉晶，吸引的不是你以為的人。",
+        "en_text": "Open your own heart chakra first."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "粉晶第一步不是招桃花",
+        "body": "它真正的第一步，是療癒並打開你自己的心。",
+        "en_text": "Step one is healing you, not attracting others."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第20集：開光儀式直播",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep20: full blessing ritual."
       }
     },
     "hashtags": [
@@ -2994,26 +3299,42 @@
       "climax": "最後一步出現：「儀式的最後一步，是最多人省略但最關鍵的一步⋯⋯」畫面聚焦手握礦石細節，充滿儀式感。",
       "cta": "「第21集：意圖設定方法！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "這個儀式我做了五年——今天第一次全程拍給你看！",
-        "zh_subtitle": "這個儀式我做了五年——今天第一次全程拍給你看！",
-        "en_subtitle": "I've done this ritual for five years — today I'm filming the entire thing for you for the first time."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "做了5年的儀式，首次公開",
+        "body": "這個礦石開光儀式我做了五年，今天第一次拍給你看。",
+        "en_text": "My 5-year ritual, filmed for the first time."
       },
-      "3_15s": {
-        "vo": "礦石開光淨化四步：第一，薰香淨化空間；第二，頌缽聲波清潔礦石本體；第三，月光或白水晶簇充能；第四，設定意圖。每一步都有意義——不是做儀式表演，是建立和礦石的連結！",
-        "zh_subtitle": "四步驟：薰香淨化空間→聲波清潔礦石→月光充能→意圖設定。每步都是建立與礦石的連結。",
-        "en_subtitle": "Four steps: incense cleanse the space → sound cleanse the crystal → moonlight charge → set intention. Each step builds your connection with the crystal."
+      "p2": {
+        "role": "develop",
+        "headline": "步驟1+2：淨化",
+        "body": "薰香淨化空間，再以頌缽聲波清潔礦石本體。",
+        "en_text": "Step 1-2: incense space, sound-cleanse stone."
       },
-      "15_25s": {
-        "vo": "儀式的最後一步，是最多人省略但最關鍵的一步——你省略了它，前面三步是沒有靈魂的⋯⋯",
-        "zh_subtitle": "儀式最後一步，是最多人省略卻最關鍵的——省略了它，前三步都沒有靈魂。",
-        "en_subtitle": "The final step — the one most people skip — is the most essential. Without it, the first three steps have no soul—"
+      "p3": {
+        "role": "develop",
+        "headline": "步驟3+4：充能設意",
+        "body": "月光或水晶簇充能，最後設定你的意圖。",
+        "en_text": "Step 3-4: moonlight charge, set intention."
       },
-      "25_30s": {
-        "vo": "追蹤，第21集意圖設定教學！",
-        "zh_subtitle": "追蹤帳號，第21集意圖設定方法全揭曉",
-        "en_subtitle": "Follow — Episode 21: the complete intention-setting method revealed!"
+      "p4": {
+        "role": "climax",
+        "headline": "最後一步最多人省略",
+        "body": "卻是最關鍵的一步——省略它，前三步沒有靈魂。",
+        "en_text": "The final step everyone skips is essential."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "沒有它，儀式沒靈魂",
+        "body": "少了最後一步，前面所有努力都失去意義。",
+        "en_text": "Without it, the ritual has no soul—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第21集：意圖設定",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep21: intention-setting method."
       }
     },
     "hashtags": [
@@ -3156,26 +3477,42 @@
       "climax": "第三層出現，「這個是最少人知但最有效的意圖語言格式⋯⋯」畫面定格，懸念。",
       "cta": "「第22集：礦石搭配禁忌！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "你幫水晶開光時說了什麼？說錯了等於白做！",
-        "zh_subtitle": "你幫水晶開光時說了什麼？說錯了等於白做！",
-        "en_subtitle": "What words do you say when blessing your crystals? Say the wrong thing and the whole ritual is wasted."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "開光說錯話＝白做",
+        "body": "你幫水晶開光時說了什麼？說錯等於白做。",
+        "en_text": "Say the wrong words and it's all wasted."
       },
-      "3_15s": {
-        "vo": "意圖語言有三個層次：最多人用的「我不想要壓力」——是負面語氣，大腦聚焦在「壓力」；進一步是「我想要平靜」——方向是正確的；但最有效是第三層：「我是平靜的存在」——已然實現感，潛意識最容易接受！",
-        "zh_subtitle": "第一層：「我不要壓力」（負面聚焦）；第二層：「我想要平靜」（方向正確）；第三層：「我是平靜的存在」（已然實現，最有效）。",
-        "en_subtitle": "Layer 1: 'I don't want stress' (negative focus). Layer 2: 'I want peace' (correct direction). Layer 3: 'I am a peaceful presence' (realized state — most effective for the subconscious)."
+      "p2": {
+        "role": "develop",
+        "headline": "第一層：別說「不要」",
+        "body": "「我不想要壓力」是負面語氣，大腦反而聚焦壓力。",
+        "en_text": "'I don't want stress' — wrong focus."
       },
-      "15_25s": {
-        "vo": "第三層意圖語言是最少人知道但最有效的——是心理學「自我暗示」和能量學「振動對齊」的交集⋯⋯",
-        "zh_subtitle": "第三層是最少人知道卻最有效的——是心理學自我暗示與能量學振動對齊的交集⋯⋯",
-        "en_subtitle": "The third layer is the least known yet most effective — it sits at the intersection of psychological self-suggestion and energetic vibrational alignment—"
+      "p3": {
+        "role": "develop",
+        "headline": "第二層：說「我想要」",
+        "body": "「我想要平靜」方向正確，但還不夠有力。",
+        "en_text": "'I want peace' — right direction."
       },
-      "25_30s": {
-        "vo": "追蹤，第22集礦石搭配禁忌！",
-        "zh_subtitle": "追蹤帳號，第22集礦石搭配禁忌大揭秘",
-        "en_subtitle": "Follow — Episode 22: crystal combination taboos — which two must NEVER be worn together!"
+      "p4": {
+        "role": "climax",
+        "headline": "第三層：已然實現",
+        "body": "「我是平靜的存在」——潛意識最容易接受。",
+        "en_text": "'I am a peaceful presence' — most powerful."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "心理×能量的交集",
+        "body": "第三層是自我暗示與振動對齊的交集，最少人知。",
+        "en_text": "Where self-suggestion meets vibration—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第22集：搭配禁忌",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep22: combination taboos."
       }
     },
     "hashtags": [
@@ -3308,26 +3645,42 @@
       "climax": "「還有一對組合，能量方向完全相反，戴在一起等於同時踩油門同煞車⋯⋯」懸念感極強。",
       "cta": "「第23集：月亮週期礦石能量！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "黑曜石+捷克隕石同時戴——你準備好迎接劇烈轉變嗎？",
-        "zh_subtitle": "黑曜石＋捷克隕石同時佩戴——你準備好迎接劇烈轉變嗎？",
-        "en_subtitle": "Black Obsidian + Moldavite worn together — are you ready for radical transformation?"
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "這兩塊一起戴＝劇變",
+        "body": "黑曜石＋捷克隕石同戴，你準備好迎接劇烈轉變了嗎？",
+        "en_text": "Obsidian + Moldavite — ready for upheaval?"
       },
-      "3_15s": {
-        "vo": "黑曜石是強烈清除石（能量猛然向下），捷克隕石是高頻激活石（能量急速向上）——兩者同時佩戴，能量場同時受兩個相反方向拉扯。能量學稱之為「劇烈轉化期」，但身心承受能力不夠的人，感覺是直接崩潰！",
-        "zh_subtitle": "黑曜石強力清除（向下），捷克隕石高頻激活（向上）——同時佩戴，能量場被兩個相反方向拉扯，需要強大的承受力。",
-        "en_subtitle": "Obsidian: powerful clearing energy (downward pull). Moldavite: high-frequency activation (upward surge). Worn together, your energy field gets pulled in opposite directions simultaneously."
+      "p2": {
+        "role": "develop",
+        "headline": "黑曜石：向下清除",
+        "body": "它是強烈清除石，能量猛然向下拉。",
+        "en_text": "Obsidian: powerful downward clearing."
       },
-      "15_25s": {
-        "vo": "還有一對組合，能量方向完全相反，戴在一起等於同時踩油門和煞車——是什麼組合呢？",
-        "zh_subtitle": "還有一對組合，能量方向完全相反，戴在一起等於同時踩油門和煞車——是什麼組合？",
-        "en_subtitle": "And there's another pair — with completely opposite energy directions — wearing them together is like flooring the accelerator and brake simultaneously. What is it—"
+      "p3": {
+        "role": "develop",
+        "headline": "隕石：向上激活",
+        "body": "捷克隕石高頻激活，能量急速向上衝。",
+        "en_text": "Moldavite: high-frequency upward surge."
       },
-      "25_30s": {
-        "vo": "追蹤，第23集月亮週期礦石能量！",
-        "zh_subtitle": "追蹤帳號，第23集月亮週期×礦石能量學",
-        "en_subtitle": "Follow — Episode 23: lunar cycle crystal energy timing!"
+      "p4": {
+        "role": "climax",
+        "headline": "兩股相反力量拉扯",
+        "body": "同戴時能量場被兩個相反方向同時撕扯。",
+        "en_text": "Two opposite forces pull at once."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "還有一對：油門＋煞車",
+        "body": "另一對組合方向完全相反，戴一起如同時踩油門和煞車。",
+        "en_text": "Another pair: gas and brake together—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第23集：月相能量",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep23: lunar cycle energy."
       }
     },
     "hashtags": [
@@ -3470,26 +3823,42 @@
       "climax": "滿月後三日特別標記閃光，「農曆十五後三日是全月最強能量窗口——你是否一直白白錯過？」",
       "cta": "「第24集：礦石採購指南！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "新月vs滿月——同一塊石，不同月相，做兩件完全不同的事！",
-        "zh_subtitle": "新月 vs 滿月——同一塊礦石，不同月相，做兩件完全不同的事！",
-        "en_subtitle": "New Moon vs Full Moon — same crystal, completely different things to do. Don't mix them up."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "新月vs滿月，兩件事",
+        "body": "同一塊石，新月與滿月做的是兩件完全不同的事。",
+        "en_text": "New Moon vs Full Moon — don't mix them up."
       },
-      "3_15s": {
-        "vo": "新月是意圖種植期——手持礦石設定本月新目標，能量如同播種，配合月亮開始的新週期；滿月是充能高峰——礦石放戶外或窗台接受月光，能量放大和淨化；殘月是釋放期——清除舊能量，為下個月清空場域！",
-        "zh_subtitle": "新月：意圖種植（設定目標）；滿月：充能高峰（月光淨化充能）；殘月：釋放期（清除舊能量）。",
-        "en_subtitle": "New Moon: plant intentions (set goals). Full Moon: peak charge (moonlight cleanse and amplify). Waning Moon: release (clear old energy for the next cycle)."
+      "p2": {
+        "role": "develop",
+        "headline": "新月：種植意圖",
+        "body": "手持礦石設定本月目標，能量如同播種。",
+        "en_text": "New Moon: plant your intentions."
       },
-      "15_25s": {
-        "vo": "農曆十五滿月後三天是「能量高峰期」——最適合礦石擺陣、開光和充能。你每個月都這樣把握嗎？",
-        "zh_subtitle": "農曆十五後三日是全月能量高峰期——最適合礦石擺陣、開光與充能。你每月都把握嗎？",
-        "en_subtitle": "The three days after the 15th lunar day (full moon peak) are the strongest energy window all month — ideal for grids, blessings, and charging. Are you using them?"
+      "p3": {
+        "role": "develop",
+        "headline": "滿月：充能高峰",
+        "body": "礦石接受月光，能量被放大與淨化。",
+        "en_text": "Full Moon: peak charge and cleanse."
       },
-      "25_30s": {
-        "vo": "追蹤，第24集教你如何買到真正天然的礦石！",
-        "zh_subtitle": "追蹤帳號，第24集礦石採購完全指南",
-        "en_subtitle": "Follow — Episode 24: the complete guide to buying genuinely natural crystals!"
+      "p4": {
+        "role": "climax",
+        "headline": "殘月：釋放清空",
+        "body": "清除舊能量，為下一個週期清空場域。",
+        "en_text": "Waning Moon: release old energy."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "十五後三天最強",
+        "body": "農曆十五後三日是全月能量高峰，你把握了嗎？",
+        "en_text": "The 3 days after full moon are strongest."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第24集：採購指南",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep24: how to buy real crystals."
       }
     },
     "hashtags": [
@@ -3630,26 +3999,42 @@
       "climax": "第三個渠道：直播電商——主播快速出示「認證書」，但認證機構不明、無可查核的保單，大字「這個是目前假貨密度最高的礦石購買渠道！」",
       "cta": "「第25集大結局！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "三個你以為安全但其實最多假貨的購買渠道——你中過幾個？",
-        "zh_subtitle": "三個你以為安全卻假貨最多的購買渠道——你踩過幾個？",
-        "en_subtitle": "3 buying channels you think are safe — but they're where the most fakes are hiding."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "3個渠道假貨最多",
+        "body": "你以為安全的三個購買渠道，其實假貨最多。",
+        "en_text": "3 'safe' channels hiding the most fakes."
       },
-      "3_15s": {
-        "vo": "第一：大型電商平台——賣家多、監管少，認證書可以自製；第二：旅遊景點攤檔——批量進貨、低成本、無來源追蹤；第三個是你最想不到的——是目前增長最快、假貨密度最高的渠道，是⋯⋯",
-        "zh_subtitle": "渠道1：大型電商（認證書易偽造）；渠道2：旅遊攤檔（無來源追蹤）；渠道3：你最意想不到的——假貨密度最高的地方⋯⋯",
-        "en_subtitle": "Channel 1: big e-commerce (certificates easily faked). Channel 2: tourist market stalls (zero traceability). Channel 3: the one you'd never guess — highest fake density of all—"
+      "p2": {
+        "role": "develop",
+        "headline": "渠道1：大型電商",
+        "body": "賣家多、監管少，認證書可以自製偽造。",
+        "en_text": "Big e-commerce — certificates easily faked."
       },
-      "15_25s": {
-        "vo": "是直播電商！主播即場展示「認證書」——但認證機構不可查、無國際標準，是目前礦石假貨最難被察覺的購買陷阱。你知道怎樣保護自己嗎？",
-        "zh_subtitle": "答案：直播電商——即場認證書無從核實，是目前最難察覺的礦石假貨陷阱。你知道如何保護自己嗎？",
-        "en_subtitle": "Answer: livestream e-commerce — on-the-spot 'certificates' can't be verified. Currently the hardest fake-crystal trap to detect. Do you know how to protect yourself?"
+      "p3": {
+        "role": "develop",
+        "headline": "渠道2：旅遊攤檔",
+        "body": "批量進貨、低成本、完全無來源追蹤。",
+        "en_text": "Tourist stalls — zero traceability."
       },
-      "25_30s": {
-        "vo": "追蹤，第25集大結局——教你分辨真正可靠的礦石來源！",
-        "zh_subtitle": "追蹤帳號，第25集大結局：如何找到真正可靠的礦石來源",
-        "en_subtitle": "Follow — Episode 25 finale: how to find truly reliable crystal sources!"
+      "p4": {
+        "role": "climax",
+        "headline": "渠道3最想不到",
+        "body": "增長最快、假貨密度最高的渠道是⋯⋯",
+        "en_text": "Channel 3 — the one you'd never guess."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "答案：直播電商",
+        "body": "即場「認證書」無從核實，是最難察覺的陷阱。",
+        "en_text": "Livestream selling — unverifiable certs."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第25集大結局",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep25 finale: reliable sources."
       }
     },
     "hashtags": [
@@ -3791,26 +4176,42 @@
       "climax": "「你從第1集追到第25集——你已經是礦石知識體系最完整的那群人之一⋯⋯」溫暖感動氛圍。",
       "cta": "「第二季預告——留言告訴我你最想深入了解哪個主題！」追蹤特效。"
     },
-    "script": {
-      "0_3s": {
-        "vo": "一千零一夜——我們從第1集講到第25集，今天是完結篇。",
-        "zh_subtitle": "一千零一夜——從第1集到第25集，今天是完結篇。",
-        "en_subtitle": "One Thousand and One Nights — Episode 1 to 25. This is the finale."
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "一千零一夜，完結篇",
+        "body": "從第1集講到第25集，今天是完結篇。",
+        "en_text": "Episode 1 to 25 — this is the finale."
       },
-      "3_15s": {
-        "vo": "從「水晶曬太陽會損壞」，到「紫微命盤配守護石」，到「辦公桌能量佈局」——你現在已經有一套完整的礦石知識框架。這是科學、命理和心理學的交叉點。",
-        "zh_subtitle": "從「日曬礦石禁忌」，到「紫微命盤配石」，到「場景應用佈局」——你現在擁有一套完整的礦石知識框架。",
-        "en_subtitle": "From sunlight warnings → Zi Wei chart crystals → workspace layouts — you now have a complete crystal knowledge framework. Science + metaphysics + psychology."
+      "p2": {
+        "role": "develop",
+        "headline": "從日曬禁忌到命盤配石",
+        "body": "從礦石日曬損壞，到紫微命盤配守護石。",
+        "en_text": "From sunlight warnings to Zi Wei crystals."
       },
-      "15_25s": {
-        "vo": "我想問你一個問題——追完這25集，你有沒有哪塊石是你最想深入了解、或者最想配在你自己命盤裡面的？留言告訴我——你的答案就是第二季的方向！",
-        "zh_subtitle": "追完25集後，你最想深入了解哪塊礦石，或配對自己命盤？留言告訴我——你的回答決定第二季方向！",
-        "en_subtitle": "After 25 episodes — which crystal do you most want to explore for your own chart? Comment below — your answer shapes Season 2."
+      "p3": {
+        "role": "develop",
+        "headline": "一套完整知識框架",
+        "body": "科學、命理與心理學的交叉點，你都掌握了。",
+        "en_text": "Science + metaphysics + psychology, complete."
       },
-      "25_30s": {
-        "vo": "第二季，更深入，更個人化——追蹤不要走開！",
-        "zh_subtitle": "第二季：更深入的個人命盤礦石諮詢系列，敬請期待",
-        "en_subtitle": "Season 2 incoming — deeper, more personal. Follow and stay tuned! 🔮"
+      "p4": {
+        "role": "climax",
+        "headline": "想問你一個問題",
+        "body": "追完25集，哪塊石是你最想深入了解的？",
+        "en_text": "Which crystal do you most want to explore?"
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "你的答案＝第二季方向",
+        "body": "留言告訴我——你的回答決定第二季的內容。",
+        "en_text": "Your comment shapes Season 2."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第二季，更深更個人化",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Season 2 incoming. 🔮"
       }
     },
     "caption": "🌙 一千零一夜礦石風水系列——第25集完結篇\n25集走過：禁忌揭秘 → 命盤配石 → 場景佈局\n你已擁有一套完整的礦石知識體系 🙏\n留言告訴我——你最想深入了解哪塊石？決定第二季方向！\n💾 收藏 | ➕ 追蹤等第二季",

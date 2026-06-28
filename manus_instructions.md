@@ -15,7 +15,7 @@ _最後更新：2026-06-29_
 
 > 以下 6 條為系統不可覆寫規範。Manus 每次執行（生圖或發布）前必須逐條核對，任一違反即停止並報錯。
 
-> **職責分工（文案組裝收歸 GitHub）**：所有貼文文案（caption / Posts 各頁 / Reels script）由 **GitHub（main.py 組裝 `content_schedule.json` 內容）** 負責，寫入 `manus_task.json` 的 `content` 區塊。**Manus 角色 = EXTRACT_AND_PUBLISH_ONLY**：只提取 `content` + `asset_paths` 透過 IG MCP 發布，禁止自行生成或改寫任何文案。若文案未備齊，main.py 報錯停止（status=error），不發布。
+> **職責分工（文案組裝收歸 GitHub）**：所有貼文文案（caption / Posts 各頁 / Reels frames 各幀圖文文字）由 **GitHub（main.py 組裝 `content_schedule.json` 內容）** 負責，寫入 `manus_task.json` 的 `content` 區塊。**Manus 角色 = EXTRACT_AND_PUBLISH_ONLY**：只提取 `content` + `asset_paths` 透過 IG MCP 發布，禁止自行生成或改寫任何文案。若文案未備齊，main.py 報錯停止（status=error），不發布。
 
 ### R1 防幻覺強制核實 SOP
 - 生成任何礦石文案/科學數據/脈輪對應/保養資訊前，**必須透過 GitHub MCP 讀取 `mineralogy_data.json` 並逐條核實**。
@@ -28,11 +28,11 @@ _最後更新：2026-06-29_
 
 ### R3 語言規範（中上英下）
 - 所有圖文內容**以繁體中文書面語為主、英文為輔**。
-- 同一資訊中英文並存時，**中文在上、英文在下**排列（Reels 字幕、Posts/Stories 疊加文字皆適用）。
+- 同一資訊中英文並存時，**中文在上、英文在下**排列（Reels 各幀圖文文字、Posts/Stories 疊加文字皆適用）。
 
 ### R4 跨平台協同·嚴禁重複文案
 - 自動對齊 Stories、Carousel Posts、Reels 的主題與發布節奏（見 §11.1 跨平台時間軸）。
-- **主題可以相同，但文案必須有所不同**：嚴禁跨格式或跨日期重複使用同一段圖文/caption/script。
+- **主題可以相同，但文案必須有所不同**：嚴禁跨格式或跨日期重複使用同一段圖文/caption/frames 圖文文字。
 
 ### R5 GitHub SSOT 同步·拒絕過期腳本
 - 每次執行**必須透過 GitHub MCP 抓取最新的 `content_schedule.json` / `manus_task.json`**。
@@ -122,11 +122,11 @@ _最後更新：2026-06-29_
   → 6 PNG 不發布至 IG
 ```
 
-**MP4 規格：**
+**MP4 規格（由 6 幀靜態圖像合成·無旁白·無音訊）：**
 - 每張 PNG 停留 3.5–5 秒（6 張合計 20–30 秒）
 - 轉場：淡入淡出
 - 底部版權標籤全程可見
-- **禁止**底部字幕條（Caption Bar），改用 Graphic Text 疊加
+- 所有文字皆為畫面內 Graphic Text 疊加（即 `frames` 各幀文字），**禁止**外掛字幕軌或底部字幕條
 - 禁止 TikTok 水印（有水印被演算法降級）
 
 ---
@@ -178,19 +178,21 @@ _最後更新：2026-06-29_
 - **DM 分享（Sends）是 #1 破圈訊號**：Sends/Reach 超過 3% 帶來 5–10× 額外觸及
 - **重播率（Replay）是高質訊號**：設計「值得重看的細節」（快速列舉、神秘感、資訊密度高）
 - **禁止 TikTok 水印**：有水印的 Reels 被演算法降級（Aggregator Penalty）
-- **字幕提升完播率**：2026 年 IG 確認字幕有助更多完整觀看
+- **畫面文字提升完播率**：2026 年 IG 確認畫面內可讀文字有助更多完整觀看（本系列無旁白／無語音，全部文字直接燒入畫面）
 - **Series 連載設計**：每集結尾必須有下集鉤子（series_hook），推動追蹤
 
-**6 張圖文素材結構：**
+**6 幀圖文文字結構（`frames` 欄位，無旁白·無字幕軌·無音訊）：**
 
-| 張 | 內容 |
-|---|---|
-| 1/6 | Hook 止滑（首 3 秒決定留存）：`「第N夜｜{stone_zh}的秘密」` + 礦石特寫 |
-| 2/6 | 知識點A 科學定位 |
-| 3/6 | 知識點B 美學亮點 |
-| 4/6 | 知識點C 能量主題 |
-| 5/6 | 知識點D 保養禁忌 |
-| 6/6 | CTA Cliffhanger：`「下集預告：{next_stone_zh}」` + 追蹤號召 |
+每集 `frames` 含 6 幀（`p1`–`p6`），對應 `assets/reels/reel_{date}_p1.png`–`_p6.png`。每幀文字直接燒入圖像，欄位：`role`（hook/develop/climax/cta）、`headline`（大字主標，≤約15繁中字）、`body`（1–2句說明）、`en_text`（英文一行，置於中文之下，依 R3）。
+
+| 幀 | role | 內容 |
+|---|---|---|
+| p1 | hook | 止滑主標（首 3 秒決定留存）+ 礦石特寫畫面 |
+| p2 | develop | 知識點 A（科學定位 / 鋪陳）|
+| p3 | develop | 知識點 B（延伸展開）|
+| p4 | climax | 知識點 C（高潮·懸念）|
+| p5 | climax | 知識點 D（高潮·懸念延伸）|
+| p6 | cta | CTA Cliffhanger：下集預告 + 追蹤號召（以 `cta` 欄位為基礎）|
 
 ---
 

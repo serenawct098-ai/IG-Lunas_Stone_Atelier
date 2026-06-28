@@ -143,13 +143,13 @@ def assemble_content(entry, task_type):
         content['pages']       = entry.get('pages', [])
 
     elif task_type == 'reels':
-        # Reels：MP4 字幕腳本、視覺提示、連載鉤子全部組好
+        # Reels：6 幀圖文文字（p1–p6 燒入畫面）、視覺提示、連載鉤子全部組好
         content['episode']              = entry.get('episode')
         content['episode_title']        = entry.get('episode_title', '')
         content['series_hook']          = entry.get('series_hook', '')
         content['next_episode_preview'] = entry.get('next_episode_preview', '')
         content['visual_prompts']       = entry.get('visual_prompts', {})
-        content['script']               = entry.get('script', {})
+        content['frames']               = entry.get('frames', {})
 
     elif task_type == 'stories':
         # Stories：單張文字
@@ -159,13 +159,13 @@ def assemble_content(entry, task_type):
 
 
 def content_is_ready(entry, task_type):
-    """文案是否已由 GitHub 端備齊。caption 為核心必填；Posts 需 pages、Reels 需 script。"""
+    """文案是否已由 GitHub 端備齊。caption 為核心必填；Posts 需 pages、Reels 需 frames。"""
     if not (entry.get('caption') or '').strip():
         return False, 'caption 為空（GitHub 端文案未備齊，Manus 不負責生成）'
     if task_type in ('post', 'posts') and not entry.get('pages'):
         return False, 'posts 缺 pages 內頁文案'
-    if task_type == 'reels' and not entry.get('script'):
-        return False, 'reels 缺 script 字幕腳本'
+    if task_type == 'reels' and not entry.get('frames'):
+        return False, 'reels 缺 frames 圖文文字（p1–p6）'
     return True, ''
 
 
