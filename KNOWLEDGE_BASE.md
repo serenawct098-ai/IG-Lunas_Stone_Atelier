@@ -85,16 +85,21 @@ _最後更新：2026-06-29_
 - 幀角色：p1=hook、p2–p3=develop、p4–p5=climax、p6=cta
 - 每集結尾（p6）必須預告下集礦石，形成追劇感
 - 集數記錄於 `content_schedule.json` → `episode` 欄位
+- **背景音樂**：每集含 `music` 欄位（`style`／`tempo`／`mood`／`suggested_track`），依主題分配：科普/科學集=ambient、脈輪/能量集=uplifting、紫微/奇門/命理集=mysterious、購物/產品集=uplifting boutique
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ### 5.2 今日能量卡（Stories）
 - 每次發布單一礦石能量主題
-- 必須包含互動問句
+- **格式：純圖文**——燒入文字 = `visual_prompt`（圖像生成描述）+ `frame`，**無 caption / 無 hashtags 需求**（hashtags 仍備供參考）
+- `frame` 含 `headline`（≤12字短標題）／`body`（1–2句礦石知識，基於 SSOT）／`en_text`（英文一行）／`cta_text`（Phase 1–2 追蹤、Phase 3 選購）
+- `visual_prompt` 固定含：深色星空背景、礦石特寫、金色光線細節、底部「Luna's Stone Atelier 圖文僅供參考」
+- 61 則 Stories 之 `headline` 與 `body` 全部不重複
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取
 
 ### 5.3 礦石知識乾貨（Posts Carousel）
 - 目標篇數：**25 篇**（Post 1–25，每週 2 次・週二/五）
 - 每次 5 張，涵蓋科學 / 美學 / 能量 / 保養
+- **每頁含 `body_text` 燒入文字**：封面=標語鉤子、乾貨內頁=知識重點（bullets）、封底=CTA 文案
 - **封面必須含數字或問句**（止滑設計）
 - **第 5 張必須含「收藏」導向 CTA**（Save Rate 是 Carousel 最高排名訊號）
 - 礦石資料**必須**從 `mineralogy_data.json` 讀取

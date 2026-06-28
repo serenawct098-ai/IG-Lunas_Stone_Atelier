@@ -15,7 +15,7 @@ _最後更新：2026-06-29_
 
 > 以下 6 條為系統不可覆寫規範。Manus 每次執行（生圖或發布）前必須逐條核對，任一違反即停止並報錯。
 
-> **職責分工（文案組裝收歸 GitHub）**：所有貼文文案（caption / Posts 各頁 / Reels frames 各幀圖文文字）由 **GitHub（main.py 組裝 `content_schedule.json` 內容）** 負責，寫入 `manus_task.json` 的 `content` 區塊。**Manus 角色 = EXTRACT_AND_PUBLISH_ONLY**：只提取 `content` + `asset_paths` 透過 IG MCP 發布，禁止自行生成或改寫任何文案。若文案未備齊，main.py 報錯停止（status=error），不發布。
+> **職責分工（文案組裝收歸 GitHub）**：所有貼文文案（Posts caption + 各頁 `body_text` 燒入文字 / Reels caption + frames 各幀圖文文字 + `music` 背景音樂 / Stories `visual_prompt` + `frame` 燒入文字）由 **GitHub（main.py 組裝 `content_schedule.json` 內容）** 負責，寫入 `manus_task.json` 的 `content` 區塊。**Manus 角色 = EXTRACT_AND_PUBLISH_ONLY**：只提取 `content` + `asset_paths` 透過 IG MCP 發布，禁止自行生成或改寫任何文案。若文案未備齊，main.py 報錯停止（status=error），不發布。
 
 ### R1 防幻覺強制核實 SOP
 - 生成任何礦石文案/科學數據/脈輪對應/保養資訊前，**必須透過 GitHub MCP 讀取 `mineralogy_data.json` 並逐條核實**。
@@ -146,11 +146,17 @@ _最後更新：2026-06-29_
 ## 4. 各格式生成規則（批量生圖模式用）
 
 ### 4.1 Stories（1080×1350 px）
-1. Hook 大字（`今日能量：{stone_zh}`）
-2. 礦石寫實插圖（居中，含細節紋理）
-3. 三點資訊：脈輪 / 主題關鍵詞 / 能量使用建議一句
-4. 互動文字：`「你的{stone_zh}故事？」`
-5. 底部免責聲明：`Luna's Stone Atelier 圖文僅供參考`
+
+**格式：純圖文——燒入文字 = `visual_prompt` + `frame`，無 caption / 無 hashtags 需求**（hashtags 仍備供參考，不必發布）。
+
+- `visual_prompt`：圖像生成描述，固定含 深色星空背景、該礦石特寫、金色光線細節、底部「Luna's Stone Atelier 圖文僅供參考」
+- `frame` 燒入文字四欄位：
+  - `headline`：短標題（≤12 繁中字）
+  - `body`：1–2 句礦石知識或能量描述（基於 `mineralogy_data.json`）
+  - `en_text`：英文一行（置於中文之下，依 R3）
+  - `cta_text`：Phase 1–2 = `追蹤 @lunas.stone.atelier`；Phase 3 = `🛒 Profile 連結選購`
+- 61 則 Stories 之 `headline` 與 `body` 全部不重複
+- 底部免責聲明：`Luna's Stone Atelier 圖文僅供參考`（已含於 `visual_prompt`）
 
 ### 4.2 Posts Carousel（1080×1350 px，共 5 張）
 
@@ -167,6 +173,8 @@ _最後更新：2026-06-29_
 | 3/5 | 美學亮點：色澤 / 光學效應 / 天然特徵辨別 |
 | 4/5 | 能量與心理：脈輪 / 主題 / 使用建議 |
 | 5/5 | 保養提醒 + CTA：淨化方式 / 禁忌 / 呼籲追蹤 + 收藏號召 |
+
+**每頁含 `body_text` 燒入文字**：封面=標語鉤子（1 行）、乾貨內頁=知識重點（bullets）、封底=CTA 文案。`visual_desc` 為構圖描述，`body_text` 為實際燒入該頁圖像的文字。
 
 底部每張必須顯示：`Luna's Stone Atelier 圖文僅供參考`
 
@@ -193,6 +201,8 @@ _最後更新：2026-06-29_
 | p4 | climax | 知識點 C（高潮·懸念）|
 | p5 | climax | 知識點 D（高潮·懸念延伸）|
 | p6 | cta | CTA Cliffhanger：下集預告 + 追蹤號召（以 `cta` 欄位為基礎）|
+
+**背景音樂（`music` 欄位）：** 每集含 `music`，四欄位 `style`／`tempo`／`mood`／`suggested_track`。依主題分配：科普/科學集=ambient·slow、脈輪/能量集=uplifting·medium、紫微/奇門/命理集=mysterious·slow、購物/產品集=uplifting boutique·medium。Manus 套用 MP4 時依 `suggested_track` 關鍵字選 IG 音樂庫曲目。
 
 ---
 

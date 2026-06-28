@@ -125,9 +125,22 @@ def assemble_content(entry, task_type):
     """
     GitHub 端文案組裝（Manus 只提取發布，不生成）。
     從 content_schedule.json 的排程記錄取出完整文案，組裝成 content 區塊。
-    若 caption 缺失，視為文案未備齊 → 觸發 error（見 __main__），
-    Manus 不再負責生成任何文案。
+
+    各格式內容組成：
+      Posts   → 圖片 + 燒入文字（pages.body_text）+ 發文文案（caption + hashtags）
+      Reels   → 圖片 + 燒入文字（frames p1–p6）+ 背景音樂（music）+ 發文文案（caption + hashtags）
+      Stories → 圖片 + 燒入文字（visual_prompt + frame）；發布不需 caption / hashtags
+    若必要欄位缺失，視為文案未備齊 → 觸發 error（見 __main__），Manus 不再負責生成任何文案。
     """
+    # Stories：純圖文，燒入文字 = visual_prompt + frame，無 caption
+    if task_type == 'stories':
+        return {
+            'visual_prompt': entry.get('visual_prompt', ''),
+            'frame':         entry.get('frame', {}),
+            'hashtags':      entry.get('hashtags', []),
+            'story_title':   entry.get('story_title', entry.get('post_title', '')),
+        }
+
     caption  = (entry.get('caption') or '').strip()
     hashtags = entry.get('hashtags', [])
 
@@ -137,35 +150,56 @@ def assemble_content(entry, task_type):
     }
 
     if task_type in ('post', 'posts'):
-        # Carousel：每頁文字（封面/內頁/封底）全部組好供 Manus 套圖發布
+        # Carousel：每頁文字（封面/內頁/封底，含 body_text 燒入文字）全部組好供 Manus 套圖發布
         content['post_number'] = entry.get('post_number')
         content['post_title']  = entry.get('post_title', '')
         content['pages']       = entry.get('pages', [])
 
     elif task_type == 'reels':
-        # Reels：6 幀圖文文字（p1–p6 燒入畫面）、視覺提示、連載鉤子全部組好
+        # Reels：6 幀圖文文字（p1–p6 燒入畫面）、視覺提示、背景音樂、連載鉤子全部組好
         content['episode']              = entry.get('episode')
         content['episode_title']        = entry.get('episode_title', '')
         content['series_hook']          = entry.get('series_hook', '')
         content['next_episode_preview'] = entry.get('next_episode_preview', '')
         content['visual_prompts']       = entry.get('visual_prompts', {})
         content['frames']               = entry.get('frames', {})
-
-    elif task_type == 'stories':
-        # Stories：單張文字
-        content['story_title'] = entry.get('story_title', entry.get('post_title', ''))
+        content['music']                = entry.get('music', {})
 
     return content
 
 
 def content_is_ready(entry, task_type):
-    """文案是否已由 GitHub 端備齊。caption 為核心必填；Posts 需 pages、Reels 需 frames。"""
+    """
+    文案是否已由 GitHub 端備齊。
+      Posts   → caption + pages（每頁含 body_text 燒入文字）
+      Reels   → caption + frames（p1–p6）+ music 背景音樂
+      Stories → visual_prompt + frame（headline/body/cta_text），不需 caption
+    """
+    if task_type == 'stories':
+        frame = entry.get('frame') or {}
+        if not all((frame.get(k) or '').strip() for k in ('headline', 'body', 'cta_text')):
+            return False, 'stories 缺 frame 燒入文字（headline/body/cta_text）'
+        if not (entry.get('visual_prompt') or '').strip():
+            return False, 'stories 缺 visual_prompt 視覺提示'
+        return True, ''
+
     if not (entry.get('caption') or '').strip():
         return False, 'caption 為空（GitHub 端文案未備齊，Manus 不負責生成）'
-    if task_type in ('post', 'posts') and not entry.get('pages'):
-        return False, 'posts 缺 pages 內頁文案'
-    if task_type == 'reels' and not entry.get('frames'):
-        return False, 'reels 缺 frames 圖文文字（p1–p6）'
+
+    if task_type in ('post', 'posts'):
+        pages = entry.get('pages') or []
+        if not pages:
+            return False, 'posts 缺 pages 內頁文案'
+        if not all((pg.get('body_text') or '').strip() for pg in pages):
+            return False, 'posts 缺 body_text 燒入文字（每頁皆需）'
+
+    if task_type == 'reels':
+        if not entry.get('frames'):
+            return False, 'reels 缺 frames 圖文文字（p1–p6）'
+        music = entry.get('music') or {}
+        if not music.get('style'):
+            return False, 'reels 缺 music 背景音樂設定'
+
     return True, ''
 
 

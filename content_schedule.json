@@ -1,7 +1,7 @@
 [
   {
     "_meta": {
-      "version": "2.5",
+      "version": "2.7",
       "generated": "2026-06-29",
       "period": "2026-06-15 → 2026-09-08",
       "total_entries": 111,
@@ -12,12 +12,17 @@
       },
       "data_source": "mineralogy_data.json",
       "ssot_note": "礦石資料唯一真源為 mineralogy_data.json，stone_id 欄位與 mineralogy_data.json id 欄位嚴格對應",
-      "scripts_note": "所有 Posts(25)+Reels(25) 完整文案已由 GitHub 端備齊並寫入；main.py 組裝 content 供 Manus 提取發布，Manus 不生成文案",
+      "scripts_note": "Posts(25) 每頁含 body_text 燒入文字、Reels(25) 含 music 背景音樂、Stories(61) 含 visual_prompt+frame（無 caption）；main.py 組裝 content 供 Manus 提取發布，Manus 不生成文案",
       "full_scripts": {
         "posts_full": 25,
         "reels_full": 25
       },
-      "reel_format": "image_frames_only"
+      "reel_format": "image_frames_only",
+      "formats_note": {
+        "posts": "圖片 + 燒入文字(pages.body_text) + 發文文案(caption+hashtags)",
+        "reels": "圖片 + 燒入文字(frames p1-p6) + 背景音樂(music) + 發文文案(caption+hashtags)",
+        "stories": "圖片 + 燒入文字(visual_prompt+frame)，發布無需 caption/hashtags（hashtags 備供參考）"
+      }
     }
   },
   {
@@ -95,7 +100,13 @@
       "#crystalhealing",
       "#玄學"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   {
     "date": "2026-06-15",
@@ -104,10 +115,23 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 紫水晶對應眉心輪，是冥想與睡眠的經典枕邊石，幫助鎮定減壓。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "紫水晶與眉心輪",
+      "body": "紫水晶對應眉心輪，是冥想與睡眠的經典枕邊石，幫助鎮定減壓。",
+      "en_text": "Amethyst calms the mind and soothes the spirit.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#紫水晶",
+      "#amethyst",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-16",
@@ -127,7 +151,8 @@
         "type": "封面",
         "headline": "⚠️ 這5種水晶千萬別曬太陽！你中招了嗎？",
         "visual_desc": "深色背景，5顆礦石（紫水晶、粉晶、月光石、蛋白石、黃水晶）排成一排，中央紅色警示符號疊加，右下角品牌Logo，底部白字「👉 左滑查名單」",
-        "design_note": "高對比度——深背景配白/黃警示字，封面要在拇指滾動中0.3秒內止滑"
+        "design_note": "高對比度——深背景配白/黃警示字，封面要在拇指滾動中0.3秒內止滑",
+        "body_text": "⚠️ 這5種水晶千萬別曬太陽！你中招了嗎？"
       },
       {
         "page": 2,
@@ -137,7 +162,8 @@
           "🩷 粉晶（Rose Quartz）→ 長曬後粉色漸漸變白，無法恢復",
           "⚠️ 以上兩種：日曬淨化建議控制在 20 分鐘以內，早上 10 時前為佳"
         ],
-        "visual_desc": "紫水晶與粉晶各佔半頁對比圖——左健康色 vs 右褪色效果對比，文字疊加說明"
+        "visual_desc": "紫水晶與粉晶各佔半頁對比圖——左健康色 vs 右褪色效果對比，文字疊加說明",
+        "body_text": "🟣 紫水晶（Amethyst）→ 長時間日曬導致永久褪色，原因：鐵離子色心被紫外線破壞\n🩷 粉晶（Rose Quartz）→ 長曬後粉色漸漸變白，無法恢復\n⚠️ 以上兩種：日曬淨化建議控制在 20 分鐘以內，早上 10 時前為佳"
       },
       {
         "page": 3,
@@ -147,7 +173,8 @@
           "🌈 蛋白石（Opal）→ 含水礦物，高溫日曬導致失水龜裂，損傷不可逆",
           "🟡 黃水晶（Citrine）→ 長曬色澤變鈍，若為燒色處理則退色更快"
         ],
-        "visual_desc": "月光石月光效應特寫圖（強調怕曬後果），旁邊小圖加紅色叉號示意"
+        "visual_desc": "月光石月光效應特寫圖（強調怕曬後果），旁邊小圖加紅色叉號示意",
+        "body_text": "🌕 月光石（Moonstone）→ 長曬使月光效應（adularescence）變弱，光暈消失\n🌈 蛋白石（Opal）→ 含水礦物，高溫日曬導致失水龜裂，損傷不可逆\n🟡 黃水晶（Citrine）→ 長曬色澤變鈍，若為燒色處理則退色更快"
       },
       {
         "page": 4,
@@ -157,13 +184,15 @@
           "✅ 安全淨化方法 2：月圓夜月光照射（吸能量同時淨化）",
           "✅ 安全淨化方法 3：薰香煙霧繞行 / 頌缽聲波（不接觸礦石本體）"
         ],
-        "visual_desc": "三種淨化方法各一小圖橫排——水晶簇、月光下礦石、薰香煙霧，版面乾淨有呼吸感"
+        "visual_desc": "三種淨化方法各一小圖橫排——水晶簇、月光下礦石、薰香煙霧，版面乾淨有呼吸感",
+        "body_text": "✅ 安全淨化方法 1：白水晶簇過夜（最溫和，所有礦石適用）\n✅ 安全淨化方法 2：月圓夜月光照射（吸能量同時淨化）\n✅ 安全淨化方法 3：薰香煙霧繞行 / 頌缽聲波（不接觸礦石本體）"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏起來，保護你的礦石！\n➕ 追蹤我，每週更新礦石科普與開運知識\n👇 留言：你有哪顆礦石曾經曬壞過？",
-        "visual_desc": "品牌主色背景，Logo 居中，三行CTA文字由上至下排列，底部留白乾淨"
+        "visual_desc": "品牌主色背景，Logo 居中，三行CTA文字由上至下排列，底部留白乾淨",
+        "body_text": "💾 收藏起來，保護你的礦石！\n➕ 追蹤我，每週更新礦石科普與開運知識\n👇 留言：你有哪顆礦石曾經曬壞過？"
       }
     ],
     "caption": "⚠️ 這5種水晶千萬別曬太陽——你是否一直做錯？\n\n很多人以為日曬是最自然的消磁方法，但其實部分礦石在紫外線下會永久褪色甚至裂開 😱\n\n✦ 紫水晶、粉晶長曬後顏色無法恢復\n✦ 蛋白石含水分，高溫直接令它龜裂\n✦ 安全消磁：白水晶簇、月光、薰香三選一\n\n💾 收藏留底，下次淨化前先查一查\n👇 留言告訴我你使用什麼消磁方法？",
@@ -182,10 +211,23 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 茶晶對應海底輪，是接地穩定的能量石，幫助焦慮的心回到身體。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "茶晶的接地力",
+      "body": "茶晶對應海底輪，是接地穩定的能量石，幫助焦慮的心回到身體。",
+      "en_text": "Smoky Quartz grounds you and releases stress.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#茶晶",
+      "#smokyquartz",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-18",
@@ -261,7 +303,13 @@
       "#香港風水",
       "#玄學"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   {
     "date": "2026-06-18",
@@ -270,10 +318,23 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 拉長石對應眉心輪，是靈性工作者的保護石，開啟內在直覺。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "拉長石護心法",
+      "body": "拉長石對應眉心輪，是靈性工作者的保護石，開啟內在直覺。",
+      "en_text": "Labradorite shields your energy and awakens intuition.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#拉長石",
+      "#labradorite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-19",
@@ -293,7 +354,8 @@
         "type": "封面",
         "headline": "💰 招財礦石完全錯了？按你的五行選才有用！",
         "visual_desc": "金色系背景，黃水晶、虎眼石、金髮晶三顆並排打燈，中央衝擊性標題疊加，右下角品牌Logo，底部「👉 左滑看五行配石表」",
-        "design_note": "黃金色調強化財富聯想，標題用「完全錯了」製造認知衝突止滑"
+        "design_note": "黃金色調強化財富聯想，標題用「完全錯了」製造認知衝突止滑",
+        "body_text": "💰 招財礦石完全錯了？按你的五行選才有用！"
       },
       {
         "page": 2,
@@ -303,7 +365,8 @@
           "🔴 缺火者 → 紅石榴石、紅瑪瑙（補熱情與行動力）",
           "🌿 缺木者 → 翡翠、綠東陵石（補生長力與創造力）"
         ],
-        "visual_desc": "五行色輪圖（木青、火紅、土黃、金白、水黑），每色對應礦石小圖，版面如信息圖表"
+        "visual_desc": "五行色輪圖（木青、火紅、土黃、金白、水黑），每色對應礦石小圖，版面如信息圖表",
+        "body_text": "五行能量補石邏輯：命中缺某五行，選對應顏色礦石作輔助工具\n🔴 缺火者 → 紅石榴石、紅瑪瑙（補熱情與行動力）\n🌿 缺木者 → 翡翠、綠東陵石（補生長力與創造力）"
       },
       {
         "page": 3,
@@ -313,7 +376,8 @@
           "⚪ 缺金者 → 白水晶、白幽靈（提升清晰度與行動執行）",
           "🔵 缺水者 → 海藍寶、拉長石（流通能量與直覺洞察）"
         ],
-        "visual_desc": "土/金/水各一礦石特寫橫排，標籤清晰，風格一致"
+        "visual_desc": "土/金/水各一礦石特寫橫排，標籤清晰，風格一致",
+        "body_text": "🟡 缺土者 → 黃水晶、虎眼石（穩定財運與自信）\n⚪ 缺金者 → 白水晶、白幽靈（提升清晰度與行動執行）\n🔵 缺水者 → 海藍寶、拉長石（流通能量與直覺洞察）"
       },
       {
         "page": 4,
@@ -323,13 +387,15 @@
           "通用招財組合（五行均衡者）：黃水晶（自信行動）+ 虎眼石（勇氣執行）+ 白水晶（放大意圖）",
           "礦石是輔助工具——配合行動才能發揮最大作用 🙏"
         ],
-        "visual_desc": "三顆礦石組合特寫，旁邊文字說明各自角色，版面乾淨有結構"
+        "visual_desc": "三顆礦石組合特寫，旁邊文字說明各自角色，版面乾淨有結構",
+        "body_text": "⚠️ 重要：不清楚自己五行？用八字或紫微命盤確認，避免盲目選石\n通用招財組合（五行均衡者）：黃水晶（自信行動）+ 虎眼石（勇氣執行）+ 白水晶（放大意圖）\n礦石是輔助工具——配合行動才能發揮最大作用 🙏"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏，對照你的五行再選石！\n➕ 追蹤我，每週礦石開運乾貨\n👇 留言：你缺哪個五行？我幫你推薦！",
-        "visual_desc": "品牌主色背景，五行顏色小色塊裝飾，CTA文字清晰"
+        "visual_desc": "品牌主色背景，五行顏色小色塊裝飾，CTA文字清晰",
+        "body_text": "💾 收藏，對照你的五行再選石！\n➕ 追蹤我，每週礦石開運乾貨\n👇 留言：你缺哪個五行？我幫你推薦！"
       }
     ],
     "caption": "💰 買錯礦石招不到財？因為你沒有選對五行！\n\n不是貴就是好，礦石能量要配合自身命格才能最大化——這才是礦石玄學的核心邏輯 🔮\n\n✦ 缺火 → 紅石榴石、紅瑪瑙補行動力\n✦ 缺土 → 黃水晶、虎眼石穩財運\n✦ 不知道自己缺什麼？留言告訴我你的生年月，我幫你分析 👇\n\n💾 收藏這篇，選石前先對照五行",
@@ -348,10 +414,23 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 黑曜石對應海底輪，是強力防護石，幫助切斷不健康的連結。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑曜石防護力",
+      "body": "黑曜石對應海底輪，是強力防護石，幫助切斷不健康的連結。",
+      "en_text": "Obsidian offers powerful protection and clarity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黑曜石",
+      "#obsidian",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-21",
@@ -360,10 +439,23 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 黑碧璽對應海底輪，是接地與防護兼具的界線之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑碧璽界線石",
+      "body": "黑碧璽對應海底輪，是接地與防護兼具的界線之石。",
+      "en_text": "Black Tourmaline grounds and guards your boundaries.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黑碧璽",
+      "#blacktourmaline",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-22",
@@ -438,7 +530,13 @@
       "#香港風水",
       "#開運"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   {
     "date": "2026-06-22",
@@ -447,10 +545,22 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 瑪瑙性質溫和穩定，是日常佩戴與情緒緩衝的安心之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "瑪瑙的安定感",
+      "body": "瑪瑙性質溫和穩定，是日常佩戴與情緒緩衝的安心之石。",
+      "en_text": "Agate brings gentle stability and calm.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#瑪瑙",
+      "#agate",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-23",
@@ -470,7 +580,8 @@
         "type": "封面",
         "headline": "🔬 水晶有沒有能量？科學家的真實答案（出乎意料）",
         "visual_desc": "黑白對比分割設計——左邊白水晶特寫（代表「能量」），右邊顯微鏡圖（代表「科學」），中央問號大字，右下角品牌Logo",
-        "design_note": "「出乎意料」四字製造好奇，科學感視覺吸引理性受眾，擴大觸及面"
+        "design_note": "「出乎意料」四字製造好奇，科學感視覺吸引理性受眾，擴大觸及面",
+        "body_text": "🔬 水晶有沒有能量？科學家的真實答案（出乎意料）"
       },
       {
         "page": 2,
@@ -480,7 +591,8 @@
           "→ 受壓力時產生電荷，受電荷時振動——石英鐘、USB 晶片、聲納均基於此",
           "→ 這是有嚴格科學根據的真實物理現象，非玄學"
         ],
-        "visual_desc": "石英振盪器圖（電子元件）與白水晶並排，視覺衝擊感強，標籤說明對應關係"
+        "visual_desc": "石英振盪器圖（電子元件）與白水晶並排，視覺衝擊感強，標籤說明對應關係",
+        "body_text": "科學事實 1：石英（白水晶主成分 SiO₂）具壓電效應（Piezoelectric Effect）\n→ 受壓力時產生電荷，受電荷時振動——石英鐘、USB 晶片、聲納均基於此\n→ 這是有嚴格科學根據的真實物理現象，非玄學"
       },
       {
         "page": 3,
@@ -490,7 +602,8 @@
           "→ 藍色系（海藍寶/天青石）→ 降低壓力荷爾蒙皮質醇",
           "→ 黃色系（黃水晶）→ 提升血清素分泌（愉悅感）"
         ],
-        "visual_desc": "冷暖色系礦石各一組，對應「減壓」與「提振」標籤，版面有藥品說明書的信任感"
+        "visual_desc": "冷暖色系礦石各一組，對應「減壓」與「提振」標籤，版面有藥品說明書的信任感",
+        "body_text": "科學事實 2：礦石顏色對情緒有真實心理影響——色彩心理學（Colour Psychology）已充分研究\n→ 藍色系（海藍寶/天青石）→ 降低壓力荷爾蒙皮質醇\n→ 黃色系（黃水晶）→ 提升血清素分泌（愉悅感）"
       },
       {
         "page": 4,
@@ -500,13 +613,15 @@
           "→ 你對礦石的專注本身，強化了你的注意力與意圖",
           "→ 兩個框架（科學＋能量）並不互相排斥，礦石有不同層次的真實作用 🤍"
         ],
-        "visual_desc": "手握礦石的特寫（溫暖光線），旁邊文字卡片列出「科學層次」與「能量層次」對比"
+        "visual_desc": "手握礦石的特寫（溫暖光線），旁邊文字卡片列出「科學層次」與「能量層次」對比",
+        "body_text": "身心靈視角：礦石是「意圖設定的實體錨點」——心理學稱為具象化工具（Embodiment Object）\n→ 你對礦石的專注本身，強化了你的注意力與意圖\n→ 兩個框架（科學＋能量）並不互相排斥，礦石有不同層次的真實作用 🤍"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，下次有人問你「水晶是不是迷信」你知怎麼回答！\n➕ 追蹤我，每週礦石科學+玄學雙視角\n👇 留言：你是科學派還是能量派？",
-        "visual_desc": "品牌色背景，中央一句「科學與能量，不是對立的」大字，Logo居中"
+        "visual_desc": "品牌色背景，中央一句「科學與能量，不是對立的」大字，Logo居中",
+        "body_text": "💾 收藏這篇，下次有人問你「水晶是不是迷信」你知怎麼回答！\n➕ 追蹤我，每週礦石科學+玄學雙視角\n👇 留言：你是科學派還是能量派？"
       }
     ],
     "caption": "🔬 水晶真是有能量嗎？我問過科學，答案出乎意料\n\n很多人以為水晶療癒是純粹玄學，但其實礦物學同心理學都有一定根據 👀\n\n✦ 石英壓電效應——真實物理現象，工業天天在用\n✦ 顏色影響情緒——色彩心理學支持\n✦ 礦石作為「意圖錨點」——心理學角度成立\n\n科學同能量，從來不是對立的 🤍\n💾 收藏留底，下次有人質疑你有答案",
@@ -525,10 +640,23 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 綠東陵石對應心輪，是幸運與機會之石，帶來樂觀心境。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠東陵招好運",
+      "body": "綠東陵石對應心輪，是幸運與機會之石，帶來樂觀心境。",
+      "en_text": "Green Aventurine attracts luck and opportunity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#綠東陵石",
+      "#greenaventurine",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-25",
@@ -603,7 +731,13 @@
       "#玄學",
       "#香港風水"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   {
     "date": "2026-06-25",
@@ -612,10 +746,23 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 海藍寶對應喉輪，是溝通與表達之石，助你自信開口。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "海藍寶助表達",
+      "body": "海藍寶對應喉輪，是溝通與表達之石，助你自信開口。",
+      "en_text": "Aquamarine eases communication and self-expression.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#海藍寶",
+      "#aquamarine",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-26",
@@ -636,7 +783,8 @@
         "type": "封面",
         "headline": "😱 碰水即毀！你家有這幾種礦石嗎？",
         "visual_desc": "深藍背景，孔雀石、天青石、青金石三顆礦石排列，中央水滴圖標配紅色禁止符號，右下角品牌 Logo，底部白字「👉 左滑查完整清單」",
-        "design_note": "水滴＋禁止符號形成強烈警告視覺，深色背景令礦石色彩更突出，0.3 秒止滑效果"
+        "design_note": "水滴＋禁止符號形成強烈警告視覺，深色背景令礦石色彩更突出，0.3 秒止滑效果",
+        "body_text": "😱 碰水即毀！你家有這幾種礦石嗎？"
       },
       {
         "page": 2,
@@ -646,7 +794,8 @@
           "🔵 天青石（Celestite）→ 質地疏鬆多孔，莫氏硬度僅 3–3.5，長期接觸水分令結構崩解、顏色脫落",
           "⚠️ 以上兩種：清潔建議用乾布輕抹，或毛刷輕掃，嚴禁浸泡與沖洗"
         ],
-        "visual_desc": "孔雀石與天青石各佔半頁，左側健康狀態對比右側受損模擬圖，搭配礦石硬度標籤"
+        "visual_desc": "孔雀石與天青石各佔半頁，左側健康狀態對比右側受損模擬圖，搭配礦石硬度標籤",
+        "body_text": "💚 孔雀石（Malachite）→ 含銅礦物，遇水釋出銅離子，長期泡水令表面點蝕腐蝕，絕對忌水洗；皮膚接觸濕石亦需謹慎\n🔵 天青石（Celestite）→ 質地疏鬆多孔，莫氏硬度僅 3–3.5，長期接觸水分令結構崩解、顏色脫落\n⚠️ 以上兩種：清潔建議用乾布輕抹，或毛刷輕掃，嚴禁浸泡與沖洗"
       },
       {
         "page": 3,
@@ -656,7 +805,8 @@
           "🟠 蛋白石（Opal）→ 含水量 3–20%，泡水反而破壞內部水分平衡，導致遊彩效應弱化甚至龜裂",
           "🔴 孔雀石原石擺件：表面粉塵含銅，接觸後請洗手，保養時全程保持乾燥"
         ],
-        "visual_desc": "青金石近距特寫顯示金點質感，右側小圖示意多孔結構剖面，蛋白石配遊彩效果對比"
+        "visual_desc": "青金石近距特寫顯示金點質感，右側小圖示意多孔結構剖面，蛋白石配遊彩效果對比",
+        "body_text": "🔷 青金石（Lapis Lazuli）→ 天然多孔結構，遇水令染色劑（常見染色處理）加速脫色；黃鐵礦金點亦會氧化變暗\n🟠 蛋白石（Opal）→ 含水量 3–20%，泡水反而破壞內部水分平衡，導致遊彩效應弱化甚至龜裂\n🔴 孔雀石原石擺件：表面粉塵含銅，接觸後請洗手，保養時全程保持乾燥"
       },
       {
         "page": 4,
@@ -666,13 +816,15 @@
           "✅ 忌水礦石安全淨化方案 2：透石膏（Selenite）盤靜置 6 小時以上——同樣安全且有效",
           "✅ 記憶口訣：硬度低於 5、含金屬礦物、天然多孔——三項中一項即忌水"
         ],
-        "visual_desc": "三種安全淨化方式圖文橫排：白水晶簇、透石膏盤、薰香，底部清晰口訣文字卡"
+        "visual_desc": "三種安全淨化方式圖文橫排：白水晶簇、透石膏盤、薰香，底部清晰口訣文字卡",
+        "body_text": "✅ 忌水礦石安全淨化方案 1：白水晶簇過夜——所有礦石通用，最溫和\n✅ 忌水礦石安全淨化方案 2：透石膏（Selenite）盤靜置 6 小時以上——同樣安全且有效\n✅ 記憶口訣：硬度低於 5、含金屬礦物、天然多孔——三項中一項即忌水"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏起來，保護你手上的礦石！\n➕ 追蹤 @lunas.stone.atelier 每週礦石科普\n👇 留言：你家有哪種忌水礦石？我幫你確認！",
-        "visual_desc": "品牌主色深色背景，Logo 居中，三行 CTA 由上至下排列，背景隱約可見孔雀石紋路"
+        "visual_desc": "品牌主色深色背景，Logo 居中，三行 CTA 由上至下排列，背景隱約可見孔雀石紋路",
+        "body_text": "💾 收藏起來，保護你手上的礦石！\n➕ 追蹤 @lunas.stone.atelier 每週礦石科普\n👇 留言：你家有哪種忌水礦石？我幫你確認！"
       }
     ],
     "hashtags": [
@@ -690,10 +842,23 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 藍晶石對應眉心輪，能快速清理雜念、協助專注與決斷。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍晶石助專注",
+      "body": "藍晶石對應眉心輪，能快速清理雜念、協助專注與決斷。",
+      "en_text": "Kyanite clears the mind and sharpens focus.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#藍晶石",
+      "#kyanite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-28",
@@ -702,10 +867,23 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 藍磷灰石對應喉輪，是表達、創意與學習動力之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍磷灰石靈感",
+      "body": "藍磷灰石對應喉輪，是表達、創意與學習動力之石。",
+      "en_text": "Blue Apatite fuels creativity and learning.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#藍磷灰石",
+      "#blueapatite",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-29",
@@ -782,7 +960,13 @@
       "#命理",
       "#開運"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   {
     "date": "2026-06-29",
@@ -791,10 +975,23 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 橄欖石對應心輪，是輕盈樂觀之石，幫助釋放負面情緒。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "橄欖石釋放力",
+      "body": "橄欖石對應心輪，是輕盈樂觀之石，幫助釋放負面情緒。",
+      "en_text": "Peridot lightens the heart and releases negativity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#橄欖石",
+      "#peridot",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-06-30",
@@ -815,7 +1012,8 @@
         "type": "封面",
         "headline": "拉長石發彩光的秘密——地球花了幾億年做到 ✨",
         "visual_desc": "黑色背景，一塊呈現金藍彩光的拉長石特寫充滿畫面，文字以金色細線字體疊加，右下角品牌 Logo，底部「👉 左滑看科學原理」",
-        "design_note": "拉長石彩光本身即是最強止滑視覺，深背景最大化顯色，問句激發好奇心"
+        "design_note": "拉長石彩光本身即是最強止滑視覺，深背景最大化顯色，問句激發好奇心",
+        "body_text": "拉長石發彩光的秘密——地球花了幾億年做到 ✨"
       },
       {
         "page": 2,
@@ -825,7 +1023,8 @@
           "🌈 彩光顏色取決於晶層間距：間距越大→紅橙光；間距越小→藍紫光，因此同一塊石不同角度看顏色完全不同",
           "⚡ 類似現象：肥皂泡彩虹、蝴蝶翅膀結構色——均屬薄膜干涉（Thin-film Interference），純物理光學，非塗層"
         ],
-        "visual_desc": "拉長石橫截面示意圖（晶層結構），右側光線路徑示意，搭配彩光實拍圖"
+        "visual_desc": "拉長石橫截面示意圖（晶層結構），右側光線路徑示意，搭配彩光實拍圖",
+        "body_text": "🔬 科學名稱：拉長石效應（Labradorescence）——光線穿入石內多層微薄晶層（交生條紋，Lamellar Twinning）發生干涉與散射\n🌈 彩光顏色取決於晶層間距：間距越大→紅橙光；間距越小→藍紫光，因此同一塊石不同角度看顏色完全不同\n⚡ 類似現象：肥皂泡彩虹、蝴蝶翅膀結構色——均屬薄膜干涉（Thin-film Interference），純物理光學，非塗層"
       },
       {
         "page": 3,
@@ -835,7 +1034,8 @@
           "🔍 其他天然特徵：內部可見白色條紋（交生結構）、輕微霧感、偶有包裹體；過於完美透明者需警惕",
           "💡 購買建議：光源下從多角度轉動觀察，彩光若能「流動」才是真拉長石效應"
         ],
-        "visual_desc": "兩塊石頭並排對比：左邊天然（有條紋、彩光流動）vs 右邊仿品（整面均一），箭頭指示差異"
+        "visual_desc": "兩塊石頭並排對比：左邊天然（有條紋、彩光流動）vs 右邊仿品（整面均一），箭頭指示差異",
+        "body_text": "👁️ 天然 vs 仿品關鍵差異：天然拉長石彩光位置隨觀察角度移動，轉動石頭顏色漂移——仿品或鍍膜玻璃每面均一閃光、位置不變\n🔍 其他天然特徵：內部可見白色條紋（交生結構）、輕微霧感、偶有包裹體；過於完美透明者需警惕\n💡 購買建議：光源下從多角度轉動觀察，彩光若能「流動」才是真拉長石效應"
       },
       {
         "page": 4,
@@ -845,13 +1045,15 @@
           "🛡️ 亦被視為能量邊界石：有助維持個人能量場，減少被環境情緒干擾",
           "🏥 保養提示：以乾布擦拭即可，避免超聲波洗機；彩光面勿強力摩擦"
         ],
-        "visual_desc": "手持拉長石於戶外光線下，彩光流動的美麗動態感，右側能量功能文字卡"
+        "visual_desc": "手持拉長石於戶外光線下，彩光流動的美麗動態感，右側能量功能文字卡",
+        "body_text": "🔮 能量與功能對應：拉長石與神經系統及直覺感應有關（能量學）——適合靈性工作者、占卜師、頻繁出入能量混雜場域的人使用\n🛡️ 亦被視為能量邊界石：有助維持個人能量場，減少被環境情緒干擾\n🏥 保養提示：以乾布擦拭即可，避免超聲波洗機；彩光面勿強力摩擦"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，下次介紹拉長石時你就是最懂的那個！\n➕ 追蹤學更多礦石光學知識\n👇 留言：你見過真正的天然拉長石嗎？",
-        "visual_desc": "品牌色背景，拉長石彩光小圖點綴四角，Logo 居中，CTA 白字清晰"
+        "visual_desc": "品牌色背景，拉長石彩光小圖點綴四角，Logo 居中，CTA 白字清晰",
+        "body_text": "💾 收藏這篇，下次介紹拉長石時你就是最懂的那個！\n➕ 追蹤學更多礦石光學知識\n👇 留言：你見過真正的天然拉長石嗎？"
       }
     ],
     "hashtags": [
@@ -869,10 +1071,23 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 翡翠對應心輪，象徵平安、富足與長期的穩定。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "翡翠的福氣",
+      "body": "翡翠對應心輪，象徵平安、富足與長期的穩定。",
+      "en_text": "Jade symbolizes peace, abundance and stability.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#翡翠",
+      "#jadeitejade",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-02",
@@ -948,7 +1163,13 @@
       "#身心靈",
       "#crystalhealing"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   {
     "date": "2026-07-02",
@@ -957,10 +1178,23 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 綠松石對應喉輪，是旅行護身與誠實表達之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠松石護旅人",
+      "body": "綠松石對應喉輪，是旅行護身與誠實表達之石。",
+      "en_text": "Turquoise protects travelers and honest expression.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#綠松石",
+      "#turquoise",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-03",
@@ -981,7 +1215,8 @@
         "type": "封面",
         "headline": "7大脈輪×礦石配對速查表——一張圖全搞懂 🌈",
         "visual_desc": "由下而上七色漸層背景（紅→橙→黃→綠→藍→靛→紫），七顆對應礦石垂直排列，右下角品牌 Logo，底部白字「👉 左滑看完整速查表」",
-        "design_note": "彩虹脈輪色阶本身即止滑視覺，速查表承諾令人收藏慾強"
+        "design_note": "彩虹脈輪色阶本身即止滑視覺，速查表承諾令人收藏慾強",
+        "body_text": "7大脈輪×礦石配對速查表——一張圖全搞懂 🌈"
       },
       {
         "page": 2,
@@ -991,7 +1226,8 @@
           "🟠 臍輪（Sacral Chakra）— 位置：下腹；顏色：橙色；對應礦石：紅瑪瑙/玉髓（生命力）、橄欖石（情緒放鬆）",
           "🟡 太陽神經叢（Solar Plexus）— 位置：上腹；顏色：黃色；對應礦石：黃水晶（行動力）、虎眼石（自信決策）"
         ],
-        "visual_desc": "三脈輪並列，各有彩色圓圈標示位置、礦石實拍小圖、功能關鍵字，版面清爽如資訊圖"
+        "visual_desc": "三脈輪並列，各有彩色圓圈標示位置、礦石實拍小圖、功能關鍵字，版面清爽如資訊圖",
+        "body_text": "🔴 海底輪（Root Chakra）— 位置：脊椎底部；顏色：紅色；對應礦石：紅石榴石（穩定）、黑曜石（防護）、黑碧璽（接地）\n🟠 臍輪（Sacral Chakra）— 位置：下腹；顏色：橙色；對應礦石：紅瑪瑙/玉髓（生命力）、橄欖石（情緒放鬆）\n🟡 太陽神經叢（Solar Plexus）— 位置：上腹；顏色：黃色；對應礦石：黃水晶（行動力）、虎眼石（自信決策）"
       },
       {
         "page": 3,
@@ -1001,7 +1237,8 @@
           "🔵 喉輪（Throat Chakra）— 位置：喉嚨；顏色：藍色；對應礦石：青金石（表達清晰）、海藍寶（溝通勇氣）、天青石（平靜表達）",
           "💙 眉心輪（Third Eye）— 位置：眉間；顏色：靛藍；對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）、藍磷灰石（學習創作）"
         ],
-        "visual_desc": "四脈輪資訊圖延續設計風格，心輪強調粉與綠雙色，喉輪礦石三小圖清晰標示"
+        "visual_desc": "四脈輪資訊圖延續設計風格，心輪強調粉與綠雙色，喉輪礦石三小圖清晰標示",
+        "body_text": "💚 心輪（Heart Chakra）— 位置：胸口；顏色：綠/粉；對應礦石：粉晶（情感連結）、綠幽靈水晶（心肺活力）、綠東陵石（心輪修復）\n🔵 喉輪（Throat Chakra）— 位置：喉嚨；顏色：藍色；對應礦石：青金石（表達清晰）、海藍寶（溝通勇氣）、天青石（平靜表達）\n💙 眉心輪（Third Eye）— 位置：眉間；顏色：靛藍；對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）、藍磷灰石（學習創作）"
       },
       {
         "page": 4,
@@ -1011,13 +1248,15 @@
           "📌 使用入門建議：從自身最缺乏的能量品質入手，選一顆對應礦石先；不需要同時擁有七顆",
           "⚠️ 判斷哪個脈輪需要調整：情緒、溝通、決策、睡眠哪個最困擾你——從那個脈輪的礦石開始"
         ],
-        "visual_desc": "頂輪特寫，紫水晶與白水晶並排，底部「入門三步驟」清單式圖文"
+        "visual_desc": "頂輪特寫，紫水晶與白水晶並排，底部「入門三步驟」清單式圖文",
+        "body_text": "🔮 頂輪（Crown Chakra）— 位置：頭頂；顏色：紫/白；對應礦石：紫水晶（靈性連結、睡眠）、白水晶（能量放大與淨化）\n📌 使用入門建議：從自身最缺乏的能量品質入手，選一顆對應礦石先；不需要同時擁有七顆\n⚠️ 判斷哪個脈輪需要調整：情緒、溝通、決策、睡眠哪個最困擾你——從那個脈輪的礦石開始"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這張速查表，選礦石時不需要再猜！\n➕ 追蹤，每週脈輪×礦石深度解析\n👇 留言：你覺得你哪個脈輪最需要補充能量？",
-        "visual_desc": "七色漸層背景，中央白色大字「你的脈輪都補好了嗎？」，Logo 右下角"
+        "visual_desc": "七色漸層背景，中央白色大字「你的脈輪都補好了嗎？」，Logo 右下角",
+        "body_text": "💾 收藏這張速查表，選礦石時不需要再猜！\n➕ 追蹤，每週脈輪×礦石深度解析\n👇 留言：你覺得你哪個脈輪最需要補充能量？"
       }
     ],
     "hashtags": [
@@ -1035,10 +1274,23 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 透石膏對應頂輪，是淨化空間、提升振頻的療癒之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "透石膏淨化術",
+      "body": "透石膏對應頂輪，是淨化空間、提升振頻的療癒之石。",
+      "en_text": "Selenite cleanses space and lifts your vibration.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#透石膏",
+      "#selenite",
+      "#頂輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-05",
@@ -1047,10 +1299,23 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 黃鐵礦對應太陽神經叢，是財富顯化與行動力之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黃鐵礦招財石",
+      "body": "黃鐵礦對應太陽神經叢，是財富顯化與行動力之石。",
+      "en_text": "Pyrite ignites wealth, willpower and action.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黃鐵礦",
+      "#pyrite",
+      "#太陽神經叢",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-06",
@@ -1126,7 +1391,13 @@
       "#香港風水",
       "#水晶能量"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   {
     "date": "2026-07-06",
@@ -1135,10 +1406,23 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 神經緊繃、思緒過載時，紫水晶能舒緩頭部壓力、安定心神。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "紫水晶舒壓",
+      "body": "神經緊繃、思緒過載時，紫水晶能舒緩頭部壓力、安定心神。",
+      "en_text": "Amethyst calms the mind and soothes the spirit.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#紫水晶",
+      "#amethyst",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-07",
@@ -1159,7 +1443,8 @@
         "type": "封面",
         "headline": "黑曜石 vs 黑碧璽——同是黑色，差別大到你想不到 🖤",
         "visual_desc": "純黑背景，左邊黑曜石（有光澤玻璃感）vs 右邊黑碧璽（有平行條紋質感）對稱擺放，中間閃電符號分割，右下角品牌 Logo，底部「👉 左滑看深度比較」",
-        "design_note": "左右對稱視覺製造「對決感」，黑色主題強烈有衝擊力，激發比較欲"
+        "design_note": "左右對稱視覺製造「對決感」，黑色主題強烈有衝擊力，激發比較欲",
+        "body_text": "黑曜石 vs 黑碧璽——同是黑色，差別大到你想不到 🖤"
       },
       {
         "page": 2,
@@ -1169,7 +1454,8 @@
           "💡 外觀識別：黑曜石表面如鏡子，玻璃光澤強；黑碧璽有明顯平行縱向條紋，光澤較啞",
           "⚡ 能量風格：黑曜石能量直接強烈，像快刀斬亂麻——適合需要快速清除負能量的人"
         ],
-        "visual_desc": "兩種礦石成分資訊卡並列，放大鏡圖示指向各自特徵，硬度數字大字標示"
+        "visual_desc": "兩種礦石成分資訊卡並列，放大鏡圖示指向各自特徵，硬度數字大字標示",
+        "body_text": "🔬 成分差異：黑曜石 = 火山玻璃（非晶質，主要為 SiO₂），硬度約 5–5.5；黑碧璽 = 碧璽族礦物（硼矽酸鹽結晶），硬度 7–7.5\n💡 外觀識別：黑曜石表面如鏡子，玻璃光澤強；黑碧璽有明顯平行縱向條紋，光澤較啞\n⚡ 能量風格：黑曜石能量直接強烈，像快刀斬亂麻——適合需要快速清除負能量的人"
       },
       {
         "page": 3,
@@ -1179,7 +1465,8 @@
           "🏥 身體對應：黑曜石對應下肢與排毒；黑碧璽對應骨骼、肌肉與神經穩定——後者更適合長期日常佩戴",
           "📱 現代場景：黑碧璽特別適合長時間使用電子產品、住高壓環境的人——傳統能量學認為其有屏蔽電磁干擾的象徵作用"
         ],
-        "visual_desc": "能量強度對比圖（黑曜石箭頭粗而急，黑碧璽曲線平穩），搭配各自使用場景插圖"
+        "visual_desc": "能量強度對比圖（黑曜石箭頭粗而急，黑碧璽曲線平穩），搭配各自使用場景插圖",
+        "body_text": "🛡️ 黑碧璽能量特質：穩定而持續，像防護罩——長期佩戴不會令人感覺壓迫，能量敏感者友善\n🏥 身體對應：黑曜石對應下肢與排毒；黑碧璽對應骨骼、肌肉與神經穩定——後者更適合長期日常佩戴\n📱 現代場景：黑碧璽特別適合長時間使用電子產品、住高壓環境的人——傳統能量學認為其有屏蔽電磁干擾的象徵作用"
       },
       {
         "page": 4,
@@ -1189,13 +1476,15 @@
           "⚠️ 黑曜石注意：初次使用能量反應可能較強烈，建議從短時間佩戴開始適應",
           "🤝 最佳搭配：黑曜石清理後，用白水晶補充能量；黑碧璽長期佩戴可搭配粉晶平衡心輪"
         ],
-        "visual_desc": "「你是哪種人」診斷流程圖，兩條路徑分別指向黑曜石與黑碧璽，清晰易理解"
+        "visual_desc": "「你是哪種人」診斷流程圖，兩條路徑分別指向黑曜石與黑碧璽，清晰易理解",
+        "body_text": "👤 適合你的是哪一種？→ 情緒積壓需要快速清理：選黑曜石；需要穩定日常防護：選黑碧璽\n⚠️ 黑曜石注意：初次使用能量反應可能較強烈，建議從短時間佩戴開始適應\n🤝 最佳搭配：黑曜石清理後，用白水晶補充能量；黑碧璽長期佩戴可搭配粉晶平衡心輪"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，下次買黑系礦石不再混淆！\n➕ 追蹤，更多礦石深度比較\n👇 留言：你是黑曜石派還是黑碧璽派？",
-        "visual_desc": "黑色背景，兩顆礦石各佔左右，中間品牌 Logo，底部 CTA 白字"
+        "visual_desc": "黑色背景，兩顆礦石各佔左右，中間品牌 Logo，底部 CTA 白字",
+        "body_text": "💾 收藏這篇，下次買黑系礦石不再混淆！\n➕ 追蹤，更多礦石深度比較\n👇 留言：你是黑曜石派還是黑碧璽派？"
       }
     ],
     "hashtags": [
@@ -1213,10 +1502,23 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 工作壓力大、思緒紛亂時，茶晶能釋放負面能量、穩住情緒。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "茶晶穩情緒",
+      "body": "工作壓力大、思緒紛亂時，茶晶能釋放負面能量、穩住情緒。",
+      "en_text": "Smoky Quartz grounds you and releases stress.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#茶晶",
+      "#smokyquartz",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-09",
@@ -1292,7 +1594,13 @@
       "#水晶能量",
       "#香港風水"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   {
     "date": "2026-07-09",
@@ -1301,10 +1609,23 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 經常出入人多場域？拉長石能建立能量邊界、保護共感體質。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "拉長石能量盾",
+      "body": "經常出入人多場域？拉長石能建立能量邊界、保護共感體質。",
+      "en_text": "Labradorite shields your energy and awakens intuition.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#拉長石",
+      "#labradorite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-10",
@@ -1325,7 +1646,8 @@
         "type": "封面",
         "headline": "莫氏硬度完整表：你的礦石適合天天戴嗎？ 💎",
         "visual_desc": "深灰色背景，由硬到軟五組礦石從上至下排列，右側硬度數字由 9 到 1 遞減，品牌 Logo 右下，底部「👉 左滑查你的礦石」",
-        "design_note": "硬度數字從大到小視覺上有序感，專業資訊圖形式增加收藏動機"
+        "design_note": "硬度數字從大到小視覺上有序感，專業資訊圖形式增加收藏動機",
+        "body_text": "莫氏硬度完整表：你的礦石適合天天戴嗎？ 💎"
       },
       {
         "page": 2,
@@ -1335,7 +1657,8 @@
           "🟡 硬度 7 附近需注意：黃水晶 (7)、茶晶 (7)——本身夠硬，但切割工藝若有弱點仍需避免重擊",
           "⚠️ 注意：硬度指的是「抗刮硬度」，不等於「抗衝擊強度」——脆性高的礦石即使硬度高，重摔亦會裂"
         ],
-        "visual_desc": "硬度 7+ 礦石一字排開，各自標示硬度數字，背景帶幾何圖形作為設計元素"
+        "visual_desc": "硬度 7+ 礦石一字排開，各自標示硬度數字，背景帶幾何圖形作為設計元素",
+        "body_text": "💎 硬度 7+ 可放心日常佩戴：白水晶 (7)、紫水晶 (7)、粉晶 (7)、黑碧璽 (7–7.5)、虎眼石 (7)、石榴石 (6.5–7.5)——可與其他飾品一同佩戴\n🟡 硬度 7 附近需注意：黃水晶 (7)、茶晶 (7)——本身夠硬，但切割工藝若有弱點仍需避免重擊\n⚠️ 注意：硬度指的是「抗刮硬度」，不等於「抗衝擊強度」——脆性高的礦石即使硬度高，重摔亦會裂"
       },
       {
         "page": 3,
@@ -1345,7 +1668,8 @@
           "🔵 硬度 5–6 礦石日常建議：不要放入手袋隨其他金屬飾品混置；做家務時摘下",
           "⚡ 拉長石特別提示：交生晶層結構令其脆性稍高，有裂紋的樣品更需輕拿輕放"
         ],
-        "visual_desc": "硬度 5–6 礦石展示，搭配「小心保護」圖示，右側與堅硬物品碰撞警告示意圖"
+        "visual_desc": "硬度 5–6 礦石展示，搭配「小心保護」圖示，右側與堅硬物品碰撞警告示意圖",
+        "body_text": "🔶 硬度 5–6 需要保護：黑曜石 (5–5.5)、拉長石 (6–6.5)、月光石 (6–6.5)、蛋白石 (5.5–6.5)——建議單獨佩戴，避免與硬度更高飾品碰撞\n🔵 硬度 5–6 礦石日常建議：不要放入手袋隨其他金屬飾品混置；做家務時摘下\n⚡ 拉長石特別提示：交生晶層結構令其脆性稍高，有裂紋的樣品更需輕拿輕放"
       },
       {
         "page": 4,
@@ -1355,13 +1679,15 @@
           "🔴 透石膏（Selenite）硬度僅 2，手指甲都可以刮傷它——完全不適合佩戴，只作擺陣淨化用途",
           "📦 保存建議：硬度差距超過 2 的礦石，分開存放在不同格子或布袋，避免相互刮傷"
         ],
-        "visual_desc": "脆弱礦石清單圖，透石膏特寫顯示表面細膩質感，右側儲存示意圖（布袋分格）"
+        "visual_desc": "脆弱礦石清單圖，透石膏特寫顯示表面細膩質感，右側儲存示意圖（布袋分格）",
+        "body_text": "⚠️ 硬度 4 以下最脆弱：天青石 (3–3.5)、孔雀石 (3.5–4)——不建議製成手鍊天天戴，更適合擺件、原石珍藏\n🔴 透石膏（Selenite）硬度僅 2，手指甲都可以刮傷它——完全不適合佩戴，只作擺陣淨化用途\n📦 保存建議：硬度差距超過 2 的礦石，分開存放在不同格子或布袋，避免相互刮傷"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這張硬度表，保護你的每一顆礦石！\n➕ 追蹤，每週礦石保養知識更新\n👇 留言：你最常天天戴的是哪顆？",
-        "visual_desc": "品牌色背景，中央「硬度 = 佩戴指南」大字，Logo 與礦石小圖裝飾四角"
+        "visual_desc": "品牌色背景，中央「硬度 = 佩戴指南」大字，Logo 與礦石小圖裝飾四角",
+        "body_text": "💾 收藏這張硬度表，保護你的每一顆礦石！\n➕ 追蹤，每週礦石保養知識更新\n👇 留言：你最常天天戴的是哪顆？"
       }
     ],
     "hashtags": [
@@ -1379,10 +1705,23 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 容易吸收他人情緒的人，黑曜石能清除負向能量、穩住自我。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑曜石淨負能",
+      "body": "容易吸收他人情緒的人，黑曜石能清除負向能量、穩住自我。",
+      "en_text": "Obsidian offers powerful protection and clarity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黑曜石",
+      "#obsidian",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-12",
@@ -1391,10 +1730,23 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 長時間使用電子產品？黑碧璽有助減少電磁與情緒干擾。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑碧璽擋電磁",
+      "body": "長時間使用電子產品？黑碧璽有助減少電磁與情緒干擾。",
+      "en_text": "Black Tourmaline grounds and guards your boundaries.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黑碧璽",
+      "#blacktourmaline",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-13",
@@ -1469,7 +1821,13 @@
       "#香港風水",
       "#紫微"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   {
     "date": "2026-07-13",
@@ -1478,10 +1836,22 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 瑪瑙依顏色對應不同脈輪，紅瑪瑙對應海底輪、助接地。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "紅瑪瑙接地",
+      "body": "瑪瑙依顏色對應不同脈輪，紅瑪瑙對應海底輪、助接地。",
+      "en_text": "Agate brings gentle stability and calm.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#瑪瑙",
+      "#agate",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-14",
@@ -1502,7 +1872,8 @@
         "type": "封面",
         "headline": "紫水晶 7 個你從未聽過的真實事實 🔮",
         "visual_desc": "深紫漸層背景，一顆切割精美的紫水晶晶簇特寫，七個星點裝飾環繞，品牌 Logo 右下，底部「👉 左滑逐一解鎖」",
-        "design_note": "「7個」數字製造完整感，深紫背景配合主題，視覺高度一致"
+        "design_note": "「7個」數字製造完整感，深紫背景配合主題，視覺高度一致",
+        "body_text": "紫水晶 7 個你從未聽過的真實事實 🔮"
       },
       {
         "page": 2,
@@ -1512,7 +1883,8 @@
           "🔬 事實 2：「燒色」天然紫水晶會變成黃水晶——加熱到 470℃ 以上，紫水晶褪色甚至轉黃，市場大量「黃水晶」其實是燒色紫水晶",
           "☀️ 事實 3：日曬會永久褪色——鐵離子色心被紫外線破壞，長時間曝曬後顏色從深紫變淺粉，不可逆"
         ],
-        "visual_desc": "紫水晶晶體剖面示意圖，鐵離子與輻射路徑標注，右側燒色對比圖（紫→黃）"
+        "visual_desc": "紫水晶晶體剖面示意圖，鐵離子與輻射路徑標注，右側燒色對比圖（紫→黃）",
+        "body_text": "💜 事實 1：顏色來自鐵（Fe³⁺）與天然輻射——紫水晶是普通石英受到地殼天然放射線照射後形成的，顏色深淺與鐵含量及輻射劑量相關\n🔬 事實 2：「燒色」天然紫水晶會變成黃水晶——加熱到 470℃ 以上，紫水晶褪色甚至轉黃，市場大量「黃水晶」其實是燒色紫水晶\n☀️ 事實 3：日曬會永久褪色——鐵離子色心被紫外線破壞，長時間曝曬後顏色從深紫變淺粉，不可逆"
       },
       {
         "page": 3,
@@ -1522,7 +1894,8 @@
           "🌍 事實 5：全球最大產地在巴西——Minas Gerais 州出產多數市售紫水晶；烏拉圭產的顏色最深飽和，價格更高",
           "🌑 事實 6：黑光燈下（UV）部分紫水晶有螢光反應——天然螢光無害，是礦物內微量元素引起，非仿品指標"
         ],
-        "visual_desc": "色帶層次特寫（對比染色版），產地世界地圖標示，黑光燈螢光效果示意"
+        "visual_desc": "色帶層次特寫（對比染色版），產地世界地圖標示，黑光燈螢光效果示意",
+        "body_text": "🌊 事實 4：天然紫水晶有色帶——顏色分佈不均勻，有深有淺的色帶層次（Color Zoning）是天然標誌；顏色過於均一需警惕人工合成\n🌍 事實 5：全球最大產地在巴西——Minas Gerais 州出產多數市售紫水晶；烏拉圭產的顏色最深飽和，價格更高\n🌑 事實 6：黑光燈下（UV）部分紫水晶有螢光反應——天然螢光無害，是礦物內微量元素引起，非仿品指標"
       },
       {
         "page": 4,
@@ -1532,13 +1905,15 @@
           "🛏️ 枕邊石使用建議：紫水晶晶簇擺放床頭，非直接枕著睡，高度同頭部平齊效果最佳",
           "⚠️ 選購避雷：天然紫水晶顏色有深有淺、有色帶；染色玻璃色澤均一、內有圓形氣泡，重量偏輕"
         ],
-        "visual_desc": "枕邊石使用示意（床頭晶簇擺放圖），選購對比圖，天然與仿品特徵標注"
+        "visual_desc": "枕邊石使用示意（床頭晶簇擺放圖），選購對比圖，天然與仿品特徵標注",
+        "body_text": "🧠 事實 7：能量學與現代心理學交集——紫水晶傳統對應頂輪，功能包括促進冥想、安神助眠、靈性工作輔助；SSOT 紀錄：對應神經系統、睡眠與頭部壓力\n🛏️ 枕邊石使用建議：紫水晶晶簇擺放床頭，非直接枕著睡，高度同頭部平齊效果最佳\n⚠️ 選購避雷：天然紫水晶顏色有深有淺、有色帶；染色玻璃色澤均一、內有圓形氣泡，重量偏輕"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏，這篇是紫水晶最完整的中文指南！\n➕ 追蹤學更多礦石冷知識\n👇 留言：你的紫水晶是天然原色還是燒色？",
-        "visual_desc": "深紫品牌背景，Logo 居中，「你的紫水晶夠天然嗎？」大字，CTA 文字白色清晰"
+        "visual_desc": "深紫品牌背景，Logo 居中，「你的紫水晶夠天然嗎？」大字，CTA 文字白色清晰",
+        "body_text": "💾 收藏，這篇是紫水晶最完整的中文指南！\n➕ 追蹤學更多礦石冷知識\n👇 留言：你的紫水晶是天然原色還是燒色？"
       }
     ],
     "hashtags": [
@@ -1556,10 +1931,23 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 求職、轉職或創業初期，綠東陵石象徵把握機會的好運。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠東陵把握機會",
+      "body": "求職、轉職或創業初期，綠東陵石象徵把握機會的好運。",
+      "en_text": "Green Aventurine attracts luck and opportunity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#綠東陵石",
+      "#greenaventurine",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-16",
@@ -1633,7 +2021,13 @@
       "#礦石",
       "#開運"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   {
     "date": "2026-07-16",
@@ -1642,10 +2036,23 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 演講、簡報或談判前，海藍寶能舒緩緊張、穩定表達。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "海藍寶克緊張",
+      "body": "演講、簡報或談判前，海藍寶能舒緩緊張、穩定表達。",
+      "en_text": "Aquamarine eases communication and self-expression.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#海藍寶",
+      "#aquamarine",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-17",
@@ -1665,7 +2072,8 @@
         "type": "封面",
         "headline": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
         "visual_desc": "左邊「REAL」天然水晶特寫 vs 右邊「FAKE」玻璃仿品特寫（對比鮮明），中央放大鏡圖示，底部「👉 左滑學會分辨」",
-        "design_note": "對比圖是此類內容收藏率最高的視覺格式，確保圖片質量與差異清晰可見"
+        "design_note": "對比圖是此類內容收藏率最高的視覺格式，確保圖片質量與差異清晰可見",
+        "body_text": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆"
       },
       {
         "page": 2,
@@ -1675,7 +2083,8 @@
           "❌ 仿品特徵 1：完全無內含物且顏色均一——玻璃或合成品的典型",
           "🔍 實操：10倍放大鏡下觀察——天然石看到自然紋理，玻璃看到圓形氣泡"
         ],
-        "visual_desc": "10倍放大鏡下天然白水晶（有棉絮）vs 玻璃（有圓形氣泡）對比微觀圖"
+        "visual_desc": "10倍放大鏡下天然白水晶（有棉絮）vs 玻璃（有圓形氣泡）對比微觀圖",
+        "body_text": "✅ 天然礦石特徵 1：內含物（Inclusions）——棉絮、雲霧、氣液包裹體、色帶不均\n❌ 仿品特徵 1：完全無內含物且顏色均一——玻璃或合成品的典型\n🔍 實操：10倍放大鏡下觀察——天然石看到自然紋理，玻璃看到圓形氣泡"
       },
       {
         "page": 3,
@@ -1685,7 +2094,8 @@
           "❌ 仿品特徵 2：玻璃仿品與室溫相近，手握無明顯冰涼感",
           "✅ 天然礦石特徵 3：重量——同體積天然水晶比玻璃略重（密度約 2.65 g/cm³）"
         ],
-        "visual_desc": "手握水晶特寫圖，旁邊溫度計小圖示意「冰涼感」概念"
+        "visual_desc": "手握水晶特寫圖，旁邊溫度計小圖示意「冰涼感」概念",
+        "body_text": "✅ 天然礦石特徵 2：溫度差——天然石英手握後慢慢回溫（導熱性低）\n❌ 仿品特徵 2：玻璃仿品與室溫相近，手握無明顯冰涼感\n✅ 天然礦石特徵 3：重量——同體積天然水晶比玻璃略重（密度約 2.65 g/cm³）"
       },
       {
         "page": 4,
@@ -1695,13 +2105,15 @@
           "✅ 天然礦石特徵 5：不完美——小裂紋、輕微缺角、生長紋是真實礦石的「簽名」",
           "⚠️ 最終確認方法：GIA / 本地寶石學院出具鑑定證書（肉眼觀察只作參考）"
         ],
-        "visual_desc": "天然紫水晶色帶特寫 vs 染色仿品均一色對比，文字箭頭標注差異位置"
+        "visual_desc": "天然紫水晶色帶特寫 vs 染色仿品均一色對比，文字箭頭標注差異位置",
+        "body_text": "✅ 天然礦石特徵 4：色帶（Colour Zoning）——天然有色礦石顏色深淺不均、分區明顯\n✅ 天然礦石特徵 5：不完美——小裂紋、輕微缺角、生長紋是真實礦石的「簽名」\n⚠️ 最終確認方法：GIA / 本地寶石學院出具鑑定證書（肉眼觀察只作參考）"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，買礦石前先看！\n➕ 追蹤我，每週礦石鑑定科普\n👇 留言：你有沒有買過懷疑是假的礦石？",
-        "visual_desc": "品牌主色背景，中央放大鏡圖示，「真假礦石，你值得知道真相」字句"
+        "visual_desc": "品牌主色背景，中央放大鏡圖示，「真假礦石，你值得知道真相」字句",
+        "body_text": "💾 收藏這篇，買礦石前先看！\n➕ 追蹤我，每週礦石鑑定科普\n👇 留言：你有沒有買過懷疑是假的礦石？"
       }
     ],
     "caption": "🔎 買礦石前必看！5個肉眼就能識別真假水晶的方法\n\n花了錢卻買到玻璃仿品？這篇幫你建立基本鑑定眼力 👁\n\n✦ 天然石有內含物——棉絮、雲霧、色帶全是真實記號\n✦ 玻璃仿品看圓形氣泡——10倍放大鏡一照即知\n✦ 最終保障：寶石鑑定證書不可缺\n\n💾 收藏備用，下次入手前先對照檢查\n👇 你有試過買到假礦石嗎？留言分享",
@@ -1720,10 +2132,23 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 決策前佩戴藍晶石，幫助思緒清晰、看清重點。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍晶石助決策",
+      "body": "決策前佩戴藍晶石，幫助思緒清晰、看清重點。",
+      "en_text": "Kyanite clears the mind and sharpens focus.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#藍晶石",
+      "#kyanite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-19",
@@ -1732,10 +2157,23 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 寫作或創作卡關時，藍磷灰石為你注入靈感與動力。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍磷灰石解卡關",
+      "body": "寫作或創作卡關時，藍磷灰石為你注入靈感與動力。",
+      "en_text": "Blue Apatite fuels creativity and learning.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#藍磷灰石",
+      "#blueapatite",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-20",
@@ -1811,7 +2249,13 @@
       "#時空佈局",
       "#水晶擺陣"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   {
     "date": "2026-07-20",
@@ -1820,10 +2264,23 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 情緒容易壓抑時，橄欖石為心區帶來放鬆與寬心。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "橄欖石寬心石",
+      "body": "情緒容易壓抑時，橄欖石為心區帶來放鬆與寬心。",
+      "en_text": "Peridot lightens the heart and releases negativity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#橄欖石",
+      "#peridot",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-21",
@@ -1844,7 +2301,8 @@
         "type": "封面",
         "headline": "礦石保養禁忌——你可能全做錯了 😬",
         "visual_desc": "深色背景，三種錯誤保養方式（日曬、水洗、混放）以紅叉符號標示，品牌 Logo 右下，底部警示感文字「👉 左滑自我檢查」",
-        "design_note": "三個紅叉製造強烈警告感，「全做錯」挑戰讀者認知，高止滑率"
+        "design_note": "三個紅叉製造強烈警告感，「全做錯」挑戰讀者認知，高止滑率",
+        "body_text": "礦石保養禁忌——你可能全做錯了 😬"
       },
       {
         "page": 2,
@@ -1854,7 +2312,8 @@
           "☀️ 忌日曬清單：紫水晶（鐵離子色心被UV破壞）、粉晶（含錳，長曬褪白）、月光石（月光效應減弱）、海藍寶（長期強光色澤變鈍）",
           "⚠️ 以上兩份清單有重疊：蛋白石既忌水又忌曬，是保養最需注意的礦石之一"
         ],
-        "visual_desc": "忌水礦石清單圖（藍底水滴圖示），忌曬清單（橙底太陽圖示），雙欄對比設計"
+        "visual_desc": "忌水礦石清單圖（藍底水滴圖示），忌曬清單（橙底太陽圖示），雙欄對比設計",
+        "body_text": "💧 忌水礦石完整清單：孔雀石（含銅釋毒）、天青石（硬度3，泡水崩解）、蛋白石（含水結構，水洗破壞平衡）、青金石（多孔加速脫色）、透石膏（硬度2，接觸水份即溶蝕）\n☀️ 忌日曬清單：紫水晶（鐵離子色心被UV破壞）、粉晶（含錳，長曬褪白）、月光石（月光效應減弱）、海藍寶（長期強光色澤變鈍）\n⚠️ 以上兩份清單有重疊：蛋白石既忌水又忌曬，是保養最需注意的礦石之一"
       },
       {
         "page": 3,
@@ -1864,7 +2323,8 @@
           "🌕 月光淨化：適用幾乎所有礦石，月光非直射日光，一般不造成色素破壞——選農曆十四至十六滿月夜放置戶外或窗台",
           "🪨 白水晶簇過夜：最安全通用方案，能量學認為白水晶具放大與淨化功能，靜置 8 小時以上"
         ],
-        "visual_desc": "三種安全淨化方式各一圖示，頌缽、滿月、白水晶簇，整齊橫排，版面乾淨"
+        "visual_desc": "三種安全淨化方式各一圖示，頌缽、滿月、白水晶簇，整齊橫排，版面乾淨",
+        "body_text": "🔊 聲波淨化（Singing Bowl / 頌缽）：適用所有礦石，包括忌水忌曬礦石——聲波振動具有物理清潔效果（移除表面靜電），同時對應能量淨化\n🌕 月光淨化：適用幾乎所有礦石，月光非直射日光，一般不造成色素破壞——選農曆十四至十六滿月夜放置戶外或窗台\n🪨 白水晶簇過夜：最安全通用方案，能量學認為白水晶具放大與淨化功能，靜置 8 小時以上"
       },
       {
         "page": 4,
@@ -1874,13 +2334,15 @@
           "❌ 常見錯誤：用清潔劑洗礦石（腐蝕表面）、放入熱水（溫差導致裂紋）、所有礦石混放一個抽屜（硬度差異造成相互刮傷）",
           "📦 收納建議：用獨立布袋或分格盒存放，軟礦石（硬度5以下）優先獨立包裝"
         ],
-        "visual_desc": "淨化頻率日曆示意圖，三種錯誤方式配紅叉圖示，收納方法清晰示意"
+        "visual_desc": "淨化頻率日曆示意圖，三種錯誤方式配紅叉圖示，收納方法清晰示意",
+        "body_text": "🗓️ 正確淨化頻率 SOP：日常佩戴礦石 → 每 1–2 週淨化一次；擺陣礦石 → 每月農曆十五前後淨化；新購礦石 → 入手後立即淨化再啟用\n❌ 常見錯誤：用清潔劑洗礦石（腐蝕表面）、放入熱水（溫差導致裂紋）、所有礦石混放一個抽屜（硬度差異造成相互刮傷）\n📦 收納建議：用獨立布袋或分格盒存放，軟礦石（硬度5以下）優先獨立包裝"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這份完整保養指南，對照你所有礦石！\n➕ 追蹤，每週礦石保養科普\n👇 留言：你以前犯過哪個保養錯誤？",
-        "visual_desc": "品牌主色背景，「保養做對，礦石用一輩子」大字，Logo 居中，CTA 清晰排列"
+        "visual_desc": "品牌主色背景，「保養做對，礦石用一輩子」大字，Logo 居中，CTA 清晰排列",
+        "body_text": "💾 收藏這份完整保養指南，對照你所有礦石！\n➕ 追蹤，每週礦石保養科普\n👇 留言：你以前犯過哪個保養錯誤？"
       }
     ],
     "hashtags": [
@@ -1898,10 +2360,23 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 翡翠適合長期佩戴護身，是傳家與保值的東方瑰寶。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "翡翠傳家寶",
+      "body": "翡翠適合長期佩戴護身，是傳家與保值的東方瑰寶。",
+      "en_text": "Jade symbolizes peace, abundance and stability.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#翡翠",
+      "#jadeitejade",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-23",
@@ -1977,7 +2452,13 @@
       "#排盤教學",
       "#水晶擺陣"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   {
     "date": "2026-07-23",
@@ -1986,10 +2467,23 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 出行頻繁時佩戴綠松石，象徵一路平安與保護。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠松石保平安",
+      "body": "出行頻繁時佩戴綠松石，象徵一路平安與保護。",
+      "en_text": "Turquoise protects travelers and honest expression.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#綠松石",
+      "#turquoise",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-24",
@@ -2010,7 +2504,8 @@
         "type": "封面",
         "headline": "捷克隕石——宇宙撞擊誕生，為何說它頻率最高？ ☄️",
         "visual_desc": "宇宙星空背景，一塊蝕刻紋明顯的捷克隕石懸浮特寫，背景星點光效，品牌 Logo 右下，底部「👉 左滑揭開隕石真相」",
-        "design_note": "星空背景製造神秘感，懸浮構圖強調「不屬於地球」主題，視覺衝擊強烈"
+        "design_note": "星空背景製造神秘感，懸浮構圖強調「不屬於地球」主題，視覺衝擊強烈",
+        "body_text": "捷克隕石——宇宙撞擊誕生，為何說它頻率最高？ ☄️"
       },
       {
         "page": 2,
@@ -2020,7 +2515,8 @@
           "🔬 成分：以 SiO₂ 為主的玻璃質，含特殊蝕刻紋與坑洞（Lechatelierite）——這是宇宙撞擊獨有的超高溫高壓記號",
           "🌍 唯一產地：世界僅有真正摩爾達隕石（Moldavite）產自捷克波希米亞地區；奧地利及德國僅發現零星碎片，以捷克為正統產地"
         ],
-        "visual_desc": "隕石撞擊示意圖（衝擊→汽化→冷卻過程），摩爾達石產地地圖，蝕刻紋微距特寫"
+        "visual_desc": "隕石撞擊示意圖（衝擊→汽化→冷卻過程），摩爾達石產地地圖，蝕刻紋微距特寫",
+        "body_text": "☄️ 成因科學：約 1,500 萬年前隕石撞擊現今捷克南波希米亞地區——撞擊能量令地殼岩石瞬間汽化、噴入大氣、急速冷卻形成玻璃狀物質（Tektite，玻璃隕石）\n🔬 成分：以 SiO₂ 為主的玻璃質，含特殊蝕刻紋與坑洞（Lechatelierite）——這是宇宙撞擊獨有的超高溫高壓記號\n🌍 唯一產地：世界僅有真正摩爾達隕石（Moldavite）產自捷克波希米亞地區；奧地利及德國僅發現零星碎片，以捷克為正統產地"
       },
       {
         "page": 3,
@@ -2030,7 +2526,8 @@
           "💰 真品特徵：通常有氣泡（lechatelierite）封存在內、輕微透光呈橄欖綠；仿品（捷克本地綠玻璃）顏色偏亮、無內部特徵、價格極低",
           "⚠️ 市場現況：捷克隕石存量有限，市場仿品氾濫，選購需向有礦物學認證報告的賣家購買，切勿貪平"
         ],
-        "visual_desc": "真假捷克隕石對比圖：左側真品（不規則蝕紋、橄欖綠）vs 右側仿品（過光滑、過鮮綠）"
+        "visual_desc": "真假捷克隕石對比圖：左側真品（不規則蝕紋、橄欖綠）vs 右側仿品（過光滑、過鮮綠）",
+        "body_text": "🔍 真品 vs 玻璃仿品鑑別：真品表面有不規則蝕刻紋（刻痕方向不規則，如水流沖蝕感）；仿品表面過於光滑或「蝕紋」過於均勻整齊\n💰 真品特徵：通常有氣泡（lechatelierite）封存在內、輕微透光呈橄欖綠；仿品（捷克本地綠玻璃）顏色偏亮、無內部特徵、價格極低\n⚠️ 市場現況：捷克隕石存量有限，市場仿品氾濫，選購需向有礦物學認證報告的賣家購買，切勿貪平"
       },
       {
         "page": 4,
@@ -2040,13 +2537,15 @@
           "🧭 使用建議：適合「準備好面對人生大轉變」的人；初次使用者建議搭配接地石（黑碧璽、紅石榴石）平衡能量，避免過度刺激",
           "🚫 不適合人群：能量極度敏感者、身心尚在恢復期者——高頻石能量強烈，需配合穩定的心理狀態使用"
         ],
-        "visual_desc": "能量強度圖示（高頻石 vs 接地石對比），搭配組合建議圖（捷克隕石＋黑碧璽並排）"
+        "visual_desc": "能量強度圖示（高頻石 vs 接地石對比），搭配組合建議圖（捷克隕石＋黑碧璽並排）",
+        "body_text": "⚡ 能量學認知：捷克隕石被視為「高頻石」——能量學認為其振動頻率顯著高於大部分礦石，對心輪及神經系統有強烈刺激\n🧭 使用建議：適合「準備好面對人生大轉變」的人；初次使用者建議搭配接地石（黑碧璽、紅石榴石）平衡能量，避免過度刺激\n🚫 不適合人群：能量極度敏感者、身心尚在恢復期者——高頻石能量強烈，需配合穩定的心理狀態使用"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，真正了解捷克隕石再考慮入手\n➕ 追蹤，高頻礦石深度系列繼續更新\n👇 留言：你敢不敢試最高頻的礦石？",
-        "visual_desc": "星空品牌背景，捷克隕石懸浮圖，中央「宇宙能量，你準備好了嗎？」大字，Logo"
+        "visual_desc": "星空品牌背景，捷克隕石懸浮圖，中央「宇宙能量，你準備好了嗎？」大字，Logo",
+        "body_text": "💾 收藏這篇，真正了解捷克隕石再考慮入手\n➕ 追蹤，高頻礦石深度系列繼續更新\n👇 留言：你敢不敢試最高頻的礦石？"
       }
     ],
     "hashtags": [
@@ -2064,10 +2563,23 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 透石膏能淨化其他礦石，是水晶收藏者的必備清理石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "透石膏淨礦石",
+      "body": "透石膏能淨化其他礦石，是水晶收藏者的必備清理石。",
+      "en_text": "Selenite cleanses space and lifts your vibration.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#透石膏",
+      "#selenite",
+      "#頂輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-26",
@@ -2076,10 +2588,23 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 擺在辦公桌上的黃鐵礦，象徵招財與提振事業動能。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黃鐵礦旺事業",
+      "body": "擺在辦公桌上的黃鐵礦，象徵招財與提振事業動能。",
+      "en_text": "Pyrite ignites wealth, willpower and action.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黃鐵礦",
+      "#pyrite",
+      "#太陽神經叢",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-27",
@@ -2155,7 +2680,13 @@
       "#crystalfengshui",
       "#水晶擺陣"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   {
     "date": "2026-07-27",
@@ -2164,10 +2695,23 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 想提升直覺與靈性覺察？紫水晶是讀牌與占卜的最佳輔助石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "紫水晶開直覺",
+      "body": "想提升直覺與靈性覺察？紫水晶是讀牌與占卜的最佳輔助石。",
+      "en_text": "Amethyst calms the mind and soothes the spirit.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#紫水晶",
+      "#amethyst",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-28",
@@ -2187,7 +2731,8 @@
         "type": "封面",
         "headline": "🧪 量子物理 vs 水晶能量：科學家的立場是⋯⋯",
         "visual_desc": "深藍科技感背景，白水晶特寫疊加物理公式淡紋，衝擊性標題居中，底部「👉 左滑看完整分析」",
-        "design_note": "科技感設計吸引理性受眾，標題不給答案製造懸念，推動翻頁"
+        "design_note": "科技感設計吸引理性受眾，標題不給答案製造懸念，推動翻頁",
+        "body_text": "🧪 量子物理 vs 水晶能量：科學家的立場是⋯⋯"
       },
       {
         "page": 2,
@@ -2197,7 +2742,8 @@
           "已確認的科學事實：礦石晶體結構具有固定振動頻率（每種礦物的分子鍵振動頻率不同）",
           "→ 這是紅外線光譜儀（FTIR）可測量的客觀物理量，非玄學概念"
         ],
-        "visual_desc": "FTIR 光譜圖示意（可用示意圖），對應礦石晶體結構圖，版面具科學報告感"
+        "visual_desc": "FTIR 光譜圖示意（可用示意圖），對應礦石晶體結構圖，版面具科學報告感",
+        "body_text": "已確認的科學事實：石英壓電效應（Piezoelectric Effect）——礦物學與物理學均支持\n已確認的科學事實：礦石晶體結構具有固定振動頻率（每種礦物的分子鍵振動頻率不同）\n→ 這是紅外線光譜儀（FTIR）可測量的客觀物理量，非玄學概念"
       },
       {
         "page": 3,
@@ -2207,7 +2753,8 @@
           "→ 此說法目前缺乏雙盲實驗支持，屬能量療癒信仰體系而非實證科學",
           "→ 但：安慰劑效應（Placebo Effect）在正規醫學研究中也是真實且有效的機制"
         ],
-        "visual_desc": "科學量表設計——左邊「有科學支持」欄，右邊「目前未有充分實證」欄，清晰對比"
+        "visual_desc": "科學量表設計——左邊「有科學支持」欄，右邊「目前未有充分實證」欄，清晰對比",
+        "body_text": "目前科學未充分支持的說法：礦石可直接「傳遞能量」給人體或改變命運\n→ 此說法目前缺乏雙盲實驗支持，屬能量療癒信仰體系而非實證科學\n→ 但：安慰劑效應（Placebo Effect）在正規醫學研究中也是真實且有效的機制"
       },
       {
         "page": 4,
@@ -2217,13 +2764,15 @@
           "礦石幫你的，是讓你更專注於自己的目標與狀態——這本身就有真實效果",
           "科學工具和靈性工具可以同時使用，不必二選一 🤍"
         ],
-        "visual_desc": "手握礦石的溫暖特寫，疊加「科學 + 靈性 = 完整工具箱」文字卡"
+        "visual_desc": "手握礦石的溫暖特寫，疊加「科學 + 靈性 = 完整工具箱」文字卡",
+        "body_text": "實用結論：用礦石作為「心理錨點」與「意圖工具」——有心理學根據\n礦石幫你的，是讓你更專注於自己的目標與狀態——這本身就有真實效果\n科學工具和靈性工具可以同時使用，不必二選一 🤍"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，下次有人問你收藏礦石是不是迷信你知怎麼回答！\n➕ 追蹤，每週礦石科學+玄學雙視角分析\n👇 留言：你覺得科學同玄學可以共存嗎？",
-        "visual_desc": "品牌色背景，中央「理性與感性，都是理解世界的方式」字句，Logo居中"
+        "visual_desc": "品牌色背景，中央「理性與感性，都是理解世界的方式」字句，Logo居中",
+        "body_text": "💾 收藏這篇，下次有人問你收藏礦石是不是迷信你知怎麼回答！\n➕ 追蹤，每週礦石科學+玄學雙視角分析\n👇 留言：你覺得科學同玄學可以共存嗎？"
       }
     ],
     "caption": "🧪 量子物理 vs 水晶能量：科學家怎麼看？（老實說）\n\n我不打算只告訴你「水晶有能量」——我更想告訴你科學角度的真實立場 🔬\n\n✦ 壓電效應：石英有真實物理振動特性，工業天天在用\n✦ 直接療癒說：目前缺乏雙盲實驗支持，屬信仰體系\n✦ 心理錨點說：有心理學支撐，安慰劑效應也是真實效果\n\n科學不完全支持 ≠ 完全沒有用 🤍\n💾 收藏留底，下次聽到「水晶是迷信」你有根有據地回答",
@@ -2242,10 +2791,23 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 茶晶象徵能量場的收尾與落地，適合療癒後的收斂。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "茶晶能量落地",
+      "body": "茶晶象徵能量場的收尾與落地，適合療癒後的收斂。",
+      "en_text": "Smoky Quartz grounds you and releases stress.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#茶晶",
+      "#smokyquartz",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-30",
@@ -2321,7 +2883,13 @@
       "#水晶淨化",
       "#身心靈"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   {
     "date": "2026-07-30",
@@ -2330,10 +2898,23 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 拉長石的暈彩象徵看見潛意識模式，協助自我覺察。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "拉長石照潛意識",
+      "body": "拉長石的暈彩象徵看見潛意識模式，協助自我覺察。",
+      "en_text": "Labradorite shields your energy and awakens intuition.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#拉長石",
+      "#labradorite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-07-31",
@@ -2354,7 +2935,8 @@
         "type": "封面",
         "headline": "買了礦石戴錯方式——等於把錢扔掉 💸",
         "visual_desc": "木紋背景，三種礦石款式（手鍊、吊墜、擺件）並列，中央金色警示字，品牌 Logo 右下，底部「👉 左滑看正確佩戴邏輯」",
-        "design_note": "「把錢扔掉」引發財務損失焦慮，止滑效果強；三種款式並排製造選擇感"
+        "design_note": "「把錢扔掉」引發財務損失焦慮，止滑效果強；三種款式並排製造選擇感",
+        "body_text": "買了礦石戴錯方式——等於把錢扔掉 💸"
       },
       {
         "page": 2,
@@ -2364,7 +2946,8 @@
           "✅ 手鍊首選礦石（硬度 7+）：白水晶、紫水晶、粉晶、黑碧璽、虎眼石、石榴石——日常活動刮不壞",
           "⚠️ 黑曜石手鍊風險：硬度僅 5–5.5，雖然市場常見手鍊款，但需避免強力碰撞與硬物摩擦，否則表面容易刮花"
         ],
-        "visual_desc": "硬度對應佩戴方式圖表（手鍊/吊墜/擺件三欄，礦石依硬度分類填入）"
+        "visual_desc": "硬度對應佩戴方式圖表（手鍊/吊墜/擺件三欄，礦石依硬度分類填入）",
+        "body_text": "📏 核心概念：莫氏硬度決定礦石耐磨性——硬度每差 1 級，較軟那塊會被刮傷；手鍊受到最多摩擦，硬度要求最高\n✅ 手鍊首選礦石（硬度 7+）：白水晶、紫水晶、粉晶、黑碧璽、虎眼石、石榴石——日常活動刮不壞\n⚠️ 黑曜石手鍊風險：硬度僅 5–5.5，雖然市場常見手鍊款，但需避免強力碰撞與硬物摩擦，否則表面容易刮花"
       },
       {
         "page": 3,
@@ -2374,7 +2957,8 @@
           "🏺 擺件無佩戴摩擦：硬度 2–4 的嬌弱礦石（天青石、透石膏、孔雀石）最適合作擺件，既欣賞美感又不受磨損",
           "🔍 採購邏輯：先確定礦石用途（手鍊/吊墜/擺件），再選硬度合適的礦石——而非先選礦石再隨意決定款式"
         ],
-        "visual_desc": "吊墜月光石與拉長石美麗特寫，旁邊「吊墜更安全」文字說明；擺件天青石晶簇"
+        "visual_desc": "吊墜月光石與拉長石美麗特寫，旁邊「吊墜更安全」文字說明；擺件天青石晶簇",
+        "body_text": "💎 吊墜適用範圍更廣：懸掛佩戴摩擦點少，硬度 5–6 礦石可安心製作吊墜——月光石、拉長石、蛋白石吊墜比手鍊更安全耐用\n🏺 擺件無佩戴摩擦：硬度 2–4 的嬌弱礦石（天青石、透石膏、孔雀石）最適合作擺件，既欣賞美感又不受磨損\n🔍 採購邏輯：先確定礦石用途（手鍊/吊墜/擺件），再選硬度合適的礦石——而非先選礦石再隨意決定款式"
       },
       {
         "page": 4,
@@ -2384,13 +2968,15 @@
           "🧹 清潔方式按硬度調整：硬度 7+ 可用清水加軟布；硬度 5–6 只用乾布；硬度 4 以下僅毛刷輕掃",
           "💡 使用場景選石邏輯：上班族首選黑碧璽（硬度 7–7.5，耐用防護）；藝術創作者首選藍磷灰石（吊墜款更適合）"
         ],
-        "visual_desc": "保養方式按硬度分三段：清水可用 / 乾布只用 / 毛刷輕掃，配簡潔圖示"
+        "visual_desc": "保養方式按硬度分三段：清水可用 / 乾布只用 / 毛刷輕掃，配簡潔圖示",
+        "body_text": "📦 硬度 5 以下礦石日常保養重點：獨立布袋收納、避免與金屬飾品混放、做家務運動時必須取下\n🧹 清潔方式按硬度調整：硬度 7+ 可用清水加軟布；硬度 5–6 只用乾布；硬度 4 以下僅毛刷輕掃\n💡 使用場景選石邏輯：上班族首選黑碧璽（硬度 7–7.5，耐用防護）；藝術創作者首選藍磷灰石（吊墜款更適合）"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，買礦石前先對照硬度再決定款式！\n➕ 追蹤，礦石選購保養完整知識庫\n👇 留言：你最常用哪種款式？",
-        "visual_desc": "品牌色背景，「款式對了，礦石用更久」大字，Logo 與礦石款式小圖裝飾"
+        "visual_desc": "品牌色背景，「款式對了，礦石用更久」大字，Logo 與礦石款式小圖裝飾",
+        "body_text": "💾 收藏這篇，買礦石前先對照硬度再決定款式！\n➕ 追蹤，礦石選購保養完整知識庫\n👇 留言：你最常用哪種款式？"
       }
     ],
     "hashtags": [
@@ -2408,10 +2994,23 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 黑曜石由火山玻璃形成，能量直接，適合面對內在陰影。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑曜石照陰影",
+      "body": "黑曜石由火山玻璃形成，能量直接，適合面對內在陰影。",
+      "en_text": "Obsidian offers powerful protection and clarity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黑曜石",
+      "#obsidian",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-02",
@@ -2420,10 +3019,23 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 黑碧璽硬度達 7–7.5，防護穩定持久，適合日常佩戴。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑碧璽日常護",
+      "body": "黑碧璽硬度達 7–7.5，防護穩定持久，適合日常佩戴。",
+      "en_text": "Black Tourmaline grounds and guards your boundaries.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#黑碧璽",
+      "#blacktourmaline",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-03",
@@ -2499,7 +3111,13 @@
       "#香港風水",
       "#壓電效應"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   {
     "date": "2026-08-03",
@@ -2508,10 +3126,22 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 情緒起伏時，瑪瑙能溫和調整心緒、帶來踏實感。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "瑪瑙穩心緒",
+      "body": "情緒起伏時，瑪瑙能溫和調整心緒、帶來踏實感。",
+      "en_text": "Agate brings gentle stability and calm.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#瑪瑙",
+      "#agate",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-04",
@@ -2532,7 +3162,8 @@
         "type": "封面",
         "headline": "脈輪失衡有這些症狀——礦石可以這樣幫你調整 🌈",
         "visual_desc": "七色脈輪背景由下而上，每個脈輪對應位置出現「！」警示圖示，品牌 Logo 右下，底部「👉 左滑看症狀對照表」",
-        "design_note": "警示符號製造緊迫感，七色背景視覺豐富，症狀對照承諾令人收藏"
+        "design_note": "警示符號製造緊迫感，七色背景視覺豐富，症狀對照承諾令人收藏",
+        "body_text": "脈輪失衡有這些症狀——礦石可以這樣幫你調整 🌈"
       },
       {
         "page": 2,
@@ -2542,7 +3173,8 @@
           "🟠 臍輪失衡症狀：創造力枯竭、對生活失去熱情、情感麻木、下腹不適——對應礦石：紅瑪瑙（提升活力）、橄欖石（情緒釋放）",
           "🟡 太陽神經叢失衡症狀：缺乏自信、拖延不決、消化系統敏感、容易被他人影響意志——對應礦石：黃水晶（行動力）、虎眼石（決策勇氣）"
         ],
-        "visual_desc": "三脈輪症狀清單卡，左側情緒層面，右側身體層面（象徵性描述），礦石建議清晰標示"
+        "visual_desc": "三脈輪症狀清單卡，左側情緒層面，右側身體層面（象徵性描述），礦石建議清晰標示",
+        "body_text": "🔴 海底輪失衡症狀：長期焦慮、沒有安全感、財務不穩定感、腰背下肢酸痛——對應礦石：黑碧璽（接地穩定）、紅石榴石（補充生命力）\n🟠 臍輪失衡症狀：創造力枯竭、對生活失去熱情、情感麻木、下腹不適——對應礦石：紅瑪瑙（提升活力）、橄欖石（情緒釋放）\n🟡 太陽神經叢失衡症狀：缺乏自信、拖延不決、消化系統敏感、容易被他人影響意志——對應礦石：黃水晶（行動力）、虎眼石（決策勇氣）"
       },
       {
         "page": 3,
@@ -2552,7 +3184,8 @@
           "🔵 喉輪失衡症狀：說話緊張、難以表達真實想法、慢性咽喉不適、在群體中沉默——對應礦石：青金石（清晰表達）、海藍寶（溝通勇氣）",
           "💙 眉心輪失衡症狀：直覺減弱、思緒混亂、決策困難、頭痛眼壓——對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）"
         ],
-        "visual_desc": "四脈輪症狀與礦石對應表，情緒和身體層面分兩欄，設計清晰如醫學資訊圖"
+        "visual_desc": "四脈輪症狀與礦石對應表，情緒和身體層面分兩欄，設計清晰如醫學資訊圖",
+        "body_text": "💚 心輪失衡症狀：難以接受愛與關懷、對親密關係恐懼、胸口壓迫感、難以原諒自己與他人——對應礦石：粉晶（情感療癒）、綠東陵石（心輪修復）\n🔵 喉輪失衡症狀：說話緊張、難以表達真實想法、慢性咽喉不適、在群體中沉默——對應礦石：青金石（清晰表達）、海藍寶（溝通勇氣）\n💙 眉心輪失衡症狀：直覺減弱、思緒混亂、決策困難、頭痛眼壓——對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）"
       },
       {
         "page": 4,
@@ -2562,13 +3195,15 @@
           "📌 使用頻率建議：冥想時手持對應礦石，每次 10–20 分鐘；日常佩戴可持續作用；每週1–2次專注練習效果最佳",
           "⚠️ 重要提醒：礦石為輔助工具，嚴重的情緒或身體症狀請先尋求專業醫療或心理諮詢，礦石配合使用，非替代方案"
         ],
-        "visual_desc": "頂輪紫水晶與白水晶使用情境圖，使用頻率建議清單，底部免責提示文字卡"
+        "visual_desc": "頂輪紫水晶與白水晶使用情境圖，使用頻率建議清單，底部免責提示文字卡",
+        "body_text": "🔮 頂輪失衡症狀：感覺與靈性脫節、睡眠障礙、思維過度活躍難以平靜、對人生意義感到迷失——對應礦石：紫水晶（安神靈性）、白水晶（能量清明）\n📌 使用頻率建議：冥想時手持對應礦石，每次 10–20 分鐘；日常佩戴可持續作用；每週1–2次專注練習效果最佳\n⚠️ 重要提醒：礦石為輔助工具，嚴重的情緒或身體症狀請先尋求專業醫療或心理諮詢，礦石配合使用，非替代方案"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這張症狀對照表，對照你自己！\n➕ 追蹤，脈輪×礦石系列持續更新\n👇 留言：哪個脈輪描述最像你現在的狀況？",
-        "visual_desc": "七色品牌背景，「哪個脈輪在向你發出訊號？」大字，Logo，CTA 白字"
+        "visual_desc": "七色品牌背景，「哪個脈輪在向你發出訊號？」大字，Logo，CTA 白字",
+        "body_text": "💾 收藏這張症狀對照表，對照你自己！\n➕ 追蹤，脈輪×礦石系列持續更新\n👇 留言：哪個脈輪描述最像你現在的狀況？"
       }
     ],
     "hashtags": [
@@ -2586,10 +3221,23 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 綠東陵石溫和療癒心輪，幫助修復受傷的情緒。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠東陵療心輪",
+      "body": "綠東陵石溫和療癒心輪，幫助修復受傷的情緒。",
+      "en_text": "Green Aventurine attracts luck and opportunity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#綠東陵石",
+      "#greenaventurine",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-06",
@@ -2665,7 +3313,13 @@
       "#身心靈",
       "#水晶迷思"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   {
     "date": "2026-08-06",
@@ -2674,10 +3328,23 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 海藍寶守護喉部與呼吸系統，象徵清澈順暢的溝通。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "海藍寶護喉輪",
+      "body": "海藍寶守護喉部與呼吸系統，象徵清澈順暢的溝通。",
+      "en_text": "Aquamarine eases communication and self-expression.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#海藍寶",
+      "#aquamarine",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-07",
@@ -2698,7 +3365,8 @@
         "type": "封面",
         "headline": "礦石鑑定 Part 2：這6種你最容易買到假 🔍",
         "visual_desc": "黑色背景，六種礦石（翡翠、青金石、綠松石、捷克隕石、拉長石、黃水晶）並排，中央放大鏡圖示，品牌 Logo 右下，底部「👉 左滑逐一揭秘」",
-        "design_note": "Part 2 連繫既有系列，六種礦石數量具體，製造「完整資料」收藏感"
+        "design_note": "Part 2 連繫既有系列，六種礦石數量具體，製造「完整資料」收藏感",
+        "body_text": "礦石鑑定 Part 2：這6種你最容易買到假 🔍"
       },
       {
         "page": 2,
@@ -2708,7 +3376,8 @@
           "🔵 青金石（Lapis Lazuli）染色識別：天然有金點（黃鐵礦）與白色方解石紋；染色品顏色過均一、無金點或金點位置規則、用丙酮棉球測試可脫色",
           "⚠️ 翡翠選購原則：信任有 GIA 或 GRS 證書的商家；無證書者需對光線觀察充填光澤與裂紋"
         ],
-        "visual_desc": "翡翠 A/B/C 貨對比三圖，青金石天然 vs 染色對比，金點分佈差異標注"
+        "visual_desc": "翡翠 A/B/C 貨對比三圖，青金石天然 vs 染色對比，金點分佈差異標注",
+        "body_text": "💚 翡翠（Jadeite）A/B/C 貨識別：A 貨天然未處理；B 貨酸洗充填樹脂——透光下可見充填裂紋、光澤偏玻璃感；C 貨染色——顏色過鮮、沿裂紋滲色\n🔵 青金石（Lapis Lazuli）染色識別：天然有金點（黃鐵礦）與白色方解石紋；染色品顏色過均一、無金點或金點位置規則、用丙酮棉球測試可脫色\n⚠️ 翡翠選購原則：信任有 GIA 或 GRS 證書的商家；無證書者需對光線觀察充填光澤與裂紋"
       },
       {
         "page": 3,
@@ -2718,7 +3387,8 @@
           "☄️ 捷克隕石仿品問題：仿品多為捷克本地綠玻璃，表面蝕紋過均勻整齊；真品有不規則流動感蝕紋，對光略有天然包裹體",
           "🌈 拉長石仿品：人工鍍膜玻璃從每個角度均一閃光；天然品只在特定角度顯現彩光，且彩光面積與位置有變化"
         ],
-        "visual_desc": "三種礦石各自真假對比圖，鑑別特徵用箭頭指示，視覺資訊豐富"
+        "visual_desc": "三種礦石各自真假對比圖，鑑別特徵用箭頭指示，視覺資訊豐富",
+        "body_text": "🟢 綠松石（Turquoise）處理貨識別：純天然綠松石莫氏硬度 5–6，市場大量充填穩定處理（稱為「穩定松」）——外觀完美、顏色均一；合成品像塑膠、重量偏輕\n☄️ 捷克隕石仿品問題：仿品多為捷克本地綠玻璃，表面蝕紋過均勻整齊；真品有不規則流動感蝕紋，對光略有天然包裹體\n🌈 拉長石仿品：人工鍍膜玻璃從每個角度均一閃光；天然品只在特定角度顯現彩光，且彩光面積與位置有變化"
       },
       {
         "page": 4,
@@ -2728,13 +3398,15 @@
           "🔍 萬用鑑別三原則：① 顏色太完美均一要懷疑；② 透光下看氣泡還是包裹體；③ 重量太輕或太規則要小心",
           "📝 選購建議：大額礦石購買前，優先選有礦物學認證或GIA報告的賣家；小額礦石可用以上方法自測"
         ],
-        "visual_desc": "黃水晶真假對比（色帶 vs 均一），萬用三原則清單卡，選購建議文字框"
+        "visual_desc": "黃水晶真假對比（色帶 vs 均一），萬用三原則清單卡，選購建議文字框",
+        "body_text": "🟡 黃水晶仿品：最常見是「燒紫水晶」——顏色根部白、頂部橙黃；天然黃水晶顏色較淡、偏淡黃，內部有自然棉絮；玻璃仿品則有圓形氣泡\n🔍 萬用鑑別三原則：① 顏色太完美均一要懷疑；② 透光下看氣泡還是包裹體；③ 重量太輕或太規則要小心\n📝 選購建議：大額礦石購買前，優先選有礦物學認證或GIA報告的賣家；小額礦石可用以上方法自測"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏 Part 2，加上 Part 1 就是完整鑑定指南！\n➕ 追蹤，礦石鑑定系列持續更新\n👇 留言：你有無這幾種礦石？買到過假貨嗎？",
-        "visual_desc": "黑色背景，六種礦石特寫再次展示，品牌 Logo 居中，CTA 白字排列"
+        "visual_desc": "黑色背景，六種礦石特寫再次展示，品牌 Logo 居中，CTA 白字排列",
+        "body_text": "💾 收藏 Part 2，加上 Part 1 就是完整鑑定指南！\n➕ 追蹤，礦石鑑定系列持續更新\n👇 留言：你有無這幾種礦石？買到過假貨嗎？"
       }
     ],
     "hashtags": [
@@ -2752,10 +3424,23 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 冥想與閱讀時使用藍晶石，能讓心思迅速沉靜下來。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍晶石靜心法",
+      "body": "冥想與閱讀時使用藍晶石，能讓心思迅速沉靜下來。",
+      "en_text": "Kyanite clears the mind and sharpens focus.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#藍晶石",
+      "#kyanite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-09",
@@ -2764,10 +3449,23 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 學習新知時佩戴藍磷灰石，幫助維持專注與求知熱情。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍磷灰石助學習",
+      "body": "學習新知時佩戴藍磷灰石，幫助維持專注與求知熱情。",
+      "en_text": "Blue Apatite fuels creativity and learning.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#藍磷灰石",
+      "#blueapatite",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-10",
@@ -2841,7 +3539,13 @@
       "#玄學",
       "#香港風水"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-08-10",
@@ -2850,10 +3554,23 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 橄欖石的明亮綠意象徵新生，協助轉化沉重的心情。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "橄欖石新生力",
+      "body": "橄欖石的明亮綠意象徵新生，協助轉化沉重的心情。",
+      "en_text": "Peridot lightens the heart and releases negativity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#橄欖石",
+      "#peridot",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-11",
@@ -2874,7 +3591,8 @@
         "type": "封面",
         "headline": "第一顆礦石這樣挑——5個入門原則讓你不走冤枉路 💎",
         "visual_desc": "溫暖米色背景，五顆不同礦石從左到右排列（白水晶、黑碧璽、粉晶、虎眼石、紫水晶），中央「入門指南」標籤，品牌 Logo 右下，底部「👉 左滑看完整原則」",
-        "design_note": "米色溫暖背景降低門檻感，「入門原則」承諾幫助新手，收藏動機強"
+        "design_note": "米色溫暖背景降低門檻感，「入門原則」承諾幫助新手，收藏動機強",
+        "body_text": "第一顆礦石這樣挑——5個入門原則讓你不走冤枉路 💎"
       },
       {
         "page": 2,
@@ -2884,7 +3602,8 @@
           "💰 原則 2 — 預算配置建議：第一顆不需要貴，白水晶（50–200HKD）入門最佳——功能全面（放大意圖、淨化空間），不怕選錯方向",
           "🌿 原則 3 — 天然 vs 人工優化選擇邏輯：天然未處理（Natural Untreated）功能完整；輕度加熱處理（如黃水晶）一般接受；充填染色（如 B 貨翡翠）則非正統能量石"
         ],
-        "visual_desc": "三原則並列，各有圖示（指南針、錢幣、礦石晶體），配色溫暖清晰"
+        "visual_desc": "三原則並列，各有圖示（指南針、錢幣、礦石晶體），配色溫暖清晰",
+        "body_text": "🎯 原則 1 — 按直覺選 vs 按功能選：兩種方法都有效；初學者建議先了解3–5種礦石的基本功能，再從中選最令你「有感覺」的那顆\n💰 原則 2 — 預算配置建議：第一顆不需要貴，白水晶（50–200HKD）入門最佳——功能全面（放大意圖、淨化空間），不怕選錯方向\n🌿 原則 3 — 天然 vs 人工優化選擇邏輯：天然未處理（Natural Untreated）功能完整；輕度加熱處理（如黃水晶）一般接受；充填染色（如 B 貨翡翠）則非正統能量石"
       },
       {
         "page": 3,
@@ -2894,7 +3613,8 @@
           "🔍 原則 5 — 在有信譽的渠道購買：天然未處理礦石建議向有礦物學知識的賣家購買；大型電商平台礦石良莠不齊，初學者容易買到仿品或過度優化品",
           "✅ 第一顆礦石推薦清單：白水晶（全能）、黑碧璽（防護）、紫水晶（睡眠冥想）——三選一即可"
         ],
-        "visual_desc": "三種入門礦石並排，各自功能關鍵詞標示，底部「三選一」視覺決策圖"
+        "visual_desc": "三種入門礦石並排，各自功能關鍵詞標示，底部「三選一」視覺決策圖",
+        "body_text": "🛡️ 原則 4 — 從「通用型」礦石開始：白水晶（放大能量、淨化用途廣泛）、黑碧璽（防護接地、上班族友善）、粉晶（情感療癒、任何人適用）——三者均是低風險入門選擇\n🔍 原則 5 — 在有信譽的渠道購買：天然未處理礦石建議向有礦物學知識的賣家購買；大型電商平台礦石良莠不齊，初學者容易買到仿品或過度優化品\n✅ 第一顆礦石推薦清單：白水晶（全能）、黑碧璽（防護）、紫水晶（睡眠冥想）——三選一即可"
       },
       {
         "page": 4,
@@ -2904,13 +3624,15 @@
           "📅 建議節奏：第一個月只用一顆礦石——觀察自己有無變化；第二個月再根據需要增加第二顆",
           "💡 選礦石的根本邏輯：先問自己：我現在最困擾的是什麼——睡眠、情緒、工作壓力、人際關係？從需求出發，比從礦石出發更有效"
         ],
-        "visual_desc": "「一個月一顆」節奏圖，誤區清單（紅叉），需求出發流程圖"
+        "visual_desc": "「一個月一顆」節奏圖，誤區清單（紅叉），需求出發流程圖",
+        "body_text": "⚠️ 常見入門誤區：一次買太多種礦石（分散注意力，難以建立連結）；買最貴的（貴不等於最適合你）；完全不了解礦石就按店員推薦購買\n📅 建議節奏：第一個月只用一顆礦石——觀察自己有無變化；第二個月再根據需要增加第二顆\n💡 選礦石的根本邏輯：先問自己：我現在最困擾的是什麼——睡眠、情緒、工作壓力、人際關係？從需求出發，比從礦石出發更有效"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這份入門指南，送給所有剛接觸礦石的朋友！\n➕ 追蹤，礦石入門系列持續陪你\n👇 留言：你的第一顆礦石是什麼？",
-        "visual_desc": "米色品牌背景，「第一顆礦石，決定你與礦石世界的緣分」大字，Logo，CTA"
+        "visual_desc": "米色品牌背景，「第一顆礦石，決定你與礦石世界的緣分」大字，Logo，CTA",
+        "body_text": "💾 收藏這份入門指南，送給所有剛接觸礦石的朋友！\n➕ 追蹤，礦石入門系列持續陪你\n👇 留言：你的第一顆礦石是什麼？"
       }
     ],
     "hashtags": [
@@ -2928,10 +3650,23 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 翡翠溫潤內斂，象徵平衡氣血、護佑日常平安。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "翡翠養氣血",
+      "body": "翡翠溫潤內斂，象徵平衡氣血、護佑日常平安。",
+      "en_text": "Jade symbolizes peace, abundance and stability.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#翡翠",
+      "#jadeitejade",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-13",
@@ -3007,7 +3742,13 @@
       "#睡眠問題",
       "#身心靈"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-08-13",
@@ -3016,10 +3757,23 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 綠松石守護溝通與呼吸，幫助坦誠而真實的表達。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠松石真表達",
+      "body": "綠松石守護溝通與呼吸，幫助坦誠而真實的表達。",
+      "en_text": "Turquoise protects travelers and honest expression.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [
+      "#綠松石",
+      "#turquoise",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-14",
@@ -3039,7 +3793,8 @@
         "type": "封面",
         "headline": "🏢 辦公桌必備3款礦石：招財+防小人+專注力一次搞定",
         "visual_desc": "辦公桌美圖——MacBook旁邊放三顆礦石（黃水晶、黑碧璽、白水晶），溫暖自然光打燈，右下角品牌Logo，底部「👉 左滑看完整搭配邏輯」",
-        "design_note": "生活場景代入感是Phase 3最重要的視覺策略，比純礦石特寫更能觸發「我也想要」的購買意圖"
+        "design_note": "生活場景代入感是Phase 3最重要的視覺策略，比純礦石特寫更能觸發「我也想要」的購買意圖",
+        "body_text": "🏢 辦公桌必備3款礦石：招財+防小人+專注力一次搞定"
       },
       {
         "page": 2,
@@ -3049,7 +3804,8 @@
           "→ 建議放置位置：桌面右上角（財位方向）或可視範圍內",
           "→ 科學角度：黃色系提升血清素，有助積極情緒與清晰思考"
         ],
-        "visual_desc": "黃水晶放在辦公桌特寫，箭頭指向「右上角財位」，版面清晰有儀式感"
+        "visual_desc": "黃水晶放在辦公桌特寫，箭頭指向「右上角財位」，版面清晰有儀式感",
+        "body_text": "🟡 黃水晶（Citrine）→ 太陽神經叢對應，提升自信與行動決策力\n→ 建議放置位置：桌面右上角（財位方向）或可視範圍內\n→ 科學角度：黃色系提升血清素，有助積極情緒與清晰思考"
       },
       {
         "page": 3,
@@ -3059,7 +3815,8 @@
           "→ 建議放置位置：螢幕旁（電磁場保護）或辦公桌入口方向",
           "→ 注意：黑碧璽需定期淨化（每1–2週），否則保護效能下降"
         ],
-        "visual_desc": "黑碧璽柱狀晶體放在MacBook旁特寫，強調「電磁防護」概念圖示"
+        "visual_desc": "黑碧璽柱狀晶體放在MacBook旁特寫，強調「電磁防護」概念圖示",
+        "body_text": "⚫ 黑碧璽（Black Tourmaline）→ 海底輪對應，建立能量邊界、防護外來負能量\n→ 建議放置位置：螢幕旁（電磁場保護）或辦公桌入口方向\n→ 注意：黑碧璽需定期淨化（每1–2週），否則保護效能下降"
       },
       {
         "page": 4,
@@ -3069,13 +3826,15 @@
           "→ 建議放置位置：辦公桌中心或與其他礦石相鄰（作為能量放大器）",
           "→ 三石組合邏輯：黃水晶（招財行動）+ 黑碧璽（防護邊界）+ 白水晶（淨化放大）= 完整職場能量場"
         ],
-        "visual_desc": "三顆礦石排成三角陣形特寫，美麗的辦公桌背景，標籤清晰"
+        "visual_desc": "三顆礦石排成三角陣形特寫，美麗的辦公桌背景，標籤清晰",
+        "body_text": "🤍 白水晶（Clear Quartz）→ 全脈輪對應，淨化辦公室空間能量，放大其他礦石效能\n→ 建議放置位置：辦公桌中心或與其他礦石相鄰（作為能量放大器）\n→ 三石組合邏輯：黃水晶（招財行動）+ 黑碧璽（防護邊界）+ 白水晶（淨化放大）= 完整職場能量場"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏起來，佈置你的職場能量角！\n➕ 追蹤我，每週礦石場景應用指南\n👇 留言：你辦公桌上有沒有擺礦石？",
-        "visual_desc": "品牌主色背景，三顆礦石小圖並排，「讓你的辦公桌也有能量場」字句"
+        "visual_desc": "品牌主色背景，三顆礦石小圖並排，「讓你的辦公桌也有能量場」字句",
+        "body_text": "💾 收藏起來，佈置你的職場能量角！\n➕ 追蹤我，每週礦石場景應用指南\n👇 留言：你辦公桌上有沒有擺礦石？"
       }
     ],
     "caption": "🏢 辦公桌加這3顆，職場能量完全不同！\n\n不是迷信——是幫你在視覺上建立「自信、專注、邊界感」的心理提醒系統 🔮\n\n✦ 黃水晶：提升自信與決策力，放右上角\n✦ 黑碧璽：防護負能量與電磁場，螢幕旁邊\n✦ 白水晶：淨化空間，放大整組能量\n\n💾 收藏這篇，對照你的桌面佈置一下\n👇 你桌上現在有擺放物件嗎？留言讓我知道",
@@ -3094,10 +3853,23 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 在空間擺放透石膏，幫助提升環境振頻、連結高我。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "透石膏提振頻",
+      "body": "在空間擺放透石膏，幫助提升環境振頻、連結高我。",
+      "en_text": "Selenite cleanses space and lifts your vibration.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#透石膏",
+      "#selenite",
+      "#頂輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-16",
@@ -3106,10 +3878,23 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 想增強意志力與行動力？黃鐵礦點燃內在的金色能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黃鐵礦點動力",
+      "body": "想增強意志力與行動力？黃鐵礦點燃內在的金色能量。",
+      "en_text": "Pyrite ignites wealth, willpower and action.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#黃鐵礦",
+      "#pyrite",
+      "#太陽神經叢",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-17",
@@ -3185,7 +3970,13 @@
       "#感情礦石",
       "#身心靈"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-08-17",
@@ -3194,10 +3985,23 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 紫水晶有助於放下過度執著與依賴，回到平靜的自己。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "紫水晶放下執著",
+      "body": "紫水晶有助於放下過度執著與依賴，回到平靜的自己。",
+      "en_text": "Amethyst calms the mind and soothes the spirit.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#紫水晶",
+      "#amethyst",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-18",
@@ -3218,7 +4022,8 @@
         "type": "封面",
         "headline": "紫微命盤 × 礦石——四化飛星決定你的守護石 🌟",
         "visual_desc": "深藍紫漸層背景，紫微斗數命盤圖案（宮位格局）疊加礦石特寫，右下角品牌 Logo，底部「👉 左滑看四化對應邏輯」",
-        "design_note": "命盤圖案製造神秘玄學感，結合礦石視覺，精準定位對紫微感興趣受眾"
+        "design_note": "命盤圖案製造神秘玄學感，結合礦石視覺，精準定位對紫微感興趣受眾",
+        "body_text": "紫微命盤 × 礦石——四化飛星決定你的守護石 🌟"
       },
       {
         "page": 2,
@@ -3228,7 +4033,8 @@
           "⚡ 化權（權）— 代表領導力、執行力、掌控慾；對應礦石能量：強化決策與意志——虎眼石（決策勇氣）、黑碧璽（意志穩定）",
           "📌 使用邏輯：四化飛星入哪個宮位，決定礦石擺放場域——飛入財帛宮的祿，礦石擺辦公桌；飛入命宮的，佩戴效果最直接"
         ],
-        "visual_desc": "化祿與化權宮位示意，對應礦石並排，擺放位置指引圖"
+        "visual_desc": "化祿與化權宮位示意，對應礦石並排，擺放位置指引圖",
+        "body_text": "🌟 化祿（祿）— 代表財帛流通、貴人助力、事業順遂；對應礦石能量：需要放大祿能量——黃水晶（行動與財務）、綠幽靈水晶（事業財富擺陣）\n⚡ 化權（權）— 代表領導力、執行力、掌控慾；對應礦石能量：強化決策與意志——虎眼石（決策勇氣）、黑碧璽（意志穩定）\n📌 使用邏輯：四化飛星入哪個宮位，決定礦石擺放場域——飛入財帛宮的祿，礦石擺辦公桌；飛入命宮的，佩戴效果最直接"
       },
       {
         "page": 3,
@@ -3238,7 +4044,8 @@
           "⚠️ 化忌（忌）— 代表阻礙、糾纏、漏財；宮位有忌需要化解——對應礦石：以接地石化解（黑曜石清除糾纏、黑碧璽穩定防護）、白水晶清明場域",
           "🔮 宮位缺陷輔助邏輯：礦石能量學與紫微宮位並非一對一匹配的系統，更準確說法是「用礦石補強命盤能量短缺的方向」"
         ],
-        "visual_desc": "化科與化忌示意，科科對應藍色系礦石，忌對應黑色防護礦石，邏輯圖清晰"
+        "visual_desc": "化科與化忌示意，科科對應藍色系礦石，忌對應黑色防護礦石，邏輯圖清晰",
+        "body_text": "📚 化科（科）— 代表學業貴人、名譽聲望、文書考試；對應礦石能量：強化頭腦清晰與表達——青金石（學習表達）、藍晶石（思維清晰）、藍磷灰石（寫作創作）\n⚠️ 化忌（忌）— 代表阻礙、糾纏、漏財；宮位有忌需要化解——對應礦石：以接地石化解（黑曜石清除糾纏、黑碧璽穩定防護）、白水晶清明場域\n🔮 宮位缺陷輔助邏輯：礦石能量學與紫微宮位並非一對一匹配的系統，更準確說法是「用礦石補強命盤能量短缺的方向」"
       },
       {
         "page": 4,
@@ -3248,13 +4055,15 @@
           "📋 入門操作步驟：① 取得生年干支；② 找出命宮主星；③ 看四化哪顆星飛入財帛/事業宮；④ 按照上述對應選礦石",
           "⚠️ 重要提示：紫微斗數解盤需要專業知識，以上對應邏輯為通俗入門框架，不代表精準命理分析；如需深入解讀，請諮詢有資歷的命理師"
         ],
-        "visual_desc": "四步驟操作流程圖，生年干支→命宮→飛化→礦石，清晰視覺流程"
+        "visual_desc": "四步驟操作流程圖，生年干支→命宮→飛化→礦石，清晰視覺流程",
+        "body_text": "🗺️ 紫微斗數與礦石風水結合：命盤中財帛宮、事業宮宮位飛化，決定能量石擺放的最佳方位——以坐山方位為基準配合宮位飛化\n📋 入門操作步驟：① 取得生年干支；② 找出命宮主星；③ 看四化哪顆星飛入財帛/事業宮；④ 按照上述對應選礦石\n⚠️ 重要提示：紫微斗數解盤需要專業知識，以上對應邏輯為通俗入門框架，不代表精準命理分析；如需深入解讀，請諮詢有資歷的命理師"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇，對照你的命盤找守護石！\n➕ 追蹤，紫微×礦石深度系列持續更新\n👇 留言你的生年干支，我幫你找對應礦石！",
-        "visual_desc": "深紫品牌背景，命盤圖案裝飾，「你的命盤，決定你的守護石」大字，Logo"
+        "visual_desc": "深紫品牌背景，命盤圖案裝飾，「你的命盤，決定你的守護石」大字，Logo",
+        "body_text": "💾 收藏這篇，對照你的命盤找守護石！\n➕ 追蹤，紫微×礦石深度系列持續更新\n👇 留言你的生年干支，我幫你找對應礦石！"
       }
     ],
     "hashtags": [
@@ -3272,10 +4081,23 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 能量敏感、容易心浮氣躁的人，茶晶有助沉澱與安定。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#茶晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "茶晶助沉澱",
+      "body": "能量敏感、容易心浮氣躁的人，茶晶有助沉澱與安定。",
+      "en_text": "Smoky Quartz grounds you and releases stress.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#茶晶",
+      "#smokyquartz",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-20",
@@ -3351,7 +4173,13 @@
       "#身心靈",
       "#水晶儀式"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-08-20",
@@ -3360,10 +4188,23 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 占卜與療癒時佩戴拉長石，可穩定能量、減少外界干擾。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#拉長石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "拉長石穩能量",
+      "body": "占卜與療癒時佩戴拉長石，可穩定能量、減少外界干擾。",
+      "en_text": "Labradorite shields your energy and awakens intuition.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#拉長石",
+      "#labradorite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-21",
@@ -3384,7 +4225,8 @@
         "type": "封面",
         "headline": "臥室礦石佈局：助睡眠＋安神＋桃花，一次全搞定 🌙",
         "visual_desc": "夜色感深藍背景，臥室床頭畫面，紫水晶晶簇與月光石並排於床頭，燈光溫暖，品牌 Logo 右下，底部「👉 左滑看完整佈局指引」",
-        "design_note": "「三合一」承諾強烈，臥室場景令人代入感強，深藍夜色暗示睡眠主題"
+        "design_note": "「三合一」承諾強烈，臥室場景令人代入感強，深藍夜色暗示睡眠主題",
+        "body_text": "臥室礦石佈局：助睡眠＋安神＋桃花，一次全搞定 🌙"
       },
       {
         "page": 2,
@@ -3394,7 +4236,8 @@
           "✨ 安神輔助：月光石——對應女性週期、內分泌與情緒平衡（SSOT），情緒起伏大者枕邊小石入睡前持握冥想效果更佳",
           "💜 透石膏（Selenite）空間淨化：床頭或窗台擺放，對應神經系統能量通道，象徵性維持睡眠場域清潔；注意透石膏忌水，只需定期乾布輕拭"
         ],
-        "visual_desc": "床頭佈局示意圖：紫水晶晶簇、月光石小球、透石膏棒的擺放位置與距離標注"
+        "visual_desc": "床頭佈局示意圖：紫水晶晶簇、月光石小球、透石膏棒的擺放位置與距離標注",
+        "body_text": "🌙 助睡眠首選：紫水晶——對應神經系統與睡眠品質（SSOT 記載），放置床頭晶簇，高度與頭部平齊，非直接枕著睡\n✨ 安神輔助：月光石——對應女性週期、內分泌與情緒平衡（SSOT），情緒起伏大者枕邊小石入睡前持握冥想效果更佳\n💜 透石膏（Selenite）空間淨化：床頭或窗台擺放，對應神經系統能量通道，象徵性維持睡眠場域清潔；注意透石膏忌水，只需定期乾布輕拭"
       },
       {
         "page": 3,
@@ -3404,7 +4247,8 @@
           "💕 粉晶使用邏輯：粉晶對應的是情感療癒與開放心輪，吸引關係的前提是先修復自身心輪狀態——不是單純「招桃花符咒」",
           "📍 方位建議：按傳統風水，臥室西南（坤位）屬感情能量，擺放粉晶或玫瑰石英效果相對集中"
         ],
-        "visual_desc": "臥室平面圖，西南位置標示粉晶擺放，床頭標示睡眠礦石，視覺簡潔易複製"
+        "visual_desc": "臥室平面圖，西南位置標示粉晶擺放，床頭標示睡眠礦石，視覺簡潔易複製",
+        "body_text": "🌹 桃花礦石：粉晶——對應心血管與情緒中心（SSOT），能量學視為吸引情感連結的礦石，臥室西南方向擺放小球或原石為常見風水建議\n💕 粉晶使用邏輯：粉晶對應的是情感療癒與開放心輪，吸引關係的前提是先修復自身心輪狀態——不是單純「招桃花符咒」\n📍 方位建議：按傳統風水，臥室西南（坤位）屬感情能量，擺放粉晶或玫瑰石英效果相對集中"
       },
       {
         "page": 4,
@@ -3414,13 +4258,15 @@
           "⚡ 同樣需謹慎：捷克隕石——高頻石能量強烈，臥室擺放可能令敏感人士難以入眠；虎眼石——決策戰鬥能量強，臥室佈局不適合",
           "✅ 臥室最安全組合：紫水晶（睡眠）+ 月光石（情緒）+ 粉晶（關係）——三顆擺放各有分工，能量不互斥"
         ],
-        "visual_desc": "禁忌礦石清單（紅叉圖示），安全組合三顆礦石並排，「適合臥室 vs 不適合」對比"
+        "visual_desc": "禁忌礦石清單（紅叉圖示），安全組合三顆礦石並排，「適合臥室 vs 不適合」對比",
+        "body_text": "🚫 臥室禁忌礦石：黑曜石——能量學認為其保護性太強且直接，睡房能量過重會影響睡眠質素及感情流通，不建議長期放置臥室\n⚡ 同樣需謹慎：捷克隕石——高頻石能量強烈，臥室擺放可能令敏感人士難以入眠；虎眼石——決策戰鬥能量強，臥室佈局不適合\n✅ 臥室最安全組合：紫水晶（睡眠）+ 月光石（情緒）+ 粉晶（關係）——三顆擺放各有分工，能量不互斥"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這份臥室佈局指引，今晚就可以調整！\n➕ 追蹤，家居礦石風水佈局系列\n👇 留言你的睡眠品質幾分？1–10 分",
-        "visual_desc": "夜色品牌背景，臥室三礦石小圖裝飾，「今晚，讓礦石守護你的睡眠」大字，Logo"
+        "visual_desc": "夜色品牌背景，臥室三礦石小圖裝飾，「今晚，讓礦石守護你的睡眠」大字，Logo",
+        "body_text": "💾 收藏這份臥室佈局指引，今晚就可以調整！\n➕ 追蹤，家居礦石風水佈局系列\n👇 留言你的睡眠品質幾分？1–10 分"
       }
     ],
     "hashtags": [
@@ -3438,10 +4284,23 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 職場壓力大、出入能量混亂場域時，黑曜石是隨身防護首選。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑曜石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑曜石職場盾",
+      "body": "職場壓力大、出入能量混亂場域時，黑曜石是隨身防護首選。",
+      "en_text": "Obsidian offers powerful protection and clarity.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#黑曜石",
+      "#obsidian",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-23",
@@ -3450,10 +4309,23 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 能量敏感、住在高壓環境的人，黑碧璽幫助建立界線感。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黑碧璽 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黑碧璽護高壓",
+      "body": "能量敏感、住在高壓環境的人，黑碧璽幫助建立界線感。",
+      "en_text": "Black Tourmaline grounds and guards your boundaries.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#黑碧璽",
+      "#blacktourmaline",
+      "#海底輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-24",
@@ -3529,7 +4401,13 @@
       "#身心靈",
       "#水晶冥想"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-08-24",
@@ -3538,10 +4416,22 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 瑪瑙象徵穩定身體能量與循環，是百搭的防護石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#瑪瑙 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "瑪瑙百搭護石",
+      "body": "瑪瑙象徵穩定身體能量與循環，是百搭的防護石。",
+      "en_text": "Agate brings gentle stability and calm.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#瑪瑙",
+      "#agate",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-25",
@@ -3561,7 +4451,8 @@
         "type": "封面",
         "headline": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景全攻略",
         "visual_desc": "月圓夜晚背景（深藍天空+滿月），礦石散落白布上的美圖，溫暖蠟燭光打氛圍，底部「👉 左滑看淨化方法對照表」",
-        "design_note": "儀式感美學是Phase 3最強收藏觸發視覺，讓人想親身複製這個場景"
+        "design_note": "儀式感美學是Phase 3最強收藏觸發視覺，讓人想親身複製這個場景",
+        "body_text": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景全攻略"
       },
       {
         "page": 2,
@@ -3571,7 +4462,8 @@
           "→ 操作：礦石放在白水晶簇上，靜置 6–8 小時（夜間效果更佳）",
           "→ 適用：日常保養、高頻使用的礦石（每週一次）"
         ],
-        "visual_desc": "礦石放在大型白水晶簇上特寫，溫暖自然光，有儀式感"
+        "visual_desc": "礦石放在大型白水晶簇上特寫，溫暖自然光，有儀式感",
+        "body_text": "方法 1：白水晶簇過夜（最溫和，所有礦石適用）\n→ 操作：礦石放在白水晶簇上，靜置 6–8 小時（夜間效果更佳）\n→ 適用：日常保養、高頻使用的礦石（每週一次）"
       },
       {
         "page": 3,
@@ -3582,7 +4474,8 @@
           "→ 適用：需要「充電」的礦石，適合月圓前後 2–3 天",
           "⚠️ 提醒：忌日曬礦石也忌強烈月光長時間直照"
         ],
-        "visual_desc": "礦石放窗邊接受月光特寫，月圓背景，有詩意又有儀式感"
+        "visual_desc": "礦石放窗邊接受月光特寫，月圓背景，有詩意又有儀式感",
+        "body_text": "方法 2：月光照射（補充能量型淨化，滿月效果最強）\n→ 操作：礦石放窗邊或戶外，接受月光 4–8 小時（注意天氣）\n→ 適用：需要「充電」的礦石，適合月圓前後 2–3 天\n⚠️ 提醒：忌日曬礦石也忌強烈月光長時間直照"
       },
       {
         "page": 4,
@@ -3593,13 +4486,15 @@
           "→ 適用：所有礦石，特別適合出入公共場所或高壓環境後",
           "方法 4：頌缽/音叉聲波（不接觸礦石，最安全）→ 適合所有礦石包括脆弱品種"
         ],
-        "visual_desc": "薰香煙霧繞行礦石的動態美圖（可用Boomerang截圖），視覺感強烈"
+        "visual_desc": "薰香煙霧繞行礦石的動態美圖（可用Boomerang截圖），視覺感強烈",
+        "body_text": "方法 3：薰香煙霧繞行（快速淨化，外出回來後適用）\n→ 操作：白鼠尾草 / 聖木 / 線香點燃，讓煙霧繞行礦石 30–60 秒\n→ 適用：所有礦石，特別適合出入公共場所或高壓環境後\n方法 4：頌缽/音叉聲波（不接觸礦石，最安全）→ 適合所有礦石包括脆弱品種"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇SOP，每次淨化前參考！\n➕ 追蹤，每週礦石使用指南更新\n👇 留言：你最常用哪種淨化方法？",
-        "visual_desc": "月光照在礦石上的美圖，品牌Logo居角，「讓你的礦石保持最佳狀態」字句"
+        "visual_desc": "月光照在礦石上的美圖，品牌Logo居角，「讓你的礦石保持最佳狀態」字句",
+        "body_text": "💾 收藏這篇SOP，每次淨化前參考！\n➕ 追蹤，每週礦石使用指南更新\n👇 留言：你最常用哪種淨化方法？"
       }
     ],
     "caption": "🌙 礦石淨化4種方法，你選錯了嗎？\n\n不同礦石、不同場景，適合的淨化方式也不同——這篇幫你整理成一份可以直接用的 SOP 🙏\n\n✦ 日常保養 → 白水晶簇過夜（最安全）\n✦ 能量補充 → 月光照射（月圓前後最佳）\n✦ 快速淨化 → 薰香煙霧繞行（30秒搞定）\n✦ 脆弱礦石 → 頌缽聲波（完全不接觸）\n\n💾 收藏留底，下次淨化前先查對照表\n👇 你現在使用哪種方法？",
@@ -3618,10 +4513,23 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 想保持樂觀與開放？綠東陵石為心區注入綠意能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠東陵石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠東陵添樂觀",
+      "body": "想保持樂觀與開放？綠東陵石為心區注入綠意能量。",
+      "en_text": "Green Aventurine attracts luck and opportunity.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#綠東陵石",
+      "#greenaventurine",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-27",
@@ -3697,7 +4605,13 @@
       "#礦石搭配",
       "#高頻礦石"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-08-27",
@@ -3706,10 +4620,23 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 人際溝通壓力大時，海藍寶帶來如海水般的平靜。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#海藍寶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "海藍寶緩人際",
+      "body": "人際溝通壓力大時，海藍寶帶來如海水般的平靜。",
+      "en_text": "Aquamarine eases communication and self-expression.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#海藍寶",
+      "#aquamarine",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-28",
@@ -3730,7 +4657,8 @@
         "type": "封面",
         "headline": "礦石入門三件套——就是這三顆，開始你的能量組合 ✦",
         "visual_desc": "純白背景，白水晶、黑碧璽、粉晶三顆構成三角擺放，中央「三角能量組合」金字標籤，品牌 Logo 右下，底部「👉 左滑看搭配邏輯」",
-        "design_note": "白背景突出三礦石質感，三角幾何製造「完整系統」感，導購承諾強"
+        "design_note": "白背景突出三礦石質感，三角幾何製造「完整系統」感，導購承諾強",
+        "body_text": "礦石入門三件套——就是這三顆，開始你的能量組合 ✦"
       },
       {
         "page": 2,
@@ -3740,7 +4668,8 @@
           "🖤 黑碧璽——防護基礎：SSOT 功能：電子產品使用多、住高壓環境、能量敏感者；對應骨骼、肌肉與神經穩定——現代都市人的必需防護石",
           "🩷 粉晶——情感滋養：SSOT 功能：情緒釋放、關係議題、內在小孩療癒；對應心血管與情緒中心——補充工作壓力消耗的情感能量"
         ],
-        "visual_desc": "三顆礦石各自功能卡片，三張排列成三角形，箭頭指示彼此關係（放大、防護、滋養）"
+        "visual_desc": "三顆礦石各自功能卡片，三張排列成三角形，箭頭指示彼此關係（放大、防護、滋養）",
+        "body_text": "⚪ 白水晶——組合核心：SSOT 功能：冥想、擺陣核心、空間淨化、搭配其他水晶使用；能量邏輯：放大其他兩顆礦石的效果，同時淨化空間場域\n🖤 黑碧璽——防護基礎：SSOT 功能：電子產品使用多、住高壓環境、能量敏感者；對應骨骼、肌肉與神經穩定——現代都市人的必需防護石\n🩷 粉晶——情感滋養：SSOT 功能：情緒釋放、關係議題、內在小孩療癒；對應心血管與情緒中心——補充工作壓力消耗的情感能量"
       },
       {
         "page": 3,
@@ -3750,7 +4679,8 @@
           "⌚ 佩戴方式建議：黑碧璽手鍊（硬度7–7.5，日常耐用）；粉晶吊墜（靠近心輪）；白水晶放辦公桌或冥想空間",
           "📅 使用場景：每天早上在辦公桌擺放三件套 5 分鐘設定意圖，比隨便佩戴效果更有意識感"
         ],
-        "visual_desc": "三角形擺陣圖（白水晶居中，黑碧璽在前，粉晶在後），佩戴方式建議插圖"
+        "visual_desc": "三角形擺陣圖（白水晶居中，黑碧璽在前，粉晶在後），佩戴方式建議插圖",
+        "body_text": "🔺 三角組合邏輯：白水晶放中央（放大），黑碧璽放前方（防護向外），粉晶放後方（滋養向內）——形成「吸引好的、擋住亂的、補充自己」三層能量場\n⌚ 佩戴方式建議：黑碧璽手鍊（硬度7–7.5，日常耐用）；粉晶吊墜（靠近心輪）；白水晶放辦公桌或冥想空間\n📅 使用場景：每天早上在辦公桌擺放三件套 5 分鐘設定意圖，比隨便佩戴效果更有意識感"
       },
       {
         "page": 4,
@@ -3760,13 +4690,15 @@
           "🔍 選購品質建議：三件套均為常見礦石，市場供應充足，選擇半透明到透明、無明顯塑膠感的款式即可；白水晶看有無自然棉絮，粉晶看顏色是否自然過渡",
           "📈 組合進階：穩定使用三件套 1–2 個月後，再依個人需求加入第四顆（例如：工作壓力大加虎眼石；睡眠問題加紫水晶）"
         ],
-        "visual_desc": "三件套預算表格，品質選購要點標注，進階路線圖（三件套→個人化）"
+        "visual_desc": "三件套預算表格，品質選購要點標注，進階路線圖（三件套→個人化）",
+        "body_text": "💰 入門預算參考：白水晶柱（HKD 80–150）+ 黑碧璽手鍊（HKD 150–300）+ 粉晶原石（HKD 80–200）= 整套約 HKD 310–650\n🔍 選購品質建議：三件套均為常見礦石，市場供應充足，選擇半透明到透明、無明顯塑膠感的款式即可；白水晶看有無自然棉絮，粉晶看顏色是否自然過渡\n📈 組合進階：穩定使用三件套 1–2 個月後，再依個人需求加入第四顆（例如：工作壓力大加虎眼石；睡眠問題加紫水晶）"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這份入門組合指引！\n➕ 追蹤，礦石搭配進階知識持續更新\n👇 想了解更多？問答箱留言或直接諮詢 @lunas.stone.atelier",
-        "visual_desc": "白色品牌背景，三角組合再次展示，「你的第一個能量組合，從這裡開始」大字，Logo"
+        "visual_desc": "白色品牌背景，三角組合再次展示，「你的第一個能量組合，從這裡開始」大字，Logo",
+        "body_text": "💾 收藏這份入門組合指引！\n➕ 追蹤，礦石搭配進階知識持續更新\n👇 想了解更多？問答箱留言或直接諮詢 @lunas.stone.atelier"
       }
     ],
     "hashtags": [
@@ -3784,10 +4716,23 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 藍晶石守護神經系統與思維清晰，是專注工作的好夥伴。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍晶石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍晶石清思緒",
+      "body": "藍晶石守護神經系統與思維清晰，是專注工作的好夥伴。",
+      "en_text": "Kyanite clears the mind and sharpens focus.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#藍晶石",
+      "#kyanite",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-30",
@@ -3796,10 +4741,23 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 藍磷灰石象徵骨骼與代謝能量，呼應穩健的成長節奏。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#藍磷灰石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍磷灰石穩成長",
+      "body": "藍磷灰石象徵骨骼與代謝能量，呼應穩健的成長節奏。",
+      "en_text": "Blue Apatite fuels creativity and learning.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#藍磷灰石",
+      "#blueapatite",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-08-31",
@@ -3875,7 +4833,13 @@
       "#身心靈",
       "#滿月儀式"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-08-31",
@@ -3884,10 +4848,23 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 想為生活添點輕快？橄欖石帶來樂觀與舒展的能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#橄欖石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "橄欖石添輕快",
+      "body": "想為生活添點輕快？橄欖石帶來樂觀與舒展的能量。",
+      "en_text": "Peridot lightens the heart and releases negativity.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#橄欖石",
+      "#peridot",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-09-01",
@@ -3908,7 +4885,8 @@
         "type": "封面",
         "headline": "🐉 12生肖守護石——你的那顆找到了嗎？",
         "visual_desc": "深色星空背景，12生肖符號以圓形排列，中央一顆發光礦石，品牌 Logo 右下，底部白字「👉 左滑查你的生肖守護石」",
-        "design_note": "12生肖圓形排列製造完整感，人人都能對號入座，收藏動機極強；Phase 3 強化品牌 Profile 連結購買導向"
+        "design_note": "12生肖圓形排列製造完整感，人人都能對號入座，收藏動機極強；Phase 3 強化品牌 Profile 連結購買導向",
+        "body_text": "🐉 12生肖守護石——你的那顆找到了嗎？"
       },
       {
         "page": 2,
@@ -3918,7 +4896,8 @@
           "🐂 牛（1925/37/49/61/73/85/97/2009年）→ 守護石：虎眼石（強化決策力與耐力）、黃水晶（穩定財運根基）",
           "🐅 虎（1926/38/50/62/74/86/98/2010年）→ 守護石：紅石榴石（補充行動力與勇氣）、茶晶（穩定衝勁、防過度衝動）"
         ],
-        "visual_desc": "三生肖各佔一排，生肖圖示旁配對應礦石實拍小圖，功效關鍵字清晰標注，風格統一"
+        "visual_desc": "三生肖各佔一排，生肖圖示旁配對應礦石實拍小圖，功效關鍵字清晰標注，風格統一",
+        "body_text": "🐀 鼠（1924/36/48/60/72/84/96/2008年）→ 守護石：石榴石（強化行動力、補充熱情）、黑曜石（防小人、加強氣場防護）\n🐂 牛（1925/37/49/61/73/85/97/2009年）→ 守護石：虎眼石（強化決策力與耐力）、黃水晶（穩定財運根基）\n🐅 虎（1926/38/50/62/74/86/98/2010年）→ 守護石：紅石榴石（補充行動力與勇氣）、茶晶（穩定衝勁、防過度衝動）"
       },
       {
         "page": 3,
@@ -3928,7 +4907,8 @@
           "🐉 龍（1928/40/52/64/76/88/2000/2012年）→ 守護石：拉長石（強化直覺與領導力）、海藍寶（冷靜表達、化解衝突）",
           "🐍 蛇（1929/41/53/65/77/89/2001/2013年）→ 守護石：紫水晶（開啟靈性智慧、助眠深思）、藍晶石（清晰思維、精準判斷）"
         ],
-        "visual_desc": "三生肖排版延續上頁設計，月光石月光效應作視覺亮點，整體版面清爽"
+        "visual_desc": "三生肖排版延續上頁設計，月光石月光效應作視覺亮點，整體版面清爽",
+        "body_text": "🐇 兔（1927/39/51/63/75/87/99/2011年）→ 守護石：月光石（增強直覺感應、促進情感流動）、粉晶（滋養心輪、改善人際關係）\n🐉 龍（1928/40/52/64/76/88/2000/2012年）→ 守護石：拉長石（強化直覺與領導力）、海藍寶（冷靜表達、化解衝突）\n🐍 蛇（1929/41/53/65/77/89/2001/2013年）→ 守護石：紫水晶（開啟靈性智慧、助眠深思）、藍晶石（清晰思維、精準判斷）"
       },
       {
         "page": 4,
@@ -3941,13 +4921,15 @@
           "🐕 狗（1934/46/58/70/82/94/2006/2018年）→ 守護石：黑碧璽（日常防護屏障、接地穩定）、青金石（加強誠信表達）",
           "🐖 豬（1935/47/59/71/83/95/2007/2019年）→ 守護石：孔雀石（吸引豐盛能量）、粉晶（滋養感情與自我關愛）"
         ],
-        "visual_desc": "六生肖兩欄三行緊湊排版，每格：生肖符號 + 礦石實拍小圖 + 一行核心功效，版面工整清晰"
+        "visual_desc": "六生肖兩欄三行緊湊排版，每格：生肖符號 + 礦石實拍小圖 + 一行核心功效，版面工整清晰",
+        "body_text": "🐎 馬（1930/42/54/66/78/90/2002/2014年）→ 守護石：紅瑪瑙（補充生命力與熱情）、橄欖石（吸引正面機遇、減少衝動消費）\n🐑 羊（1931/43/55/67/79/91/2003/2015年）→ 守護石：海藍寶（平靜表達、舒緩焦慮）、綠東陵石（修復心輪、強化創造力）\n🐒 猴（1932/44/56/68/80/92/2004/2016年）→ 守護石：藍磷灰石（促進學習與創意表達）、虎眼石（提升集中力、避免分心）\n🐓 雞（1933/45/57/69/81/93/2005/2017年）→ 守護石：黃水晶（增加自信決策力）、白水晶（放大意圖、淨化多餘慮慮）\n🐕 狗（1934/46/58/70/82/94/2006/2018年）→ 守護石：黑碧璽（日常防護屏障、接地穩定）、青金石（加強誠信表達）\n🐖 豬（1935/47/59/71/83/95/2007/2019年）→ 守護石：孔雀石（吸引豐盛能量）、粉晶（滋養感情與自我關愛）"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這張表，對照生肖選你的守護石！\n🛒 Profile 連結 → 選購天然礦石\n👇 留言你的生肖，我為你推薦最適合的入門礦石",
-        "visual_desc": "品牌主色深色背景，12生肖小圖點綴四角，中央「找到你的守護石」大字，Logo 居中，Profile 連結按鈕視覺"
+        "visual_desc": "品牌主色深色背景，12生肖小圖點綴四角，中央「找到你的守護石」大字，Logo 居中，Profile 連結按鈕視覺",
+        "body_text": "💾 收藏這張表，對照生肖選你的守護石！\n🛒 Profile 連結 → 選購天然礦石\n👇 留言你的生肖，我為你推薦最適合的入門礦石"
       }
     ],
     "hashtags": [
@@ -3972,10 +4954,23 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 想要長久的安定能量？翡翠是世代相傳的護身之石。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#翡翠 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "翡翠世代護身",
+      "body": "想要長久的安定能量？翡翠是世代相傳的護身之石。",
+      "en_text": "Jade symbolizes peace, abundance and stability.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#翡翠",
+      "#jadeitejade",
+      "#心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-09-03",
@@ -4051,7 +5046,13 @@
       "#身心靈",
       "#礦石真偽"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-09-03",
@@ -4060,10 +5061,23 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 需要護身與勇氣時，綠松石帶來天空般的守護能量。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#綠松石 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠松石賜勇氣",
+      "body": "需要護身與勇氣時，綠松石帶來天空般的守護能量。",
+      "en_text": "Turquoise protects travelers and honest expression.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#綠松石",
+      "#turquoise",
+      "#喉輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-09-04",
@@ -4084,7 +5098,8 @@
         "type": "封面",
         "headline": "捷克隕石不能單獨用——接地石搭配才是完整方案 ⚡",
         "visual_desc": "對比設計：左邊宇宙星空（捷克隕石懸浮）vs 右邊土地岩石（黑碧璽與紅石榴石穩固擺放），品牌 Logo 右下，底部「👉 左滑看平衡法」",
-        "design_note": "天空地面對比製造「高低能量平衡」視覺，對比感強烈，激發好奇"
+        "design_note": "天空地面對比製造「高低能量平衡」視覺，對比感強烈，激發好奇",
+        "body_text": "捷克隕石不能單獨用——接地石搭配才是完整方案 ⚡"
       },
       {
         "page": 2,
@@ -4094,7 +5109,8 @@
           "⚠️ 常見副作用反饋（非醫療說法）：初次使用者報告有心跳加速感、情緒敏感加劇、舊有情緒浮現、生活中出現突然轉變——能量學認為這是「轉化期」",
           "🧭 為何需要接地石：高頻能量若無對應接地能量平衡，能量學認為可能令人感覺「飄浮不穩定」——接地石幫助能量「落地」，整合轉化"
         ],
-        "visual_desc": "捷克隕石能量示意圖（向上箭頭），接地石示意圖（向下錨點），組合後呈平衡符號"
+        "visual_desc": "捷克隕石能量示意圖（向上箭頭），接地石示意圖（向下錨點），組合後呈平衡符號",
+        "body_text": "☄️ 捷克隕石高頻特性（SSOT）：對應心臟區、神經系統、能量系統快速調整——能量學認為其振動頻率遠高於一般礦石，使用者可能在短期內感受到強烈情緒波動或生活劇變\n⚠️ 常見副作用反饋（非醫療說法）：初次使用者報告有心跳加速感、情緒敏感加劇、舊有情緒浮現、生活中出現突然轉變——能量學認為這是「轉化期」\n🧭 為何需要接地石：高頻能量若無對應接地能量平衡，能量學認為可能令人感覺「飄浮不穩定」——接地石幫助能量「落地」，整合轉化"
       },
       {
         "page": 3,
@@ -4104,7 +5120,8 @@
           "🔴 推薦接地石 2：紅石榴石——SSOT 對應血液、循環與生殖系統，能量學視為補充生命力與根基感，配合捷克隕石的快速轉化提供穩定基礎",
           "🌑 推薦接地石 3：黑曜石——強力清除功能，搭配捷克隕石使用時能量非常強烈，建議有一定礦石使用經驗後才嘗試此組合"
         ],
-        "visual_desc": "三種接地石並排，各自功能標注，搭配強度等級圖示（從溫和到強烈）"
+        "visual_desc": "三種接地石並排，各自功能標注，搭配強度等級圖示（從溫和到強烈）",
+        "body_text": "🖤 推薦接地石 1：黑碧璽——SSOT 對應骨骼、肌肉、神經穩定，象徵在轉化期保持身體層面的穩定，是最常用的搭配選擇\n🔴 推薦接地石 2：紅石榴石——SSOT 對應血液、循環與生殖系統，能量學視為補充生命力與根基感，配合捷克隕石的快速轉化提供穩定基礎\n🌑 推薦接地石 3：黑曜石——強力清除功能，搭配捷克隕石使用時能量非常強烈，建議有一定礦石使用經驗後才嘗試此組合"
       },
       {
         "page": 4,
@@ -4114,13 +5131,15 @@
           "🚫 暫時不建議使用的人：身心正在恢復療癒期中、生活極度不穩定（如剛失業/喪親/失戀）、能量極度敏感者",
           "🗓️ 使用方式建議：每次使用不超過 30 分鐘；搭配冥想或設定意圖；使用後必定佩戴或手持接地石 1 小時以上整合"
         ],
-        "visual_desc": "「適合 vs 不建議」對照表，使用指引計時圖（30分鐘+接地1小時）"
+        "visual_desc": "「適合 vs 不建議」對照表，使用指引計時圖（30分鐘+接地1小時）",
+        "body_text": "📋 適合使用捷克隕石的人：已做好面對生活改變的心理準備、目前人生正在主動轉型期、有一定礦石使用基礎（不是第一次使用礦石）\n🚫 暫時不建議使用的人：身心正在恢復療癒期中、生活極度不穩定（如剛失業/喪親/失戀）、能量極度敏感者\n🗓️ 使用方式建議：每次使用不超過 30 分鐘；搭配冥想或設定意圖；使用後必定佩戴或手持接地石 1 小時以上整合"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這份高頻石搭配指南！\n➕ 追蹤，高階礦石使用系列持續更新\n👇 問答箱歡迎你的進階使用問題 →",
-        "visual_desc": "宇宙與土地對比品牌背景，「高頻轉化，需要穩固根基」大字，Logo，CTA"
+        "visual_desc": "宇宙與土地對比品牌背景，「高頻轉化，需要穩固根基」大字，Logo，CTA",
+        "body_text": "💾 收藏這份高頻石搭配指南！\n➕ 追蹤，高階礦石使用系列持續更新\n👇 問答箱歡迎你的進階使用問題 →"
       }
     ],
     "hashtags": [
@@ -4138,10 +5157,23 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 冥想或睡眠時，透石膏為能量場帶來純淨與安寧。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#透石膏 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "透石膏淨安寧",
+      "body": "冥想或睡眠時，透石膏為能量場帶來純淨與安寧。",
+      "en_text": "Selenite cleanses space and lifts your vibration.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#透石膏",
+      "#selenite",
+      "#頂輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-09-06",
@@ -4150,10 +5182,23 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 黃鐵礦金屬光澤象徵豐盛，是招財佈置的經典選擇。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#黃鐵礦 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黃鐵礦迎豐盛",
+      "body": "黃鐵礦金屬光澤象徵豐盛，是招財佈置的經典選擇。",
+      "en_text": "Pyrite ignites wealth, willpower and action.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#黃鐵礦",
+      "#pyrite",
+      "#太陽神經叢",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-09-07",
@@ -4228,7 +5273,13 @@
       "#crystalseries",
       "#開運"
     ],
-    "asset_urls": null
+    "asset_urls": null,
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   {
     "date": "2026-09-07",
@@ -4237,10 +5288,23 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
     "asset_urls": null,
-    "caption": "✨ 睡前將紫水晶置於枕邊，有助改善睡眠品質與深層放鬆。\n🛒 Profile 連結選購 | 追蹤 @lunas.stone.atelier\n#紫水晶 #礦石能量 #lunasstoneatelier"
+    "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "紫水晶助好眠",
+      "body": "睡前將紫水晶置於枕邊，有助改善睡眠品質與深層放鬆。",
+      "en_text": "Amethyst calms the mind and soothes the spirit.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [
+      "#紫水晶",
+      "#amethyst",
+      "#眉心輪",
+      "#礦石能量",
+      "#水晶療癒",
+      "#lunasstoneatelier"
+    ]
   },
   {
     "date": "2026-09-08",
@@ -4261,7 +5325,8 @@
         "type": "封面",
         "headline": "90天礦石知識陪伴——你已經比剛開始時懂得更多了 ✨",
         "visual_desc": "溫暖金色漸層背景，90 天旅程時間軸設計，礦石圖標點綴，品牌 Logo 居中大圖，底部「👉 左滑回顧這 90 天」",
-        "design_note": "旅程感設計建立情感連結，金色代表成長與收穫，感謝篇強化粉絲歸屬感"
+        "design_note": "旅程感設計建立情感連結，金色代表成長與收穫，感謝篇強化粉絲歸屬感",
+        "body_text": "90天礦石知識陪伴——你已經比剛開始時懂得更多了 ✨"
       },
       {
         "page": 2,
@@ -4271,7 +5336,8 @@
           "🔍 最高收藏 TOP 2 回顧：礦石鑑定系列（Part 1 + Part 2）——從放大鏡看內含物到翡翠 A/B/C 貨識別，你現在買礦石有眼光了",
           "🌈 最高收藏 TOP 3 回顧：7大脈輪對應礦石速查表——從只會說「這顆很漂亮」到理解每顆礦石與能量系統的具體連結"
         ],
-        "visual_desc": "三個 TOP 知識點橫排，各自配代表性礦石圖，「你學到了」標籤，溫暖設計風格"
+        "visual_desc": "三個 TOP 知識點橫排，各自配代表性礦石圖，「你學到了」標籤，溫暖設計風格",
+        "body_text": "📚 最高收藏 TOP 1 回顧：礦石保養禁忌完全指南——孔雀石含銅忌水、天青石易溶、紫水晶忌長曬，這三個知識點讓你再也不會傷害手上的礦石\n🔍 最高收藏 TOP 2 回顧：礦石鑑定系列（Part 1 + Part 2）——從放大鏡看內含物到翡翠 A/B/C 貨識別，你現在買礦石有眼光了\n🌈 最高收藏 TOP 3 回顧：7大脈輪對應礦石速查表——從只會說「這顆很漂亮」到理解每顆礦石與能量系統的具體連結"
       },
       {
         "page": 3,
@@ -4281,7 +5347,8 @@
           "📈 知識拼圖第二層：莫氏硬度 → 佩戴決策 → 脈輪對應 → 五行命理選石 → 空間佈局風水",
           "🎉 你現在的水平：可以獨立辨別常見礦石真假、了解基本保養禁忌、按需求選石——這比 90 天前的你強多了！"
         ],
-        "visual_desc": "知識體系金字塔圖（基礎→進階→應用三層），礦石知識點以圓形標籤填入"
+        "visual_desc": "知識體系金字塔圖（基礎→進階→應用三層），礦石知識點以圓形標籤填入",
+        "body_text": "🏆 你現在擁有的礦石知識體系：礦石成因與光學原理（拉長石效應、蛋白石遊彩）→ 礦石真假鑑別（六大常見仿冒品）→ 保養禁忌（忌水/忌曬/正確淨化）\n📈 知識拼圖第二層：莫氏硬度 → 佩戴決策 → 脈輪對應 → 五行命理選石 → 空間佈局風水\n🎉 你現在的水平：可以獨立辨別常見礦石真假、了解基本保養禁忌、按需求選石——這比 90 天前的你強多了！"
       },
       {
         "page": 4,
@@ -4291,13 +5358,15 @@
           "💌 感謝每一位一直追蹤的你：你的每一條留言、收藏、分享，是這個帳號繼續輸出的最大動力——謝謝你願意讓礦石進入你的生活",
           "✨ 礦石知識沒有終點，只有不斷深入——歡迎你繼續跟著 Luna's Stone Atelier 探索礦石世界"
         ],
-        "visual_desc": "下一步服務預告卡（諮詢/工作坊/個人化推薦），感謝語大字，溫暖設計"
+        "visual_desc": "下一步服務預告卡（諮詢/工作坊/個人化推薦），感謝語大字，溫暖設計",
+        "body_text": "🚀 下一步預告：礦石知識只是起點——接下來 Luna's Stone Atelier 將開始更深入的礦石命理配對諮詢、礦石擺陣工作坊、以及個人化能量組合推薦\n💌 感謝每一位一直追蹤的你：你的每一條留言、收藏、分享，是這個帳號繼續輸出的最大動力——謝謝你願意讓礦石進入你的生活\n✨ 礦石知識沒有終點，只有不斷深入——歡迎你繼續跟著 Luna's Stone Atelier 探索礦石世界"
       },
       {
         "page": 5,
         "type": "封底CTA",
         "cta_copy": "💾 收藏這篇作為 90 天的記念！\n➕ 繼續追蹤，礦石旅程沒有終點\n👇 留言：90 天最讓你印象深刻的礦石知識是什麼？",
-        "visual_desc": "金色品牌背景，「90天，謝謝你與礦石的緣分」大字，Logo 居中，CTA 清晰排列"
+        "visual_desc": "金色品牌背景，「90天，謝謝你與礦石的緣分」大字，Logo 居中，CTA 清晰排列",
+        "body_text": "💾 收藏這篇作為 90 天的記念！\n➕ 繼續追蹤，礦石旅程沒有終點\n👇 留言：90 天最讓你印象深刻的礦石知識是什麼？"
       }
     ],
     "hashtags": [
