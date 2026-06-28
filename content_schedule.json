@@ -1010,7 +1010,7 @@
     "next_stone_zh": "綠松石",
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "脈輪失衡點影響你的財運？（第1集）",
     "caption": "💛 脈輪失衡影響財運？（第6集）\n太陽神經叢堵塞 = 拖延 + 無自信 + 決策困難\n不是玄學，是你每日都感受到的現象！\n💾 收藏 | 追蹤查看第7集自測",
     "series_hook": "太陽神經叢失衡的症狀，你想不到有多少人是這樣",
@@ -1073,7 +1073,9 @@
       "#身心靈",
       "#crystalhealing"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-07-02.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
