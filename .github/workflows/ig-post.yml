@@ -5,11 +5,17 @@
 # 流程：
 #   1. Cron 觸發 → main.py 讀排程 + 礦石 SSOT
 #   2. 組裝 manus_task.json → commit 到 repo
-#   3. Manus 讀取 manus_task.json → 從 assets/ 取備用圖片及文案 → 透過 IG MCP 發布
-#   4. Manus 回填 published_url，更新 content_schedule.json status = published
+#   3. GitHub Actions 主動呼叫 Manus API，喚醒 Manus Task
+#   4. Manus 被喚醒後：連接 GitHub → 讀取 manus_task.json
+#      → 從 assets/ 取 image_paths 對應的備用圖片及文案
+#      → 透過 IG MCP 發布至 Instagram
+#      → 回填 published_url，更新 content_schedule.json status = published
+#      → 進入休眠
 #
-# IG 發布由 Manus IG MCP 負責，不需要 IG_ACCESS_TOKEN
-# 只需要：OPENAI_API_KEY（Manus 批量生圖用）
+# 觸發機制：Event-Driven Pull（事件驅動型主動拉取）
+#   - GitHub Actions 是唯一觸發源，主動喚醒 Manus
+#   - Manus 不做 Webhook 監聽，不做持續 Polling，避免 Token 浪費與系統不穩定
+#   - Manus 被喚醒後一次性執行完畢，再次進入休眠
 
 name: Instagram Content Scheduler
 
@@ -27,8 +33,8 @@ on:
           - reels
   schedule:
     # All cron times are UTC (HKT = UTC+8)
-    # Stories: Mon/Tue/Wed/Thu/Fri/Sun  20:00 HKT = 12:00 UTC
-    - cron: '0 12 * * 0,1,2,3,4,5'
+    # Stories: Mon/Wed/Thu/Fri/Sun  20:00 HKT = 12:00 UTC
+    - cron: '0 12 * * 0,1,3,4,5'
     # Posts:   Tue/Fri  12:00 HKT = 04:00 UTC
     - cron: '0 4 * * 2,5'
     # Reels:   Mon/Thu  18:00 HKT = 10:00 UTC
@@ -69,9 +75,9 @@ jobs:
           if [ -z "$TASK" ]; then
             HOUR=$(date -u +%H)
             DOW=$(date -u +%u)   # 1=Mon ... 7=Sun
-            if   [ "$HOUR" = "12" ] && [[ "$DOW" =~ ^(1|2|3|4|5|7)$ ]]; then TASK="stories"
-            elif [ "$HOUR" = "04" ] && [[ "$DOW" =~ ^(2|5)$ ]];          then TASK="posts"
-            elif [ "$HOUR" = "10" ] && [[ "$DOW" =~ ^(1|4)$ ]];          then TASK="reels"
+            if   [ "$HOUR" = "12" ] && [[ "$DOW" =~ ^(1|3|4|5|7)$ ]]; then TASK="stories"
+            elif [ "$HOUR" = "04" ] && [[ "$DOW" =~ ^(2|5)$ ]];        then TASK="posts"
+            elif [ "$HOUR" = "10" ] && [[ "$DOW" =~ ^(1|4)$ ]];        then TASK="reels"
             fi
           fi
           echo "task_type=${TASK}" >> $GITHUB_OUTPUT
@@ -85,7 +91,6 @@ jobs:
         run: python main.py
 
       # ─── 將 manus_task.json commit 回 repo ─────────────────────
-      # Manus 讀取此檔案，從 assets/ 取備用圖片及文案，透過 IG MCP 發布
       - name: Commit Manus Task
         if: steps.task.outputs.task_type != ''
         run: |
@@ -95,11 +100,21 @@ jobs:
           git diff --cached --quiet || git commit -m "task: [${{ steps.task.outputs.task_type }}] $(date -u +%Y-%m-%d) — awaiting Manus publish"
           git push
 
+      # ─── 主動喚醒 Manus（Event-Driven Pull）───────────────────
+      # GitHub Actions 是唯一觸發源，呼叫 Manus API 喚醒 Task
+      # Manus 被喚醒後：讀 manus_task.json → 取 assets/ → 發布 → 休眠
+      - name: Trigger Manus Task
+        if: steps.task.outputs.task_type != ''
+        env:
+          MANUS_API_KEY: ${{ secrets.MANUS_API_KEY }}
+        run: python manus_trigger.py
+
       - name: Task Ready Notice
         if: steps.task.outputs.task_type != ''
         run: |
           echo "✅ manus_task.json committed to repo."
-          echo "📌 Next: Manus reads manus_task.json → fetch assets/ → publish via IG MCP"
+          echo "✅ Manus API triggered (Event-Driven Pull)."
+          echo "📌 Manus will: read manus_task.json → fetch assets/ → publish via IG MCP → sleep"
           echo "📌 After publish: Manus updates content_schedule.json status = published"
 
       - name: Skip Notice
