@@ -1,5 +1,5 @@
 # Luna's Stone Atelier — 知識庫 v2.5
-_最後更新：2026-06-28_
+_最後更新：2026-06-29_
 
 ---
 
@@ -144,3 +144,29 @@ _最後更新：2026-06-28_
 - **首 90 分鐘**：發布後立即 Stories 轉發，帳號主 10 分鐘內自行留言引導互動
 - **Reels Hook**：首 3 秒必須有止滑鉤（`第N夜｜{礦石}的秘密`）
 - **禁止 TikTok 水印**：有水印的 Reels 被演算法降級
+
+---
+
+## 10. 紫微斗數 × 奇門遁甲 知識庫參考（ziwei_qimen SSOT）
+
+> **本節為 `serenawct098-ai/ziwei_qimen` 倉庫引用說明。**
+> 所有紫微斗數及奇門遁甲計算，以該倉庫引擎為唯一真源（SSOT），禁止自行推算。
+
+### 引擎清單
+
+| # | 檔案 | 版本 | 用途 |
+|---|------|------|------|
+| ① | `traditional_core_engine_v2.1.json` | v2.1 | SSOT 公式（命宮/四化/安星查表） |
+| ② | `full_compute_flow_v1.4.json` | v1.4 | 高維推算流程（precisionGate/時空橋樑） |
+| ③ | `interpretation_engine_v1.1.json` | v1.1 | 計算步驟同步層 |
+| ④ | `traditional_mythos_engine_v1.3.1.json` | v1.3.1 | 卷一·正統解讀（命格/格局） |
+| ⑤ | `modern_quantum_resonance_engine_v2.1.json` | v2.1 | 卷二·現代壓測（盲點偵測） |
+| ⑥ | `dual_parallel_fusion_engine_v1.1.json` | v1.1 | 雙軌橋樑（紫微↔奇門映射） |
+| ⑦ | `qimen_fengshui_layout_module_v0.1.json` | v0.1 | 奇門風水佈局（催旺/化煞，2026年） |
+
+### 使用規則
+- 所有紫微/奇門相關 Reels 內容（Ep9、Ep10、Ep11、Ep12），文案數據以 ziwei_qimen 引擎為唯一參考
+- 奇門風水佈局數據（正東八白財位、五黃禁區等）來源：`qimen_fengshui_layout_module_v0.1.json`
+- 2026年飛星鎖定丙午年，方位禁區（正南五黃 `forbidden=true`）不可更改
+- 四化版本：`sihua_pa_locked`；起局：拆補法；閏月：三合派南派
+- **禁止 LLM 心算推導**：所有公式查表，計算層程式讀 JSON 後確定性輸出

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+generated_assets.json
+manus_task.json
+.DS_Store

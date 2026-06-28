@@ -85,10 +85,11 @@ _依據規範：KNOWLEDGE_BASE.md §0.5 R3 — 繁體中文書面語為主，英
 
 ## 執行狀態
 
-- ✅ Post23 完整重寫文案：見 `patches/post23_zodiac_guardian_stone.json`
-- ✅ 粵語→書面語修正清單：本文件（供下次 content_schedule.json 全文批次替換參考）
-- ⏳ content_schedule.json 全文批次替換：待下次整合推送（文件體積 >200KB，分批處理）
-- ⏳ 奇門篇重寫：待確認 ziwei_qimen 知識庫後執行
+- ✅ Post23 完整重寫文案：已套用至 `content_schedule.json`（見 `patches/post23_zodiac_guardian_stone.json`）
+- ✅ 粵語→書面語修正清單：本文件
+- ✅ content_schedule.json 全文批次替換：已完成（v2.3，所有 Reels/Posts 非 vo 欄位粵語已轉書面語）
+- ✅ cantonese_vo → vo 鍵改名 + 值轉繁體中文書面語：25 Reels × 全段共 100 處已完成
+- ✅ 奇門篇 vo 改名：`patches/reels_ep11_ep12_qimen_rewrite.json` 已將 cantonese_vo 改為 vo 並轉書面語
 
 ---
 
