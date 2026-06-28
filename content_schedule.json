@@ -900,7 +900,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "1",
-    "status": "pending",
+    "status": "generated",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -908,7 +908,8 @@
       "body": "橄欖石對應心輪，是輕盈樂觀之石，幫助釋放負面情緒。",
       "en_text": "Peridot lightens the heart and releases negativity.",
       "cta_text": "追蹤 @lunas.stone.atelier"
-    }
+    },
+    "asset_url": "https://github.com/serenawct098-ai/IG-Lunas_Stone_Atelier/blob/main/assets/stories/story_2026-06-29.png"
   },
   {
     "date": "2026-06-30",
