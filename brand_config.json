@@ -119,15 +119,14 @@
     "mineralogy_count": 31,
     "note": "所有礦石文案、科學數據、脈輪對應必須以 mineralogy_data.json 為唯一真源，禁止在其他檔案另行維護礦石資料表"
   },
-  "github_secrets": {
-    "_note": "此系統不需要任何 GitHub Secrets",
-    "_connection": "GitHub 與 Manus 透過 MCP（Model Context Protocol）連接，無需 API Key",
-    "_deprecated": ["MANUS_API_KEY", "OPENAI_API_KEY", "IG_USER_ID", "IG_ACCESS_TOKEN"]
-  },
-  "manus_workflow": {
-    "connection": "MCP（Model Context Protocol）",
+  "connection": {
+    "mechanism": "MCP（Model Context Protocol）",
     "github_mcp": "Manus 透過 GitHub MCP 直接讀取 manus_task.json 及 commit 回填狀態",
     "ig_mcp": "Manus 透過 IG MCP 完成 Instagram 發布",
+    "github_secrets_required": false,
+    "note": "GitHub 與 Manus 透過 MCP 互通，不需要任何 API Key 或 GitHub Secrets"
+  },
+  "manus_workflow": {
     "trigger_mechanism": "Event-Driven Pull",
     "trigger_source": "GitHub Actions 是唯一觸發源，commit manus_task.json 後 Manus 透過 GitHub MCP 主動讀取",
     "manus_polling": false,

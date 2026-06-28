@@ -84,27 +84,16 @@ _最後更新：2026-06-28_
 
 ---
 
-## 6. 連接機制與 GitHub 環境
+## 6. 連接機制
 
-### 連接方式：MCP（Model Context Protocol）
-
-> GitHub 與 Manus 的所有連接，**完全透過 MCP 實現，不需要任何 API Key 或額外 Secret。**
+### GitHub 與 Manus 透過 MCP 互通
 
 | MCP 連接 | 用途 |
 |----------|------|
 | **GitHub MCP** | Manus 直接讀取 repo 中的 `manus_task.json`、`content_schedule.json` 等檔案，以及 commit 回填狀態 |
 | **IG MCP** | Manus 完成 Instagram 發布 |
 
-### 不需要設定的憑證
-
-以下憑證**一律不需要**，禁止在任何步驟中引用：
-
-| 憑證 | 原因 |
-|------|------|
-| `MANUS_API_KEY` | GitHub↔Manus 透過 MCP 連接，無需 API Key |
-| `OPENAI_API_KEY` | 系統不使用 OpenAI API |
-| `IG_ACCESS_TOKEN` | IG 發布由 Manus IG MCP 全權負責 |
-| `IG_USER_ID` | 與 Manus IG MCP 運作無關 |
+> 不需要任何 GitHub Secrets 或 API Key。
 
 ---
 
