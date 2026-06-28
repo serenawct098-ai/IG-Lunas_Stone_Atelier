@@ -11,7 +11,12 @@
         "stories": 61
       },
       "data_source": "mineralogy_data.json",
-      "ssot_note": "礦石資料唯一真源為 mineralogy_data.json，stone_id 欄位與 mineralogy_data.json id 欄位嚴格對應"
+      "ssot_note": "礦石資料唯一真源為 mineralogy_data.json，stone_id 欄位與 mineralogy_data.json id 欄位嚴格對應",
+      "scripts_note": "Posts/Reels 完整腳本（pages/script/visual_prompts/caption/hashtags）已寫入；caption 為空者由 Manus 依 R1 SSOT + R4 差異化規範生成",
+      "full_scripts": {
+        "posts_full": 7,
+        "reels_full": 8
+      }
     }
   },
   {
@@ -26,7 +31,54 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "⚠️ 3種水晶千萬唔好曬太陽！你中招了嗎？",
+    "series_hook": "仲有一種最多人有，曬太陽唔止褪色，仲會⋯⋯",
+    "next_episode_preview": "第2集：那一種連蛋白石都比唔上，一曬即裂——你有佢嗎？",
+    "visual_prompts": {
+      "hook": "紫水晶近距離對比：左半深紫飽和，右半已褪成淺粉。純黑背景，強烈光影，疊加白色衝擊大字。",
+      "develop": "三塊礦石依次特寫（紫水晶、粉晶、海藍寶），每塊旁邊出現「☀️ = ⚠️」警示圖示，旁邊快速飛入礦物成分標籤（Fe、Mn）。",
+      "climax": "手持一塊褪色粉晶特寫，紋理清晰，顏色明顯偏白，畫面突然黑屏——白字「仲有一種⋯⋯」",
+      "cta": "動態文字彈出：「第2集：最危險那塊係？」追蹤按鈕特效，倒計時感設計。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "等等！你日日曬太陽嘅水晶，其實係廢咗㗎！",
+        "zh_subtitle": "你每天曬太陽的水晶，其實已經廢掉了！",
+        "en_subtitle": "Stop! Your crystals are being RUINED by sunlight."
+      },
+      "3_15s": {
+        "cantonese_vo": "紫水晶、粉晶、海藍寶——呢三種礦石含鐵同錳，一見太陽就褪色，能量都跟住走。唔係消磁，係真係廢咗！",
+        "zh_subtitle": "紫水晶、粉晶、海藍寶含鐵和錳，曝曬即褪色，不是淨化，是損壞。",
+        "en_subtitle": "Amethyst, Rose Quartz, Aquamarine — iron & manganese cause permanent fading. That's not cleansing. That's damage."
+      },
+      "15_25s": {
+        "cantonese_vo": "仲有一種，幾乎每個人都有，佢一曬太陽唔止褪色，仲會……",
+        "zh_subtitle": "還有一種幾乎人人都有，曬太陽不只褪色，還會⋯⋯",
+        "en_subtitle": "And there's one more — almost everyone has it — sunlight doesn't just fade it, it actually—"
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤我，第2集答你！",
+        "zh_subtitle": "追蹤帳號，下集繼續揭秘",
+        "en_subtitle": "Follow for Part 2 — dropping Thursday!"
+      }
+    },
+    "caption": "⚠️ 你嘅水晶係咁曬緊？！（第1集）\n呢3種水晶見太陽就廢：紫水晶 / 粉晶 / 海藍寶\n唔係迷信——係礦石化學成分問題 🔬\n💾 收藏留底 | 追蹤睇第2集答案",
+    "hashtags": [
+      "#水晶",
+      "#礦石",
+      "#風水",
+      "#crystals",
+      "#水晶能量",
+      "#紫水晶",
+      "#粉晶",
+      "#crystalcare",
+      "#水晶知識",
+      "#開運",
+      "#香港風水",
+      "#crystalhealing",
+      "#玄學"
+    ]
   },
   {
     "date": "2026-06-15",
@@ -48,7 +100,62 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_number": 1,
+    "post_title": "⚠️ 這5種水晶千萬別曬太陽！你中招了嗎？",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "⚠️ 這5種水晶千萬別曬太陽！你中招了嗎？",
+        "visual_desc": "深色背景，5顆礦石（紫水晶、粉晶、月光石、蛋白石、黃水晶）排成一排，中央紅色警示符號疊加，右下角品牌Logo，底部白字「👉 左滑查名單」",
+        "design_note": "高對比度——深背景配白/黃警示字，封面要在拇指滾動中0.3秒內止滑"
+      },
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🟣 紫水晶（Amethyst）→ 長時間日曬導致永久褪色，原因：鐵離子色心被紫外線破壞",
+          "🩷 粉晶（Rose Quartz）→ 長曬後粉色漸漸變白，無法恢復",
+          "⚠️ 以上兩種：日曬淨化建議控制在 20 分鐘以內，早上 10 時前為佳"
+        ],
+        "visual_desc": "紫水晶與粉晶各佔半頁對比圖——左健康色 vs 右褪色效果對比，文字疊加說明"
+      },
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🌕 月光石（Moonstone）→ 長曬使月光效應（adularescence）變弱，光暈消失",
+          "🌈 蛋白石（Opal）→ 含水礦物，高溫日曬導致失水龜裂，損傷不可逆",
+          "🟡 黃水晶（Citrine）→ 長曬色澤變鈍，若為燒色處理則退色更快"
+        ],
+        "visual_desc": "月光石月光效應特寫圖（強調怕曬後果），旁邊小圖加紅色叉號示意"
+      },
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "✅ 安全淨化方法 1：白水晶簇過夜（最溫和，所有礦石適用）",
+          "✅ 安全淨化方法 2：月圓夜月光照射（吸能量同時淨化）",
+          "✅ 安全淨化方法 3：薰香煙霧繞行 / 頌缽聲波（不接觸礦石本體）"
+        ],
+        "visual_desc": "三種淨化方法各一小圖橫排——水晶簇、月光下礦石、薰香煙霧，版面乾淨有呼吸感"
+      },
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏起來，保護你的礦石！\n➕ 追蹤我，每週更新礦石科普與開運知識\n👇 留言：你有哪顆礦石曾經曬壞過？",
+        "visual_desc": "品牌主色背景，Logo 居中，三行CTA文字由上至下排列，底部留白乾淨"
+      }
+    ],
+    "caption": "⚠️ 這5種水晶千萬別曬太陽——你係咪一直做錯？\n\n很多人以為日曬係最自然嘅消磁方法，但其實部分礦石喺紫外線下會永久褪色甚至裂開 😱\n\n✦ 紫水晶、粉晶長曬後顏色無法恢復\n✦ 蛋白石含水分，高溫直接令它龜裂\n✦ 安全消磁：白水晶簇、月光、薰香三選一\n\n💾 收藏留底，下次淨化前先查一查\n👇 留言告訴我你用緊咩消磁方法？",
+    "hashtags": [
+      "#水晶保養",
+      "#礦石知識",
+      "#crystalcare",
+      "#水晶功效",
+      "#消磁方法"
+    ]
   },
   {
     "date": "2026-06-17",
@@ -73,7 +180,53 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "💀 這塊石頭一曬即裂——你家裡有嗎？",
+    "series_hook": "蛋白石含天然水分，日曬等於幫佢脫水——就係咁殘忍",
+    "next_episode_preview": "第3集：你有冇養住一顆假水晶而唔知？（識別方法下集公開）",
+    "visual_prompts": {
+      "hook": "蛋白石特寫——表面出現龜裂紋理的震撼微距鏡頭，色澤明顯偏暗，疊加紅色警示框與大字「就係呢塊」。",
+      "develop": "蛋白石在陽光下對比圖：左邊健康七彩遊彩效應，右邊龜裂失色。旁邊飛入科學說明文字卡「SiO₂·nH₂O 含水量 3-20%」。",
+      "climax": "特寫蛋白石裂縫——象徵性黑屏+白字：「損壞無法修復⋯⋯你有幾多塊係咁？」",
+      "cta": "動態文字：「第3集：你養住假水晶？」追蹤特效彈出。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "就係呢塊——你一曬佢，佢即刻龜裂，永久損壞！",
+        "zh_subtitle": "就是這塊——曬太陽直接龜裂，永久損壞！",
+        "en_subtitle": "This one — one day in sunlight and it cracks. Forever."
+      },
+      "3_15s": {
+        "cantonese_vo": "蛋白石（Opal）本身含水，成分係SiO₂加水。曬太陽等於幫佢強制脫水——遊彩效應消失、表面龜裂，呢個損壞係冇得救㗎！",
+        "zh_subtitle": "蛋白石含水結構（SiO₂·nH₂O），日曬導致失水龜裂，遊彩效應永久消失，無法修復。",
+        "en_subtitle": "Opal contains 3–20% water. Direct sunlight dehydrates it — the play-of-color vanishes, cracks appear. Permanent damage."
+      },
+      "15_25s": {
+        "cantonese_vo": "而家問你——你係咪以為日曬係最天然嘅消磁方法？如果係，你可能已經毀咗你最靚嗰塊石⋯⋯",
+        "zh_subtitle": "你是否認為日曬是最天然的淨化方式？如果是，你可能已毀掉了最珍貴的那塊礦石。",
+        "en_subtitle": "Did you think sunlight was the safest way to cleanse crystals? You may have already destroyed your best one."
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤我，下集教你識別假水晶！",
+        "zh_subtitle": "追蹤帳號，下集：識別假水晶方法公開",
+        "en_subtitle": "Follow — next ep: how to spot fake crystals. Monday!"
+      }
+    },
+    "caption": "💀 蛋白石一曬太陽就龜裂？！（第2集）\n佢含天然水分——日曬等於強制脫水，損壞永久無法修復\n呢個係礦物學知識，唔係迷信 🔬\n💾 收藏保護你嘅礦石 | 👆 第1集係咩？睇Profile置頂",
+    "hashtags": [
+      "#蛋白石",
+      "#Opal",
+      "#水晶保養",
+      "#礦石知識",
+      "#crystalcare",
+      "#風水",
+      "#水晶",
+      "#礦石",
+      "#crystalhealing",
+      "#開運水晶",
+      "#香港風水",
+      "#玄學"
+    ]
   },
   {
     "date": "2026-06-18",
@@ -95,7 +248,62 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_number": 2,
+    "post_title": "💰 招財礦石完全錯了？按你的五行揀才有用！",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "💰 招財礦石完全錯了？按你的五行揀才有用！",
+        "visual_desc": "金色系背景，黃水晶、虎眼石、金髮晶三顆並排打燈，中央衝擊性標題疊加，右下角品牌Logo，底部「👉 左滑看五行配石表」",
+        "design_note": "黃金色調強化財富聯想，標題用「完全錯了」製造認知衝突止滑"
+      },
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "五行能量補石邏輯：命中缺某五行，揀對應顏色礦石作輔助工具",
+          "🔴 缺火者 → 紅石榴石、紅瑪瑙（補熱情與行動力）",
+          "🌿 缺木者 → 翡翠、綠東陵石（補生長力與創造力）"
+        ],
+        "visual_desc": "五行色輪圖（木青、火紅、土黃、金白、水黑），每色對應礦石小圖，版面如信息圖表"
+      },
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🟡 缺土者 → 黃水晶、虎眼石（穩定財運與自信）",
+          "⚪ 缺金者 → 白水晶、白幽靈（提升清晰度與行動執行）",
+          "🔵 缺水者 → 海藍寶、拉長石（流通能量與直覺洞察）"
+        ],
+        "visual_desc": "土/金/水各一礦石特寫橫排，標籤清晰，風格一致"
+      },
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "⚠️ 重要：不清楚自己五行？用八字或紫微命盤確認，避免盲目揀石",
+          "通用招財組合（五行均衡者）：黃水晶（自信行動）+ 虎眼石（勇氣執行）+ 白水晶（放大意圖）",
+          "礦石係輔助工具——配合行動才能發揮最大作用 🙏"
+        ],
+        "visual_desc": "三顆礦石組合特寫，旁邊文字說明各自角色，版面乾淨有結構"
+      },
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏，對照你的五行再揀石！\n➕ 追蹤我，每週礦石開運乾貨\n👇 留言：你缺哪個五行？我幫你推薦！",
+        "visual_desc": "品牌主色背景，五行顏色小色塊裝飾，CTA文字清晰"
+      }
+    ],
+    "caption": "💰 買錯礦石招唔到財？因為你冇揀對五行！\n\n不是貴就是好，礦石能量要配合自身命格才能最大化——這才是礦石玄學的核心邏輯 🔮\n\n✦ 缺火 → 紅石榴石、紅瑪瑙補行動力\n✦ 缺土 → 黃水晶、虎眼石穩財運\n✦ 不知道自己缺什麼？留言告訴我你的生年月，我幫你分析 👇\n\n💾 收藏這篇，揀石前先對照五行",
+    "hashtags": [
+      "#五行水晶",
+      "#招財礦石",
+      "#紫微斗數",
+      "#風水開運",
+      "#crystalenergy"
+    ]
   },
   {
     "date": "2026-06-19",
@@ -131,7 +339,52 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "🔍 你養住假水晶幾年？3個肉眼測試即刻知！",
+    "series_hook": "最貴唔代表最真——有種仿品連專家都要放大鏡先認到",
+    "next_episode_preview": "第4集：呢塊石放錯位置等於破財——你家裡擺咗嗎？",
+    "visual_prompts": {
+      "hook": "兩顆水晶並排，外觀幾乎相同——疊加問號與「邊顆係真？」大字，高懸念設計。",
+      "develop": "三個肉眼測試動作快速剪輯：放大鏡觀察內含物、手握測溫、光線折射角度。每個動作配1–2秒清晰特寫。",
+      "climax": "揭曉：左邊天然有棉絮+冰涼感，右邊玻璃有圓形氣泡+無冰涼感。畫面停在「仲有第四個方法⋯⋯」黑屏。",
+      "cta": "「第4集：礦石放錯位置 = 破財？」追蹤特效。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "呢兩塊睇起嚟一樣——但有一塊係玻璃，你知唔知邊塊係假？",
+        "zh_subtitle": "這兩塊看起來一樣——但其中一塊是玻璃。你能分辨嗎？",
+        "en_subtitle": "These two look identical. One is glass. Can you tell which?"
+      },
+      "3_15s": {
+        "cantonese_vo": "三個肉眼測試：第一，用10倍放大鏡——天然石有棉絮同氣液包裹體，玻璃有圓形氣泡；第二，手握感溫——天然石英有冰涼感；第三，顏色係咪太均一？天然石顏色深淺唔會咁完美！",
+        "zh_subtitle": "測試1：放大鏡看內含物（棉絮vs圓形氣泡）；測試2：手握冰涼感；測試3：顏色是否過度均一。",
+        "en_subtitle": "Test 1: magnify — natural stone has inclusions, glass has round bubbles. Test 2: cold to touch. Test 3: colour too perfect = suspicious."
+      },
+      "15_25s": {
+        "cantonese_vo": "以上三個你識得用。但仲有第四個方法——係最準確嗰個，唔使任何工具，任何人都做得到⋯⋯",
+        "zh_subtitle": "以上三個你學到了，但還有第四個方法——最準確、無需工具，任何人都能做。",
+        "en_subtitle": "You now know three tests. But there's a 4th — the most accurate one. No tools needed. Anyone can do it—"
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤我，下集話你知！",
+        "zh_subtitle": "追蹤帳號，下集繼續揭秘",
+        "en_subtitle": "Follow for Part 4 — dropping Thursday!"
+      }
+    },
+    "caption": "🔍 你養住假水晶幾年都唔知？（第3集）\n3個肉眼即測方法：放大鏡氣泡 / 手握冰涼感 / 顏色均一度\n第四個最準確方法——下集先公開 👀\n💾 收藏留底 | 追蹤睇完整系列",
+    "hashtags": [
+      "#真假水晶",
+      "#水晶鑑定",
+      "#礦石知識",
+      "#crystalauthenticity",
+      "#水晶",
+      "#礦石",
+      "#crystalhealing",
+      "#玄學",
+      "#風水",
+      "#香港風水",
+      "#開運"
+    ]
   },
   {
     "date": "2026-06-22",
@@ -153,7 +406,62 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_number": 3,
+    "post_title": "🔬 水晶有沒有能量？科學角度的真實答案",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🔬 水晶有沒有能量？科學家的真實答案（出乎意料）",
+        "visual_desc": "黑白對比分割設計——左邊白水晶特寫（代表「能量」），右邊顯微鏡圖（代表「科學」），中央問號大字，右下角品牌Logo",
+        "design_note": "「出乎意料」四字製造好奇，科學感視覺吸引理性受眾，擴大觸及面"
+      },
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "科學事實 1：石英（白水晶主成分 SiO₂）具壓電效應（Piezoelectric Effect）",
+          "→ 受壓力時產生電荷，受電荷時振動——石英鐘、USB 晶片、聲納均基於此",
+          "→ 這是有嚴格科學根據的真實物理現象，非玄學"
+        ],
+        "visual_desc": "石英振盪器圖（電子元件）與白水晶並排，視覺衝擊感強，標籤說明對應關係"
+      },
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "科學事實 2：礦石顏色對情緒有真實心理影響——色彩心理學（Colour Psychology）已充分研究",
+          "→ 藍色系（海藍寶/天青石）→ 降低壓力荷爾蒙皮質醇",
+          "→ 黃色系（黃水晶）→ 提升血清素分泌（愉悅感）"
+        ],
+        "visual_desc": "冷暖色系礦石各一組，對應「減壓」與「提振」標籤，版面有藥品說明書的信任感"
+      },
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "身心靈視角：礦石是「意圖設定的實體錨點」——心理學稱為具象化工具（Embodiment Object）",
+          "→ 你對礦石的專注本身，強化了你的注意力與意圖",
+          "→ 兩個框架（科學＋能量）並不互相排斥，礦石有不同層次的真實作用 🤍"
+        ],
+        "visual_desc": "手握礦石的特寫（溫暖光線），旁邊文字卡片列出「科學層次」與「能量層次」對比"
+      },
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇，下次有人問你「水晶係唔係迷信」你知點答！\n➕ 追蹤我，每週礦石科學+玄學雙視角\n👇 留言：你係科學派定能量派？",
+        "visual_desc": "品牌色背景，中央一句「科學與能量，不是對立的」大字，Logo居中"
+      }
+    ],
+    "caption": "🔬 水晶真係有能量嗎？我問過科學，答案出乎意料\n\n很多人以為水晶療癒係純粹玄學，但其實礦物學同心理學都有一定根據 👀\n\n✦ 石英壓電效應——真實物理現象，工業天天在用\n✦ 顏色影響情緒——色彩心理學支持\n✦ 礦石作為「意圖錨點」——心理學角度成立\n\n科學同能量，從來不是對立的 🤍\n💾 收藏留底，下次有人質疑你有答案",
+    "hashtags": [
+      "#水晶科學",
+      "#crystalhealing",
+      "#礦石能量",
+      "#身心靈",
+      "#壓電效應"
+    ]
   },
   {
     "date": "2026-06-24",
@@ -178,7 +486,52 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "💸 礦石放錯位置等於破財！這3個位置千萬別放",
+    "series_hook": "黑曜石放睡房——能量太強導致失眠+人際摩擦，風水師親口話",
+    "next_episode_preview": "第5集：命理師揭秘——哪塊石跟你八字相剋？",
+    "visual_prompts": {
+      "hook": "家居平面圖快速出現，三個位置被紅圈標示，配「⚠️ 放錯 = 破財」文字疊加，視覺衝擊強。",
+      "develop": "三個「錯誤位置」逐一出現：廁所旁/黑曜石放睡房/礦石混放無序。每個配簡單動畫說明原因。",
+      "climax": "「第三個位置你估唔到係邊度⋯⋯」黑屏懸念，配神秘音效。",
+      "cta": "「第5集：你八字相剋的石頭係？」追蹤特效。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "警告！你屋企有礦石嗎？有三個位置放了等於破財！",
+        "zh_subtitle": "警告！家中有礦石嗎？三個位置放了等於破財！",
+        "en_subtitle": "Warning! 3 spots in your home where crystals DRAIN your wealth."
+      },
+      "3_15s": {
+        "cantonese_vo": "第一：廁所附近——水氣重，礦石能量被沖走；第二：黑曜石放睡房——保護能量過強，影響睡眠同感情；第三個你估唔到，係最多人犯嘅錯誤⋯⋯",
+        "zh_subtitle": "錯誤1：廁所旁（水氣沖散能量）；錯誤2：黑曜石放睡房（能量過強影響睡眠）；錯誤3留到下一秒⋯⋯",
+        "en_subtitle": "Mistake 1: near toilets (water drains energy). Mistake 2: black obsidian in the bedroom (too intense). Mistake 3 is the one everyone makes—"
+      },
+      "15_25s": {
+        "cantonese_vo": "第三個位置，係你每日都會去，仲以為係最安全嘅地方⋯⋯但礦石放係度，反而會⋯⋯",
+        "zh_subtitle": "第三個地方你每天都去，以為最安全，但礦石放那裡反而會⋯⋯",
+        "en_subtitle": "The 3rd spot — you go there every day, you think it's safe — but placing crystals there actually—"
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤我，第5集繼續！",
+        "zh_subtitle": "追蹤帳號，下集繼續",
+        "en_subtitle": "Follow — Part 5 Monday. Don't miss it."
+      }
+    },
+    "caption": "💸 礦石放錯位置等於破財——你中招了嗎？（第4集）\n廁所旁 / 黑曜石入睡房 / ＋第三個最多人犯的錯誤（下集揭曉）\n風水佈局唔係擺好就算——位置同方向都有學問 🏠\n💾 收藏 | 追蹤睇完整系列",
+    "hashtags": [
+      "#礦石風水",
+      "#家居風水",
+      "#水晶擺設",
+      "#crystalfengshui",
+      "#風水佈局",
+      "#開運",
+      "#礦石",
+      "#水晶",
+      "#fengshui",
+      "#玄學",
+      "#香港風水"
+    ]
   },
   {
     "date": "2026-06-25",
@@ -200,7 +553,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "😱 這幾種礦石碰水會毀掉！你有嗎？",
+    "caption": ""
   },
   {
     "date": "2026-06-26",
@@ -236,7 +591,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "你嘅八字同礦石相剋？命理師揭秘",
+    "caption": ""
   },
   {
     "date": "2026-06-29",
@@ -258,7 +615,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "拉長石為什麼會發彩光？大自然的光學奇蹟",
+    "caption": ""
   },
   {
     "date": "2026-07-01",
@@ -283,7 +642,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "脈輪失衡點影響你嘅財運？（第1集）",
+    "caption": ""
   },
   {
     "date": "2026-07-02",
@@ -305,7 +666,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "7大脈輪對應礦石完整速查表（收藏必備）",
+    "caption": ""
   },
   {
     "date": "2026-07-03",
@@ -341,7 +704,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "三分鐘脈輪自測——你最需要哪塊石？",
+    "caption": ""
   },
   {
     "date": "2026-07-06",
@@ -363,7 +728,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "黑系礦石比較：黑曜石 vs 黑碧璽，你該選哪個？",
+    "caption": ""
   },
   {
     "date": "2026-07-08",
@@ -388,7 +755,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "礦石入門三件套：第一套組合公式（破圈完結篇）",
+    "caption": ""
   },
   {
     "date": "2026-07-09",
@@ -410,7 +779,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "礦石莫氏硬度完整表：哪些能天天戴、哪些要小心？",
+    "caption": ""
   },
   {
     "date": "2026-07-10",
@@ -446,7 +817,52 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "🌟 紫微斗數命盤配礦石（第1集）：四化飛星與守護石",
+    "series_hook": "化祿、化權、化科、化忌——四化不同，礦石能量補足方向完全不同",
+    "next_episode_preview": "第10集：按宮位缺陷選礦石——哪個宮位空宮代表什麼缺失？",
+    "visual_prompts": {
+      "hook": "紫微命盤圓形圖出現，四個宮位依次發光，配「你嘅命盤藏住一塊守護石」文字疊加。",
+      "develop": "四化與礦石對應飛入動畫：化祿→黃水晶（財）、化權→虎眼石（權威）、化科→海藍寶（智慧）、化忌→黑碧璽（化解）。",
+      "climax": "「化忌最多人忽略——但佢決定咗你用哪塊石最有效⋯⋯你嘅化忌係邊個星？」黑屏懸念。",
+      "cta": "「第10集：宮位空宮 = 能量缺失點」追蹤特效。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "你嘅紫微命盤入面，藏住一塊屬於你嘅守護石——大部分人都唔知係邊塊！",
+        "zh_subtitle": "你的紫微命盤裡，藏著一塊屬於你的守護石——大多數人都不知道是哪塊。",
+        "en_subtitle": "Your Zi Wei chart holds the key to your guardian crystal — most people never find it."
+      },
+      "3_15s": {
+        "cantonese_vo": "四化係關鍵：化祿對應豐盛流動——用黃水晶；化權對應意志執行——用虎眼石；化科對應智慧學習——用海藍寶；化忌對應阻礙轉化——必須用黑碧璽化解，唔係壓制！",
+        "zh_subtitle": "四化對應：化祿→黃水晶；化權→虎眼石；化科→海藍寶；化忌→黑碧璽化解。",
+        "en_subtitle": "4 Transformations: Hua Lu = Citrine (flow), Hua Quan = Tiger Eye (will), Hua Ke = Aquamarine (wisdom), Hua Ji = Black Tourmaline (transform, not suppress)."
+      },
+      "15_25s": {
+        "cantonese_vo": "但係⋯⋯化忌落係哪個宮，礦石用法係唔同嘅。化忌落財帛宮同化忌落夫妻宮——係兩條完全唔同嘅解法⋯⋯",
+        "zh_subtitle": "化忌落入不同宮位，礦石使用方式完全不同——化忌落財帛宮 vs 夫妻宮，是兩套解法。",
+        "en_subtitle": "Hua Ji in different houses requires completely different crystal approaches. Finance vs. Relationships — totally different solutions—"
+      },
+      "25_30s": {
+        "cantonese_vo": "第10集，宮位配石完整講——追蹤唔好走！",
+        "zh_subtitle": "第10集：宮位空宮與礦石配對完整指南",
+        "en_subtitle": "Part 10: house-by-house crystal guide. Follow — dropping Thursday!"
+      }
+    },
+    "caption": "🌟 紫微命盤配礦石——第1集（第9集）\n四化飛星 × 礦石能量配對：化祿/化權/化科/化忌各有對應\n化忌落唔同宮位，解法完全唔同——下集深入拆解 👀\n💾 收藏 | 追蹤睇完整紫微礦石系列",
+    "hashtags": [
+      "#紫微斗數",
+      "#命盤配石",
+      "#礦石風水",
+      "#四化飛星",
+      "#水晶能量",
+      "#開運礦石",
+      "#fengshui",
+      "#crystalenergy",
+      "#玄學",
+      "#香港風水",
+      "#紫微"
+    ]
   },
   {
     "date": "2026-07-13",
@@ -468,7 +884,9 @@
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "紫水晶完全指南：你所不知道的7個事實",
+    "caption": ""
   },
   {
     "date": "2026-07-15",
@@ -493,7 +911,51 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "🏠 紫微宮位 × 礦石（第2集）：空宮代表能量缺口",
+    "series_hook": "命宮空宮唔係冇嘢——係你要靠後天工具去補足嘅位置",
+    "next_episode_preview": "第11集：奇門遁甲時空佈局——最強時機配礦石開運法",
+    "visual_prompts": {
+      "hook": "命盤圖出現，某個宮位被紅圈標示「空宮」，疊加「呢個位空咗——你嘅能量有個洞」文字。",
+      "develop": "三個重要宮位逐一解說（命宮、財帛宮、夫妻宮），每個配對礦石飛入動畫。",
+      "climax": "「但係！唔係每個空宮都係壞事——有種空宮係⋯⋯」黑屏，神秘感強。",
+      "cta": "「第11集：奇門遁甲 × 礦石最強時機佈局」追蹤特效。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "你命盤有冇空宮？空宮唔係冇嘢——係你人生有個能量缺口！",
+        "zh_subtitle": "命盤有空宮？空宮不是沒有——是你人生的能量缺口！",
+        "en_subtitle": "Empty palace in your chart? That's not nothing — it's an energy gap in your life."
+      },
+      "3_15s": {
+        "cantonese_vo": "三個最關鍵嘅宮位：命宮空——用白水晶作基礎能量場補足；財帛宮空——黃水晶加虎眼石；夫妻宮空——粉晶配月光石，補陰柔流動嘅感情能量。",
+        "zh_subtitle": "命宮空→白水晶；財帛宮空→黃水晶+虎眼石；夫妻宮空→粉晶+月光石。",
+        "en_subtitle": "Life palace empty → Clear Quartz. Wealth palace → Citrine + Tiger Eye. Relationship palace → Rose Quartz + Moonstone."
+      },
+      "15_25s": {
+        "cantonese_vo": "但係有種空宮——唔係缺失，係留白。係你人生最有彈性嘅地方，礦石用錯反而會限制你⋯⋯",
+        "zh_subtitle": "有種空宮是「留白」而非缺失——礦石用錯反而會限制你的可能性。",
+        "en_subtitle": "But some empty palaces are freedom, not lack. Wrong crystals there actually limit your potential—"
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤，第11集奇門遁甲出場！",
+        "zh_subtitle": "追蹤帳號，第11集：奇門遁甲礦石佈局",
+        "en_subtitle": "Follow — Part 11: Qi Men Dun Jia crystal timing. Thursday!"
+      }
+    },
+    "caption": "🏠 紫微空宮 × 礦石補足法（第10集）\n命宮/財帛/夫妻宮空——各有對應礦石補足策略\n但有種空宮用錯石反而會限制你——下集深入講 👀\n💾 收藏 | 追蹤睇奇門遁甲篇",
+    "hashtags": [
+      "#紫微斗數",
+      "#空宮",
+      "#命盤礦石",
+      "#風水開運",
+      "#水晶能量",
+      "#crystalfengshui",
+      "#玄學",
+      "#香港命理",
+      "#礦石",
+      "#開運"
+    ]
   },
   {
     "date": "2026-07-16",
@@ -515,7 +977,62 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_number": 10,
+    "post_title": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
+        "visual_desc": "左邊「REAL」天然水晶特寫 vs 右邊「FAKE」玻璃仿品特寫（對比鮮明），中央放大鏡圖示，底部「👉 左滑學會分辨」",
+        "design_note": "對比圖是此類內容收藏率最高的視覺格式，確保圖片質量與差異清晰可見"
+      },
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "✅ 天然礦石特徵 1：內含物（Inclusions）——棉絮、雲霧、氣液包裹體、色帶不均",
+          "❌ 仿品特徵 1：完全無內含物且顏色均一——玻璃或合成品的典型",
+          "🔍 實操：10倍放大鏡下觀察——天然石看到自然紋理，玻璃看到圓形氣泡"
+        ],
+        "visual_desc": "10倍放大鏡下天然白水晶（有棉絮）vs 玻璃（有圓形氣泡）對比微觀圖"
+      },
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "✅ 天然礦石特徵 2：溫度差——天然石英手握後慢慢回溫（導熱性低）",
+          "❌ 仿品特徵 2：玻璃仿品與室溫相近，手握無明顯冰涼感",
+          "✅ 天然礦石特徵 3：重量——同體積天然水晶比玻璃略重（密度約 2.65 g/cm³）"
+        ],
+        "visual_desc": "手握水晶特寫圖，旁邊溫度計小圖示意「冰涼感」概念"
+      },
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "✅ 天然礦石特徵 4：色帶（Colour Zoning）——天然有色礦石顏色深淺不均、分區明顯",
+          "✅ 天然礦石特徵 5：不完美——小裂紋、輕微缺角、生長紋是真實礦石的「簽名」",
+          "⚠️ 最終確認方法：GIA / 本地寶石學院出具鑑定證書（肉眼觀察只作參考）"
+        ],
+        "visual_desc": "天然紫水晶色帶特寫 vs 染色仿品均一色對比，文字箭頭標注差異位置"
+      },
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇，買礦石前先睇！\n➕ 追蹤我，每週礦石鑑定科普\n👇 留言：你有冇買過懷疑係假嘅礦石？",
+        "visual_desc": "品牌主色背景，中央放大鏡圖示，「真假礦石，你值得知道真相」字句"
+      }
+    ],
+    "caption": "🔎 買礦石前必看！5個肉眼就能識別真假水晶的方法\n\n花了錢卻買到玻璃仿品？這篇幫你建立基本鑑定眼力 👁\n\n✦ 天然石有內含物——棉絮、雲霧、色帶全是真實記號\n✦ 玻璃仿品看圓形氣泡——10倍放大鏡一照即知\n✦ 最終保障：寶石鑑定證書不可缺\n\n💾 收藏備用，下次入手前先對照檢查\n👇 你有試過買到假礦石嗎？留言分享",
+    "hashtags": [
+      "#水晶鑑定",
+      "#天然礦石",
+      "#crystalauthenticity",
+      "#礦物學",
+      "#真假水晶"
+    ]
   },
   {
     "date": "2026-07-18",
@@ -551,7 +1068,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "奇門遁甲×礦石：吉時佈局最強開運法（第1集）",
+    "caption": ""
   },
   {
     "date": "2026-07-20",
@@ -573,7 +1092,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "礦石保養禁忌完全指南（你可能全做錯了）",
+    "caption": ""
   },
   {
     "date": "2026-07-22",
@@ -598,7 +1119,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "奇門遁甲吉時自算教學（第2集）",
+    "caption": ""
   },
   {
     "date": "2026-07-23",
@@ -620,7 +1143,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "捷克隕石：為什麼它叫地球上最高頻的石？",
+    "caption": ""
   },
   {
     "date": "2026-07-25",
@@ -656,7 +1181,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "礦石方位佈局完整指南：八方位對照表",
+    "caption": ""
   },
   {
     "date": "2026-07-27",
@@ -678,7 +1205,62 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_number": 13,
+    "post_title": "🧪 量子物理與水晶能量：科學家怎麼看？",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🧪 量子物理 vs 水晶能量：科學家的立場是⋯⋯",
+        "visual_desc": "深藍科技感背景，白水晶特寫疊加物理公式淡紋，衝擊性標題居中，底部「👉 左滑看完整分析」",
+        "design_note": "科技感設計吸引理性受眾，標題不給答案製造懸念，推動翻頁"
+      },
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "已確認的科學事實：石英壓電效應（Piezoelectric Effect）——礦物學與物理學均支持",
+          "已確認的科學事實：礦石晶體結構具有固定振動頻率（每種礦物的分子鍵振動頻率不同）",
+          "→ 這是紅外線光譜儀（FTIR）可測量的客觀物理量，非玄學概念"
+        ],
+        "visual_desc": "FTIR 光譜圖示意（可用示意圖），對應礦石晶體結構圖，版面具科學報告感"
+      },
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "目前科學未充分支持的說法：礦石可直接「傳遞能量」給人體或改變命運",
+          "→ 此說法目前缺乏雙盲實驗支持，屬能量療癒信仰體系而非實證科學",
+          "→ 但：安慰劑效應（Placebo Effect）在正規醫學研究中也是真實且有效的機制"
+        ],
+        "visual_desc": "科學量表設計——左邊「有科學支持」欄，右邊「目前未有充分實證」欄，清晰對比"
+      },
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "實用結論：用礦石作為「心理錨點」與「意圖工具」——有心理學根據",
+          "礦石幫你的，是讓你更專注於自己的目標與狀態——這本身就有真實效果",
+          "科學工具和靈性工具可以同時使用，不必二選一 🤍"
+        ],
+        "visual_desc": "手握礦石的溫暖特寫，疊加「科學 + 靈性 = 完整工具箱」文字卡"
+      },
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇，下次有人問你收藏礦石係唔係迷信你知點答！\n➕ 追蹤，每週礦石科學+玄學雙視角分析\n👇 留言：你覺得科學同玄學可以共存嗎？",
+        "visual_desc": "品牌色背景，中央「理性與感性，都是理解世界的方式」字句，Logo居中"
+      }
+    ],
+    "caption": "🧪 量子物理 vs 水晶能量：科學家怎麼看？（老實說）\n\n我不打算只告訴你「水晶有能量」——我更想告訴你科學角度的真實立場 🔬\n\n✦ 壓電效應：石英有真實物理振動特性，工業天天在用\n✦ 直接療癒說：目前缺乏雙盲實驗支持，屬信仰體系\n✦ 心理錨點說：有心理學支撐，安慰劑效應也是真實效果\n\n科學不完全支持 ≠ 完全沒有用 🤍\n💾 收藏留底，下次聽到「水晶係迷信」你有根有據地回答",
+    "hashtags": [
+      "#水晶科學",
+      "#礦物學",
+      "#身心靈",
+      "#crystalscience",
+      "#量子能量"
+    ]
   },
   {
     "date": "2026-07-29",
@@ -703,7 +1285,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "礦石淨化科學全解：4種方法邊種最有效？",
+    "caption": ""
   },
   {
     "date": "2026-07-30",
@@ -725,7 +1309,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "礦石硬度決定佩戴方式：這樣做才不會白費錢",
+    "caption": ""
   },
   {
     "date": "2026-07-31",
@@ -761,7 +1347,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "你真係感應到礦石能量嗎？——科學解釋",
+    "caption": ""
   },
   {
     "date": "2026-08-03",
@@ -783,7 +1371,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "脈輪失衡有什麼症狀？礦石怎麼幫你調整",
+    "caption": ""
   },
   {
     "date": "2026-08-05",
@@ -808,7 +1398,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "礦石FAQ大揭秘：你問最多嘅10個問題（信任建立完結篇）",
+    "caption": ""
   },
   {
     "date": "2026-08-06",
@@ -830,7 +1422,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "礦石鑑定 Part 2：這6種礦石最常被仿冒",
+    "caption": ""
   },
   {
     "date": "2026-08-08",
@@ -866,7 +1460,51 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "🏢 辦公室放呢塊石，3個月升職加薪真實故事",
+    "series_hook": "唔係佢有魔法——係礦石幫佢建立了更清晰的自信同決策狀態",
+    "next_episode_preview": "第18集：失眠多夢真係因為睡房礦石放錯了——完整修正方案",
+    "visual_prompts": {
+      "hook": "辦公桌美圖——黃水晶放在MacBook旁，溫暖燈光，疊加「3個月後——升職了」字幕，電影感。",
+      "develop": "三格畫面快切：黃水晶（自信行動）、黑碧璽（防小人/邊界）、白水晶（清晰思考放大）——每塊旁邊飛入功能標籤。",
+      "climax": "「但係⋯⋯呢三塊石要按正確方位擺才有效。其中有一個位置，90%人都擺錯了⋯⋯」",
+      "cta": "「想知正確擺法？追蹤我，下集教你！」動態特效。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "佢係我客人——辦公桌加了三塊石，三個月後升職加薪。係真實故事！",
+        "zh_subtitle": "這是我的客戶——辦公桌加了三塊礦石，三個月後升職加薪。真實故事。",
+        "en_subtitle": "My client added 3 crystals to her desk. 3 months later — promoted. Real story."
+      },
+      "3_15s": {
+        "cantonese_vo": "唔係魔法——係礦石幫佢建立咗每日嘅心理狀態：黃水晶——提醒自己值得成功；黑碧璽——建立職場界線感；白水晶——保持思路清晰。三塊石，三個心理錨點！",
+        "zh_subtitle": "礦石作為心理錨點：黃水晶（自信錨點）、黑碧璽（界線感錨點）、白水晶（清晰思考錨點）。",
+        "en_subtitle": "Not magic — 3 psychological anchors: Citrine (self-worth), Black Tourmaline (boundaries), Clear Quartz (clarity). One crystal per mindset."
+      },
+      "15_25s": {
+        "cantonese_vo": "但係呢三塊石——擺係桌上邊個位置，係有講究嘅。有一個位大部分人都擺錯，反而會令能量散掉⋯⋯",
+        "zh_subtitle": "這三塊石的擺放位置有講究——有一個位置大多數人都放錯了，反而會分散能量。",
+        "en_subtitle": "But placement matters. There's one position most people get wrong — it actually disperses the energy instead—"
+      },
+      "25_30s": {
+        "cantonese_vo": "追蹤我，下集完整教學！",
+        "zh_subtitle": "追蹤帳號，下集辦公桌礦石擺放完整教學",
+        "en_subtitle": "Follow — next ep: the exact placement guide. Thursday!"
+      }
+    },
+    "caption": "🏢 辦公桌加3塊礦石，3個月升職——客戶真實故事（第17集）\n黃水晶（自信）/ 黑碧璽（界線）/ 白水晶（清晰）= 職場能量三件套\n擺放位置有講究——90%人放錯，下集教學 👀\n💾 收藏 | 追蹤睇完整職場礦石系列",
+    "hashtags": [
+      "#辦公桌風水",
+      "#職場開運",
+      "#礦石擺設",
+      "#招財水晶",
+      "#crystaloffice",
+      "#fengshui",
+      "#水晶能量",
+      "#開運礦石",
+      "#玄學",
+      "#香港風水"
+    ]
   },
   {
     "date": "2026-08-10",
@@ -888,7 +1526,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "如何挑選你的第一顆礦石？5個入門原則",
+    "caption": ""
   },
   {
     "date": "2026-08-12",
@@ -913,7 +1553,9 @@
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "失眠多夢：睡房礦石放錯了——完整修正方案",
+    "caption": ""
   },
   {
     "date": "2026-08-13",
@@ -935,7 +1577,62 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_number": 18,
+    "post_title": "🏢 辦公桌必備3款礦石：招財+防小人+專注力完整搭配",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🏢 辦公桌必備3款礦石：招財+防小人+專注力一次搞定",
+        "visual_desc": "辦公桌美圖——MacBook旁邊放三顆礦石（黃水晶、黑碧璽、白水晶），溫暖自然光打燈，右下角品牌Logo，底部「👉 左滑看完整搭配邏輯」",
+        "design_note": "生活場景代入感是Phase 3最重要的視覺策略，比純礦石特寫更能觸發「我也想要」的購買意圖"
+      },
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🟡 黃水晶（Citrine）→ 太陽神經叢對應，提升自信與行動決策力",
+          "→ 建議放置位置：桌面右上角（財位方向）或可視範圍內",
+          "→ 科學角度：黃色系提升血清素，有助積極情緒與清晰思考"
+        ],
+        "visual_desc": "黃水晶放在辦公桌特寫，箭頭指向「右上角財位」，版面清晰有儀式感"
+      },
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "⚫ 黑碧璽（Black Tourmaline）→ 海底輪對應，建立能量邊界、防護外來負能量",
+          "→ 建議放置位置：螢幕旁（電磁場保護）或辦公桌入口方向",
+          "→ 注意：黑碧璽需定期淨化（每1–2週），否則保護效能下降"
+        ],
+        "visual_desc": "黑碧璽柱狀晶體放在MacBook旁特寫，強調「電磁防護」概念圖示"
+      },
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🤍 白水晶（Clear Quartz）→ 全脈輪對應，淨化辦公室空間能量，放大其他礦石效能",
+          "→ 建議放置位置：辦公桌中心或與其他礦石相鄰（作為能量放大器）",
+          "→ 三石組合邏輯：黃水晶（招財行動）+ 黑碧璽（防護邊界）+ 白水晶（淨化放大）= 完整職場能量場"
+        ],
+        "visual_desc": "三顆礦石排成三角陣形特寫，美麗的辦公桌背景，標籤清晰"
+      },
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏起來，佈置你的職場能量角！\n➕ 追蹤我，每週礦石場景應用指南\n👇 留言：你辦公桌上有沒有擺礦石？",
+        "visual_desc": "品牌主色背景，三顆礦石小圖並排，「讓你的辦公桌也有能量場」字句"
+      }
+    ],
+    "caption": "🏢 辦公桌加這3顆，職場能量完全不同！\n\n不是迷信——是幫你在視覺上建立「自信、專注、邊界感」的心理提醒系統 🔮\n\n✦ 黃水晶：提升自信與決策力，放右上角\n✦ 黑碧璽：防護負能量與電磁場，螢幕旁邊\n✦ 白水晶：淨化空間，放大整組能量\n\n💾 收藏這篇，對照你的桌面佈置一下\n👇 你桌上現在有擺嘢嗎？留言讓我知道",
+    "hashtags": [
+      "#辦公桌風水",
+      "#職場開運",
+      "#礦石擺設",
+      "#crystaloffice",
+      "#招財水晶"
+    ]
   },
   {
     "date": "2026-08-15",
@@ -971,7 +1668,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "感情篇：粉晶真係可以招桃花？完整邏輯拆解",
+    "caption": ""
   },
   {
     "date": "2026-08-17",
@@ -993,7 +1692,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "按紫微命盤選守護石：四化飛星對應礦石",
+    "caption": ""
   },
   {
     "date": "2026-08-19",
@@ -1018,7 +1719,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "礦石開光淨化儀式全程記錄（第1集）",
+    "caption": ""
   },
   {
     "date": "2026-08-20",
@@ -1040,7 +1743,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "臥室礦石佈局：助睡眠、安神、桃花三合一",
+    "caption": ""
   },
   {
     "date": "2026-08-21",
@@ -1076,7 +1781,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "開光儀式第2集：意圖設定——你說錯了嗎？",
+    "caption": ""
   },
   {
     "date": "2026-08-24",
@@ -1098,7 +1805,64 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_number": 21,
+    "post_title": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景對照表",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景全攻略",
+        "visual_desc": "月圓夜晚背景（深藍天空+滿月），礦石散落白布上的美圖，溫暖蠟燭光打氛圍，底部「👉 左滑看淨化方法對照表」",
+        "design_note": "儀式感美學是Phase 3最強收藏觸發視覺，讓人想親身複製這個場景"
+      },
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "方法 1：白水晶簇過夜（最溫和，所有礦石適用）",
+          "→ 操作：礦石放在白水晶簇上，靜置 6–8 小時（夜間效果更佳）",
+          "→ 適用：日常保養、高頻使用的礦石（每週一次）"
+        ],
+        "visual_desc": "礦石放在大型白水晶簇上特寫，溫暖自然光，有儀式感"
+      },
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "方法 2：月光照射（補充能量型淨化，滿月效果最強）",
+          "→ 操作：礦石放窗邊或戶外，接受月光 4–8 小時（注意天氣）",
+          "→ 適用：需要「充電」的礦石，適合月圓前後 2–3 天",
+          "⚠️ 提醒：忌日曬礦石也忌強烈月光長時間直照"
+        ],
+        "visual_desc": "礦石放窗邊接受月光特寫，月圓背景，有詩意又有儀式感"
+      },
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "方法 3：薰香煙霧繞行（快速淨化，外出回來後適用）",
+          "→ 操作：白鼠尾草 / 聖木 / 線香點燃，讓煙霧繞行礦石 30–60 秒",
+          "→ 適用：所有礦石，特別適合出入公共場所或高壓環境後",
+          "方法 4：頌缽/音叉聲波（不接觸礦石，最安全）→ 適合所有礦石包括脆弱品種"
+        ],
+        "visual_desc": "薰香煙霧繞行礦石的動態美圖（可用Boomerang截圖），視覺感強烈"
+      },
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇SOP，每次淨化前參考！\n➕ 追蹤，每週礦石使用指南更新\n👇 留言：你最常用哪種淨化方法？",
+        "visual_desc": "月光照在礦石上的美圖，品牌Logo居角，「讓你的礦石保持最佳狀態」字句"
+      }
+    ],
+    "caption": "🌙 礦石淨化4種方法，你選錯了嗎？\n\n不同礦石、不同場景，適合的淨化方式也不同——這篇幫你整理成一份可以直接用的 SOP 🙏\n\n✦ 日常保養 → 白水晶簇過夜（最安全）\n✦ 能量補充 → 月光照射（月圓前後最佳）\n✦ 快速淨化 → 薰香煙霧繞行（30秒搞定）\n✦ 脆弱礦石 → 頌缽聲波（完全不接觸）\n\n💾 收藏留底，下次淨化前先查對照表\n👇 你現在用緊邊種方法？",
+    "hashtags": [
+      "#礦石淨化",
+      "#水晶保養",
+      "#crystalcleansing",
+      "#消磁方法",
+      "#礦石儀式"
+    ]
   },
   {
     "date": "2026-08-26",
@@ -1123,7 +1887,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "礦石搭配禁忌：這兩塊千萬別同時佩戴！",
+    "caption": ""
   },
   {
     "date": "2026-08-27",
@@ -1145,7 +1911,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "礦石入門三件套：你的第一個能量組合",
+    "caption": ""
   },
   {
     "date": "2026-08-28",
@@ -1181,7 +1949,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "月亮週期×礦石能量學：每個月最強充電時機",
+    "caption": ""
   },
   {
     "date": "2026-08-31",
@@ -1203,7 +1973,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "客戶見證：3個真實礦石使用故事",
+    "caption": ""
   },
   {
     "date": "2026-09-02",
@@ -1228,7 +2000,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "礦石採購完全指南：哪裡買才能保證買到天然？",
+    "caption": ""
   },
   {
     "date": "2026-09-03",
@@ -1250,7 +2024,9 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "高頻礦石進階搭配：捷克隕石+接地石平衡法",
+    "caption": ""
   },
   {
     "date": "2026-09-04",
@@ -1286,7 +2062,52 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_url": null
+    "asset_url": null,
+    "episode_title": "🌙 一千零一夜礦石風水系列完結篇：你學到了什麼？",
+    "series_hook": "25集，從「水晶係咪迷信」到「按命盤與脈輪配礦石的完整知識體系」",
+    "next_episode_preview": "第二季預告：更深入的個人命盤礦石諮詢系列（敬請期待）",
+    "visual_prompts": {
+      "hook": "25顆礦石整齊排列美圖，每顆旁邊有集數編號，電影感結尾氛圍。疊加「第1集 → 第25集」時間軸文字。",
+      "develop": "快剪回顧：每個Phase最高光的畫面各3秒——禁忌揭秘、命盤配石、場景應用。",
+      "climax": "「你從第1集追到第25集——你已經係礦石知識體系最完整嘅那群人之一⋯⋯」溫暖感動氛圍。",
+      "cta": "「第二季預告——留言告訴我你最想深入了解哪個主題！」追蹤特效。"
+    },
+    "script": {
+      "0_3s": {
+        "cantonese_vo": "一千零一夜——我哋從第1集講到第25集，今日係完結篇。",
+        "zh_subtitle": "一千零一夜——從第1集到第25集，今天是完結篇。",
+        "en_subtitle": "One Thousand and One Nights — Episode 1 to 25. This is the finale."
+      },
+      "3_15s": {
+        "cantonese_vo": "由「水晶曬太陽會廢」，到「紫微命盤配守護石」，到「辦公桌能量佈局」——你而家已經有一套完整嘅礦石知識框架。呢個係科學、命理、同心理學嘅交叉點。",
+        "zh_subtitle": "從「日曬礦石禁忌」，到「紫微命盤配石」，到「場景應用佈局」——你現在擁有一套完整的礦石知識框架。",
+        "en_subtitle": "From sunlight warnings → Zi Wei chart crystals → workspace layouts — you now have a complete crystal knowledge framework. Science + metaphysics + psychology."
+      },
+      "15_25s": {
+        "cantonese_vo": "我想問你一個問題——追完呢25集，你有沒有哪塊石係你最想深入了解、或者最想配在你自己命盤入面的？留言告訴我——你的答案就係第二季的方向！",
+        "zh_subtitle": "追完25集後，你最想深入了解哪塊礦石，或配對自己命盤？留言告訴我——你的回答決定第二季方向！",
+        "en_subtitle": "After 25 episodes — which crystal do you most want to explore for your own chart? Comment below — your answer shapes Season 2."
+      },
+      "25_30s": {
+        "cantonese_vo": "第二季，更深，更個人化——追蹤唔好走！",
+        "zh_subtitle": "第二季：更深入的個人命盤礦石諮詢系列，敬請期待",
+        "en_subtitle": "Season 2 incoming — deeper, more personal. Follow and stay tuned! 🔮"
+      }
+    },
+    "caption": "🌙 一千零一夜礦石風水系列——第25集完結篇\n25集走過：禁忌揭秘 → 命盤配石 → 場景佈局\n你已擁有一套完整的礦石知識體系 🙏\n留言告訴我——你最想深入了解哪塊石？決定第二季方向！\n💾 收藏 | ➕ 追蹤等第二季",
+    "hashtags": [
+      "#礦石風水",
+      "#一千零一夜",
+      "#水晶知識",
+      "#紫微斗數",
+      "#crystalhealing",
+      "#風水",
+      "#玄學",
+      "#礦石",
+      "#香港風水",
+      "#crystalseries",
+      "#開運"
+    ]
   },
   {
     "date": "2026-09-07",
@@ -1308,6 +2129,8 @@
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
     "status": "pending",
-    "asset_urls": null
+    "asset_urls": null,
+    "post_title": "90天礦石知識回顧：你學到了這些！（感謝篇）",
+    "caption": ""
   }
 ]
