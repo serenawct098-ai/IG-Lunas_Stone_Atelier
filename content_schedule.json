@@ -2698,7 +2698,7 @@
     "next_stone_zh": "拉長石",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "礦石淨化科學全解：4種方法哪種最有效？",
     "caption": "🔊 礦石淨化科學全解（第14集）\n4種方法：月光 / 聲波 / 白水晶簇 / 薰香\n你用緊最多那種，可能效果最有限！\n💾 收藏 | 追蹤查看第15集答案",
     "series_hook": "聲波淨化vs月光淨化——科學同玄學各有根據，但是⋯⋯",
@@ -2761,7 +2761,9 @@
       "#水晶淨化",
       "#身心靈"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-07-30.mp4"
+    ],
     "music": {
       "style": "ambient",
       "tempo": "slow",
