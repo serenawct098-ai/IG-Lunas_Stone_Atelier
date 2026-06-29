@@ -3420,8 +3420,14 @@
     "stone_zh": "黃玉",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-11_p1.png",
+      "assets/posts/post_2026-08-11_p2.png",
+      "assets/posts/post_2026-08-11_p3.png",
+      "assets/posts/post_2026-08-11_p4.png",
+      "assets/posts/post_2026-08-11_p5.png"
+    ],
     "post_title": "如何挑選你的第一顆礦石？5個入門原則",
     "caption": "第一顆礦石應該怎麼選？5個入門原則讓你不走冤枉路 💎\n\n太多人一開始就犯同樣的錯：一次買一堆、買最貴的、完全不了解就入手\n\n✦ 原則1：按直覺選 vs 按功能選，兩種都有效\n✦ 原則2：第一顆從白水晶、黑碧璽、紫水晶三選一\n✦ 原則3：先從需求出發，不要從礦石出發\n\n💾 收藏這篇，入門前先看清楚\n👇 留言你的第一顆礦石是什麼，值得分享！",
     "post_number": 17,
