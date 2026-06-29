@@ -3004,8 +3004,14 @@
     "stone_zh": "紅瑪瑙",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-04_p1.png",
+      "assets/posts/post_2026-08-04_p2.png",
+      "assets/posts/post_2026-08-04_p3.png",
+      "assets/posts/post_2026-08-04_p4.png",
+      "assets/posts/post_2026-08-04_p5.png"
+    ],
     "post_title": "脈輪失衡有什麼症狀？礦石怎麼幫你調整",
     "caption": "脈輪失衡症狀對照表——你的身體和情緒在告訴你什麼？ 🌈\n\n很多人不知道，長期焦慮、拖延、難以表達，可能是特定脈輪失衡的信號\n\n✦ 海底輪失衡 → 安全感缺失，黑碧璽接地\n✦ 喉輪失衡 → 難以表達，青金石開聲\n✦ 頂輪失衡 → 睡眠障礙，紫水晶安神\n\n💾 收藏這份症狀表，對照你自己\n👇 留言哪個脈輪症狀最像你？我幫你選礦石 👇",
     "post_number": 15,
