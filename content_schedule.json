@@ -2785,8 +2785,14 @@
     "stone_zh": "青金石",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-07-31_p1.png",
+      "assets/posts/post_2026-07-31_p2.png",
+      "assets/posts/post_2026-07-31_p3.png",
+      "assets/posts/post_2026-07-31_p4.png",
+      "assets/posts/post_2026-07-31_p5.png"
+    ],
     "post_title": "礦石硬度決定佩戴方式：這樣做才不會白費錢",
     "caption": "礦石硬度決定佩戴方式——這個邏輯你一定要懂，否則白費錢 💸\n\n不是每種礦石都適合做手鍊！硬度不夠，手鍊佩戴一個月就刮花了\n\n✦ 硬度 7+ 才適合天天戴手鍊\n✦ 月光石、拉長石做吊墜比手鍊更耐用\n✦ 天青石、透石膏：只適合擺件，不適合佩戴\n\n💾 收藏，下次買石先問：我要做手鍊還是擺件？\n👇 留言你最常用哪種款式 👇",
     "post_number": 14,
