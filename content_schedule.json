@@ -1947,8 +1947,14 @@
     "stone_zh": "月光石",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-07-17_p1.png",
+      "assets/posts/post_2026-07-17_p2.png",
+      "assets/posts/post_2026-07-17_p3.png",
+      "assets/posts/post_2026-07-17_p4.png",
+      "assets/posts/post_2026-07-17_p5.png"
+    ],
     "post_number": 10,
     "post_title": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
     "pages": [
