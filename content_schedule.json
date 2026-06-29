@@ -4429,7 +4429,7 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "3",
-    "status": "pending",
+    "status": "completed",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4437,7 +4437,10 @@
       "body": "藍晶石守護神經系統與思維清晰，是專注工作的好夥伴。",
       "en_text": "Kyanite clears the mind and sharpens focus.",
       "cta_text": "🛒 Profile 連結選購"
-    }
+    },
+    "asset_paths": [
+      "assets/stories/story_2026-08-28.png"
+    ]
   },
   {
     "date": "2026-08-30",
