@@ -1184,7 +1184,7 @@
       "#礦石速查表",
       "#身心靈"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-03",
@@ -1409,7 +1409,7 @@
       "#礦石比較",
       "#crystalprotection"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-08",
@@ -1613,7 +1613,7 @@
       "#礦石保養",
       "#礦石知識"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-10",
@@ -1837,7 +1837,7 @@
       "#crystalscience",
       "#礦石知識"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-15",
@@ -2039,7 +2039,7 @@
       "#礦物學",
       "#真假水晶"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-17",
@@ -2264,7 +2264,7 @@
       "#礦石知識",
       "#水晶保養"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-22",
@@ -2468,7 +2468,7 @@
       "#礦石鑑別",
       "#crystalenergy"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-24",
@@ -2693,7 +2693,7 @@
       "#crystalscience",
       "#量子能量"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-29",
@@ -2897,7 +2897,7 @@
       "#crystalguide",
       "#礦石知識"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-07-31",
@@ -3122,7 +3122,7 @@
       "#礦石療癒",
       "#身心靈"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-05",
@@ -3326,7 +3326,7 @@
       "#crystalauthenticity",
       "#礦石知識"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-07",
@@ -3549,7 +3549,7 @@
       "#水晶入門",
       "#礦石知識"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-12",
@@ -3753,7 +3753,7 @@
       "#crystaloffice",
       "#招財水晶"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-14",
@@ -3978,7 +3978,7 @@
       "#風水礦石",
       "#開運水晶"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-19",
@@ -4182,7 +4182,7 @@
       "#bedroom_crystals",
       "#礦石風水"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-21",
@@ -4407,7 +4407,7 @@
       "#消磁方法",
       "#礦石儀式"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-26",
@@ -4609,7 +4609,7 @@
       "#白水晶",
       "#礦石搭配"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-08-28",
@@ -4842,7 +4842,7 @@
       "#礦石知識",
       "#香港風水"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-09-02",
@@ -5044,7 +5044,7 @@
       "#礦石搭配",
       "#crystaladvanced"
     ],
-    "asset_status": "generated"
+    "generated": true
   },
   {
     "date": "2026-09-04",
@@ -5266,6 +5266,6 @@
       "#礦石之旅",
       "#crystaleducation"
     ],
-    "asset_status": "generated"
+    "generated": true
   }
 ]
