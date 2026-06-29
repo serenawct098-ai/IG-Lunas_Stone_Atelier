@@ -3619,8 +3619,14 @@
     "stone_zh": "孔雀石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-14_p1.png",
+      "assets/posts/post_2026-08-14_p2.png",
+      "assets/posts/post_2026-08-14_p3.png",
+      "assets/posts/post_2026-08-14_p4.png",
+      "assets/posts/post_2026-08-14_p5.png"
+    ],
     "post_number": 18,
     "post_title": "🏢 辦公桌必備3款礦石：招財+防小人+專注力完整搭配",
     "pages": [
