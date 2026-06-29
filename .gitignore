@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
 generated_assets.json
-manus_task.json
 .DS_Store
 
 # 素材由 Manus 批量生成，PNG/MP4 納入版控（Manus commit 後 GitHub Actions 可讀取發布）
