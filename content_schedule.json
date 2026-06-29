@@ -4676,8 +4676,14 @@
     "stone_zh": "12生肖守護石",
     "phase": "3",
     "cta": "🛒 Profile 連結選購你的守護石",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-09-01_p1.png",
+      "assets/posts/post_2026-09-01_p2.png",
+      "assets/posts/post_2026-09-01_p3.png",
+      "assets/posts/post_2026-09-01_p4.png",
+      "assets/posts/post_2026-09-01_p5.png"
+    ],
     "post_title": "🐉 你的生肖守護石是哪顆？12生肖完整配石指南",
     "caption": "🐉 12生肖守護石完整指南——你的那顆是哪一塊？\n\n不同生肖有不同的能量需求，選對守護石能強化你的天生優勢，補足先天能量缺口 🔮\n\n✦ 鼠：石榴石 + 黑曜石（行動力 + 防護）\n✦ 龍：拉長石 + 海藍寶（領導力 + 冷靜）\n✦ 豬：孔雀石 + 粉晶（豐盛 + 自愛）\n（左滑查看全部12生肖）\n\n💾 收藏這篇，送禮前也可以對照生肖選石\n🛒 Profile 連結選購天然礦石\n👇 留言你的生肖，我幫你診斷最適合的搭配",
     "post_number": 23,
