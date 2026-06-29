@@ -2919,7 +2919,7 @@
     "next_stone_zh": "瑪瑙",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "你真是感應到礦石能量嗎？——科學解釋",
     "caption": "🔬 你真是感應到礦石能量嗎？（第15集）\n科學解說：壓電效應 + 安慰劑效應 + 意圖錨點\n玄學同科學不是對立——是同一回事的不同語言！\n💾 收藏 | 追蹤查看第16集",
     "series_hook": "安慰劑效應也是真實效果——但有種更深層的解釋",
@@ -2982,7 +2982,9 @@
       "#香港風水",
       "#壓電效應"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-08-03.mp4"
+    ],
     "music": {
       "style": "ambient",
       "tempo": "slow",
