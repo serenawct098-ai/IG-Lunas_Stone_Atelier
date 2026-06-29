@@ -8,25 +8,25 @@
 #   - 不需要任何 GitHub Secrets（無 MANUS_API_KEY、IG_ACCESS_TOKEN、IG_USER_ID、OPENAI_API_KEY）
 #
 # 流程：
-#   1. Cron 觸發 → main.py 讀排程 + 礦石 SSOT（mineralogy_data.json，共 33 種礦石）
-#   2. 組裝 manus_task.json → commit 到 repo
-#   3. Manus 透過 GitHub MCP 偵測到新 commit → 主動讀取 manus_task.json
-#   4. Manus 被觸發後：
+#   1. Manus 在指定時間透過 GitHub MCP 呼叫 workflow_dispatch（帶 task_type input）
+#   2. main.py 讀排程 + 礦石 SSOT（mineralogy_data.json，共 33 種礦石）
+#   3. 組裝 manus_task.json → commit 到 repo
+#   4. Manus 透過 GitHub MCP 偵測到新 commit → 主動讀取 manus_task.json
+#   5. Manus 被觸發後：
 #      → 從 assets/ 取 image_paths 對應的備用圖片及文案
 #      → 透過 IG MCP 發布至 Instagram
 #      → 回填 published_url，更新 content_schedule.json status = published
 #      → 進入休眠
 #
-# 觸發機制：Event-Driven Pull（事件驅動型主動拉取）
-#   - GitHub Actions commit manus_task.json 是唯一觸發訊號
-#   - Manus 透過 GitHub MCP 主動拉取，不做 Webhook 監聽，不做持續 Polling
+# 觸發機制：由 Manus 在指定時間透過 GitHub MCP 呼叫 workflow_dispatch
+#   - 排程由 Manus 掌控（非 GitHub cron）
+#   - task_type 一律由 workflow_dispatch input 提供
 #   - 避免 Token 浪費與系統不穩定
 #
 # 發布規格（全格式統一 1080×1350 px，發布時間統一 16:00 HKT）：
-#   Stories  ：逢一、三、四、五、日  16:00 HKT → 1 PNG
-#   Posts    ：逢二、五            16:00 HKT → 5 PNG (Carousel)
-#   Reels    ：逢一、四            16:00 HKT → 6 PNG 中間素材 → 1 MP4 (20–30s)
-#   逢一、四：reels 與 stories 皆觸發（reels 先，stories 後）
+#   Stories  ：1 PNG
+#   Posts    ：5 PNG (Carousel)
+#   Reels    ：6 PNG 中間素材 → 1 MP4 (20–30s)
 
 name: Instagram Content Scheduler
 
@@ -42,14 +42,6 @@ on:
           - stories
           - posts
           - reels
-  schedule:
-    # All times unified to 16:00 HKT = 08:00 UTC
-    # Stories: Mon/Wed/Thu/Fri/Sun → DOW 1,3,4,5,0
-    - cron: '0 8 * * 1,3,4,5,0'
-    # Posts: Tue/Fri → DOW 2,5
-    - cron: '0 8 * * 2,5'
-    # Reels: Mon/Thu → DOW 1,4
-    - cron: '0 8 * * 1,4'
 
 concurrency:
   group: ig-scheduler-${{ github.ref }}
@@ -81,24 +73,8 @@ jobs:
         id: task
         run: |
           TASK="${{ github.event.inputs.task_type }}"
-          if [ -z "$TASK" ]; then
-            HOUR=$(date -u +%H)
-            DOW=$(date -u +%u)   # 1=Mon ... 7=Sun
-            # All tasks at 08 UTC (16:00 HKT)
-            # On Mon(1)/Thu(4) the reels cron fires → TASK=reels; the stories cron
-            # also fires at 08:00 UTC → TASK=stories. Both run simultaneously (reels first).
-            if [ "$HOUR" = "08" ]; then
-              # Posts: Tue(2)/Fri(5)
-              if   [[ "$DOW" =~ ^(2|5)$ ]]; then TASK="posts"
-              # Reels: Mon(1)/Thu(4)
-              elif [[ "$DOW" =~ ^(1|4)$ ]]; then TASK="reels"
-              # Stories: Wed(3)/Sun(7)
-              elif [[ "$DOW" =~ ^(3|7)$ ]]; then TASK="stories"
-              fi
-            fi
-          fi
           echo "task_type=${TASK}" >> $GITHUB_OUTPUT
-          echo "Resolved task type: ${TASK:-'(none — skipping)'}"
+          echo "Resolved task type: ${TASK}"
 
       # ─── 組裝 manus_task.json ────────────────────────────────────
       # main.py 讀取 mineralogy_data.json（SSOT，33 種礦石）及 content_schedule.json
