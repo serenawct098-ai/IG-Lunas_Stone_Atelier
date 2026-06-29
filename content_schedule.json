@@ -3540,7 +3540,7 @@
     "next_stone_zh": "綠松石",
     "phase": "3",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "失眠多夢：睡房礦石放錯了——完整修正方案",
     "caption": "😴 失眠多夢？睡房礦石放錯了（第18集）\n黑曜石＋捷克隕石＋虎眼石——這三種立刻拎走\n修正方案兩步，但第二步大部分人捨不得！\n💾 收藏 | 追蹤查看第19集",
     "series_hook": "修正方案只需兩步，但第二步大部分人捨不得做",
@@ -3603,7 +3603,9 @@
       "#睡眠問題",
       "#身心靈"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-08-13.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
