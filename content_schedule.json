@@ -1234,7 +1234,7 @@
     "next_stone_zh": "紫水晶",
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "三分鐘脈輪自測——你最需要哪塊石？",
     "caption": "🌈 三分鐘脈輪自測！（第7集）\n三個問題 → 找出你最需要的能量方向\n不需要算命，自己都可以做到！\n💾 收藏 | 追蹤查看第8集答案",
     "series_hook": "測出來之後，是配石是擺陣，答案在第8集",
@@ -1297,7 +1297,9 @@
       "#香港風水",
       "#水晶能量"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-07-06.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
