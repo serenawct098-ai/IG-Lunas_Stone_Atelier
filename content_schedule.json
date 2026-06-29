@@ -1087,7 +1087,8 @@
       "tempo": "medium",
       "mood": "溫柔療癒，帶正能量",
       "suggested_track": "healing meditation soft"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-02",
@@ -1312,7 +1313,8 @@
       "tempo": "medium",
       "mood": "溫柔療癒，帶正能量",
       "suggested_track": "healing meditation soft"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-06",
@@ -1516,7 +1518,8 @@
       "tempo": "medium",
       "mood": "溫柔療癒，帶正能量",
       "suggested_track": "healing meditation soft"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-09",
@@ -1740,7 +1743,8 @@
       "tempo": "slow",
       "mood": "神秘東方，帶古典韻味",
       "suggested_track": "chinese ambient mystical"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-13",
@@ -1942,7 +1946,8 @@
       "tempo": "slow",
       "mood": "神秘東方，帶古典韻味",
       "suggested_track": "chinese ambient mystical"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-16",
@@ -2167,7 +2172,8 @@
       "tempo": "slow",
       "mood": "神秘東方，帶古典韻味",
       "suggested_track": "chinese ambient mystical"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-20",
@@ -2371,7 +2377,8 @@
       "tempo": "slow",
       "mood": "神秘東方，帶古典韻味",
       "suggested_track": "chinese ambient mystical"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-23",
@@ -2596,7 +2603,8 @@
       "tempo": "slow",
       "mood": "神秘東方，帶古典韻味",
       "suggested_track": "chinese ambient mystical"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-27",
@@ -2800,7 +2808,8 @@
       "tempo": "slow",
       "mood": "神秘沉靜，帶科學感",
       "suggested_track": "dark ambient crystal"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-07-30",
@@ -3025,7 +3034,8 @@
       "tempo": "slow",
       "mood": "神秘沉靜，帶科學感",
       "suggested_track": "dark ambient crystal"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-03",
@@ -3229,7 +3239,8 @@
       "tempo": "medium",
       "mood": "溫柔療癒，帶正能量",
       "suggested_track": "healing meditation soft"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-06",
@@ -3452,7 +3463,8 @@
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-10",
@@ -3656,7 +3668,8 @@
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-13",
@@ -3881,7 +3894,8 @@
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-17",
@@ -4085,7 +4099,8 @@
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-20",
@@ -4310,7 +4325,8 @@
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-24",
@@ -4516,7 +4532,8 @@
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-27",
@@ -4741,7 +4758,8 @@
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-08-31",
@@ -4884,7 +4902,7 @@
     "next_stone_zh": "綠松石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "礦石採購完全指南：哪裡買才能保證買到天然？",
     "caption": "🔍 礦石採購完全指南：哪裡買才有保障？（第24集）\n三個你以為安全的渠道，其實是假貨最集中的地方\n最危險的是直播電商——認證書無法核實！\n💾 收藏 | 追蹤查看第25集大結局",
     "series_hook": "最後一個渠道你絕對想不到——是最多人用但最少監管的地方",
@@ -4947,13 +4965,16 @@
       "#身心靈",
       "#礦石真偽"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-09-03.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-09-03",
