@@ -1656,7 +1656,7 @@
     "next_stone_zh": "瑪瑙",
     "phase": "2",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "🌟 紫微斗數命盤配礦石（第1集）：四化飛星與守護石",
     "series_hook": "化祿、化權、化科、化忌——四化不同，礦石能量補足方向完全不同",
     "next_episode_preview": "第10集：按宮位缺陷選礦石——哪個宮位空宮代表什麼缺失？",
@@ -1718,7 +1718,9 @@
       "#香港風水",
       "#紫微"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-07-13.mp4"
+    ],
     "music": {
       "style": "mysterious",
       "tempo": "slow",
