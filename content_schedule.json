@@ -1856,7 +1856,7 @@
     "next_stone_zh": "海藍寶",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "🏠 紫微宮位 × 礦石（第2集）：空宮代表能量缺口",
     "series_hook": "命宮空宮不是沒有東西——是你要靠後天工具去補足的位置",
     "next_episode_preview": "第11集：奇門遁甲時空佈局——最強時機配礦石開運法",
@@ -1917,7 +1917,9 @@
       "#礦石",
       "#開運"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-07-16.mp4"
+    ],
     "music": {
       "style": "mysterious",
       "tempo": "slow",
