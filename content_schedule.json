@@ -2276,7 +2276,7 @@
     "next_stone_zh": "綠松石",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "奇門遁甲吉時自算教學（第2集）",
     "caption": "📱 奇門吉時自算教學（第12集）\n手機5分鐘算出最強礦石啟動時窗\n三大吉門：生門、開門、休門——你識選嗎？\n💾 收藏 | 追蹤查看第13集方位表",
     "series_hook": "算到吉時之後，礦石要如何擺放？方位是關鍵",
@@ -2339,7 +2339,9 @@
       "#排盤教學",
       "#水晶擺陣"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-07-23.mp4"
+    ],
     "music": {
       "style": "mysterious",
       "tempo": "slow",
