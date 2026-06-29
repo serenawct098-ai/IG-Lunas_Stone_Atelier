@@ -2166,8 +2166,14 @@
     "stone_zh": "黃玉",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-07-21_p1.png",
+      "assets/posts/post_2026-07-21_p2.png",
+      "assets/posts/post_2026-07-21_p3.png",
+      "assets/posts/post_2026-07-21_p4.png",
+      "assets/posts/post_2026-07-21_p5.png"
+    ],
     "post_title": "礦石保養禁忌完全指南（你可能全做錯了）",
     "caption": "礦石保養禁忌完全指南——你可能真的全做錯了 😬\n\n日曬淨化、水洗清潔、混放收納——三個最常見習慣，每一個都可能正在毀掉你的礦石\n\n✦ 孔雀石、天青石碰水結構崩壞\n✦ 紫水晶、粉晶長曬永久褪色\n✦ 頌缽聲波淨化——所有礦石適用的最安全方案\n\n💾 收藏對照你的礦石，一次全部修正\n👇 留言你以前犯過哪個？不好意思我都試過 😅",
     "post_number": 11,
