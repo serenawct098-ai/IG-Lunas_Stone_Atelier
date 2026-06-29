@@ -989,7 +989,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1093,7 +1093,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1190,7 +1190,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1210,7 +1210,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1314,7 +1314,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1411,7 +1411,7 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1515,7 +1515,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1612,7 +1612,7 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1632,7 +1632,7 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1735,7 +1735,7 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "1",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1832,7 +1832,7 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -1934,7 +1934,7 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2031,7 +2031,7 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2051,7 +2051,7 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2155,7 +2155,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2252,7 +2252,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2356,7 +2356,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2453,7 +2453,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2473,7 +2473,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2577,7 +2577,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2674,7 +2674,7 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2778,7 +2778,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2875,7 +2875,7 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2895,7 +2895,7 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2999,7 +2999,7 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3096,7 +3096,7 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3200,7 +3200,7 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3297,7 +3297,7 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3317,7 +3317,7 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3419,7 +3419,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3516,7 +3516,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3620,7 +3620,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3717,7 +3717,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3737,7 +3737,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3841,7 +3841,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3938,7 +3938,7 @@
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4042,7 +4042,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4139,7 +4139,7 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4159,7 +4159,7 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4261,7 +4261,7 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4360,7 +4360,7 @@
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4462,7 +4462,7 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4559,7 +4559,7 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4579,7 +4579,7 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4681,7 +4681,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4788,7 +4788,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4890,7 +4890,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4987,7 +4987,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -5007,7 +5007,7 @@
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -5108,7 +5108,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
-    "status": "completed",
+    "status": "pending",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
