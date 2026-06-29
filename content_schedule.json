@@ -3838,8 +3838,14 @@
     "stone_zh": "粉晶",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-18_p1.png",
+      "assets/posts/post_2026-08-18_p2.png",
+      "assets/posts/post_2026-08-18_p3.png",
+      "assets/posts/post_2026-08-18_p4.png",
+      "assets/posts/post_2026-08-18_p5.png"
+    ],
     "post_title": "按紫微命盤選守護石：四化飛星對應礦石",
     "caption": "紫微命盤 × 礦石守護石——四化飛星告訴你該用哪種石 🌟\n\n化祿、化權、化科、化忌——每顆飛星入不同宮位，對應不同能量需求，礦石選對才能事半功倍\n\n✦ 化祿飛財帛 → 黃水晶、綠幽靈水晶放辦公桌\n✦ 化忌入命宮 → 黑曜石、白水晶清除糾纏\n✦ 化科飛田宅 → 青金石、藍晶石強化學習場域\n\n💾 收藏，對照你的命盤找守護石\n👇 留言你的生年干支，我幫你分析 👇",
     "post_number": 19,
