@@ -117,6 +117,14 @@ _最後更新：2026-06-29_
 
 > 不需要任何 GitHub Secrets 或 API Key。
 
+### 觸發機制
+
+> **觸發方式：由 Manus 在指定時間透過 GitHub MCP 呼叫 `workflow_dispatch`。**
+> - 已移除排程觸發機制，**時間完全由 Manus 控制**（Manus 於 15:55 HKT 觸發）。
+> - **GitHub Actions 只負責執行 `main.py`（組裝並 commit `manus_task.json`），不控制時間。**
+> - Manus 排程：Stories 逢一三四五日、Posts 逢二五、Reels 逢一四，統一 16:00 HKT。
+> - 觸發後 Manus 透過 GitHub MCP 讀取 `manus_task.json`，再透過 IG MCP 發布至 Instagram。
+
 ---
 
 ## 7. 資料架構總覽

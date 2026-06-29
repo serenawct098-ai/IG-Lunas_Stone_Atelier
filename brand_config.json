@@ -143,12 +143,15 @@
     "note": "GitHub 與 Manus 透過 MCP 互通，不需要任何 API Key 或 GitHub Secrets"
   },
   "manus_workflow": {
-    "trigger_mechanism": "Event-Driven Pull",
-    "trigger_source": "GitHub Actions 是唯一觸發源，commit manus_task.json 後 Manus 透過 GitHub MCP 主動讀取",
+    "trigger": "manus_workflow_dispatch",
+    "trigger_mechanism": "Manus 在指定時間透過 GitHub MCP 呼叫 workflow_dispatch（已移除排程觸發機制，時間由 Manus 控制）",
+    "trigger_source": "Manus 是唯一控制時間者；Manus 於 15:55 HKT 呼叫 workflow_dispatch，GitHub Actions 只負責執行 main.py 並 commit manus_task.json，不控制時間",
+    "manus_dispatch_time_hkt": "15:55",
+    "github_cron": false,
     "manus_polling": false,
     "manus_webhook": false,
     "mode_batch_generate": "手動執行：批量生成全部圖片存入 assets/，status 改為 generated",
-    "mode_publish": "GitHub Actions 定時觸發：commit manus_task.json → Manus 透過 GitHub MCP 讀取 → 從 assets/ 取備用圖片及文案 → 透過 IG MCP 發布 → 回報完成 → 休眠",
+    "mode_publish": "Manus 透過 GitHub MCP 呼叫 workflow_dispatch → GitHub Actions 執行 main.py commit manus_task.json → Manus 透過 GitHub MCP 讀取 → 從 assets/ 取備用圖片及文案 → 透過 IG MCP 發布 → 回報完成 → 休眠",
     "note": "發布模式下 Manus 不負責生圖，若 asset_path 不存在須立即報錯"
   }
 }

@@ -18,7 +18,7 @@
         ↓
    Manus 透過 GitHub MCP commit 到 repo
         ↓
-   備用完成！GitHub Actions 每次觸發後由 Manus 透過 GitHub MCP 直接取用
+   備用完成！Manus 透過 workflow_dispatch 觸發後由 Manus 透過 GitHub MCP 直接取用
 ```
 
 ---
@@ -83,10 +83,11 @@ assets: batch generate [Phase 1] 2026-06-15 to 2026-07-14 (30 entries)
 
 ---
 
-## 備用完成後的發布流程（Event-Driven Pull）
+## 備用完成後的發布流程（Manus 主導觸發）
 
 ```
-GitHub Actions 定時觸發（唯一觸發源）
+Manus 在指定時間（15:55 HKT）透過 GitHub MCP 呼叫 workflow_dispatch（唯一觸發源）
+   → GitHub Actions 只負責執行，不控制時間（已移除排程觸發機制）
         ↓
    main.py 找今日任務
    解析 assets/ 備用素材路徑

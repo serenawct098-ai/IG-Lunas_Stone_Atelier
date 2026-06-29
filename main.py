@@ -1,7 +1,10 @@
 """
-main.py — GitHub Actions Scheduler Entry Point
+main.py — GitHub Actions Entry Point（由 Manus workflow_dispatch 觸發）
 
-角色：純排程觸發器
+觸發方式：Manus 透過 GitHub MCP 呼叫 workflow_dispatch 觸發（已移除排程觸發機制，
+         時間由 Manus 控制）。GitHub Actions 只負責執行本腳本，不控制時間。
+
+角色：純任務組裝器
 - 讀 content_schedule.json 找今日 pending 任務
 - 讀 mineralogy_data.json 組裝石頭資料（SSOT，共 33 種礦石，唯一真源）
 - 指向 assets/ 內已備用素材路徑（圖片已事先由 Manus 批量生成）
@@ -9,7 +12,7 @@ main.py — GitHub Actions Scheduler Entry Point
 
 分工（文案組裝收歸 GitHub）：
   「事先」 Manus 一次性批量生成 90 天全部圖片 → commit 到 assets/
-  「每天」 GitHub Actions 觸發 main.py → 從 content_schedule.json 組裝「完整文案」+ 圖片路徑 → 寫 manus_task.json
+  「每天」 Manus 透過 GitHub MCP 呼叫 workflow_dispatch 觸發 main.py → 從 content_schedule.json 組裝「完整文案」+ 圖片路徑 → 寫 manus_task.json
   「發布」 Manus 只讀 manus_task.json → 取 content（文案）+ asset_paths（圖片）→ IG MCP 發布 → 回報
 
 ⚠️ Manus 角色 = EXTRACT_AND_PUBLISH_ONLY：不生成、不改寫任何文案。

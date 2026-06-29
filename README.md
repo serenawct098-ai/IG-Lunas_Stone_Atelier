@@ -17,7 +17,7 @@
 │   ├── stories/              ← story_{YYYY-MM-DD}.png
 │   ├── posts/                ← post_{YYYY-MM-DD}_s1.png … _s5.png
 │   └── reels/                ← reel_{YYYY-MM-DD}_p1.png … _p6.png + .mp4（6 幀圖文，文字燒入畫面）
-└── .github/workflows/        ← GitHub Actions 自動化
+└── .github/workflows/        ← GitHub Actions（workflow_dispatch 手動觸發，只執行不控制時間）
 ```
 
 ---
@@ -50,6 +50,9 @@
 | Posts | 16:00 | 2 次 | 週二、週五 |
 | Stories | 16:00 | 5 次 | 週一、週三、週四、週五、週日 |
 
+> **觸發方式**：由 **Manus** 在指定時間透過 **GitHub MCP** 呼叫 `workflow_dispatch`（已移除排程觸發機制）。GitHub Actions 只負責執行，不控制時間。
+> Manus 排程：Stories 逢一三四五日、Posts 逢二五、Reels 逢一四，統一 16:00 HKT（Manus 於 15:55 HKT 觸發）。
+
 ---
 
 ## 🚀 快速開始
@@ -59,9 +62,9 @@
 2. 按照 `BATCH_GENERATE.md` 指引，讓 Manus 一次生成 90 天全部素材
 3. Manus 透過 GitHub MCP 將圖片 commit 到 `assets/`（素材由外部批量生成並管理）
 
-### 第二步：自動發布（Event-Driven Pull）
-4. GitHub Actions 依排程觸發，組裝並 commit `manus_task.json` 到 repo
-5. Manus 透過 **GitHub MCP** 主動讀取最新 `manus_task.json`
+### 第二步：自動發布（Manus 主導觸發）
+4. **Manus 在指定時間（15:55 HKT）透過 GitHub MCP 呼叫 `workflow_dispatch`** 觸發 workflow；GitHub Actions 只負責執行 `main.py`，組裝並 commit `manus_task.json` 到 repo（不控制時間）
+5. Manus 接著透過 **GitHub MCP** 讀取最新 `manus_task.json`
 6. 從 `assets/` 取備用圖片及文案 → 透過 **IG MCP** 發布至 Instagram
 7. Manus 回填 `published_url`，`status` 自動改為 `published`，然後進入休眠
 8. 發布後 10 分鐘內，帳號主自行留言引導互動（首 90 分鐘演算法窗口）

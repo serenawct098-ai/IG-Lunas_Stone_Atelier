@@ -47,24 +47,32 @@ _最後更新：2026-06-29_
 
 ## 1. 系統架構與 Manus 角色
 
-### 1.1 觸發機制：Event-Driven Pull（事件驅動型主動拉取）
+### 1.1 觸發機制：Manus 主導 workflow_dispatch（由 Manus 控制時間）
 
-> ⚠️ **Manus 不做 Webhook 監聽，不做持續 Polling。**
-> 這樣設計是為了避免極大的 Token 浪費與系統不穩定。
+> ⚠️ **已移除排程觸發機制。時間完全由 Manus 控制。**
+> Manus 在指定時間透過 **GitHub MCP** 呼叫 `workflow_dispatch` 觸發 workflow；
+> GitHub Actions 只負責執行 `main.py`，不控制時間。
+> Manus 不做 Webhook 監聽，不做持續 Polling，避免 Token 浪費與系統不穩定。
 
 **觸發流程：**
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  觸發源：GitHub Actions（唯一觸發源）                      │
-│  排程：Stories 一/三/四/五/日 16:00 HKT                    │
-│        Posts   二/五          16:00 HKT                   │
-│        Reels   一/四          16:00 HKT                   │
+│  時間控制源：Manus（唯一控制時間者）                       │
+│  Manus 排程（於 15:55 HKT 觸發 workflow_dispatch）：       │
+│    Stories 一/三/四/五/日 16:00 HKT                        │
+│    Posts   二/五          16:00 HKT                       │
+│    Reels   一/四          16:00 HKT                       │
 └────────────────────┬────────────────────────────────────┘
-                     │ 主動呼叫 Manus API / 觸發 Manus Task
+                     │ Manus 透過 GitHub MCP 呼叫 workflow_dispatch
                      ▼
 ┌─────────────────────────────────────────────────────────┐
-│  Manus 被喚醒後：                                         │
+│  GitHub Actions 執行（只執行，不控制時間）：               │
+│  • 執行 main.py → 組裝 content → commit manus_task.json    │
+└────────────────────┬────────────────────────────────────┘
+                     ▼
+┌─────────────────────────────────────────────────────────┐
+│  Manus 觸發後：                                           │
 │  1. 連接 GitHub MCP → 直接讀取最新 manus_task.json        │
 │  2. 精準執行：根據 image_paths 從 assets/ 提取備用圖片    │
 │  3. 透過 IG MCP 完成發布                                  │
@@ -78,7 +86,7 @@ _最後更新：2026-06-29_
 | 模式 | 觸發方式 | Manus 的工作 |
 |---|---|---|
 | **批量生圖模式** | 手動執行（一次性 / 更新時）| 讀取 `content_schedule.json` 全部 pending 項目 → 批量生成所有圖片/MP4 → 存入 `assets/` → 回填 `asset_url` → status 改為 `generated` |
-| **發布模式** | GitHub Actions 定時觸發（Event-Driven Pull）| 讀取 `manus_task.json` → 取 `content`（GitHub 已組裝好的完整文案）+ `asset_paths`（備用圖片）→ 透過 IG MCP 發布至 Instagram → 回報完成（status 改為 `published`）。**只提取發布，禁止生成或改寫文案** |
+| **發布模式** | Manus 透過 GitHub MCP 呼叫 `workflow_dispatch` 觸發（GitHub Actions 只執行不控時間）| 讀取 `manus_task.json` → 取 `content`（GitHub 已組裝好的完整文案）+ `asset_paths`（備用圖片）→ 透過 IG MCP 發布至 Instagram → 回報完成（status 改為 `published`）。**只提取發布，禁止生成或改寫文案** |
 
 ### 1.3 不需要的憑證
 
@@ -261,7 +269,7 @@ assets/reels/reel_{YYYY-MM-DD}.mp4               ← IG 發布用（唯一上傳
 | 值 | 意義 |
 |---|---|
 | `pending` | 待生成（批量生圖模式處理）|
-| `generated` | 素材已存入 `assets/`，待 GitHub Actions 觸發發布 |
+| `generated` | 素材已存入 `assets/`，待 Manus 透過 workflow_dispatch 觸發發布 |
 | `published` | 已透過 IG MCP 發布至 Instagram |
 | `error` | 生成或發布失敗，需人工介入 |
 
