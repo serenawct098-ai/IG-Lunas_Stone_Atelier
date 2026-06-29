@@ -3203,8 +3203,14 @@
     "stone_zh": "月光石",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-07_p1.png",
+      "assets/posts/post_2026-08-07_p2.png",
+      "assets/posts/post_2026-08-07_p3.png",
+      "assets/posts/post_2026-08-07_p4.png",
+      "assets/posts/post_2026-08-07_p5.png"
+    ],
     "post_title": "礦石鑑定 Part 2：這6種礦石最常被仿冒",
     "caption": "礦石鑑定 Part 2：6種最常被仿冒的礦石，一篇學識辨別 🔍\n\n翡翠 B 貨、染色青金石、合成綠松石——你以為買到真貨，但市場上假貨比真貨還多\n\n✦ 翡翠 B 貨：透光看充填裂紋＋玻璃光澤\n✦ 青金石染色：無金點、顏色過均一\n✦ 綠松石：大量穩定處理充斥市場\n\n💾 收藏 Part 1 + Part 2 完整鑑定系列\n👇 留言你有無這幾種礦石？買到過假的嗎？",
     "post_number": 16,
