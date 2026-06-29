@@ -1,0 +1,61 @@
+{
+  "task_id": "2026-06-29_stories",
+  "created_at": "2026-06-29T12:31:18.931310+00:00",
+  "source": "github_actions_scheduler",
+  "publish_platform": "instagram",
+  "publish_via": "manus_ig_mcp",
+  "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
+  "schedule": {
+    "date": "2026-06-29",
+    "type": "stories",
+    "phase": "1",
+    "cta": "",
+    "episode": null,
+    "next_stone_id": null
+  },
+  "stone": {
+    "id": "peridot",
+    "zh": "橄欖石",
+    "en": "Peridot",
+    "hardness": "",
+    "color": "",
+    "optical_effects": "高折射率造成明亮火彩",
+    "body_focus": "消化與心區域能量（能量觀點）",
+    "use_cases": "情緒容易壓抑、需要放鬆與寬心時",
+    "care_tips": "",
+    "synthetic_signs": "合成橄欖石少見；玻璃仿品常見圓形氣泡"
+  },
+  "content": {
+    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "橄欖石釋放力",
+      "body": "橄欖石對應心輪，是輕盈樂觀之石，幫助釋放負面情緒。",
+      "en_text": "Peridot lightens the heart and releases negativity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
+  },
+  "asset_paths": [
+    "assets/stories/story_2026-06-29.png"
+  ],
+  "assets_ready": true,
+  "format_spec": {
+    "slides": 1,
+    "dimensions": "1080x1350",
+    "has_video": false,
+    "output": "1 PNG"
+  },
+  "ig_algorithm_rules": {
+    "hashtags": "3-5個，主題相關，禁止堆砌",
+    "save_share": "Posts 優先 Save；Reels 優先 Share",
+    "reels_hook": "首3秒止滑鉤（第N夜｜{石頭}的秘密）",
+    "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
+  },
+  "result": {
+    "status": "pending",
+    "media_id": null,
+    "published_at": null,
+    "error": null
+  }
+}
