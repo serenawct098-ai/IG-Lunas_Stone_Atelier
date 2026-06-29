@@ -4237,7 +4237,7 @@
     "next_stone_zh": "瑪瑙",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "開光儀式第2集：意圖設定——你說錯了嗎？",
     "caption": "🗣️ 開光意圖設定方法（第21集）\n說什麼比做什麼更重要！三層意圖語言對比\n第三層是最少人用但最有效的說法 💡\n💾 收藏 | 追蹤查看第22集",
     "series_hook": "意圖語言有三個層次——第三層是最少人知但最有效的",
@@ -4300,7 +4300,9 @@
       "#身心靈",
       "#水晶冥想"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-08-24.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
