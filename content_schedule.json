@@ -3341,7 +3341,7 @@
     "next_stone_zh": "橄欖石",
     "phase": "3",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "🏢 辦公室放這塊石，3個月升職加薪真實故事",
     "series_hook": "不是它有魔法——是礦石幫它建立了更清晰的自信同決策狀態",
     "next_episode_preview": "第18集：失眠多夢真是因為睡房礦石放錯了——完整修正方案",
@@ -3402,7 +3402,9 @@
       "#玄學",
       "#香港風水"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-08-10.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
