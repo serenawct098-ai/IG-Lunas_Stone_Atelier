@@ -1532,8 +1532,14 @@
     "stone_zh": "青金石",
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-07-10_p1.png",
+      "assets/posts/post_2026-07-10_p2.png",
+      "assets/posts/post_2026-07-10_p3.png",
+      "assets/posts/post_2026-07-10_p4.png",
+      "assets/posts/post_2026-07-10_p5.png"
+    ],
     "post_title": "礦石莫氏硬度完整表：哪些能天天戴、哪些要小心？",
     "caption": "礦石莫氏硬度完整表——哪些能天天戴，哪些只能當擺件？ 💎\n\n選礦石不只看顏色，硬度直接影響你的佩戴方式同保養方法！\n\n✦ 硬度 7+ 才適合日常手鍊佩戴（白水晶、黑碧璽）\n✦ 黑曜石硬度 5–5.5，單獨佩戴更安全\n✦ 天青石、透石膏硬度 2–3，只適合擺設\n\n💾 收藏對照你的礦石，是時候升級保養方式\n👇 留言你最常天天戴是哪顆，我幫你評估 👇",
     "post_number": 8,
