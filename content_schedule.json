@@ -4457,8 +4457,14 @@
     "stone_zh": "月光石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-28_p1.png",
+      "assets/posts/post_2026-08-28_p2.png",
+      "assets/posts/post_2026-08-28_p3.png",
+      "assets/posts/post_2026-08-28_p4.png",
+      "assets/posts/post_2026-08-28_p5.png"
+    ],
     "post_title": "礦石入門三件套：你的第一個能量組合",
     "caption": "礦石入門三件套——就是這三顆，建立你的第一個能量組合 ✦\n\n不需要買一堆礦石，三顆有完整邏輯的組合，遠勝十顆亂搭配\n\n✦ 白水晶：放大能量、淨化場域——組合核心\n✦ 黑碧璽：防護接地、抵擋外來干擾——都市人必備\n✦ 粉晶：情感滋養、修復心輪——補充日常消耗\n\n💾 收藏，跟著這個組合邏輯開始\n👇 問答箱直接問我，幫你選適合的款式 →",
     "post_number": 22,
