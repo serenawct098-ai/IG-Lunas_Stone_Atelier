@@ -1,50 +1,113 @@
 {
-  "task_id": "2026-06-29_stories",
-  "created_at": "2026-06-29T13:18:20.404498+00:00",
+  "task_id": "2026-06-29_reels",
+  "created_at": "2026-06-29T13:23:32.099753+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
     "date": "2026-06-29",
-    "type": "stories",
+    "type": "reels",
     "phase": "1",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "episode": 5,
+    "next_stone_id": "peridot"
   },
   "stone": {
-    "id": "peridot",
-    "zh": "橄欖石",
-    "en": "Peridot",
+    "id": "garnet_red",
+    "zh": "紅石榴石",
+    "en": "Red Garnet",
     "hardness": "",
     "color": "",
-    "optical_effects": "高折射率造成明亮火彩",
-    "body_focus": "消化與心區域能量（能量觀點）",
-    "use_cases": "情緒容易壓抑、需要放鬆與寬心時",
+    "optical_effects": "高折射率帶來強烈光澤",
+    "body_focus": "血液、循環與生殖系統",
+    "use_cases": "需補充精力、穩定親密關係時",
     "care_tips": "",
-    "synthetic_signs": "合成橄欖石少見；玻璃仿品常見圓形氣泡"
+    "synthetic_signs": "合成石榴石少見，仿品多為玻璃"
   },
   "content": {
-    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "橄欖石釋放力",
-      "body": "橄欖石對應心輪，是輕盈樂觀之石，幫助釋放負面情緒。",
-      "en_text": "Peridot lightens the heart and releases negativity.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "⚡ 你的八字同礦石相剋？（第5集）\n命理師揭秘：五行決定你適合用哪種礦石\n選錯了不是沒有效，是反效果！\n💾 收藏 | 追蹤查看下集",
+    "hashtags": [
+      "#八字礦石",
+      "#命理礦石",
+      "#五行水晶",
+      "#crystalbazi",
+      "#開運礦石",
+      "#風水",
+      "#玄學",
+      "#香港風水",
+      "#礦石知識",
+      "#紫微斗數",
+      "#水晶能量",
+      "#命理",
+      "#開運"
+    ],
+    "episode": 5,
+    "episode_title": "你的八字同礦石相剋？命理師揭秘",
+    "series_hook": "還有一種最常見的招財石，命中某類人用了反破財",
+    "next_episode_preview": "第6集：哪個脈輪最影響你賺錢能力？",
+    "visual_prompts": {
+      "hook": "八字命盤特寫與礦石並排，橫跨畫面一行紅色大字「你的礦石是你天敵？！」，高懸念構圖。",
+      "develop": "三種礦石逐一出現（紅石榴石、虎眼石、黃水晶），旁邊八字五行缺失標籤快速飛入，每種配「相合 ✓ / 相剋 ✗」判斷動畫。",
+      "climax": "畫面聚焦最常見招財石，旁邊問號符號閃爍，黑屏白字：「命中某類人用了它反破財⋯⋯」",
+      "cta": "動態追蹤按鈕彈出：「第6集：脈輪影響財運？」倒計時感特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "你的礦石可能是命中天敵",
+        "body": "選錯礦石，反而與你的命格相剋。",
+        "en_text": "Your crystal might be your destiny nemesis."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "八字決定你缺什麼",
+        "body": "五行缺什麼，決定你該補哪種礦石。",
+        "en_text": "BaZi reveals which element you lack."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "補錯＝能量失衡",
+        "body": "木旺者再加木屬性礦石，能量反而失衡。",
+        "en_text": "Wrong element creates imbalance."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "最暢銷的招財石",
+        "body": "市場賣最多的那種，對某些人反而破財。",
+        "en_text": "The bestselling wealth crystal—"
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "旺財還是破財？",
+        "body": "命中某類人使用後，財運不升反降⋯⋯",
+        "en_text": "For some, it drains wealth instead—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第6集揭曉是哪種石",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Episode 6 reveals it."
+      }
+    },
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-06-29.png"
+    "assets/reels/reel_2026-06-29.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
