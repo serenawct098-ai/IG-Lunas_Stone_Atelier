@@ -4670,7 +4670,7 @@
     "next_stone_zh": "橄欖石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "月亮週期×礦石能量學：每個月最強充電時機",
     "caption": "🌕 月亮週期×礦石能量學（第23集）\n新月種意圖、滿月充能量、殘月釋放舊能量\n農曆十五後三日是全月最強礦石啟動時機！\n💾 收藏 | 追蹤查看第24集",
     "series_hook": "農曆十五滿月後三日是「能量高峰期」——怎樣把握？",
@@ -4733,7 +4733,9 @@
       "#身心靈",
       "#滿月儀式"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-08-31.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
