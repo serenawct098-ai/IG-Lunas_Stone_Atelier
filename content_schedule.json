@@ -2586,8 +2586,14 @@
     "stone_zh": "粉晶",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-07-28_p1.png",
+      "assets/posts/post_2026-07-28_p2.png",
+      "assets/posts/post_2026-07-28_p3.png",
+      "assets/posts/post_2026-07-28_p4.png",
+      "assets/posts/post_2026-07-28_p5.png"
+    ],
     "post_number": 13,
     "post_title": "🧪 量子物理與水晶能量：科學家怎麼看？",
     "pages": [
