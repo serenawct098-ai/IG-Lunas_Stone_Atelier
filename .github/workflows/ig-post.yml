@@ -22,10 +22,11 @@
 #   - Manus 透過 GitHub MCP 主動拉取，不做 Webhook 監聽，不做持續 Polling
 #   - 避免 Token 浪費與系統不穩定
 #
-# 發布規格（全格式統一 1080×1350 px）：
-#   Stories  ：逢一、三、四、五、日  20:00 HKT → 1 PNG
-#   Posts    ：逢二、五            12:00 HKT → 5 PNG (Carousel)
-#   Reels    ：逢一、四            18:00 HKT → 6 PNG 中間素材 → 1 MP4 (20–30s)
+# 發布規格（全格式統一 1080×1350 px，發布時間統一 16:00 HKT）：
+#   Stories  ：逢一、三、四、五、日  16:00 HKT → 1 PNG
+#   Posts    ：逢二、五            16:00 HKT → 5 PNG (Carousel)
+#   Reels    ：逢一、四            16:00 HKT → 6 PNG 中間素材 → 1 MP4 (20–30s)
+#   逢一、四：reels 與 stories 皆觸發（reels 先，stories 後）
 
 name: Instagram Content Scheduler
 
@@ -42,13 +43,13 @@ on:
           - posts
           - reels
   schedule:
-    # All cron times are UTC (HKT = UTC+8)
-    # Stories: Mon/Wed/Thu/Fri/Sun  20:00 HKT = 12:00 UTC  → DOW 0,1,3,4,5
-    - cron: '0 12 * * 0,1,3,4,5'
-    # Posts:   Tue/Fri              12:00 HKT = 04:00 UTC  → DOW 2,5
-    - cron: '0 4 * * 2,5'
-    # Reels:   Mon/Thu              18:00 HKT = 10:00 UTC  → DOW 1,4
-    - cron: '0 10 * * 1,4'
+    # All times unified to 16:00 HKT = 08:00 UTC
+    # Stories: Mon/Wed/Thu/Fri/Sun → DOW 1,3,4,5,0
+    - cron: '0 8 * * 1,3,4,5,0'
+    # Posts: Tue/Fri → DOW 2,5
+    - cron: '0 8 * * 2,5'
+    # Reels: Mon/Thu → DOW 1,4
+    - cron: '0 8 * * 1,4'
 
 concurrency:
   group: ig-scheduler-${{ github.ref }}
@@ -83,12 +84,17 @@ jobs:
           if [ -z "$TASK" ]; then
             HOUR=$(date -u +%H)
             DOW=$(date -u +%u)   # 1=Mon ... 7=Sun
-            # Stories: 12 UTC (20:00 HKT)  Mon/Wed/Thu/Fri/Sun = 1,3,4,5,7
-            if   [ "$HOUR" = "12" ] && [[ "$DOW" =~ ^(1|3|4|5|7)$ ]]; then TASK="stories"
-            # Posts:   04 UTC (12:00 HKT)  Tue/Fri = 2,5
-            elif [ "$HOUR" = "04" ] && [[ "$DOW" =~ ^(2|5)$ ]];        then TASK="posts"
-            # Reels:   10 UTC (18:00 HKT)  Mon/Thu = 1,4
-            elif [ "$HOUR" = "10" ] && [[ "$DOW" =~ ^(1|4)$ ]];        then TASK="reels"
+            # All tasks at 08 UTC (16:00 HKT)
+            # On Mon(1)/Thu(4) the reels cron fires → TASK=reels; the stories cron
+            # also fires at 08:00 UTC → TASK=stories. Both run simultaneously (reels first).
+            if [ "$HOUR" = "08" ]; then
+              # Posts: Tue(2)/Fri(5)
+              if   [[ "$DOW" =~ ^(2|5)$ ]]; then TASK="posts"
+              # Reels: Mon(1)/Thu(4)
+              elif [[ "$DOW" =~ ^(1|4)$ ]]; then TASK="reels"
+              # Stories: Wed(3)/Sun(7)
+              elif [[ "$DOW" =~ ^(3|7)$ ]]; then TASK="stories"
+              fi
             fi
           fi
           echo "task_type=${TASK}" >> $GITHUB_OUTPUT

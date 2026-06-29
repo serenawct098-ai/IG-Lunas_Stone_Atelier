@@ -1,7 +1,7 @@
 [
   {
     "_meta": {
-      "version": "3.0",
+      "version": "3.1",
       "generated": "2026-06-29",
       "period": "2026-06-15 → 2026-09-08",
       "total_entries": 111,
@@ -809,7 +809,7 @@
   {
     "date": "2026-06-29",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "garnet_red",
     "stone_zh": "紅石榴石",
     "episode": 5,
@@ -897,7 +897,7 @@
   {
     "date": "2026-06-29",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "1",
@@ -916,7 +916,7 @@
   {
     "date": "2026-06-30",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "topaz",
     "stone_zh": "黃玉",
     "phase": "1",
@@ -987,7 +987,7 @@
   {
     "date": "2026-07-01",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "1",
@@ -1008,7 +1008,7 @@
   {
     "date": "2026-07-02",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "nephrite_jade",
     "stone_zh": "軟玉",
     "episode": 6,
@@ -1093,7 +1093,7 @@
   {
     "date": "2026-07-02",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "1",
@@ -1114,7 +1114,7 @@
   {
     "date": "2026-07-03",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "malachite",
     "stone_zh": "孔雀石",
     "phase": "1",
@@ -1192,7 +1192,7 @@
   {
     "date": "2026-07-03",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "1",
@@ -1213,7 +1213,7 @@
   {
     "date": "2026-07-05",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "1",
@@ -1234,7 +1234,7 @@
   {
     "date": "2026-07-06",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "quartz_clear",
     "stone_zh": "白水晶",
     "episode": 7,
@@ -1319,7 +1319,7 @@
   {
     "date": "2026-07-06",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "1",
@@ -1340,7 +1340,7 @@
   {
     "date": "2026-07-07",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "rose_quartz",
     "stone_zh": "粉晶",
     "phase": "1",
@@ -1418,7 +1418,7 @@
   {
     "date": "2026-07-08",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "1",
@@ -1439,7 +1439,7 @@
   {
     "date": "2026-07-09",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "citrine",
     "stone_zh": "黃水晶",
     "episode": 8,
@@ -1524,7 +1524,7 @@
   {
     "date": "2026-07-09",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "1",
@@ -1545,7 +1545,7 @@
   {
     "date": "2026-07-10",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "lapis_lazuli",
     "stone_zh": "青金石",
     "phase": "1",
@@ -1623,7 +1623,7 @@
   {
     "date": "2026-07-10",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "1",
@@ -1644,7 +1644,7 @@
   {
     "date": "2026-07-12",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "1",
@@ -1665,7 +1665,7 @@
   {
     "date": "2026-07-13",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "moldavite",
     "stone_zh": "捷克隕石",
     "episode": 9,
@@ -1749,7 +1749,7 @@
   {
     "date": "2026-07-13",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "1",
@@ -1770,7 +1770,7 @@
   {
     "date": "2026-07-14",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "carnelian",
     "stone_zh": "紅瑪瑙",
     "phase": "1",
@@ -1848,7 +1848,7 @@
   {
     "date": "2026-07-15",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
@@ -1869,7 +1869,7 @@
   {
     "date": "2026-07-16",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "tigers_eye",
     "stone_zh": "虎眼石",
     "episode": 10,
@@ -1952,7 +1952,7 @@
   {
     "date": "2026-07-16",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
@@ -1973,7 +1973,7 @@
   {
     "date": "2026-07-17",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "moonstone",
     "stone_zh": "月光石",
     "phase": "2",
@@ -2051,7 +2051,7 @@
   {
     "date": "2026-07-17",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
@@ -2072,7 +2072,7 @@
   {
     "date": "2026-07-19",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
@@ -2093,7 +2093,7 @@
   {
     "date": "2026-07-20",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "garnet_red",
     "stone_zh": "紅石榴石",
     "episode": 11,
@@ -2178,7 +2178,7 @@
   {
     "date": "2026-07-20",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
@@ -2199,7 +2199,7 @@
   {
     "date": "2026-07-21",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "topaz",
     "stone_zh": "黃玉",
     "phase": "2",
@@ -2277,7 +2277,7 @@
   {
     "date": "2026-07-22",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
@@ -2298,7 +2298,7 @@
   {
     "date": "2026-07-23",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "nephrite_jade",
     "stone_zh": "軟玉",
     "episode": 12,
@@ -2383,7 +2383,7 @@
   {
     "date": "2026-07-23",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
@@ -2404,7 +2404,7 @@
   {
     "date": "2026-07-24",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "malachite",
     "stone_zh": "孔雀石",
     "phase": "2",
@@ -2482,7 +2482,7 @@
   {
     "date": "2026-07-24",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "2",
@@ -2503,7 +2503,7 @@
   {
     "date": "2026-07-26",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "2",
@@ -2524,7 +2524,7 @@
   {
     "date": "2026-07-27",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "quartz_clear",
     "stone_zh": "白水晶",
     "episode": 13,
@@ -2609,7 +2609,7 @@
   {
     "date": "2026-07-27",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "2",
@@ -2630,7 +2630,7 @@
   {
     "date": "2026-07-28",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "rose_quartz",
     "stone_zh": "粉晶",
     "phase": "2",
@@ -2708,7 +2708,7 @@
   {
     "date": "2026-07-29",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "2",
@@ -2729,7 +2729,7 @@
   {
     "date": "2026-07-30",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "citrine",
     "stone_zh": "黃水晶",
     "episode": 14,
@@ -2814,7 +2814,7 @@
   {
     "date": "2026-07-30",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "2",
@@ -2835,7 +2835,7 @@
   {
     "date": "2026-07-31",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "lapis_lazuli",
     "stone_zh": "青金石",
     "phase": "2",
@@ -2913,7 +2913,7 @@
   {
     "date": "2026-07-31",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "2",
@@ -2934,7 +2934,7 @@
   {
     "date": "2026-08-02",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "2",
@@ -2955,7 +2955,7 @@
   {
     "date": "2026-08-03",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "moldavite",
     "stone_zh": "捷克隕石",
     "episode": 15,
@@ -3040,7 +3040,7 @@
   {
     "date": "2026-08-03",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "2",
@@ -3061,7 +3061,7 @@
   {
     "date": "2026-08-04",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "carnelian",
     "stone_zh": "紅瑪瑙",
     "phase": "2",
@@ -3139,7 +3139,7 @@
   {
     "date": "2026-08-05",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "2",
@@ -3160,7 +3160,7 @@
   {
     "date": "2026-08-06",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "tigers_eye",
     "stone_zh": "虎眼石",
     "episode": 16,
@@ -3245,7 +3245,7 @@
   {
     "date": "2026-08-06",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "2",
@@ -3266,7 +3266,7 @@
   {
     "date": "2026-08-07",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "moonstone",
     "stone_zh": "月光石",
     "phase": "2",
@@ -3344,7 +3344,7 @@
   {
     "date": "2026-08-07",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "2",
@@ -3365,7 +3365,7 @@
   {
     "date": "2026-08-09",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "2",
@@ -3386,7 +3386,7 @@
   {
     "date": "2026-08-10",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "garnet_red",
     "stone_zh": "紅石榴石",
     "episode": 17,
@@ -3469,7 +3469,7 @@
   {
     "date": "2026-08-10",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "2",
@@ -3490,7 +3490,7 @@
   {
     "date": "2026-08-11",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "topaz",
     "stone_zh": "黃玉",
     "phase": "2",
@@ -3568,7 +3568,7 @@
   {
     "date": "2026-08-12",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
@@ -3589,7 +3589,7 @@
   {
     "date": "2026-08-13",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "nephrite_jade",
     "stone_zh": "軟玉",
     "episode": 18,
@@ -3674,7 +3674,7 @@
   {
     "date": "2026-08-13",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "2",
@@ -3695,7 +3695,7 @@
   {
     "date": "2026-08-14",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "malachite",
     "stone_zh": "孔雀石",
     "phase": "3",
@@ -3773,7 +3773,7 @@
   {
     "date": "2026-08-14",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
@@ -3794,7 +3794,7 @@
   {
     "date": "2026-08-16",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
@@ -3815,7 +3815,7 @@
   {
     "date": "2026-08-17",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "quartz_clear",
     "stone_zh": "白水晶",
     "episode": 19,
@@ -3900,7 +3900,7 @@
   {
     "date": "2026-08-17",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
@@ -3921,7 +3921,7 @@
   {
     "date": "2026-08-18",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "rose_quartz",
     "stone_zh": "粉晶",
     "phase": "3",
@@ -3999,7 +3999,7 @@
   {
     "date": "2026-08-19",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "smoky_quartz",
     "stone_zh": "茶晶",
     "phase": "3",
@@ -4020,7 +4020,7 @@
   {
     "date": "2026-08-20",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "citrine",
     "stone_zh": "黃水晶",
     "episode": 20,
@@ -4105,7 +4105,7 @@
   {
     "date": "2026-08-20",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "3",
@@ -4126,7 +4126,7 @@
   {
     "date": "2026-08-21",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "lapis_lazuli",
     "stone_zh": "青金石",
     "phase": "3",
@@ -4204,7 +4204,7 @@
   {
     "date": "2026-08-21",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "3",
@@ -4225,7 +4225,7 @@
   {
     "date": "2026-08-23",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "3",
@@ -4246,7 +4246,7 @@
   {
     "date": "2026-08-24",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "moldavite",
     "stone_zh": "捷克隕石",
     "episode": 21,
@@ -4331,7 +4331,7 @@
   {
     "date": "2026-08-24",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "3",
@@ -4352,7 +4352,7 @@
   {
     "date": "2026-08-25",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "carnelian",
     "stone_zh": "紅瑪瑙",
     "phase": "3",
@@ -4432,7 +4432,7 @@
   {
     "date": "2026-08-26",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "green_aventurine",
     "stone_zh": "綠東陵石",
     "phase": "3",
@@ -4453,7 +4453,7 @@
   {
     "date": "2026-08-27",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "tigers_eye",
     "stone_zh": "虎眼石",
     "episode": 22,
@@ -4538,7 +4538,7 @@
   {
     "date": "2026-08-27",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "3",
@@ -4559,7 +4559,7 @@
   {
     "date": "2026-08-28",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "moonstone",
     "stone_zh": "月光石",
     "phase": "3",
@@ -4637,7 +4637,7 @@
   {
     "date": "2026-08-28",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "3",
@@ -4658,7 +4658,7 @@
   {
     "date": "2026-08-30",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "3",
@@ -4679,7 +4679,7 @@
   {
     "date": "2026-08-31",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "garnet_red",
     "stone_zh": "紅石榴石",
     "episode": 23,
@@ -4764,7 +4764,7 @@
   {
     "date": "2026-08-31",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "3",
@@ -4785,7 +4785,7 @@
   {
     "date": "2026-09-01",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "garnet_red",
     "stone_zh": "12生肖守護石",
     "phase": "3",
@@ -4873,7 +4873,7 @@
   {
     "date": "2026-09-02",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "3",
@@ -4894,7 +4894,7 @@
   {
     "date": "2026-09-03",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "nephrite_jade",
     "stone_zh": "軟玉",
     "episode": 24,
@@ -4979,7 +4979,7 @@
   {
     "date": "2026-09-03",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "3",
@@ -5000,7 +5000,7 @@
   {
     "date": "2026-09-04",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "malachite",
     "stone_zh": "孔雀石",
     "phase": "3",
@@ -5078,7 +5078,7 @@
   {
     "date": "2026-09-04",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
@@ -5099,7 +5099,7 @@
   {
     "date": "2026-09-06",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "pyrite",
     "stone_zh": "黃鐵礦",
     "phase": "3",
@@ -5120,7 +5120,7 @@
   {
     "date": "2026-09-07",
     "type": "reels",
-    "time_hkt": "18:00",
+    "time_hkt": "16:00",
     "stone_id": "quartz_clear",
     "stone_zh": "白水晶",
     "episode": 25,
@@ -5204,7 +5204,7 @@
   {
     "date": "2026-09-07",
     "type": "stories",
-    "time_hkt": "20:00",
+    "time_hkt": "16:00",
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
@@ -5225,7 +5225,7 @@
   {
     "date": "2026-09-08",
     "type": "posts",
-    "time_hkt": "12:00",
+    "time_hkt": "16:00",
     "stone_id": "rose_quartz",
     "stone_zh": "粉晶",
     "phase": "3",

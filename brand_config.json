@@ -32,19 +32,19 @@
     "accent_gold": "#C9A84C"
   },
   "publish_schedule": {
-    "stories": "20:00 HKT",
-    "carousel_posts": "12:00 HKT",
-    "reels": "18:00 HKT",
+    "stories": "16:00 HKT",
+    "carousel_posts": "16:00 HKT",
+    "reels": "16:00 HKT",
     "weekly_pattern": {
-      "Monday":    ["reels@18:00", "stories@20:00"],
-      "Tuesday":   ["carousel@12:00"],
-      "Wednesday": ["stories@20:00"],
-      "Thursday":  ["reels@18:00", "stories@20:00"],
-      "Friday":    ["carousel@12:00", "stories@20:00"],
+      "Monday":    ["reels@16:00", "stories@16:00"],
+      "Tuesday":   ["carousel@16:00"],
+      "Wednesday": ["stories@16:00"],
+      "Thursday":  ["reels@16:00", "stories@16:00"],
+      "Friday":    ["carousel@16:00", "stories@16:00"],
       "Saturday":  [],
-      "Sunday":    ["stories@20:00"]
+      "Sunday":    ["stories@16:00"]
     },
-    "note": "Carousel 發布日：週二、週五 12:00 HKT | Reels 發布日：週一、週四 18:00 HKT | Stories：週一、週三、週四、週五、週日 20:00 HKT（5 次/週）"
+    "note": "Carousel 發布日：週二、週五 16:00 HKT | Reels 發布日：週一、週四 16:00 HKT | Stories：週一、週三、週四、週五、週日 16:00 HKT（5 次/週）"
   },
   "format_specs": {
     "stories": {
