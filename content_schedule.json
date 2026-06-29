@@ -4037,8 +4037,14 @@
     "stone_zh": "青金石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-21_p1.png",
+      "assets/posts/post_2026-08-21_p2.png",
+      "assets/posts/post_2026-08-21_p3.png",
+      "assets/posts/post_2026-08-21_p4.png",
+      "assets/posts/post_2026-08-21_p5.png"
+    ],
     "post_title": "臥室礦石佈局：助睡眠、安神、桃花三合一",
     "caption": "臥室礦石佈局——睡眠、安神、桃花，三個目標一次搞定 🌙\n\n礦石放錯臥室反而影響睡眠？對，黑曜石、捷克隕石就是臥室禁忌石！\n\n✦ 床頭放紫水晶晶簇——對應神經系統，安神助眠\n✦ 西南方位放粉晶——修復心輪，為感情創造空間\n✦ 黑曜石離開臥室——能量太強，影響休息\n\n💾 收藏這份臥室佈局指引，今晚就可以試\n👇 留言你現在睡眠品質幾分？1–10 分",
     "post_number": 20,
