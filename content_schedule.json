@@ -1750,8 +1750,14 @@
     "stone_zh": "紅瑪瑙",
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-07-14_p1.png",
+      "assets/posts/post_2026-07-14_p2.png",
+      "assets/posts/post_2026-07-14_p3.png",
+      "assets/posts/post_2026-07-14_p4.png",
+      "assets/posts/post_2026-07-14_p5.png"
+    ],
     "post_title": "紫水晶完全指南：你所不知道的7個事實",
     "caption": "紫水晶 7 個真實事實——知道後你會用完全不同的方式對待它 🔮\n\n你知道市面大量「黃水晶」其實是燒色紫水晶嗎？你知道天然紫水晶一定有色帶嗎？\n\n✦ 顏色來自天然輻射＋鐵離子，非人工染色\n✦ 日曬令紫水晶永久褪色（鐵離子色心被破壞）\n✦ 能量對應神經系統與睡眠，枕邊石首選\n\n💾 收藏，識貨才買得值\n👇 留言：你的紫水晶是天然嗎？我幫你分析",
     "post_number": 9,
