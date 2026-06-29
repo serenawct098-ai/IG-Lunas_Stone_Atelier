@@ -4256,8 +4256,14 @@
     "stone_zh": "紅瑪瑙",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
-    "asset_urls": null,
+    "status": "generated",
+    "asset_urls": [
+      "assets/posts/post_2026-08-25_p1.png",
+      "assets/posts/post_2026-08-25_p2.png",
+      "assets/posts/post_2026-08-25_p3.png",
+      "assets/posts/post_2026-08-25_p4.png",
+      "assets/posts/post_2026-08-25_p5.png"
+    ],
     "post_number": 21,
     "post_title": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景對照表",
     "pages": [
