@@ -5128,7 +5128,7 @@
     "next_stone_zh": "紫水晶",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "generated",
     "episode_title": "🌙 一千零一夜礦石風水系列完結篇：你學到了什麼？",
     "series_hook": "25集，從「水晶是否迷信」到「按命盤與脈輪配礦石的完整知識體系」",
     "next_episode_preview": "第二季預告：更深入的個人命盤礦石諮詢系列（敬請期待）",
@@ -5190,13 +5190,16 @@
       "#crystalseries",
       "#開運"
     ],
-    "asset_urls": null,
+    "asset_urls": [
+      "assets/reels/reel_2026-09-07.mp4"
+    ],
     "music": {
       "style": "uplifting",
       "tempo": "medium",
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
-    }
+    },
+    "generated": true
   },
   {
     "date": "2026-09-07",
