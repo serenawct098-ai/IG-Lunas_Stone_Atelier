@@ -1,6 +1,6 @@
 {
   "task_id": "2026-06-30_posts",
-  "created_at": "2026-06-30T10:40:23.688052+00:00",
+  "created_at": "2026-06-30T10:40:52.258694+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
@@ -87,8 +87,14 @@
       }
     ]
   },
-  "asset_paths": [],
-  "assets_ready": false,
+  "asset_paths": [
+    "assets/posts/post_2026-06-30_p1.png",
+    "assets/posts/post_2026-06-30_p2.png",
+    "assets/posts/post_2026-06-30_p3.png",
+    "assets/posts/post_2026-06-30_p4.png",
+    "assets/posts/post_2026-06-30_p5.png"
+  ],
+  "assets_ready": true,
   "format_spec": {
     "slides": 5,
     "dimensions": "1080x1350",

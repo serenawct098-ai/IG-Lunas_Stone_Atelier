@@ -106,7 +106,7 @@ def resolve_asset_paths(entry):
 
     elif t in ('post', 'posts'):
         # Posts Carousel: 5 PNG (1080×1350)
-        guessed = [f"{base}/posts/post_{date}_s{i}.png" for i in range(1, 6)]
+        guessed = [f"{base}/posts/post_{date}_p{i}.png" for i in range(1, 6)]
 
     elif t == 'reels':
         # Reels: 最終發布只用 MP4 (20–30s)
