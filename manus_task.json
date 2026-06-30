@@ -1,113 +1,99 @@
 {
-  "task_id": "2026-06-29_reels",
-  "created_at": "2026-06-29T13:23:32.099753+00:00",
+  "task_id": "2026-06-30_posts",
+  "created_at": "2026-06-30T10:40:23.688052+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-06-29",
-    "type": "reels",
+    "date": "2026-06-30",
+    "type": "posts",
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "episode": 5,
-    "next_stone_id": "peridot"
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "garnet_red",
-    "zh": "紅石榴石",
-    "en": "Red Garnet",
+    "id": "topaz",
+    "zh": "黃玉",
+    "en": "Topaz",
     "hardness": "",
     "color": "",
-    "optical_effects": "高折射率帶來強烈光澤",
-    "body_focus": "血液、循環與生殖系統",
-    "use_cases": "需補充精力、穩定親密關係時",
+    "optical_effects": "高折射率，火彩明亮",
+    "body_focus": "代謝與意志力能量象徵",
+    "use_cases": "需要專注與效率的工作場景",
     "care_tips": "",
-    "synthetic_signs": "合成石榴石少見，仿品多為玻璃"
+    "synthetic_signs": "顏色過於鮮豔均一（如「電光藍黃玉」多為熱處理＋輻照）"
   },
   "content": {
-    "caption": "⚡ 你的八字同礦石相剋？（第5集）\n命理師揭秘：五行決定你適合用哪種礦石\n選錯了不是沒有效，是反效果！\n💾 收藏 | 追蹤查看下集",
+    "caption": "拉長石為什麼會發彩光？答案跟蝴蝶翅膀是同一個原理 ✨\n\n這不是塗層、不是人工處理——是純物理光學，大自然用幾億年打磨出來的奇蹟 🔬\n\n✦ 晶層間距決定你看到是藍光還是橙光\n✦ 天然彩光隨角度流動，仿品每面均一\n✦ 能量學：直覺感應 + 能量邊界防護\n\n💾 收藏，下次見到拉長石你已經懂得分辨真假\n👇 留言你有無見過真是漂亮到不真實的拉長石 ✦",
     "hashtags": [
-      "#八字礦石",
-      "#命理礦石",
-      "#五行水晶",
-      "#crystalbazi",
-      "#開運礦石",
-      "#風水",
-      "#玄學",
-      "#香港風水",
-      "#礦石知識",
-      "#紫微斗數",
-      "#水晶能量",
-      "#命理",
-      "#開運"
+      "#拉長石",
+      "#Labradorite",
+      "#礦石光學",
+      "#crystalscience",
+      "#礦石知識"
     ],
-    "episode": 5,
-    "episode_title": "你的八字同礦石相剋？命理師揭秘",
-    "series_hook": "還有一種最常見的招財石，命中某類人用了反破財",
-    "next_episode_preview": "第6集：哪個脈輪最影響你賺錢能力？",
-    "visual_prompts": {
-      "hook": "八字命盤特寫與礦石並排，橫跨畫面一行紅色大字「你的礦石是你天敵？！」，高懸念構圖。",
-      "develop": "三種礦石逐一出現（紅石榴石、虎眼石、黃水晶），旁邊八字五行缺失標籤快速飛入，每種配「相合 ✓ / 相剋 ✗」判斷動畫。",
-      "climax": "畫面聚焦最常見招財石，旁邊問號符號閃爍，黑屏白字：「命中某類人用了它反破財⋯⋯」",
-      "cta": "動態追蹤按鈕彈出：「第6集：脈輪影響財運？」倒計時感特效。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "你的礦石可能是命中天敵",
-        "body": "選錯礦石，反而與你的命格相剋。",
-        "en_text": "Your crystal might be your destiny nemesis."
+    "post_number": 5,
+    "post_title": "拉長石為什麼會發彩光？大自然的光學奇蹟",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "拉長石發彩光的秘密——地球花了幾億年做到 ✨",
+        "visual_desc": "黑色背景，一塊呈現金藍彩光的拉長石特寫充滿畫面，文字以金色細線字體疊加，右下角品牌 Logo，底部「👉 左滑看科學原理」",
+        "design_note": "拉長石彩光本身即是最強止滑視覺，深背景最大化顯色，問句激發好奇心",
+        "body_text": "拉長石發彩光的秘密——地球花了幾億年做到 ✨"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "八字決定你缺什麼",
-        "body": "五行缺什麼，決定你該補哪種礦石。",
-        "en_text": "BaZi reveals which element you lack."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🔬 科學名稱：拉長石效應（Labradorescence）——光線穿入石內多層微薄晶層（交生條紋，Lamellar Twinning）發生干涉與散射",
+          "🌈 彩光顏色取決於晶層間距：間距越大→紅橙光；間距越小→藍紫光，因此同一塊石不同角度看顏色完全不同",
+          "⚡ 類似現象：肥皂泡彩虹、蝴蝶翅膀結構色——均屬薄膜干涉（Thin-film Interference），純物理光學，非塗層"
+        ],
+        "visual_desc": "拉長石橫截面示意圖（晶層結構），右側光線路徑示意，搭配彩光實拍圖",
+        "body_text": "🔬 科學名稱：拉長石效應（Labradorescence）——光線穿入石內多層微薄晶層（交生條紋，Lamellar Twinning）發生干涉與散射\n🌈 彩光顏色取決於晶層間距：間距越大→紅橙光；間距越小→藍紫光，因此同一塊石不同角度看顏色完全不同\n⚡ 類似現象：肥皂泡彩虹、蝴蝶翅膀結構色——均屬薄膜干涉（Thin-film Interference），純物理光學，非塗層"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "補錯＝能量失衡",
-        "body": "木旺者再加木屬性礦石，能量反而失衡。",
-        "en_text": "Wrong element creates imbalance."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "👁️ 天然 vs 仿品關鍵差異：天然拉長石彩光位置隨觀察角度移動，轉動石頭顏色漂移——仿品或鍍膜玻璃每面均一閃光、位置不變",
+          "🔍 其他天然特徵：內部可見白色條紋（交生結構）、輕微霧感、偶有包裹體；過於完美透明者需警惕",
+          "💡 購買建議：光源下從多角度轉動觀察，彩光若能「流動」才是真拉長石效應"
+        ],
+        "visual_desc": "兩塊石頭並排對比：左邊天然（有條紋、彩光流動）vs 右邊仿品（整面均一），箭頭指示差異",
+        "body_text": "👁️ 天然 vs 仿品關鍵差異：天然拉長石彩光位置隨觀察角度移動，轉動石頭顏色漂移——仿品或鍍膜玻璃每面均一閃光、位置不變\n🔍 其他天然特徵：內部可見白色條紋（交生結構）、輕微霧感、偶有包裹體；過於完美透明者需警惕\n💡 購買建議：光源下從多角度轉動觀察，彩光若能「流動」才是真拉長石效應"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "最暢銷的招財石",
-        "body": "市場賣最多的那種，對某些人反而破財。",
-        "en_text": "The bestselling wealth crystal—"
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🔮 能量與功能對應：拉長石與神經系統及直覺感應有關（能量學）——適合靈性工作者、占卜師、頻繁出入能量混雜場域的人使用",
+          "🛡️ 亦被視為能量邊界石：有助維持個人能量場，減少被環境情緒干擾",
+          "🏥 保養提示：以乾布擦拭即可，避免超聲波洗機；彩光面勿強力摩擦"
+        ],
+        "visual_desc": "手持拉長石於戶外光線下，彩光流動的美麗動態感，右側能量功能文字卡",
+        "body_text": "🔮 能量與功能對應：拉長石與神經系統及直覺感應有關（能量學）——適合靈性工作者、占卜師、頻繁出入能量混雜場域的人使用\n🛡️ 亦被視為能量邊界石：有助維持個人能量場，減少被環境情緒干擾\n🏥 保養提示：以乾布擦拭即可，避免超聲波洗機；彩光面勿強力摩擦"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "旺財還是破財？",
-        "body": "命中某類人使用後，財運不升反降⋯⋯",
-        "en_text": "For some, it drains wealth instead—"
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第6集揭曉是哪種石",
-        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-        "en_text": "Follow — Episode 6 reveals it."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇，下次介紹拉長石時你就是最懂的那個！\n➕ 追蹤學更多礦石光學知識\n👇 留言：你見過真正的天然拉長石嗎？",
+        "visual_desc": "品牌色背景，拉長石彩光小圖點綴四角，Logo 居中，CTA 白字清晰",
+        "body_text": "💾 收藏這篇，下次介紹拉長石時你就是最懂的那個！\n➕ 追蹤學更多礦石光學知識\n👇 留言：你見過真正的天然拉長石嗎？"
       }
-    },
-    "music": {
-      "style": "ambient",
-      "tempo": "slow",
-      "mood": "神秘沉靜，帶科學感",
-      "suggested_track": "dark ambient crystal"
-    }
+    ]
   },
-  "asset_paths": [
-    "assets/reels/reel_2026-06-29.mp4"
-  ],
-  "assets_ready": true,
+  "asset_paths": [],
+  "assets_ready": false,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -116,7 +102,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
-    "published_at": "2026-06-29T13:23:48.020455"
+    "status": "pending",
+    "media_id": null,
+    "published_at": null,
+    "error": null
   }
 }
