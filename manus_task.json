@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-06-30_posts",
-  "created_at": "2026-06-30T10:40:52.258694+00:00",
+  "task_id": "2026-07-01_stories",
+  "created_at": "2026-07-01T08:02:56.258638+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-06-30",
-    "type": "posts",
+    "date": "2026-07-01",
+    "type": "stories",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "topaz",
-    "zh": "黃玉",
-    "en": "Topaz",
+    "id": "jadeite_jade",
+    "zh": "翡翠",
+    "en": "Jadeite Jade",
     "hardness": "",
     "color": "",
-    "optical_effects": "高折射率，火彩明亮",
-    "body_focus": "代謝與意志力能量象徵",
-    "use_cases": "需要專注與效率的工作場景",
+    "optical_effects": "某些高品質具強玻璃光，顏色細膩分布",
+    "body_focus": "一般視作護身與平衡氣血象徵",
+    "use_cases": "長期佩戴護身、傳家與保值",
     "care_tips": "",
-    "synthetic_signs": "顏色過於鮮豔均一（如「電光藍黃玉」多為熱處理＋輻照）"
+    "synthetic_signs": "染色 B+C 貨顏色過於鮮豔，樹脂充填有玻璃感"
   },
   "content": {
-    "caption": "拉長石為什麼會發彩光？答案跟蝴蝶翅膀是同一個原理 ✨\n\n這不是塗層、不是人工處理——是純物理光學，大自然用幾億年打磨出來的奇蹟 🔬\n\n✦ 晶層間距決定你看到是藍光還是橙光\n✦ 天然彩光隨角度流動，仿品每面均一\n✦ 能量學：直覺感應 + 能量邊界防護\n\n💾 收藏，下次見到拉長石你已經懂得分辨真假\n👇 留言你有無見過真是漂亮到不真實的拉長石 ✦",
-    "hashtags": [
-      "#拉長石",
-      "#Labradorite",
-      "#礦石光學",
-      "#crystalscience",
-      "#礦石知識"
-    ],
-    "post_number": 5,
-    "post_title": "拉長石為什麼會發彩光？大自然的光學奇蹟",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "拉長石發彩光的秘密——地球花了幾億年做到 ✨",
-        "visual_desc": "黑色背景，一塊呈現金藍彩光的拉長石特寫充滿畫面，文字以金色細線字體疊加，右下角品牌 Logo，底部「👉 左滑看科學原理」",
-        "design_note": "拉長石彩光本身即是最強止滑視覺，深背景最大化顯色，問句激發好奇心",
-        "body_text": "拉長石發彩光的秘密——地球花了幾億年做到 ✨"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🔬 科學名稱：拉長石效應（Labradorescence）——光線穿入石內多層微薄晶層（交生條紋，Lamellar Twinning）發生干涉與散射",
-          "🌈 彩光顏色取決於晶層間距：間距越大→紅橙光；間距越小→藍紫光，因此同一塊石不同角度看顏色完全不同",
-          "⚡ 類似現象：肥皂泡彩虹、蝴蝶翅膀結構色——均屬薄膜干涉（Thin-film Interference），純物理光學，非塗層"
-        ],
-        "visual_desc": "拉長石橫截面示意圖（晶層結構），右側光線路徑示意，搭配彩光實拍圖",
-        "body_text": "🔬 科學名稱：拉長石效應（Labradorescence）——光線穿入石內多層微薄晶層（交生條紋，Lamellar Twinning）發生干涉與散射\n🌈 彩光顏色取決於晶層間距：間距越大→紅橙光；間距越小→藍紫光，因此同一塊石不同角度看顏色完全不同\n⚡ 類似現象：肥皂泡彩虹、蝴蝶翅膀結構色——均屬薄膜干涉（Thin-film Interference），純物理光學，非塗層"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "👁️ 天然 vs 仿品關鍵差異：天然拉長石彩光位置隨觀察角度移動，轉動石頭顏色漂移——仿品或鍍膜玻璃每面均一閃光、位置不變",
-          "🔍 其他天然特徵：內部可見白色條紋（交生結構）、輕微霧感、偶有包裹體；過於完美透明者需警惕",
-          "💡 購買建議：光源下從多角度轉動觀察，彩光若能「流動」才是真拉長石效應"
-        ],
-        "visual_desc": "兩塊石頭並排對比：左邊天然（有條紋、彩光流動）vs 右邊仿品（整面均一），箭頭指示差異",
-        "body_text": "👁️ 天然 vs 仿品關鍵差異：天然拉長石彩光位置隨觀察角度移動，轉動石頭顏色漂移——仿品或鍍膜玻璃每面均一閃光、位置不變\n🔍 其他天然特徵：內部可見白色條紋（交生結構）、輕微霧感、偶有包裹體；過於完美透明者需警惕\n💡 購買建議：光源下從多角度轉動觀察，彩光若能「流動」才是真拉長石效應"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🔮 能量與功能對應：拉長石與神經系統及直覺感應有關（能量學）——適合靈性工作者、占卜師、頻繁出入能量混雜場域的人使用",
-          "🛡️ 亦被視為能量邊界石：有助維持個人能量場，減少被環境情緒干擾",
-          "🏥 保養提示：以乾布擦拭即可，避免超聲波洗機；彩光面勿強力摩擦"
-        ],
-        "visual_desc": "手持拉長石於戶外光線下，彩光流動的美麗動態感，右側能量功能文字卡",
-        "body_text": "🔮 能量與功能對應：拉長石與神經系統及直覺感應有關（能量學）——適合靈性工作者、占卜師、頻繁出入能量混雜場域的人使用\n🛡️ 亦被視為能量邊界石：有助維持個人能量場，減少被環境情緒干擾\n🏥 保養提示：以乾布擦拭即可，避免超聲波洗機；彩光面勿強力摩擦"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這篇，下次介紹拉長石時你就是最懂的那個！\n➕ 追蹤學更多礦石光學知識\n👇 留言：你見過真正的天然拉長石嗎？",
-        "visual_desc": "品牌色背景，拉長石彩光小圖點綴四角，Logo 居中，CTA 白字清晰",
-        "body_text": "💾 收藏這篇，下次介紹拉長石時你就是最懂的那個！\n➕ 追蹤學更多礦石光學知識\n👇 留言：你見過真正的天然拉長石嗎？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "翡翠的福氣",
+      "body": "翡翠對應心輪，象徵平安、富足與長期的穩定。",
+      "en_text": "Jade symbolizes peace, abundance and stability.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-06-30_p1.png",
-    "assets/posts/post_2026-06-30_p2.png",
-    "assets/posts/post_2026-06-30_p3.png",
-    "assets/posts/post_2026-06-30_p4.png",
-    "assets/posts/post_2026-06-30_p5.png"
+    "assets/stories/story_2026-07-01.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -108,7 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
-    "published_at": "2026-06-30T10:41:17.663703"
+    "status": "pending",
+    "media_id": null,
+    "published_at": null,
+    "error": null
   }
 }
