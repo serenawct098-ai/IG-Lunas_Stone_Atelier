@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-07-01_stories",
-  "created_at": "2026-07-01T08:02:56.258638+00:00",
+  "task_id": "2026-07-02_reels",
+  "created_at": "2026-07-02T08:06:05.840197+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-01",
-    "type": "stories",
+    "date": "2026-07-02",
+    "type": "reels",
     "phase": "1",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "episode": 6,
+    "next_stone_id": "turquoise"
   },
   "stone": {
-    "id": "jadeite_jade",
-    "zh": "翡翠",
-    "en": "Jadeite Jade",
+    "id": "nephrite_jade",
+    "zh": "軟玉（和田玉）",
+    "en": "Nephrite",
     "hardness": "",
     "color": "",
-    "optical_effects": "某些高品質具強玻璃光，顏色細膩分布",
-    "body_focus": "一般視作護身與平衡氣血象徵",
-    "use_cases": "長期佩戴護身、傳家與保值",
+    "optical_effects": "油脂光澤",
+    "body_focus": "精氣神平衡象徵",
+    "use_cases": "長年佩戴、護身與安神",
     "care_tips": "",
-    "synthetic_signs": "染色 B+C 貨顏色過於鮮豔，樹脂充填有玻璃感"
+    "synthetic_signs": "染色與充填品顏色不自然，透光下色帶不均"
   },
   "content": {
-    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "翡翠的福氣",
-      "body": "翡翠對應心輪，象徵平安、富足與長期的穩定。",
-      "en_text": "Jade symbolizes peace, abundance and stability.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "💛 脈輪失衡影響財運？（第6集）\n太陽神經叢堵塞 = 拖延 + 無自信 + 決策困難\n不是玄學，是你每日都感受到的現象！\n💾 收藏 | 追蹤查看第7集自測",
+    "hashtags": [
+      "#脈輪財運",
+      "#太陽神經叢",
+      "#chakramoney",
+      "#礦石脈輪",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#水晶能量",
+      "#香港風水",
+      "#礦石知識",
+      "#身心靈",
+      "#crystalhealing"
+    ],
+    "episode": 6,
+    "episode_title": "脈輪失衡點影響你的財運？（第1集）",
+    "series_hook": "太陽神經叢失衡的症狀，你想不到有多少人是這樣",
+    "next_episode_preview": "第7集：三分鐘自測你哪個脈輪需要充電",
+    "visual_prompts": {
+      "hook": "辦公室人物剪影，太陽神經叢位置（上腹）發出橙黃色光暈，旁邊大字「賺不到錢？可能是這個脈輪」，震撼感強。",
+      "develop": "太陽神經叢（Solar Plexus）圖示特寫，失衡症狀清單快速飛入（拖延/缺自信/決策困難），每個症狀配打勾動畫。",
+      "climax": "螢幕閃爍，症狀清單繼續延伸，最後一行出現「你想不到有多少人是這樣——」黑屏，音效突然停。",
+      "cta": "「第7集：脈輪自測來了！」追蹤特效彈出。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "賺不到錢，不是風水問題",
+        "body": "真正的原因，可能是這個脈輪出了問題。",
+        "en_text": "Can't attract wealth? It might be THIS chakra."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "太陽神經叢＝行動中心",
+        "body": "它是自信與行動力的能量中心。",
+        "en_text": "The Solar Plexus powers confidence and action."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "失衡：拖延、難決策",
+        "body": "易被他人影響意志，正是財運差的根源。",
+        "en_text": "Blocked: procrastination, weak willpower."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "原來這麼多人中招",
+        "body": "太陽神經叢失衡的症狀，比你想像更普遍。",
+        "en_text": "More common than you'd ever think."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "有一種石直接對應",
+        "body": "一種礦石最直接對應這個脈輪⋯⋯",
+        "en_text": "One crystal targets it directly—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第7集：脈輪自測",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep7: 3-min chakra test."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-01.png"
+    "assets/reels/reel_2026-07-02.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -53,7 +115,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
-    "published_at": "2026-07-01T08:03:38.471272"
+    "status": "pending",
+    "media_id": null,
+    "published_at": null,
+    "error": null
   }
 }
