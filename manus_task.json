@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-07-03_posts",
-  "created_at": "2026-07-03T11:57:40.895608+00:00",
+  "task_id": "2026-07-05_stories",
+  "created_at": "2026-07-05T08:05:58.524122+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-03",
-    "type": "posts",
+    "date": "2026-07-05",
+    "type": "stories",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "malachite",
-    "zh": "孔雀石",
-    "en": "Malachite",
+    "id": "pyrite",
+    "zh": "黃鐵礦",
+    "en": "Pyrite",
     "hardness": "",
     "color": "",
-    "optical_effects": "絲絨光感",
-    "body_focus": "解毒與循環象徵",
-    "use_cases": "深層個人轉化與療癒工作",
+    "optical_effects": "強烈金屬光澤，晶面可見立方體或五角十二面體形態",
+    "body_focus": "消化系統、免疫力與體力能量象徵",
+    "use_cases": "招財擺設、事業辦公桌佈置、提振行動力與自信",
     "care_tips": "",
-    "synthetic_signs": "佈局過於規則、塑膠質感者多為仿品"
+    "synthetic_signs": "市場真品為主，但部分黃銅礦（Chalcopyrite）會以色澤混充，需注意晶形差異"
   },
   "content": {
-    "caption": "7大脈輪對應礦石速查表——選石不再盲目，這張表收藏好 🌈\n\n你是不是經常憑感覺選礦石？其實每個脈輪有對應顏色同礦石，先理解再選，效果倍增 🔮\n\n✦ 心輪失衡 → 粉晶、綠幽靈修復情感連結\n✦ 喉輪堵塞 → 青金石、海藍寶助力清晰表達\n✦ 頂輪薄弱 → 紫水晶、白水晶強化靈性頻率\n\n💾 收藏速查表，下次買石不需要亂猜\n👇 留言你最需要調整哪個脈輪？我幫你推薦礦石 💫",
-    "hashtags": [
-      "#脈輪礦石",
-      "#七脈輪",
-      "#chakracrystals",
-      "#礦石速查表",
-      "#身心靈"
-    ],
-    "post_number": 6,
-    "post_title": "7大脈輪對應礦石完整速查表（收藏必備）",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "7大脈輪×礦石配對速查表——一張圖全搞懂 🌈",
-        "visual_desc": "由下而上七色漸層背景（紅→橙→黃→綠→藍→靛→紫），七顆對應礦石垂直排列，右下角品牌 Logo，底部白字「👉 左滑看完整速查表」",
-        "design_note": "彩虹脈輪色阶本身即止滑視覺，速查表承諾令人收藏慾強",
-        "body_text": "7大脈輪×礦石配對速查表——一張圖全搞懂 🌈"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🔴 海底輪（Root Chakra）— 位置：脊椎底部；顏色：紅色；對應礦石：紅石榴石（穩定）、黑曜石（防護）、黑碧璽（接地）",
-          "🟠 臍輪（Sacral Chakra）— 位置：下腹；顏色：橙色；對應礦石：紅瑪瑙/玉髓（生命力）、橄欖石（情緒放鬆）",
-          "🟡 太陽神經叢（Solar Plexus）— 位置：上腹；顏色：黃色；對應礦石：黃水晶（行動力）、虎眼石（自信決策）"
-        ],
-        "visual_desc": "三脈輪並列，各有彩色圓圈標示位置、礦石實拍小圖、功能關鍵字，版面清爽如資訊圖",
-        "body_text": "🔴 海底輪（Root Chakra）— 位置：脊椎底部；顏色：紅色；對應礦石：紅石榴石（穩定）、黑曜石（防護）、黑碧璽（接地）\n🟠 臍輪（Sacral Chakra）— 位置：下腹；顏色：橙色；對應礦石：紅瑪瑙/玉髓（生命力）、橄欖石（情緒放鬆）\n🟡 太陽神經叢（Solar Plexus）— 位置：上腹；顏色：黃色；對應礦石：黃水晶（行動力）、虎眼石（自信決策）"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "💚 心輪（Heart Chakra）— 位置：胸口；顏色：綠/粉；對應礦石：粉晶（情感連結）、綠幽靈水晶（心肺活力）、綠東陵石（心輪修復）",
-          "🔵 喉輪（Throat Chakra）— 位置：喉嚨；顏色：藍色；對應礦石：青金石（表達清晰）、海藍寶（溝通勇氣）、天青石（平靜表達）",
-          "💙 眉心輪（Third Eye）— 位置：眉間；顏色：靛藍；對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）、藍磷灰石（學習創作）"
-        ],
-        "visual_desc": "四脈輪資訊圖延續設計風格，心輪強調粉與綠雙色，喉輪礦石三小圖清晰標示",
-        "body_text": "💚 心輪（Heart Chakra）— 位置：胸口；顏色：綠/粉；對應礦石：粉晶（情感連結）、綠幽靈水晶（心肺活力）、綠東陵石（心輪修復）\n🔵 喉輪（Throat Chakra）— 位置：喉嚨；顏色：藍色；對應礦石：青金石（表達清晰）、海藍寶（溝通勇氣）、天青石（平靜表達）\n💙 眉心輪（Third Eye）— 位置：眉間；顏色：靛藍；對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）、藍磷灰石（學習創作）"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🔮 頂輪（Crown Chakra）— 位置：頭頂；顏色：紫/白；對應礦石：紫水晶（靈性連結、睡眠）、白水晶（能量放大與淨化）",
-          "📌 使用入門建議：從自身最缺乏的能量品質入手，選一顆對應礦石先；不需要同時擁有七顆",
-          "⚠️ 判斷哪個脈輪需要調整：情緒、溝通、決策、睡眠哪個最困擾你——從那個脈輪的礦石開始"
-        ],
-        "visual_desc": "頂輪特寫，紫水晶與白水晶並排，底部「入門三步驟」清單式圖文",
-        "body_text": "🔮 頂輪（Crown Chakra）— 位置：頭頂；顏色：紫/白；對應礦石：紫水晶（靈性連結、睡眠）、白水晶（能量放大與淨化）\n📌 使用入門建議：從自身最缺乏的能量品質入手，選一顆對應礦石先；不需要同時擁有七顆\n⚠️ 判斷哪個脈輪需要調整：情緒、溝通、決策、睡眠哪個最困擾你——從那個脈輪的礦石開始"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這張速查表，選礦石時不需要再猜！\n➕ 追蹤，每週脈輪×礦石深度解析\n👇 留言：你覺得你哪個脈輪最需要補充能量？",
-        "visual_desc": "七色漸層背景，中央白色大字「你的脈輪都補好了嗎？」，Logo 右下角",
-        "body_text": "💾 收藏這張速查表，選礦石時不需要再猜！\n➕ 追蹤，每週脈輪×礦石深度解析\n👇 留言：你覺得你哪個脈輪最需要補充能量？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黃鐵礦招財石",
+      "body": "黃鐵礦對應太陽神經叢，是財富顯化與行動力之石。",
+      "en_text": "Pyrite ignites wealth, willpower and action.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-07-03_p1.png",
-    "assets/posts/post_2026-07-03_p2.png",
-    "assets/posts/post_2026-07-03_p3.png",
-    "assets/posts/post_2026-07-03_p4.png",
-    "assets/posts/post_2026-07-03_p5.png"
+    "assets/stories/story_2026-07-05.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -109,6 +54,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-03T11:57:58.623489"
+    "published_at": "2026-07-05T08:06:08.034368"
   }
 }
