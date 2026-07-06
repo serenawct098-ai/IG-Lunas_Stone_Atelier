@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-07-05_stories",
-  "created_at": "2026-07-05T08:05:58.524122+00:00",
+  "task_id": "2026-07-06_reels",
+  "created_at": "2026-07-06T08:02:17.057131+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-05",
-    "type": "stories",
+    "date": "2026-07-06",
+    "type": "reels",
     "phase": "1",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "episode": 7,
+    "next_stone_id": "amethyst"
   },
   "stone": {
-    "id": "pyrite",
-    "zh": "黃鐵礦",
-    "en": "Pyrite",
+    "id": "quartz_clear",
+    "zh": "白水晶",
+    "en": "Clear Quartz",
     "hardness": "",
     "color": "",
-    "optical_effects": "強烈金屬光澤，晶面可見立方體或五角十二面體形態",
-    "body_focus": "消化系統、免疫力與體力能量象徵",
-    "use_cases": "招財擺設、事業辦公桌佈置、提振行動力與自信",
+    "optical_effects": "無特殊效應，但切磨後折射強，玻璃光澤",
+    "body_focus": "全身能量場、神經系統、感知敏銳度",
+    "use_cases": "冥想、擺陣核心、空間淨化、搭配其他水晶使用",
     "care_tips": "",
-    "synthetic_signs": "市場真品為主，但部分黃銅礦（Chalcopyrite）會以色澤混充，需注意晶形差異"
+    "synthetic_signs": "顏色與淨度過於完美、內部完全無紋理，有時可見氣泡（玻璃仿品）"
   },
   "content": {
-    "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "黃鐵礦招財石",
-      "body": "黃鐵礦對應太陽神經叢，是財富顯化與行動力之石。",
-      "en_text": "Pyrite ignites wealth, willpower and action.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "🌈 三分鐘脈輪自測！（第7集）\n三個問題 → 找出你最需要的能量方向\n不需要算命，自己都可以做到！\n💾 收藏 | 追蹤查看第8集答案",
+    "hashtags": [
+      "#脈輪自測",
+      "#chakratest",
+      "#礦石自測",
+      "#水晶脈輪",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#身心靈",
+      "#crystalhealing",
+      "#香港風水",
+      "#水晶能量"
+    ],
+    "episode": 7,
+    "episode_title": "三分鐘脈輪自測——你最需要哪塊石？",
+    "series_hook": "測出來之後，是配石是擺陣，答案在第8集",
+    "next_episode_preview": "第8集：礦石入門三件套搭配法",
+    "visual_prompts": {
+      "hook": "快速問卷感動畫：三個問題一閃而過，配滴答計時音效，大字「三個問題測出你最缺的能量」。",
+      "develop": "三個測試問題逐一出現（睡眠？決策？溝通？），每個問題旁邊出現對應脈輪顏色光圈，有趣且互動感強。",
+      "climax": "測試結束，畫面停在三個可能答案（海底輪/太陽神經叢/喉輪），旁邊問號，「配石還是擺陣——答案在第8集！」",
+      "cta": "「第8集：三件套組合公式！」追蹤特效彈出。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "3個問題測出你缺的能量",
+        "body": "不需要命理師，自己就能測出最缺的能量。",
+        "en_text": "3 questions reveal the energy you're missing."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "問1+2：失眠？拖延？",
+        "body": "思緒停不下→頂輪；拖延沒信心→太陽神經叢。",
+        "en_text": "Racing mind → Crown. Indecisive → Solar Plexus."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "問3：說不出口？",
+        "body": "想表達卻總是說不出口→喉輪堵塞。",
+        "en_text": "Can't speak your truth? → Throat chakra."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "測完，然後呢？",
+        "body": "是配對應礦石，還是直接擺陣？",
+        "en_text": "Got your result — wear it or grid it?"
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "三件套組合公式",
+        "body": "答案在第8集，完整組合公式全部揭曉。",
+        "en_text": "The full formula drops in Episode 8."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "週四第8集見",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep8 Thursday."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-05.png"
+    "assets/reels/reel_2026-07-06.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -54,6 +116,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-05T08:06:08.034368"
+    "published_at": "2026-07-06T08:02:28.386768"
   }
 }
