@@ -1,112 +1,105 @@
 {
-  "task_id": "2026-07-06_reels",
-  "created_at": "2026-07-06T08:02:17.057131+00:00",
+  "task_id": "2026-07-07_posts",
+  "created_at": "2026-07-07T08:03:21.927059+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-06",
-    "type": "reels",
+    "date": "2026-07-07",
+    "type": "posts",
     "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "episode": 7,
-    "next_stone_id": "amethyst"
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "quartz_clear",
-    "zh": "白水晶",
-    "en": "Clear Quartz",
+    "id": "rose_quartz",
+    "zh": "粉晶",
+    "en": "Rose Quartz",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特殊效應，但切磨後折射強，玻璃光澤",
-    "body_focus": "全身能量場、神經系統、感知敏銳度",
-    "use_cases": "冥想、擺陣核心、空間淨化、搭配其他水晶使用",
+    "optical_effects": "部分高品質有貓眼或星光效應，但較少見",
+    "body_focus": "心血管、胸腔、情緒中心",
+    "use_cases": "情緒釋放、關係議題諮商、愛情主題、內在小孩療癒",
     "care_tips": "",
-    "synthetic_signs": "顏色與淨度過於完美、內部完全無紋理，有時可見氣泡（玻璃仿品）"
+    "synthetic_signs": "顏色非常均一、通透如玻璃、粉色過於鮮豔可能為染色或玻璃"
   },
   "content": {
-    "caption": "🌈 三分鐘脈輪自測！（第7集）\n三個問題 → 找出你最需要的能量方向\n不需要算命，自己都可以做到！\n💾 收藏 | 追蹤查看第8集答案",
+    "caption": "黑曜石 vs 黑碧璽——都是黑色，選錯完全不一樣效果 🖤\n\n很多人以為黑系礦石都一樣，但其實從成分、硬度到能量風格，兩者差別很大 🔬\n\n✦ 黑曜石：火山玻璃，硬度 5–5.5，能量急而直接\n✦ 黑碧璽：碧璽結晶，硬度 7–7.5，防護穩定持久\n✦ 情緒清理選前者，日常防護選後者\n\n💾 收藏這篇，按你需要選對一種\n👇 留言：你是哪種人？我幫你診斷",
     "hashtags": [
-      "#脈輪自測",
-      "#chakratest",
-      "#礦石自測",
-      "#水晶脈輪",
-      "#開運",
-      "#風水",
-      "#玄學",
-      "#礦石知識",
-      "#身心靈",
-      "#crystalhealing",
-      "#香港風水",
-      "#水晶能量"
+      "#黑曜石",
+      "#黑碧璽",
+      "#BlackTourmaline",
+      "#礦石比較",
+      "#crystalprotection"
     ],
-    "episode": 7,
-    "episode_title": "三分鐘脈輪自測——你最需要哪塊石？",
-    "series_hook": "測出來之後，是配石是擺陣，答案在第8集",
-    "next_episode_preview": "第8集：礦石入門三件套搭配法",
-    "visual_prompts": {
-      "hook": "快速問卷感動畫：三個問題一閃而過，配滴答計時音效，大字「三個問題測出你最缺的能量」。",
-      "develop": "三個測試問題逐一出現（睡眠？決策？溝通？），每個問題旁邊出現對應脈輪顏色光圈，有趣且互動感強。",
-      "climax": "測試結束，畫面停在三個可能答案（海底輪/太陽神經叢/喉輪），旁邊問號，「配石還是擺陣——答案在第8集！」",
-      "cta": "「第8集：三件套組合公式！」追蹤特效彈出。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "3個問題測出你缺的能量",
-        "body": "不需要命理師，自己就能測出最缺的能量。",
-        "en_text": "3 questions reveal the energy you're missing."
+    "post_number": 7,
+    "post_title": "黑系礦石比較：黑曜石 vs 黑碧璽，你該選哪個？",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "黑曜石 vs 黑碧璽——同是黑色，差別大到你想不到 🖤",
+        "visual_desc": "純黑背景，左邊黑曜石（有光澤玻璃感）vs 右邊黑碧璽（有平行條紋質感）對稱擺放，中間閃電符號分割，右下角品牌 Logo，底部「👉 左滑看深度比較」",
+        "design_note": "左右對稱視覺製造「對決感」，黑色主題強烈有衝擊力，激發比較欲",
+        "body_text": "黑曜石 vs 黑碧璽——同是黑色，差別大到你想不到 🖤"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "問1+2：失眠？拖延？",
-        "body": "思緒停不下→頂輪；拖延沒信心→太陽神經叢。",
-        "en_text": "Racing mind → Crown. Indecisive → Solar Plexus."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🔬 成分差異：黑曜石 = 火山玻璃（非晶質，主要為 SiO₂），硬度約 5–5.5；黑碧璽 = 碧璽族礦物（硼矽酸鹽結晶），硬度 7–7.5",
+          "💡 外觀識別：黑曜石表面如鏡子，玻璃光澤強；黑碧璽有明顯平行縱向條紋，光澤較啞",
+          "⚡ 能量風格：黑曜石能量直接強烈，像快刀斬亂麻——適合需要快速清除負能量的人"
+        ],
+        "visual_desc": "兩種礦石成分資訊卡並列，放大鏡圖示指向各自特徵，硬度數字大字標示",
+        "body_text": "🔬 成分差異：黑曜石 = 火山玻璃（非晶質，主要為 SiO₂），硬度約 5–5.5；黑碧璽 = 碧璽族礦物（硼矽酸鹽結晶），硬度 7–7.5\n💡 外觀識別：黑曜石表面如鏡子，玻璃光澤強；黑碧璽有明顯平行縱向條紋，光澤較啞\n⚡ 能量風格：黑曜石能量直接強烈，像快刀斬亂麻——適合需要快速清除負能量的人"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "問3：說不出口？",
-        "body": "想表達卻總是說不出口→喉輪堵塞。",
-        "en_text": "Can't speak your truth? → Throat chakra."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🛡️ 黑碧璽能量特質：穩定而持續，像防護罩——長期佩戴不會令人感覺壓迫，能量敏感者友善",
+          "🏥 身體對應：黑曜石對應下肢與排毒；黑碧璽對應骨骼、肌肉與神經穩定——後者更適合長期日常佩戴",
+          "📱 現代場景：黑碧璽特別適合長時間使用電子產品、住高壓環境的人——傳統能量學認為其有屏蔽電磁干擾的象徵作用"
+        ],
+        "visual_desc": "能量強度對比圖（黑曜石箭頭粗而急，黑碧璽曲線平穩），搭配各自使用場景插圖",
+        "body_text": "🛡️ 黑碧璽能量特質：穩定而持續，像防護罩——長期佩戴不會令人感覺壓迫，能量敏感者友善\n🏥 身體對應：黑曜石對應下肢與排毒；黑碧璽對應骨骼、肌肉與神經穩定——後者更適合長期日常佩戴\n📱 現代場景：黑碧璽特別適合長時間使用電子產品、住高壓環境的人——傳統能量學認為其有屏蔽電磁干擾的象徵作用"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "測完，然後呢？",
-        "body": "是配對應礦石，還是直接擺陣？",
-        "en_text": "Got your result — wear it or grid it?"
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "👤 適合你的是哪一種？→ 情緒積壓需要快速清理：選黑曜石；需要穩定日常防護：選黑碧璽",
+          "⚠️ 黑曜石注意：初次使用能量反應可能較強烈，建議從短時間佩戴開始適應",
+          "🤝 最佳搭配：黑曜石清理後，用白水晶補充能量；黑碧璽長期佩戴可搭配粉晶平衡心輪"
+        ],
+        "visual_desc": "「你是哪種人」診斷流程圖，兩條路徑分別指向黑曜石與黑碧璽，清晰易理解",
+        "body_text": "👤 適合你的是哪一種？→ 情緒積壓需要快速清理：選黑曜石；需要穩定日常防護：選黑碧璽\n⚠️ 黑曜石注意：初次使用能量反應可能較強烈，建議從短時間佩戴開始適應\n🤝 最佳搭配：黑曜石清理後，用白水晶補充能量；黑碧璽長期佩戴可搭配粉晶平衡心輪"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "三件套組合公式",
-        "body": "答案在第8集，完整組合公式全部揭曉。",
-        "en_text": "The full formula drops in Episode 8."
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "週四第8集見",
-        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-        "en_text": "Follow — Ep8 Thursday."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇，下次買黑系礦石不再混淆！\n➕ 追蹤，更多礦石深度比較\n👇 留言：你是黑曜石派還是黑碧璽派？",
+        "visual_desc": "黑色背景，兩顆礦石各佔左右，中間品牌 Logo，底部 CTA 白字",
+        "body_text": "💾 收藏這篇，下次買黑系礦石不再混淆！\n➕ 追蹤，更多礦石深度比較\n👇 留言：你是黑曜石派還是黑碧璽派？"
       }
-    },
-    "music": {
-      "style": "uplifting",
-      "tempo": "medium",
-      "mood": "溫柔療癒，帶正能量",
-      "suggested_track": "healing meditation soft"
-    }
+    ]
   },
   "asset_paths": [
-    "assets/reels/reel_2026-07-06.mp4"
+    "assets/posts/post_2026-07-07_p1.png",
+    "assets/posts/post_2026-07-07_p2.png",
+    "assets/posts/post_2026-07-07_p3.png",
+    "assets/posts/post_2026-07-07_p4.png",
+    "assets/posts/post_2026-07-07_p5.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -116,6 +109,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-06T08:02:28.386768"
+    "published_at": "2026-07-07T08:03:37.501884"
   }
 }
