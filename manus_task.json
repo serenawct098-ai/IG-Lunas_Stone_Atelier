@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-07-07_posts",
-  "created_at": "2026-07-07T08:03:21.927059+00:00",
+  "task_id": "2026-07-08_stories",
+  "created_at": "2026-07-08T08:02:41.062093+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-07",
-    "type": "posts",
+    "date": "2026-07-08",
+    "type": "stories",
     "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "rose_quartz",
-    "zh": "粉晶",
-    "en": "Rose Quartz",
+    "id": "smoky_quartz",
+    "zh": "茶晶",
+    "en": "Smoky Quartz",
     "hardness": "",
     "color": "",
-    "optical_effects": "部分高品質有貓眼或星光效應，但較少見",
-    "body_focus": "心血管、胸腔、情緒中心",
-    "use_cases": "情緒釋放、關係議題諮商、愛情主題、內在小孩療癒",
+    "optical_effects": "無特殊效應，透明度從清透到半透明",
+    "body_focus": "下肢、骨骼、免疫系統、壓力釋放",
+    "use_cases": "工作壓力大、能量場敏感者、療癒後的「收尾」與落地",
     "care_tips": "",
-    "synthetic_signs": "顏色非常均一、通透如玻璃、粉色過於鮮豔可能為染色或玻璃"
+    "synthetic_signs": "顏色過於黑且均一，可能是人工輻射處理（與天然難完全肉眼分辨）"
   },
   "content": {
-    "caption": "黑曜石 vs 黑碧璽——都是黑色，選錯完全不一樣效果 🖤\n\n很多人以為黑系礦石都一樣，但其實從成分、硬度到能量風格，兩者差別很大 🔬\n\n✦ 黑曜石：火山玻璃，硬度 5–5.5，能量急而直接\n✦ 黑碧璽：碧璽結晶，硬度 7–7.5，防護穩定持久\n✦ 情緒清理選前者，日常防護選後者\n\n💾 收藏這篇，按你需要選對一種\n👇 留言：你是哪種人？我幫你診斷",
-    "hashtags": [
-      "#黑曜石",
-      "#黑碧璽",
-      "#BlackTourmaline",
-      "#礦石比較",
-      "#crystalprotection"
-    ],
-    "post_number": 7,
-    "post_title": "黑系礦石比較：黑曜石 vs 黑碧璽，你該選哪個？",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "黑曜石 vs 黑碧璽——同是黑色，差別大到你想不到 🖤",
-        "visual_desc": "純黑背景，左邊黑曜石（有光澤玻璃感）vs 右邊黑碧璽（有平行條紋質感）對稱擺放，中間閃電符號分割，右下角品牌 Logo，底部「👉 左滑看深度比較」",
-        "design_note": "左右對稱視覺製造「對決感」，黑色主題強烈有衝擊力，激發比較欲",
-        "body_text": "黑曜石 vs 黑碧璽——同是黑色，差別大到你想不到 🖤"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🔬 成分差異：黑曜石 = 火山玻璃（非晶質，主要為 SiO₂），硬度約 5–5.5；黑碧璽 = 碧璽族礦物（硼矽酸鹽結晶），硬度 7–7.5",
-          "💡 外觀識別：黑曜石表面如鏡子，玻璃光澤強；黑碧璽有明顯平行縱向條紋，光澤較啞",
-          "⚡ 能量風格：黑曜石能量直接強烈，像快刀斬亂麻——適合需要快速清除負能量的人"
-        ],
-        "visual_desc": "兩種礦石成分資訊卡並列，放大鏡圖示指向各自特徵，硬度數字大字標示",
-        "body_text": "🔬 成分差異：黑曜石 = 火山玻璃（非晶質，主要為 SiO₂），硬度約 5–5.5；黑碧璽 = 碧璽族礦物（硼矽酸鹽結晶），硬度 7–7.5\n💡 外觀識別：黑曜石表面如鏡子，玻璃光澤強；黑碧璽有明顯平行縱向條紋，光澤較啞\n⚡ 能量風格：黑曜石能量直接強烈，像快刀斬亂麻——適合需要快速清除負能量的人"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🛡️ 黑碧璽能量特質：穩定而持續，像防護罩——長期佩戴不會令人感覺壓迫，能量敏感者友善",
-          "🏥 身體對應：黑曜石對應下肢與排毒；黑碧璽對應骨骼、肌肉與神經穩定——後者更適合長期日常佩戴",
-          "📱 現代場景：黑碧璽特別適合長時間使用電子產品、住高壓環境的人——傳統能量學認為其有屏蔽電磁干擾的象徵作用"
-        ],
-        "visual_desc": "能量強度對比圖（黑曜石箭頭粗而急，黑碧璽曲線平穩），搭配各自使用場景插圖",
-        "body_text": "🛡️ 黑碧璽能量特質：穩定而持續，像防護罩——長期佩戴不會令人感覺壓迫，能量敏感者友善\n🏥 身體對應：黑曜石對應下肢與排毒；黑碧璽對應骨骼、肌肉與神經穩定——後者更適合長期日常佩戴\n📱 現代場景：黑碧璽特別適合長時間使用電子產品、住高壓環境的人——傳統能量學認為其有屏蔽電磁干擾的象徵作用"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "👤 適合你的是哪一種？→ 情緒積壓需要快速清理：選黑曜石；需要穩定日常防護：選黑碧璽",
-          "⚠️ 黑曜石注意：初次使用能量反應可能較強烈，建議從短時間佩戴開始適應",
-          "🤝 最佳搭配：黑曜石清理後，用白水晶補充能量；黑碧璽長期佩戴可搭配粉晶平衡心輪"
-        ],
-        "visual_desc": "「你是哪種人」診斷流程圖，兩條路徑分別指向黑曜石與黑碧璽，清晰易理解",
-        "body_text": "👤 適合你的是哪一種？→ 情緒積壓需要快速清理：選黑曜石；需要穩定日常防護：選黑碧璽\n⚠️ 黑曜石注意：初次使用能量反應可能較強烈，建議從短時間佩戴開始適應\n🤝 最佳搭配：黑曜石清理後，用白水晶補充能量；黑碧璽長期佩戴可搭配粉晶平衡心輪"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這篇，下次買黑系礦石不再混淆！\n➕ 追蹤，更多礦石深度比較\n👇 留言：你是黑曜石派還是黑碧璽派？",
-        "visual_desc": "黑色背景，兩顆礦石各佔左右，中間品牌 Logo，底部 CTA 白字",
-        "body_text": "💾 收藏這篇，下次買黑系礦石不再混淆！\n➕ 追蹤，更多礦石深度比較\n👇 留言：你是黑曜石派還是黑碧璽派？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "茶晶穩情緒",
+      "body": "工作壓力大、思緒紛亂時，茶晶能釋放負面能量、穩住情緒。",
+      "en_text": "Smoky Quartz grounds you and releases stress.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-07-07_p1.png",
-    "assets/posts/post_2026-07-07_p2.png",
-    "assets/posts/post_2026-07-07_p3.png",
-    "assets/posts/post_2026-07-07_p4.png",
-    "assets/posts/post_2026-07-07_p5.png"
+    "assets/stories/story_2026-07-08.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -109,6 +54,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-07T08:03:37.501884"
+    "published_at": "2026-07-08T08:02:50.889689"
   }
 }
