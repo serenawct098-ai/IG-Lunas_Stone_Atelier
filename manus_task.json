@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-07-08_stories",
-  "created_at": "2026-07-08T08:02:41.062093+00:00",
+  "task_id": "2026-07-09_reels",
+  "created_at": "2026-07-09T08:04:04.746650+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-08",
-    "type": "stories",
+    "date": "2026-07-09",
+    "type": "reels",
     "phase": "1",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "episode": 8,
+    "next_stone_id": "labradorite"
   },
   "stone": {
-    "id": "smoky_quartz",
-    "zh": "茶晶",
-    "en": "Smoky Quartz",
+    "id": "citrine",
+    "zh": "黃水晶",
+    "en": "Citrine",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特殊效應，透明度從清透到半透明",
-    "body_focus": "下肢、骨骼、免疫系統、壓力釋放",
-    "use_cases": "工作壓力大、能量場敏感者、療癒後的「收尾」與落地",
+    "optical_effects": "無特殊效應",
+    "body_focus": "消化系統、肝膽、代謝與能量供給",
+    "use_cases": "創業、談判、考試、績效壓力、財務規劃、需要果斷的情境",
     "care_tips": "",
-    "synthetic_signs": "顏色過於黑且均一，可能是人工輻射處理（與天然難完全肉眼分辨）"
+    "synthetic_signs": "顏色偏橙、偏褐且根部白、頭部橙，很可能是「燒紫水晶」；顏色亮到像糖果亦要小心"
   },
   "content": {
-    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "茶晶穩情緒",
-      "body": "工作壓力大、思緒紛亂時，茶晶能釋放負面能量、穩住情緒。",
-      "en_text": "Smoky Quartz grounds you and releases stress.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "✦ 礦石入門三件套：完整組合公式（第8集）\n白水晶＋黑碧璽＋粉晶——三角能量場，有完整邏輯\n不是買多=效果好，選對比買多更重要！\n💾 收藏 | 追蹤查看第9集",
+    "hashtags": [
+      "#礦石三件套",
+      "#礦石組合公式",
+      "#crystaltrio",
+      "#入門礦石",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#身心靈",
+      "#crystalhealing",
+      "#水晶能量",
+      "#香港風水"
+    ],
+    "episode": 8,
+    "episode_title": "礦石入門三件套：第一套組合公式（破圈完結篇）",
+    "series_hook": "三塊背後的能量邏輯，不是隨便選——是有完整理論",
+    "next_episode_preview": "第9集（信任建立期）：紫微命盤配礦石完整指南",
+    "visual_prompts": {
+      "hook": "白底畫面，三顆礦石（白水晶、黑碧璽、粉晶）以三角形構圖出現，大字「就是這三塊！」，節奏感強烈。",
+      "develop": "每顆礦石功能逐一說明：白水晶→中央放大，黑碧璽→前方防護，粉晶→後方滋養，三角能量場動畫視覺化。",
+      "climax": "三塊礦石聚合成三角形閃光，「三塊背後的能量邏輯——不是隨便選，是有完整理論⋯⋯」",
+      "cta": "「第9集：紫微命盤配礦石！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "只能擁有3塊，就選這3塊",
+        "body": "白水晶、黑碧璽、粉晶——新手必備三件套。",
+        "en_text": "If you owned only 3: these three."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "白水晶放中央",
+        "body": "放大其他礦石與你自身的意圖。",
+        "en_text": "Clear Quartz centre — amplifies intention."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "黑碧璽前、粉晶後",
+        "body": "黑碧璽防護接地，粉晶補回心輪能量。",
+        "en_text": "Tourmaline shields; Rose Quartz nourishes."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "三角形擺位有講究",
+        "body": "不是隨便排——位置決定能量場的流動。",
+        "en_text": "The triangle layout isn't random."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "配對更進一步",
+        "body": "下集用紫微命盤，把礦石配到你身上。",
+        "en_text": "Next level: match to your own chart."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第9集：紫微配礦石",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep9: Zi Wei crystals."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-08.png"
+    "assets/reels/reel_2026-07-09.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -54,6 +116,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-08T08:02:50.889689"
+    "published_at": "2026-07-09T08:04:17.193547"
   }
 }
