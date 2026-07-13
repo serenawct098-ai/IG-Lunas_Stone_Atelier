@@ -1,50 +1,111 @@
 {
-  "task_id": "2026-07-12_stories",
-  "created_at": "2026-07-12T08:01:41.545179+00:00",
+  "task_id": "2026-07-13_reels",
+  "created_at": "2026-07-13T08:02:37.685019+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-12",
-    "type": "stories",
-    "phase": "1",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "date": "2026-07-13",
+    "type": "reels",
+    "phase": "2",
+    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "episode": 9,
+    "next_stone_id": "agate_general"
   },
   "stone": {
-    "id": "black_tourmaline",
-    "zh": "黑碧璽",
-    "en": "Black Tourmaline",
+    "id": "moldavite",
+    "zh": "捷克隕石 / 摩爾達隕石",
+    "en": "Moldavite",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特定，但柱狀平行條紋明顯",
-    "body_focus": "骨骼、肌肉、免疫系統與神經穩定",
-    "use_cases": "使用電子產品多、住在高壓環境、能量敏感者",
+    "optical_effects": "無特定，但常見獨特蝕刻紋與坑洞",
+    "body_focus": "心臟區、神經系統、能量系統快速調整",
+    "use_cases": "準備好面對人生大轉變者、高階靈性工作、內在覺醒課程",
     "care_tips": "",
-    "synthetic_signs": "完全光滑如塑膠、重量明顯偏輕、有氣泡可能是樹脂或玻璃"
+    "synthetic_signs": "表面過於光滑、顏色均一、形狀整齊，或價位低得不合理，多為玻璃仿品"
   },
   "content": {
-    "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "黑碧璽擋電磁",
-      "body": "長時間使用電子產品？黑碧璽有助減少電磁與情緒干擾。",
-      "en_text": "Black Tourmaline grounds and guards your boundaries.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "🌟 紫微命盤配礦石——第1集（第9集）\n四化飛星 × 礦石能量配對：化祿/化權/化科/化忌各有對應\n化忌落不同宮位，解法完全不同——下集深入拆解 👀\n💾 收藏 | 追蹤查看完整紫微礦石系列",
+    "hashtags": [
+      "#紫微斗數",
+      "#命盤配石",
+      "#礦石風水",
+      "#四化飛星",
+      "#水晶能量",
+      "#開運礦石",
+      "#fengshui",
+      "#crystalenergy",
+      "#玄學",
+      "#香港風水",
+      "#紫微"
+    ],
+    "episode": 9,
+    "episode_title": "🌟 紫微斗數命盤配礦石（第1集）：四化飛星與守護石",
+    "series_hook": "化祿、化權、化科、化忌——四化不同，礦石能量補足方向完全不同",
+    "next_episode_preview": "第10集：按宮位缺陷選礦石——哪個宮位空宮代表什麼缺失？",
+    "visual_prompts": {
+      "hook": "紫微命盤圓形圖出現，四個宮位依次發光，配「你的命盤藏住一塊守護石」文字疊加。",
+      "develop": "四化與礦石對應飛入動畫：化祿→黃水晶（財）、化權→虎眼石（權威）、化科→海藍寶（智慧）、化忌→黑碧璽（化解）。",
+      "climax": "「化忌最多人忽略——但它決定了你用哪塊石最有效⋯⋯你的化忌是哪個星？」黑屏懸念。",
+      "cta": "「第10集：宮位空宮 = 能量缺失點」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "命盤藏著你的守護石",
+        "body": "你的紫微命盤裡，藏著屬於你的那塊石。",
+        "en_text": "Your Zi Wei chart holds your guardian crystal."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "四化是關鍵",
+        "body": "化祿→黃水晶；化權→虎眼石。",
+        "en_text": "Hua Lu=Citrine; Hua Quan=Tiger Eye."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "化科、化忌怎麼配",
+        "body": "化科→海藍寶；化忌→黑碧璽化解，不是壓制。",
+        "en_text": "Hua Ke=Aquamarine; Hua Ji=Tourmaline."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "化忌落宮位，解法不同",
+        "body": "落在哪個宮位，礦石用法完全不一樣。",
+        "en_text": "Hua Ji's house changes everything."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "財帛宮vs夫妻宮",
+        "body": "同樣化忌，兩個宮位是兩套完全不同的解法。",
+        "en_text": "Finance vs Relationships — totally different."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第10集：宮位配石",
+        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+        "en_text": "Follow — Ep10: house-by-house guide."
+      }
+    },
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-12.png"
+    "assets/reels/reel_2026-07-13.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -54,6 +115,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-12T08:01:50.296893"
+    "published_at": "2026-07-13T08:02:50.515105"
   }
 }
