@@ -1,111 +1,105 @@
 {
-  "task_id": "2026-07-13_reels",
-  "created_at": "2026-07-13T08:02:37.685019+00:00",
+  "task_id": "2026-07-14_posts",
+  "created_at": "2026-07-14T08:02:56.558793+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-13",
-    "type": "reels",
-    "phase": "2",
+    "date": "2026-07-14",
+    "type": "posts",
+    "phase": "1",
     "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-    "episode": 9,
-    "next_stone_id": "agate_general"
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "moldavite",
-    "zh": "捷克隕石 / 摩爾達隕石",
-    "en": "Moldavite",
+    "id": "carnelian",
+    "zh": "紅瑪瑙 / 玉髓",
+    "en": "Carnelian",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特定，但常見獨特蝕刻紋與坑洞",
-    "body_focus": "心臟區、神經系統、能量系統快速調整",
-    "use_cases": "準備好面對人生大轉變者、高階靈性工作、內在覺醒課程",
+    "optical_effects": "無明顯特殊效應",
+    "body_focus": "血液循環與生命力",
+    "use_cases": "體力消耗大、需要提升動力與保護感時",
     "care_tips": "",
-    "synthetic_signs": "表面過於光滑、顏色均一、形狀整齊，或價位低得不合理，多為玻璃仿品"
+    "synthetic_signs": "顏色非常鮮豔均一、靠近孔洞處色更濃者多為染色"
   },
   "content": {
-    "caption": "🌟 紫微命盤配礦石——第1集（第9集）\n四化飛星 × 礦石能量配對：化祿/化權/化科/化忌各有對應\n化忌落不同宮位，解法完全不同——下集深入拆解 👀\n💾 收藏 | 追蹤查看完整紫微礦石系列",
+    "caption": "紫水晶 7 個真實事實——知道後你會用完全不同的方式對待它 🔮\n\n你知道市面大量「黃水晶」其實是燒色紫水晶嗎？你知道天然紫水晶一定有色帶嗎？\n\n✦ 顏色來自天然輻射＋鐵離子，非人工染色\n✦ 日曬令紫水晶永久褪色（鐵離子色心被破壞）\n✦ 能量對應神經系統與睡眠，枕邊石首選\n\n💾 收藏，識貨才買得值\n👇 留言：你的紫水晶是天然嗎？我幫你分析",
     "hashtags": [
-      "#紫微斗數",
-      "#命盤配石",
-      "#礦石風水",
-      "#四化飛星",
-      "#水晶能量",
-      "#開運礦石",
-      "#fengshui",
-      "#crystalenergy",
-      "#玄學",
-      "#香港風水",
-      "#紫微"
+      "#紫水晶",
+      "#Amethyst",
+      "#礦石真相",
+      "#crystalscience",
+      "#礦石知識"
     ],
-    "episode": 9,
-    "episode_title": "🌟 紫微斗數命盤配礦石（第1集）：四化飛星與守護石",
-    "series_hook": "化祿、化權、化科、化忌——四化不同，礦石能量補足方向完全不同",
-    "next_episode_preview": "第10集：按宮位缺陷選礦石——哪個宮位空宮代表什麼缺失？",
-    "visual_prompts": {
-      "hook": "紫微命盤圓形圖出現，四個宮位依次發光，配「你的命盤藏住一塊守護石」文字疊加。",
-      "develop": "四化與礦石對應飛入動畫：化祿→黃水晶（財）、化權→虎眼石（權威）、化科→海藍寶（智慧）、化忌→黑碧璽（化解）。",
-      "climax": "「化忌最多人忽略——但它決定了你用哪塊石最有效⋯⋯你的化忌是哪個星？」黑屏懸念。",
-      "cta": "「第10集：宮位空宮 = 能量缺失點」追蹤特效。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "命盤藏著你的守護石",
-        "body": "你的紫微命盤裡，藏著屬於你的那塊石。",
-        "en_text": "Your Zi Wei chart holds your guardian crystal."
+    "post_number": 9,
+    "post_title": "紫水晶完全指南：你所不知道的7個事實",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "紫水晶 7 個你從未聽過的真實事實 🔮",
+        "visual_desc": "深紫漸層背景，一顆切割精美的紫水晶晶簇特寫，七個星點裝飾環繞，品牌 Logo 右下，底部「👉 左滑逐一解鎖」",
+        "design_note": "「7個」數字製造完整感，深紫背景配合主題，視覺高度一致",
+        "body_text": "紫水晶 7 個你從未聽過的真實事實 🔮"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "四化是關鍵",
-        "body": "化祿→黃水晶；化權→虎眼石。",
-        "en_text": "Hua Lu=Citrine; Hua Quan=Tiger Eye."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "💜 事實 1：顏色來自鐵（Fe³⁺）與天然輻射——紫水晶是普通石英受到地殼天然放射線照射後形成的，顏色深淺與鐵含量及輻射劑量相關",
+          "🔬 事實 2：「燒色」天然紫水晶會變成黃水晶——加熱到 470℃ 以上，紫水晶褪色甚至轉黃，市場大量「黃水晶」其實是燒色紫水晶",
+          "☀️ 事實 3：日曬會永久褪色——鐵離子色心被紫外線破壞，長時間曝曬後顏色從深紫變淺粉，不可逆"
+        ],
+        "visual_desc": "紫水晶晶體剖面示意圖，鐵離子與輻射路徑標注，右側燒色對比圖（紫→黃）",
+        "body_text": "💜 事實 1：顏色來自鐵（Fe³⁺）與天然輻射——紫水晶是普通石英受到地殼天然放射線照射後形成的，顏色深淺與鐵含量及輻射劑量相關\n🔬 事實 2：「燒色」天然紫水晶會變成黃水晶——加熱到 470℃ 以上，紫水晶褪色甚至轉黃，市場大量「黃水晶」其實是燒色紫水晶\n☀️ 事實 3：日曬會永久褪色——鐵離子色心被紫外線破壞，長時間曝曬後顏色從深紫變淺粉，不可逆"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "化科、化忌怎麼配",
-        "body": "化科→海藍寶；化忌→黑碧璽化解，不是壓制。",
-        "en_text": "Hua Ke=Aquamarine; Hua Ji=Tourmaline."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🌊 事實 4：天然紫水晶有色帶——顏色分佈不均勻，有深有淺的色帶層次（Color Zoning）是天然標誌；顏色過於均一需警惕人工合成",
+          "🌍 事實 5：全球最大產地在巴西——Minas Gerais 州出產多數市售紫水晶；烏拉圭產的顏色最深飽和，價格更高",
+          "🌑 事實 6：黑光燈下（UV）部分紫水晶有螢光反應——天然螢光無害，是礦物內微量元素引起，非仿品指標"
+        ],
+        "visual_desc": "色帶層次特寫（對比染色版），產地世界地圖標示，黑光燈螢光效果示意",
+        "body_text": "🌊 事實 4：天然紫水晶有色帶——顏色分佈不均勻，有深有淺的色帶層次（Color Zoning）是天然標誌；顏色過於均一需警惕人工合成\n🌍 事實 5：全球最大產地在巴西——Minas Gerais 州出產多數市售紫水晶；烏拉圭產的顏色最深飽和，價格更高\n🌑 事實 6：黑光燈下（UV）部分紫水晶有螢光反應——天然螢光無害，是礦物內微量元素引起，非仿品指標"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "化忌落宮位，解法不同",
-        "body": "落在哪個宮位，礦石用法完全不一樣。",
-        "en_text": "Hua Ji's house changes everything."
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🧠 事實 7：能量學與現代心理學交集——紫水晶傳統對應頂輪，功能包括促進冥想、安神助眠、靈性工作輔助；SSOT 紀錄：對應神經系統、睡眠與頭部壓力",
+          "🛏️ 枕邊石使用建議：紫水晶晶簇擺放床頭，非直接枕著睡，高度同頭部平齊效果最佳",
+          "⚠️ 選購避雷：天然紫水晶顏色有深有淺、有色帶；染色玻璃色澤均一、內有圓形氣泡，重量偏輕"
+        ],
+        "visual_desc": "枕邊石使用示意（床頭晶簇擺放圖），選購對比圖，天然與仿品特徵標注",
+        "body_text": "🧠 事實 7：能量學與現代心理學交集——紫水晶傳統對應頂輪，功能包括促進冥想、安神助眠、靈性工作輔助；SSOT 紀錄：對應神經系統、睡眠與頭部壓力\n🛏️ 枕邊石使用建議：紫水晶晶簇擺放床頭，非直接枕著睡，高度同頭部平齊效果最佳\n⚠️ 選購避雷：天然紫水晶顏色有深有淺、有色帶；染色玻璃色澤均一、內有圓形氣泡，重量偏輕"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "財帛宮vs夫妻宮",
-        "body": "同樣化忌，兩個宮位是兩套完全不同的解法。",
-        "en_text": "Finance vs Relationships — totally different."
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第10集：宮位配石",
-        "body": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
-        "en_text": "Follow — Ep10: house-by-house guide."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏，這篇是紫水晶最完整的中文指南！\n➕ 追蹤學更多礦石冷知識\n👇 留言：你的紫水晶是天然原色還是燒色？",
+        "visual_desc": "深紫品牌背景，Logo 居中，「你的紫水晶夠天然嗎？」大字，CTA 文字白色清晰",
+        "body_text": "💾 收藏，這篇是紫水晶最完整的中文指南！\n➕ 追蹤學更多礦石冷知識\n👇 留言：你的紫水晶是天然原色還是燒色？"
       }
-    },
-    "music": {
-      "style": "mysterious",
-      "tempo": "slow",
-      "mood": "神秘東方，帶古典韻味",
-      "suggested_track": "chinese ambient mystical"
-    }
+    ]
   },
   "asset_paths": [
-    "assets/reels/reel_2026-07-13.mp4"
+    "assets/posts/post_2026-07-14_p1.png",
+    "assets/posts/post_2026-07-14_p2.png",
+    "assets/posts/post_2026-07-14_p3.png",
+    "assets/posts/post_2026-07-14_p4.png",
+    "assets/posts/post_2026-07-14_p5.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -115,6 +109,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-13T08:02:50.515105"
+    "published_at": "2026-07-14T08:03:13.851664"
   }
 }
