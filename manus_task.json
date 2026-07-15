@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-07-14_posts",
-  "created_at": "2026-07-14T08:02:56.558793+00:00",
+  "task_id": "2026-07-15_stories",
+  "created_at": "2026-07-15T08:04:29.214395+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-14",
-    "type": "posts",
-    "phase": "1",
-    "cta": "👉 追蹤 @lunas.stone.atelier 不錯過每集礦石故事",
+    "date": "2026-07-15",
+    "type": "stories",
+    "phase": "2",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "carnelian",
-    "zh": "紅瑪瑙 / 玉髓",
-    "en": "Carnelian",
+    "id": "green_aventurine",
+    "zh": "綠東陵石",
+    "en": "Green Aventurine",
     "hardness": "",
     "color": "",
-    "optical_effects": "無明顯特殊效應",
-    "body_focus": "血液循環與生命力",
-    "use_cases": "體力消耗大、需要提升動力與保護感時",
+    "optical_effects": "細碎閃光（aventurescence）",
+    "body_focus": "心肺與循環系統",
+    "use_cases": "求職、轉職、創業初期、心輪修復",
     "care_tips": "",
-    "synthetic_signs": "顏色非常鮮豔均一、靠近孔洞處色更濃者多為染色"
+    "synthetic_signs": "顏色過於均一、亮片分佈規則者可能為合成材料"
   },
   "content": {
-    "caption": "紫水晶 7 個真實事實——知道後你會用完全不同的方式對待它 🔮\n\n你知道市面大量「黃水晶」其實是燒色紫水晶嗎？你知道天然紫水晶一定有色帶嗎？\n\n✦ 顏色來自天然輻射＋鐵離子，非人工染色\n✦ 日曬令紫水晶永久褪色（鐵離子色心被破壞）\n✦ 能量對應神經系統與睡眠，枕邊石首選\n\n💾 收藏，識貨才買得值\n👇 留言：你的紫水晶是天然嗎？我幫你分析",
-    "hashtags": [
-      "#紫水晶",
-      "#Amethyst",
-      "#礦石真相",
-      "#crystalscience",
-      "#礦石知識"
-    ],
-    "post_number": 9,
-    "post_title": "紫水晶完全指南：你所不知道的7個事實",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "紫水晶 7 個你從未聽過的真實事實 🔮",
-        "visual_desc": "深紫漸層背景，一顆切割精美的紫水晶晶簇特寫，七個星點裝飾環繞，品牌 Logo 右下，底部「👉 左滑逐一解鎖」",
-        "design_note": "「7個」數字製造完整感，深紫背景配合主題，視覺高度一致",
-        "body_text": "紫水晶 7 個你從未聽過的真實事實 🔮"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "💜 事實 1：顏色來自鐵（Fe³⁺）與天然輻射——紫水晶是普通石英受到地殼天然放射線照射後形成的，顏色深淺與鐵含量及輻射劑量相關",
-          "🔬 事實 2：「燒色」天然紫水晶會變成黃水晶——加熱到 470℃ 以上，紫水晶褪色甚至轉黃，市場大量「黃水晶」其實是燒色紫水晶",
-          "☀️ 事實 3：日曬會永久褪色——鐵離子色心被紫外線破壞，長時間曝曬後顏色從深紫變淺粉，不可逆"
-        ],
-        "visual_desc": "紫水晶晶體剖面示意圖，鐵離子與輻射路徑標注，右側燒色對比圖（紫→黃）",
-        "body_text": "💜 事實 1：顏色來自鐵（Fe³⁺）與天然輻射——紫水晶是普通石英受到地殼天然放射線照射後形成的，顏色深淺與鐵含量及輻射劑量相關\n🔬 事實 2：「燒色」天然紫水晶會變成黃水晶——加熱到 470℃ 以上，紫水晶褪色甚至轉黃，市場大量「黃水晶」其實是燒色紫水晶\n☀️ 事實 3：日曬會永久褪色——鐵離子色心被紫外線破壞，長時間曝曬後顏色從深紫變淺粉，不可逆"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🌊 事實 4：天然紫水晶有色帶——顏色分佈不均勻，有深有淺的色帶層次（Color Zoning）是天然標誌；顏色過於均一需警惕人工合成",
-          "🌍 事實 5：全球最大產地在巴西——Minas Gerais 州出產多數市售紫水晶；烏拉圭產的顏色最深飽和，價格更高",
-          "🌑 事實 6：黑光燈下（UV）部分紫水晶有螢光反應——天然螢光無害，是礦物內微量元素引起，非仿品指標"
-        ],
-        "visual_desc": "色帶層次特寫（對比染色版），產地世界地圖標示，黑光燈螢光效果示意",
-        "body_text": "🌊 事實 4：天然紫水晶有色帶——顏色分佈不均勻，有深有淺的色帶層次（Color Zoning）是天然標誌；顏色過於均一需警惕人工合成\n🌍 事實 5：全球最大產地在巴西——Minas Gerais 州出產多數市售紫水晶；烏拉圭產的顏色最深飽和，價格更高\n🌑 事實 6：黑光燈下（UV）部分紫水晶有螢光反應——天然螢光無害，是礦物內微量元素引起，非仿品指標"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🧠 事實 7：能量學與現代心理學交集——紫水晶傳統對應頂輪，功能包括促進冥想、安神助眠、靈性工作輔助；SSOT 紀錄：對應神經系統、睡眠與頭部壓力",
-          "🛏️ 枕邊石使用建議：紫水晶晶簇擺放床頭，非直接枕著睡，高度同頭部平齊效果最佳",
-          "⚠️ 選購避雷：天然紫水晶顏色有深有淺、有色帶；染色玻璃色澤均一、內有圓形氣泡，重量偏輕"
-        ],
-        "visual_desc": "枕邊石使用示意（床頭晶簇擺放圖），選購對比圖，天然與仿品特徵標注",
-        "body_text": "🧠 事實 7：能量學與現代心理學交集——紫水晶傳統對應頂輪，功能包括促進冥想、安神助眠、靈性工作輔助；SSOT 紀錄：對應神經系統、睡眠與頭部壓力\n🛏️ 枕邊石使用建議：紫水晶晶簇擺放床頭，非直接枕著睡，高度同頭部平齊效果最佳\n⚠️ 選購避雷：天然紫水晶顏色有深有淺、有色帶；染色玻璃色澤均一、內有圓形氣泡，重量偏輕"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏，這篇是紫水晶最完整的中文指南！\n➕ 追蹤學更多礦石冷知識\n👇 留言：你的紫水晶是天然原色還是燒色？",
-        "visual_desc": "深紫品牌背景，Logo 居中，「你的紫水晶夠天然嗎？」大字，CTA 文字白色清晰",
-        "body_text": "💾 收藏，這篇是紫水晶最完整的中文指南！\n➕ 追蹤學更多礦石冷知識\n👇 留言：你的紫水晶是天然原色還是燒色？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠東陵把握機會",
+      "body": "求職、轉職或創業初期，綠東陵石象徵把握機會的好運。",
+      "en_text": "Green Aventurine attracts luck and opportunity.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-07-14_p1.png",
-    "assets/posts/post_2026-07-14_p2.png",
-    "assets/posts/post_2026-07-14_p3.png",
-    "assets/posts/post_2026-07-14_p4.png",
-    "assets/posts/post_2026-07-14_p5.png"
+    "assets/stories/story_2026-07-15.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -109,6 +54,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-14T08:03:13.851664"
+    "published_at": "2026-07-15T08:04:38.042550"
   }
 }
