@@ -1,50 +1,110 @@
 {
-  "task_id": "2026-07-15_stories",
-  "created_at": "2026-07-15T08:04:29.214395+00:00",
+  "task_id": "2026-07-16_reels",
+  "created_at": "2026-07-16T08:04:02.586791+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-15",
-    "type": "stories",
+    "date": "2026-07-16",
+    "type": "reels",
     "phase": "2",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "episode": 10,
+    "next_stone_id": "aquamarine"
   },
   "stone": {
-    "id": "green_aventurine",
-    "zh": "綠東陵石",
-    "en": "Green Aventurine",
+    "id": "tigers_eye",
+    "zh": "虎眼石",
+    "en": "Tiger's Eye",
     "hardness": "",
     "color": "",
-    "optical_effects": "細碎閃光（aventurescence）",
-    "body_focus": "心肺與循環系統",
-    "use_cases": "求職、轉職、創業初期、心輪修復",
+    "optical_effects": "貓眼效應（chatoyancy）",
+    "body_focus": "消化、肝膽、肌肉力量",
+    "use_cases": "決策、談判、創業、需要「挺身而出」的場景",
     "care_tips": "",
-    "synthetic_signs": "顏色過於均一、亮片分佈規則者可能為合成材料"
+    "synthetic_signs": "光帶過於規則或整面均一亮度可能為仿品"
   },
   "content": {
-    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "綠東陵把握機會",
-      "body": "求職、轉職或創業初期，綠東陵石象徵把握機會的好運。",
-      "en_text": "Green Aventurine attracts luck and opportunity.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "🏠 紫微空宮 × 礦石補足法（第10集）\n命宮/財帛/夫妻宮空——各有對應礦石補足策略\n但有種空宮用錯石反而會限制你——下集深入講 👀\n💾 收藏 | 追蹤查看奇門遁甲篇",
+    "hashtags": [
+      "#紫微斗數",
+      "#空宮",
+      "#命盤礦石",
+      "#風水開運",
+      "#水晶能量",
+      "#crystalfengshui",
+      "#玄學",
+      "#香港命理",
+      "#礦石",
+      "#開運"
+    ],
+    "episode": 10,
+    "episode_title": "🏠 紫微宮位 × 礦石（第2集）：空宮代表能量缺口",
+    "series_hook": "命宮空宮不是沒有東西——是你要靠後天工具去補足的位置",
+    "next_episode_preview": "第11集：奇門遁甲時空佈局——最強時機配礦石開運法",
+    "visual_prompts": {
+      "hook": "命盤圖出現，某個宮位被紅圈標示「空宮」，疊加「這個位空了——你的能量有個洞」文字。",
+      "develop": "三個重要宮位逐一解說（命宮、財帛宮、夫妻宮），每個配對礦石飛入動畫。",
+      "climax": "「但是！不是每個空宮都是壞事——有種空宮是⋯⋯」黑屏，神秘感強。",
+      "cta": "「第11集：奇門遁甲 × 礦石最強時機佈局」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "命盤空宮＝能量缺口",
+        "body": "空宮不是沒有東西，是你人生的能量缺口。",
+        "en_text": "An empty palace is an energy gap."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "命宮空→白水晶",
+        "body": "用白水晶作基礎能量場補足命宮。",
+        "en_text": "Life palace empty → Clear Quartz."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "財帛、夫妻宮怎麼補",
+        "body": "財帛宮空→黃水晶＋虎眼石；夫妻宮空→粉晶＋月光石。",
+        "en_text": "Wealth → Citrine+Tiger Eye; Love → Rose+Moonstone."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "有種空宮是留白",
+        "body": "它不是缺失，而是你人生最有彈性之處。",
+        "en_text": "Some empty palaces are freedom, not lack."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "用錯反而限制你",
+        "body": "在留白宮位放錯礦石，會限制你的可能性。",
+        "en_text": "Wrong crystals there limit your potential—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第11集：奇門遁甲",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep11: Qi Men timing."
+      }
+    },
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-15.png"
+    "assets/reels/reel_2026-07-16.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -54,6 +114,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-15T08:04:38.042550"
+    "published_at": "2026-07-16T08:04:13.968341"
   }
 }
