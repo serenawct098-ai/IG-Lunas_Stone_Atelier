@@ -1,110 +1,105 @@
 {
-  "task_id": "2026-07-16_reels",
-  "created_at": "2026-07-16T08:04:02.586791+00:00",
+  "task_id": "2026-07-17_posts",
+  "created_at": "2026-07-17T08:04:49.101472+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-16",
-    "type": "reels",
+    "date": "2026-07-17",
+    "type": "posts",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "episode": 10,
-    "next_stone_id": "aquamarine"
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "tigers_eye",
-    "zh": "虎眼石",
-    "en": "Tiger's Eye",
+    "id": "moonstone",
+    "zh": "月光石",
+    "en": "Moonstone",
     "hardness": "",
     "color": "",
-    "optical_effects": "貓眼效應（chatoyancy）",
-    "body_focus": "消化、肝膽、肌肉力量",
-    "use_cases": "決策、談判、創業、需要「挺身而出」的場景",
+    "optical_effects": "月光效應（adularescence）",
+    "body_focus": "女性週期、內分泌與情緒平衡",
+    "use_cases": "睡前冥想、情緒起伏大、關係議題工作",
     "care_tips": "",
-    "synthetic_signs": "光帶過於規則或整面均一亮度可能為仿品"
+    "synthetic_signs": "光暈均一、整面閃光且石體過於完美可能為仿品"
   },
   "content": {
-    "caption": "🏠 紫微空宮 × 礦石補足法（第10集）\n命宮/財帛/夫妻宮空——各有對應礦石補足策略\n但有種空宮用錯石反而會限制你——下集深入講 👀\n💾 收藏 | 追蹤查看奇門遁甲篇",
+    "caption": "🔎 買礦石前必看！5個肉眼就能識別真假水晶的方法\n\n花了錢卻買到玻璃仿品？這篇幫你建立基本鑑定眼力 👁\n\n✦ 天然石有內含物——棉絮、雲霧、色帶全是真實記號\n✦ 玻璃仿品看圓形氣泡——10倍放大鏡一照即知\n✦ 最終保障：寶石鑑定證書不可缺\n\n💾 收藏備用，下次入手前先對照檢查\n👇 你有試過買到假礦石嗎？留言分享",
     "hashtags": [
-      "#紫微斗數",
-      "#空宮",
-      "#命盤礦石",
-      "#風水開運",
-      "#水晶能量",
-      "#crystalfengshui",
-      "#玄學",
-      "#香港命理",
-      "#礦石",
-      "#開運"
+      "#水晶鑑定",
+      "#天然礦石",
+      "#crystalauthenticity",
+      "#礦物學",
+      "#真假水晶"
     ],
-    "episode": 10,
-    "episode_title": "🏠 紫微宮位 × 礦石（第2集）：空宮代表能量缺口",
-    "series_hook": "命宮空宮不是沒有東西——是你要靠後天工具去補足的位置",
-    "next_episode_preview": "第11集：奇門遁甲時空佈局——最強時機配礦石開運法",
-    "visual_prompts": {
-      "hook": "命盤圖出現，某個宮位被紅圈標示「空宮」，疊加「這個位空了——你的能量有個洞」文字。",
-      "develop": "三個重要宮位逐一解說（命宮、財帛宮、夫妻宮），每個配對礦石飛入動畫。",
-      "climax": "「但是！不是每個空宮都是壞事——有種空宮是⋯⋯」黑屏，神秘感強。",
-      "cta": "「第11集：奇門遁甲 × 礦石最強時機佈局」追蹤特效。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "命盤空宮＝能量缺口",
-        "body": "空宮不是沒有東西，是你人生的能量缺口。",
-        "en_text": "An empty palace is an energy gap."
+    "post_number": 10,
+    "post_title": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
+        "visual_desc": "左邊「REAL」天然水晶特寫 vs 右邊「FAKE」玻璃仿品特寫（對比鮮明），中央放大鏡圖示，底部「👉 左滑學會分辨」",
+        "design_note": "對比圖是此類內容收藏率最高的視覺格式，確保圖片質量與差異清晰可見",
+        "body_text": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "命宮空→白水晶",
-        "body": "用白水晶作基礎能量場補足命宮。",
-        "en_text": "Life palace empty → Clear Quartz."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "✅ 天然礦石特徵 1：內含物（Inclusions）——棉絮、雲霧、氣液包裹體、色帶不均",
+          "❌ 仿品特徵 1：完全無內含物且顏色均一——玻璃或合成品的典型",
+          "🔍 實操：10倍放大鏡下觀察——天然石看到自然紋理，玻璃看到圓形氣泡"
+        ],
+        "visual_desc": "10倍放大鏡下天然白水晶（有棉絮）vs 玻璃（有圓形氣泡）對比微觀圖",
+        "body_text": "✅ 天然礦石特徵 1：內含物（Inclusions）——棉絮、雲霧、氣液包裹體、色帶不均\n❌ 仿品特徵 1：完全無內含物且顏色均一——玻璃或合成品的典型\n🔍 實操：10倍放大鏡下觀察——天然石看到自然紋理，玻璃看到圓形氣泡"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "財帛、夫妻宮怎麼補",
-        "body": "財帛宮空→黃水晶＋虎眼石；夫妻宮空→粉晶＋月光石。",
-        "en_text": "Wealth → Citrine+Tiger Eye; Love → Rose+Moonstone."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "✅ 天然礦石特徵 2：溫度差——天然石英手握後慢慢回溫（導熱性低）",
+          "❌ 仿品特徵 2：玻璃仿品與室溫相近，手握無明顯冰涼感",
+          "✅ 天然礦石特徵 3：重量——同體積天然水晶比玻璃略重（密度約 2.65 g/cm³）"
+        ],
+        "visual_desc": "手握水晶特寫圖，旁邊溫度計小圖示意「冰涼感」概念",
+        "body_text": "✅ 天然礦石特徵 2：溫度差——天然石英手握後慢慢回溫（導熱性低）\n❌ 仿品特徵 2：玻璃仿品與室溫相近，手握無明顯冰涼感\n✅ 天然礦石特徵 3：重量——同體積天然水晶比玻璃略重（密度約 2.65 g/cm³）"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "有種空宮是留白",
-        "body": "它不是缺失，而是你人生最有彈性之處。",
-        "en_text": "Some empty palaces are freedom, not lack."
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "✅ 天然礦石特徵 4：色帶（Colour Zoning）——天然有色礦石顏色深淺不均、分區明顯",
+          "✅ 天然礦石特徵 5：不完美——小裂紋、輕微缺角、生長紋是真實礦石的「簽名」",
+          "⚠️ 最終確認方法：GIA / 本地寶石學院出具鑑定證書（肉眼觀察只作參考）"
+        ],
+        "visual_desc": "天然紫水晶色帶特寫 vs 染色仿品均一色對比，文字箭頭標注差異位置",
+        "body_text": "✅ 天然礦石特徵 4：色帶（Colour Zoning）——天然有色礦石顏色深淺不均、分區明顯\n✅ 天然礦石特徵 5：不完美——小裂紋、輕微缺角、生長紋是真實礦石的「簽名」\n⚠️ 最終確認方法：GIA / 本地寶石學院出具鑑定證書（肉眼觀察只作參考）"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "用錯反而限制你",
-        "body": "在留白宮位放錯礦石，會限制你的可能性。",
-        "en_text": "Wrong crystals there limit your potential—"
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第11集：奇門遁甲",
-        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-        "en_text": "Follow — Ep11: Qi Men timing."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇，買礦石前先看！\n➕ 追蹤我，每週礦石鑑定科普\n👇 留言：你有沒有買過懷疑是假的礦石？",
+        "visual_desc": "品牌主色背景，中央放大鏡圖示，「真假礦石，你值得知道真相」字句",
+        "body_text": "💾 收藏這篇，買礦石前先看！\n➕ 追蹤我，每週礦石鑑定科普\n👇 留言：你有沒有買過懷疑是假的礦石？"
       }
-    },
-    "music": {
-      "style": "mysterious",
-      "tempo": "slow",
-      "mood": "神秘東方，帶古典韻味",
-      "suggested_track": "chinese ambient mystical"
-    }
+    ]
   },
   "asset_paths": [
-    "assets/reels/reel_2026-07-16.mp4"
+    "assets/posts/post_2026-07-17_p1.png",
+    "assets/posts/post_2026-07-17_p2.png",
+    "assets/posts/post_2026-07-17_p3.png",
+    "assets/posts/post_2026-07-17_p4.png",
+    "assets/posts/post_2026-07-17_p5.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -114,6 +109,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-16T08:04:13.968341"
+    "published_at": "2026-07-17T08:05:06.376568"
   }
 }
