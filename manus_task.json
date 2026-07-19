@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-07-17_posts",
-  "created_at": "2026-07-17T08:04:49.101472+00:00",
+  "task_id": "2026-07-19_stories",
+  "created_at": "2026-07-19T08:02:06.739841+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-17",
-    "type": "posts",
+    "date": "2026-07-19",
+    "type": "stories",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "moonstone",
-    "zh": "月光石",
-    "en": "Moonstone",
+    "id": "apatite_blue",
+    "zh": "藍磷灰石",
+    "en": "Blue Apatite",
     "hardness": "",
     "color": "",
-    "optical_effects": "月光效應（adularescence）",
-    "body_focus": "女性週期、內分泌與情緒平衡",
-    "use_cases": "睡前冥想、情緒起伏大、關係議題工作",
+    "optical_effects": "少數有貓眼效應",
+    "body_focus": "骨骼與代謝（象徵性，在能量學中提及）",
+    "use_cases": "學習、寫作、創作時佩戴",
     "care_tips": "",
-    "synthetic_signs": "光暈均一、整面閃光且石體過於完美可能為仿品"
+    "synthetic_signs": "顏色極均一、透明度異常高且價位偏低需警覺處理"
   },
   "content": {
-    "caption": "🔎 買礦石前必看！5個肉眼就能識別真假水晶的方法\n\n花了錢卻買到玻璃仿品？這篇幫你建立基本鑑定眼力 👁\n\n✦ 天然石有內含物——棉絮、雲霧、色帶全是真實記號\n✦ 玻璃仿品看圓形氣泡——10倍放大鏡一照即知\n✦ 最終保障：寶石鑑定證書不可缺\n\n💾 收藏備用，下次入手前先對照檢查\n👇 你有試過買到假礦石嗎？留言分享",
-    "hashtags": [
-      "#水晶鑑定",
-      "#天然礦石",
-      "#crystalauthenticity",
-      "#礦物學",
-      "#真假水晶"
-    ],
-    "post_number": 10,
-    "post_title": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆",
-        "visual_desc": "左邊「REAL」天然水晶特寫 vs 右邊「FAKE」玻璃仿品特寫（對比鮮明），中央放大鏡圖示，底部「👉 左滑學會分辨」",
-        "design_note": "對比圖是此類內容收藏率最高的視覺格式，確保圖片質量與差異清晰可見",
-        "body_text": "🔎 真假水晶鑑定圖解：5個肉眼就能看的徵兆"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "✅ 天然礦石特徵 1：內含物（Inclusions）——棉絮、雲霧、氣液包裹體、色帶不均",
-          "❌ 仿品特徵 1：完全無內含物且顏色均一——玻璃或合成品的典型",
-          "🔍 實操：10倍放大鏡下觀察——天然石看到自然紋理，玻璃看到圓形氣泡"
-        ],
-        "visual_desc": "10倍放大鏡下天然白水晶（有棉絮）vs 玻璃（有圓形氣泡）對比微觀圖",
-        "body_text": "✅ 天然礦石特徵 1：內含物（Inclusions）——棉絮、雲霧、氣液包裹體、色帶不均\n❌ 仿品特徵 1：完全無內含物且顏色均一——玻璃或合成品的典型\n🔍 實操：10倍放大鏡下觀察——天然石看到自然紋理，玻璃看到圓形氣泡"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "✅ 天然礦石特徵 2：溫度差——天然石英手握後慢慢回溫（導熱性低）",
-          "❌ 仿品特徵 2：玻璃仿品與室溫相近，手握無明顯冰涼感",
-          "✅ 天然礦石特徵 3：重量——同體積天然水晶比玻璃略重（密度約 2.65 g/cm³）"
-        ],
-        "visual_desc": "手握水晶特寫圖，旁邊溫度計小圖示意「冰涼感」概念",
-        "body_text": "✅ 天然礦石特徵 2：溫度差——天然石英手握後慢慢回溫（導熱性低）\n❌ 仿品特徵 2：玻璃仿品與室溫相近，手握無明顯冰涼感\n✅ 天然礦石特徵 3：重量——同體積天然水晶比玻璃略重（密度約 2.65 g/cm³）"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "✅ 天然礦石特徵 4：色帶（Colour Zoning）——天然有色礦石顏色深淺不均、分區明顯",
-          "✅ 天然礦石特徵 5：不完美——小裂紋、輕微缺角、生長紋是真實礦石的「簽名」",
-          "⚠️ 最終確認方法：GIA / 本地寶石學院出具鑑定證書（肉眼觀察只作參考）"
-        ],
-        "visual_desc": "天然紫水晶色帶特寫 vs 染色仿品均一色對比，文字箭頭標注差異位置",
-        "body_text": "✅ 天然礦石特徵 4：色帶（Colour Zoning）——天然有色礦石顏色深淺不均、分區明顯\n✅ 天然礦石特徵 5：不完美——小裂紋、輕微缺角、生長紋是真實礦石的「簽名」\n⚠️ 最終確認方法：GIA / 本地寶石學院出具鑑定證書（肉眼觀察只作參考）"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這篇，買礦石前先看！\n➕ 追蹤我，每週礦石鑑定科普\n👇 留言：你有沒有買過懷疑是假的礦石？",
-        "visual_desc": "品牌主色背景，中央放大鏡圖示，「真假礦石，你值得知道真相」字句",
-        "body_text": "💾 收藏這篇，買礦石前先看！\n➕ 追蹤我，每週礦石鑑定科普\n👇 留言：你有沒有買過懷疑是假的礦石？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍磷灰石解卡關",
+      "body": "寫作或創作卡關時，藍磷灰石為你注入靈感與動力。",
+      "en_text": "Blue Apatite fuels creativity and learning.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-07-17_p1.png",
-    "assets/posts/post_2026-07-17_p2.png",
-    "assets/posts/post_2026-07-17_p3.png",
-    "assets/posts/post_2026-07-17_p4.png",
-    "assets/posts/post_2026-07-17_p5.png"
+    "assets/stories/story_2026-07-19.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -109,6 +54,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-17T08:05:06.376568"
+    "published_at": "2026-07-19T08:02:16.477023"
   }
 }
