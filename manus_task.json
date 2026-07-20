@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-07-19_stories",
-  "created_at": "2026-07-19T08:02:06.739841+00:00",
+  "task_id": "2026-07-20_reels",
+  "created_at": "2026-07-20T08:03:03.819978+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-19",
-    "type": "stories",
+    "date": "2026-07-20",
+    "type": "reels",
     "phase": "2",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "episode": 11,
+    "next_stone_id": "peridot"
   },
   "stone": {
-    "id": "apatite_blue",
-    "zh": "藍磷灰石",
-    "en": "Blue Apatite",
+    "id": "garnet_red",
+    "zh": "紅石榴石",
+    "en": "Red Garnet",
     "hardness": "",
     "color": "",
-    "optical_effects": "少數有貓眼效應",
-    "body_focus": "骨骼與代謝（象徵性，在能量學中提及）",
-    "use_cases": "學習、寫作、創作時佩戴",
+    "optical_effects": "高折射率帶來強烈光澤",
+    "body_focus": "血液、循環與生殖系統",
+    "use_cases": "需補充精力、穩定親密關係時",
     "care_tips": "",
-    "synthetic_signs": "顏色極均一、透明度異常高且價位偏低需警覺處理"
+    "synthetic_signs": "合成石榴石少見，仿品多為玻璃"
   },
   "content": {
-    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "藍磷灰石解卡關",
-      "body": "寫作或創作卡關時，藍磷灰石為你注入靈感與動力。",
-      "en_text": "Blue Apatite fuels creativity and learning.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "🌟 奇門遁甲×礦石：吉時啟動最強開運法（第11集）\n同一塊石，吉時啟動vs隨便擺——效果是天壤之別\n下集教你計算！\n💾 收藏 | 追蹤查看第12集",
+    "hashtags": [
+      "#奇門遁甲",
+      "#吉時開運",
+      "#礦石風水",
+      "#qimendunjia",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalfengshui",
+      "#時空佈局",
+      "#水晶擺陣"
+    ],
+    "episode": 11,
+    "episode_title": "奇門遁甲×礦石：吉時佈局最強開運法（第1集）",
+    "series_hook": "最強吉時窗口每個月只有幾日——下集教你算！",
+    "next_episode_preview": "第12集：奇門吉時計算教學",
+    "visual_prompts": {
+      "hook": "奇門遁甲符號旋轉動畫，礦石排成九宮格，大字「同一塊石，不同時間放，效果差十倍」，強烈視覺。",
+      "develop": "月曆出現，幾個日期被金色圓圈標示為「吉時」，礦石在吉時圓圈中閃光，非吉時則灰色黯淡，對比強烈。",
+      "climax": "吉時窗口聚焦，「最強吉時每個月只有幾日——下集教你算！」黑屏白字，懸念感極強。",
+      "cta": "「第12集：奇門吉時計算！」追蹤特效彈出。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "同塊石，效果差十倍",
+        "body": "同一塊礦石，不同時間擺放，效果天差地別。",
+        "en_text": "Same crystal, different timing, 10× the effect."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "奇門遁甲：天地人",
+        "body": "核心是「天時、地利、人和」三合一。",
+        "en_text": "Qi Men: heaven, earth, and human aligned."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "吉時啟動，與天時對齊",
+        "body": "礦石擺陣在吉時啟動，能量與天時對齊。",
+        "en_text": "Activate at an auspicious window."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "吉時每月只有幾天",
+        "body": "最強的吉時窗口，每個月只出現幾天。",
+        "en_text": "Peak windows: only a few days a month."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "算出來＝另一個層次",
+        "body": "算出吉時後，礦石效果完全是另一個境界。",
+        "en_text": "Calculate it — and enter another dimension."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "下集教你計算吉時",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — next: calculate your timing."
+      }
+    },
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-19.png"
+    "assets/reels/reel_2026-07-20.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -54,6 +116,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-19T08:02:16.477023"
+    "published_at": "2026-07-20T08:03:17.772480"
   }
 }
