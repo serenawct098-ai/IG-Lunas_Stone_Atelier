@@ -1,12 +1,12 @@
 {
-  "task_id": "2026-07-22_stories",
-  "created_at": "2026-07-22T08:04:40.835174+00:00",
+  "task_id": "2026-07-23_stories",
+  "created_at": "2026-07-23T08:04:19.862663+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-22",
+    "date": "2026-07-23",
     "type": "stories",
     "phase": "2",
     "cta": "",
@@ -14,30 +14,30 @@
     "next_stone_id": null
   },
   "stone": {
-    "id": "jadeite_jade",
-    "zh": "翡翠",
-    "en": "Jadeite Jade",
+    "id": "turquoise",
+    "zh": "綠松石",
+    "en": "Turquoise",
     "hardness": "",
     "color": "",
-    "optical_effects": "某些高品質具強玻璃光，顏色細膩分布",
-    "body_focus": "一般視作護身與平衡氣血象徵",
-    "use_cases": "長期佩戴護身、傳家與保值",
+    "optical_effects": "無特定",
+    "body_focus": "呼吸與免疫象徵",
+    "use_cases": "出行、溝通頻繁與需要護身時",
     "care_tips": "",
-    "synthetic_signs": "染色 B+C 貨顏色過於鮮豔，樹脂充填有玻璃感"
+    "synthetic_signs": "穩定處理與合成品大量存在，顏色過均一、質地似塑膠"
   },
   "content": {
-    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
-      "headline": "翡翠傳家寶",
-      "body": "翡翠適合長期佩戴護身，是傳家與保值的東方瑰寶。",
-      "en_text": "Jade symbolizes peace, abundance and stability.",
+      "headline": "綠松石保平安",
+      "body": "出行頻繁時佩戴綠松石，象徵一路平安與保護。",
+      "en_text": "Turquoise protects travelers and honest expression.",
       "cta_text": "追蹤 @lunas.stone.atelier"
     },
     "hashtags": [],
     "story_title": ""
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-22.png"
+    "assets/stories/story_2026-07-23.png"
   ],
   "assets_ready": true,
   "format_spec": {
@@ -54,6 +54,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-22T08:04:50.306829"
+    "published_at": "2026-07-23T08:04:29.450940"
   }
 }
