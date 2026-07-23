@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-07-23_stories",
-  "created_at": "2026-07-23T08:04:19.862663+00:00",
+  "task_id": "2026-07-23_reels",
+  "created_at": "2026-07-23T08:04:50.113931+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
     "date": "2026-07-23",
-    "type": "stories",
+    "type": "reels",
     "phase": "2",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "episode": 12,
+    "next_stone_id": "turquoise"
   },
   "stone": {
-    "id": "turquoise",
-    "zh": "綠松石",
-    "en": "Turquoise",
+    "id": "nephrite_jade",
+    "zh": "軟玉（和田玉）",
+    "en": "Nephrite",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特定",
-    "body_focus": "呼吸與免疫象徵",
-    "use_cases": "出行、溝通頻繁與需要護身時",
+    "optical_effects": "油脂光澤",
+    "body_focus": "精氣神平衡象徵",
+    "use_cases": "長年佩戴、護身與安神",
     "care_tips": "",
-    "synthetic_signs": "穩定處理與合成品大量存在，顏色過均一、質地似塑膠"
+    "synthetic_signs": "染色與充填品顏色不自然，透光下色帶不均"
   },
   "content": {
-    "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "綠松石保平安",
-      "body": "出行頻繁時佩戴綠松石，象徵一路平安與保護。",
-      "en_text": "Turquoise protects travelers and honest expression.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "📱 奇門吉時自算教學（第12集）\n手機5分鐘算出最強礦石啟動時窗\n三大吉門：生門、開門、休門——你識選嗎？\n💾 收藏 | 追蹤查看第13集方位表",
+    "hashtags": [
+      "#奇門吉時",
+      "#奇門遁甲教學",
+      "#礦石啟動",
+      "#qimendunjia",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalfengshui",
+      "#排盤教學",
+      "#水晶擺陣"
+    ],
+    "episode": 12,
+    "episode_title": "奇門遁甲吉時自算教學（第2集）",
+    "series_hook": "算到吉時之後，礦石要如何擺放？方位是關鍵",
+    "next_episode_preview": "第13集：方位×礦石能量對照表",
+    "visual_prompts": {
+      "hook": "手機螢幕特寫，奇門排盤 App 介面，大字「5分鐘！手機即算奇門盤」，現代感強。",
+      "develop": "步驟動畫：輸入日期時間→生成奇門盤→找時干地支→判斷吉凶，每步配清晰文字說明。",
+      "climax": "奇門盤完成，吉時標注閃光，「算到吉時之後，礦石要如何擺放？方位是關鍵⋯⋯」懸念收尾。",
+      "cta": "「第13集：方位×礦石對照！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "手機5分鐘算奇門盤",
+        "body": "用手機就能算奇門盤——5分鐘學會，馬上用。",
+        "en_text": "Calculate a Qi Men chart on your phone."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "輸入日期與時間",
+        "body": "打開排盤App，輸入要激活礦石的日期時間。",
+        "en_text": "Open the app; input date and time."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "看三大吉門",
+        "body": "時干落在生門、開門、休門，即為啟動時窗。",
+        "en_text": "Check Life, Open, or Rest Gate."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "算對時間還不夠",
+        "body": "方位不對，時間對了也是白費功夫。",
+        "en_text": "Right time, wrong direction = wasted."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "方位才是關鍵",
+        "body": "礦石要擺在對的方位，能量才真正啟動。",
+        "en_text": "Placement direction matters just as much."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第13集：方位對照表",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep13: direction chart."
+      }
+    },
+    "music": {
+      "style": "mysterious",
+      "tempo": "slow",
+      "mood": "神秘東方，帶古典韻味",
+      "suggested_track": "chinese ambient mystical"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-23.png"
+    "assets/reels/reel_2026-07-23.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -54,6 +116,6 @@
   },
   "result": {
     "status": "published",
-    "published_at": "2026-07-23T08:04:29.450940"
+    "published_at": "2026-07-23T08:05:03.283490"
   }
 }
