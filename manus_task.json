@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-07-24_posts",
-  "created_at": "2026-07-24T08:08:50.048710+00:00",
+  "task_id": "2026-07-26_stories",
+  "created_at": "2026-07-26T08:05:10.165908+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-24",
-    "type": "posts",
+    "date": "2026-07-26",
+    "type": "stories",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "malachite",
-    "zh": "孔雀石",
-    "en": "Malachite",
+    "id": "pyrite",
+    "zh": "黃鐵礦",
+    "en": "Pyrite",
     "hardness": "",
     "color": "",
-    "optical_effects": "絲絨光感",
-    "body_focus": "解毒與循環象徵",
-    "use_cases": "深層個人轉化與療癒工作",
+    "optical_effects": "強烈金屬光澤，晶面可見立方體或五角十二面體形態",
+    "body_focus": "消化系統、免疫力與體力能量象徵",
+    "use_cases": "招財擺設、事業辦公桌佈置、提振行動力與自信",
     "care_tips": "",
-    "synthetic_signs": "佈局過於規則、塑膠質感者多為仿品"
+    "synthetic_signs": "市場真品為主，但部分黃銅礦（Chalcopyrite）會以色澤混充，需注意晶形差異"
   },
   "content": {
-    "caption": "捷克隕石為什麼叫地球最高頻的石？因為它根本不完全屬於地球 ☄️\n\n1500 萬年前隕石撞擊，超高溫高壓瞬間熔融地殼岩石——捷克隕石是宇宙留給地球的禮物\n\n✦ 唯一正統產地：捷克波希米亞地區\n✦ 真品蝕刻紋不規則，仿品過光滑\n✦ 能量學：對心輪刺激強烈，必配接地石\n\n💾 收藏，買真貨前先做功課\n👇 留言：你敢不敢試這種高頻石？",
-    "hashtags": [
-      "#捷克隕石",
-      "#Moldavite",
-      "#高頻礦石",
-      "#礦石鑑別",
-      "#crystalenergy"
-    ],
-    "post_number": 12,
-    "post_title": "捷克隕石：為什麼它叫地球上最高頻的石？",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "捷克隕石——宇宙撞擊誕生，為何說它頻率最高？ ☄️",
-        "visual_desc": "宇宙星空背景，一塊蝕刻紋明顯的捷克隕石懸浮特寫，背景星點光效，品牌 Logo 右下，底部「👉 左滑揭開隕石真相」",
-        "design_note": "星空背景製造神秘感，懸浮構圖強調「不屬於地球」主題，視覺衝擊強烈",
-        "body_text": "捷克隕石——宇宙撞擊誕生，為何說它頻率最高？ ☄️"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "☄️ 成因科學：約 1,500 萬年前隕石撞擊現今捷克南波希米亞地區——撞擊能量令地殼岩石瞬間汽化、噴入大氣、急速冷卻形成玻璃狀物質（Tektite，玻璃隕石）",
-          "🔬 成分：以 SiO₂ 為主的玻璃質，含特殊蝕刻紋與坑洞（Lechatelierite）——這是宇宙撞擊獨有的超高溫高壓記號",
-          "🌍 唯一產地：世界僅有真正摩爾達隕石（Moldavite）產自捷克波希米亞地區；奧地利及德國僅發現零星碎片，以捷克為正統產地"
-        ],
-        "visual_desc": "隕石撞擊示意圖（衝擊→汽化→冷卻過程），摩爾達石產地地圖，蝕刻紋微距特寫",
-        "body_text": "☄️ 成因科學：約 1,500 萬年前隕石撞擊現今捷克南波希米亞地區——撞擊能量令地殼岩石瞬間汽化、噴入大氣、急速冷卻形成玻璃狀物質（Tektite，玻璃隕石）\n🔬 成分：以 SiO₂ 為主的玻璃質，含特殊蝕刻紋與坑洞（Lechatelierite）——這是宇宙撞擊獨有的超高溫高壓記號\n🌍 唯一產地：世界僅有真正摩爾達隕石（Moldavite）產自捷克波希米亞地區；奧地利及德國僅發現零星碎片，以捷克為正統產地"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🔍 真品 vs 玻璃仿品鑑別：真品表面有不規則蝕刻紋（刻痕方向不規則，如水流沖蝕感）；仿品表面過於光滑或「蝕紋」過於均勻整齊",
-          "💰 真品特徵：通常有氣泡（lechatelierite）封存在內、輕微透光呈橄欖綠；仿品（捷克本地綠玻璃）顏色偏亮、無內部特徵、價格極低",
-          "⚠️ 市場現況：捷克隕石存量有限，市場仿品氾濫，選購需向有礦物學認證報告的賣家購買，切勿貪平"
-        ],
-        "visual_desc": "真假捷克隕石對比圖：左側真品（不規則蝕紋、橄欖綠）vs 右側仿品（過光滑、過鮮綠）",
-        "body_text": "🔍 真品 vs 玻璃仿品鑑別：真品表面有不規則蝕刻紋（刻痕方向不規則，如水流沖蝕感）；仿品表面過於光滑或「蝕紋」過於均勻整齊\n💰 真品特徵：通常有氣泡（lechatelierite）封存在內、輕微透光呈橄欖綠；仿品（捷克本地綠玻璃）顏色偏亮、無內部特徵、價格極低\n⚠️ 市場現況：捷克隕石存量有限，市場仿品氾濫，選購需向有礦物學認證報告的賣家購買，切勿貪平"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "⚡ 能量學認知：捷克隕石被視為「高頻石」——能量學認為其振動頻率顯著高於大部分礦石，對心輪及神經系統有強烈刺激",
-          "🧭 使用建議：適合「準備好面對人生大轉變」的人；初次使用者建議搭配接地石（黑碧璽、紅石榴石）平衡能量，避免過度刺激",
-          "🚫 不適合人群：能量極度敏感者、身心尚在恢復期者——高頻石能量強烈，需配合穩定的心理狀態使用"
-        ],
-        "visual_desc": "能量強度圖示（高頻石 vs 接地石對比），搭配組合建議圖（捷克隕石＋黑碧璽並排）",
-        "body_text": "⚡ 能量學認知：捷克隕石被視為「高頻石」——能量學認為其振動頻率顯著高於大部分礦石，對心輪及神經系統有強烈刺激\n🧭 使用建議：適合「準備好面對人生大轉變」的人；初次使用者建議搭配接地石（黑碧璽、紅石榴石）平衡能量，避免過度刺激\n🚫 不適合人群：能量極度敏感者、身心尚在恢復期者——高頻石能量強烈，需配合穩定的心理狀態使用"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這篇，真正了解捷克隕石再考慮入手\n➕ 追蹤，高頻礦石深度系列繼續更新\n👇 留言：你敢不敢試最高頻的礦石？",
-        "visual_desc": "星空品牌背景，捷克隕石懸浮圖，中央「宇宙能量，你準備好了嗎？」大字，Logo",
-        "body_text": "💾 收藏這篇，真正了解捷克隕石再考慮入手\n➕ 追蹤，高頻礦石深度系列繼續更新\n👇 留言：你敢不敢試最高頻的礦石？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，黃鐵礦（Pyrite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "黃鐵礦旺事業",
+      "body": "擺在辦公桌上的黃鐵礦，象徵招財與提振事業動能。",
+      "en_text": "Pyrite ignites wealth, willpower and action.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-07-24_p1.png",
-    "assets/posts/post_2026-07-24_p2.png",
-    "assets/posts/post_2026-07-24_p3.png",
-    "assets/posts/post_2026-07-24_p4.png",
-    "assets/posts/post_2026-07-24_p5.png"
+    "assets/stories/story_2026-07-26.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
