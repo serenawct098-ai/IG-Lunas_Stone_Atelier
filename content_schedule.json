@@ -2641,7 +2641,7 @@
     "stone_zh": "粉晶",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-07-28_p1.png",
       "assets/posts/post_2026-07-28_p2.png",
@@ -2709,7 +2709,8 @@
       "#crystalscience",
       "#量子能量"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-07-28T08:06:00"
   },
   {
     "date": "2026-07-29",
