@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-07-28_posts",
-  "created_at": "2026-07-28T08:02:33.096382+00:00",
+  "task_id": "2026-07-29_stories",
+  "created_at": "2026-07-29T08:03:08.630765+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-28",
-    "type": "posts",
+    "date": "2026-07-29",
+    "type": "stories",
     "phase": "2",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "rose_quartz",
-    "zh": "粉晶",
-    "en": "Rose Quartz",
+    "id": "smoky_quartz",
+    "zh": "茶晶",
+    "en": "Smoky Quartz",
     "hardness": "",
     "color": "",
-    "optical_effects": "部分高品質有貓眼或星光效應，但較少見",
-    "body_focus": "心血管、胸腔、情緒中心",
-    "use_cases": "情緒釋放、關係議題諮商、愛情主題、內在小孩療癒",
+    "optical_effects": "無特殊效應，透明度從清透到半透明",
+    "body_focus": "下肢、骨骼、免疫系統、壓力釋放",
+    "use_cases": "工作壓力大、能量場敏感者、療癒後的「收尾」與落地",
     "care_tips": "",
-    "synthetic_signs": "顏色非常均一、通透如玻璃、粉色過於鮮豔可能為染色或玻璃"
+    "synthetic_signs": "顏色過於黑且均一，可能是人工輻射處理（與天然難完全肉眼分辨）"
   },
   "content": {
-    "caption": "🧪 量子物理 vs 水晶能量：科學家怎麼看？（老實說）\n\n我不打算只告訴你「水晶有能量」——我更想告訴你科學角度的真實立場 🔬\n\n✦ 壓電效應：石英有真實物理振動特性，工業天天在用\n✦ 直接療癒說：目前缺乏雙盲實驗支持，屬信仰體系\n✦ 心理錨點說：有心理學支撐，安慰劑效應也是真實效果\n\n科學不完全支持 ≠ 完全沒有用 🤍\n💾 收藏留底，下次聽到「水晶是迷信」你有根有據地回答",
-    "hashtags": [
-      "#水晶科學",
-      "#礦物學",
-      "#身心靈",
-      "#crystalscience",
-      "#量子能量"
-    ],
-    "post_number": 13,
-    "post_title": "🧪 量子物理與水晶能量：科學家怎麼看？",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "🧪 量子物理 vs 水晶能量：科學家的立場是⋯⋯",
-        "visual_desc": "深藍科技感背景，白水晶特寫疊加物理公式淡紋，衝擊性標題居中，底部「👉 左滑看完整分析」",
-        "design_note": "科技感設計吸引理性受眾，標題不給答案製造懸念，推動翻頁",
-        "body_text": "🧪 量子物理 vs 水晶能量：科學家的立場是⋯⋯"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "已確認的科學事實：石英壓電效應（Piezoelectric Effect）——礦物學與物理學均支持",
-          "已確認的科學事實：礦石晶體結構具有固定振動頻率（每種礦物的分子鍵振動頻率不同）",
-          "→ 這是紅外線光譜儀（FTIR）可測量的客觀物理量，非玄學概念"
-        ],
-        "visual_desc": "FTIR 光譜圖示意（可用示意圖），對應礦石晶體結構圖，版面具科學報告感",
-        "body_text": "已確認的科學事實：石英壓電效應（Piezoelectric Effect）——礦物學與物理學均支持\n已確認的科學事實：礦石晶體結構具有固定振動頻率（每種礦物的分子鍵振動頻率不同）\n→ 這是紅外線光譜儀（FTIR）可測量的客觀物理量，非玄學概念"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "目前科學未充分支持的說法：礦石可直接「傳遞能量」給人體或改變命運",
-          "→ 此說法目前缺乏雙盲實驗支持，屬能量療癒信仰體系而非實證科學",
-          "→ 但：安慰劑效應（Placebo Effect）在正規醫學研究中也是真實且有效的機制"
-        ],
-        "visual_desc": "科學量表設計——左邊「有科學支持」欄，右邊「目前未有充分實證」欄，清晰對比",
-        "body_text": "目前科學未充分支持的說法：礦石可直接「傳遞能量」給人體或改變命運\n→ 此說法目前缺乏雙盲實驗支持，屬能量療癒信仰體系而非實證科學\n→ 但：安慰劑效應（Placebo Effect）在正規醫學研究中也是真實且有效的機制"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "實用結論：用礦石作為「心理錨點」與「意圖工具」——有心理學根據",
-          "礦石幫你的，是讓你更專注於自己的目標與狀態——這本身就有真實效果",
-          "科學工具和靈性工具可以同時使用，不必二選一 🤍"
-        ],
-        "visual_desc": "手握礦石的溫暖特寫，疊加「科學 + 靈性 = 完整工具箱」文字卡",
-        "body_text": "實用結論：用礦石作為「心理錨點」與「意圖工具」——有心理學根據\n礦石幫你的，是讓你更專注於自己的目標與狀態——這本身就有真實效果\n科學工具和靈性工具可以同時使用，不必二選一 🤍"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這篇，下次有人問你收藏礦石是不是迷信你知怎麼回答！\n➕ 追蹤，每週礦石科學+玄學雙視角分析\n👇 留言：你覺得科學同玄學可以共存嗎？",
-        "visual_desc": "品牌色背景，中央「理性與感性，都是理解世界的方式」字句，Logo居中",
-        "body_text": "💾 收藏這篇，下次有人問你收藏礦石是不是迷信你知怎麼回答！\n➕ 追蹤，每週礦石科學+玄學雙視角分析\n👇 留言：你覺得科學同玄學可以共存嗎？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "茶晶能量落地",
+      "body": "茶晶象徵能量場的收尾與落地，適合療癒後的收斂。",
+      "en_text": "Smoky Quartz grounds you and releases stress.",
+      "cta_text": "追蹤 @lunas.stone.atelier"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-07-28_p1.png",
-    "assets/posts/post_2026-07-28_p2.png",
-    "assets/posts/post_2026-07-28_p3.png",
-    "assets/posts/post_2026-07-28_p4.png",
-    "assets/posts/post_2026-07-28_p5.png"
+    "assets/stories/story_2026-07-29.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
