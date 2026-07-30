@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-07-29_stories",
-  "created_at": "2026-07-29T08:03:08.630765+00:00",
+  "task_id": "2026-07-30_reels",
+  "created_at": "2026-07-30T08:03:33.611065+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-07-29",
-    "type": "stories",
+    "date": "2026-07-30",
+    "type": "reels",
     "phase": "2",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "episode": 14,
+    "next_stone_id": "labradorite"
   },
   "stone": {
-    "id": "smoky_quartz",
-    "zh": "茶晶",
-    "en": "Smoky Quartz",
+    "id": "citrine",
+    "zh": "黃水晶",
+    "en": "Citrine",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特殊效應，透明度從清透到半透明",
-    "body_focus": "下肢、骨骼、免疫系統、壓力釋放",
-    "use_cases": "工作壓力大、能量場敏感者、療癒後的「收尾」與落地",
+    "optical_effects": "無特殊效應",
+    "body_focus": "消化系統、肝膽、代謝與能量供給",
+    "use_cases": "創業、談判、考試、績效壓力、財務規劃、需要果斷的情境",
     "care_tips": "",
-    "synthetic_signs": "顏色過於黑且均一，可能是人工輻射處理（與天然難完全肉眼分辨）"
+    "synthetic_signs": "顏色偏橙、偏褐且根部白、頭部橙，很可能是「燒紫水晶」；顏色亮到像糖果亦要小心"
   },
   "content": {
-    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "茶晶能量落地",
-      "body": "茶晶象徵能量場的收尾與落地，適合療癒後的收斂。",
-      "en_text": "Smoky Quartz grounds you and releases stress.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "🔊 礦石淨化科學全解（第14集）\n4種方法：月光 / 聲波 / 白水晶簇 / 薰香\n你用緊最多那種，可能效果最有限！\n💾 收藏 | 追蹤查看第15集答案",
+    "hashtags": [
+      "#礦石淨化",
+      "#礦石消磁",
+      "#crystalcleansing",
+      "#淨化方法",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalcare",
+      "#水晶淨化",
+      "#身心靈"
+    ],
+    "episode": 14,
+    "episode_title": "礦石淨化科學全解：4種方法哪種最有效？",
+    "series_hook": "聲波淨化vs月光淨化——科學同玄學各有根據，但是⋯⋯",
+    "next_episode_preview": "第15集：礦石能量感知——你能否感應到礦石能量？",
+    "visual_prompts": {
+      "hook": "四種淨化方法快速輪播（月光、聲波、白水晶簇、薰香），大字「你用緊的淨化方法——可能根本沒有用！」",
+      "develop": "每種方法逐一深入：月光（月相光波，物理解說）、聲波（振動頻率清潔靜電）、白水晶簇（能量學）、薰香（煙霧接觸）各自優缺點快速切換。",
+      "climax": "聲波淨化 vs 月光淨化兩種方法對決，「科學同玄學各有根據，但是⋯⋯其中有一種其實最多人用但效果最有限！」",
+      "cta": "「第15集：你能感應礦石能量嗎？」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "你的淨化方法可能沒用",
+        "body": "你正在用的淨化方法，可能根本沒有效果。",
+        "en_text": "Your cleansing method might be useless."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "月光與聲波",
+        "body": "月光安全溫和；頌缽聲波移除表面靜電，有物理根據。",
+        "en_text": "Moonlight: gentle. Sound: removes static."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "水晶簇與薰香",
+        "body": "白水晶簇能量學最通用；薰香只作用表面，較有限。",
+        "en_text": "Quartz cluster: universal. Smoke: surface only."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "科學與玄學各有根據",
+        "body": "四種方法各有優缺，但其中一種效果最有限。",
+        "en_text": "Both science and metaphysics have a say."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "最多人用，效果最差",
+        "body": "最普遍的那一種，反而效果最有限——猜到了嗎？",
+        "en_text": "Most used, least effective — guess which?"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "下集：你感應得到嗎",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — next: can you feel the energy?"
+      }
+    },
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-07-29.png"
+    "assets/reels/reel_2026-07-30.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",

@@ -2745,7 +2745,7 @@
     "next_stone_zh": "拉長石",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "published",
     "episode_title": "礦石淨化科學全解：4種方法哪種最有效？",
     "caption": "🔊 礦石淨化科學全解（第14集）\n4種方法：月光 / 聲波 / 白水晶簇 / 薰香\n你用緊最多那種，可能效果最有限！\n💾 收藏 | 追蹤查看第15集答案",
     "series_hook": "聲波淨化vs月光淨化——科學同玄學各有根據，但是⋯⋯",
@@ -2817,7 +2817,8 @@
       "mood": "神秘沉靜，帶科學感",
       "suggested_track": "dark ambient crystal"
     },
-    "generated": true
+    "generated": true,
+    "published_at": "2026-07-30T08:06:00"
   },
   {
     "date": "2026-07-30",
@@ -2826,7 +2827,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "2",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -2838,7 +2839,8 @@
     "asset_paths": [
       "assets/stories/story_2026-07-30.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-07-30T08:06:00"
   },
   {
     "date": "2026-07-31",
