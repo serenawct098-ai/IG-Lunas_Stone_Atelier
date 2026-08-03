@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-08-02_stories",
-  "created_at": "2026-08-02T08:03:55.471591+00:00",
+  "task_id": "2026-08-03_reels",
+  "created_at": "2026-08-03T08:02:37.174240+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-02",
-    "type": "stories",
+    "date": "2026-08-03",
+    "type": "reels",
     "phase": "2",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "episode": 15,
+    "next_stone_id": "agate_general"
   },
   "stone": {
-    "id": "black_tourmaline",
-    "zh": "黑碧璽",
-    "en": "Black Tourmaline",
+    "id": "moldavite",
+    "zh": "捷克隕石 / 摩爾達隕石",
+    "en": "Moldavite",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特定，但柱狀平行條紋明顯",
-    "body_focus": "骨骼、肌肉、免疫系統與神經穩定",
-    "use_cases": "使用電子產品多、住在高壓環境、能量敏感者",
+    "optical_effects": "無特定，但常見獨特蝕刻紋與坑洞",
+    "body_focus": "心臟區、神經系統、能量系統快速調整",
+    "use_cases": "準備好面對人生大轉變者、高階靈性工作、內在覺醒課程",
     "care_tips": "",
-    "synthetic_signs": "完全光滑如塑膠、重量明顯偏輕、有氣泡可能是樹脂或玻璃"
+    "synthetic_signs": "表面過於光滑、顏色均一、形狀整齊，或價位低得不合理，多為玻璃仿品"
   },
   "content": {
-    "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "黑碧璽日常護",
-      "body": "黑碧璽硬度達 7–7.5，防護穩定持久，適合日常佩戴。",
-      "en_text": "Black Tourmaline grounds and guards your boundaries.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "🔬 你真是感應到礦石能量嗎？（第15集）\n科學解說：壓電效應 + 安慰劑效應 + 意圖錨點\n玄學同科學不是對立——是同一回事的不同語言！\n💾 收藏 | 追蹤查看第16集",
+    "hashtags": [
+      "#礦石能量科學",
+      "#水晶能量",
+      "#crystalscience",
+      "#安慰劑效應",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#身心靈",
+      "#crystalhealing",
+      "#香港風水",
+      "#壓電效應"
+    ],
+    "episode": 15,
+    "episode_title": "你真是感應到礦石能量嗎？——科學解釋",
+    "series_hook": "安慰劑效應也是真實效果——但有種更深層的解釋",
+    "next_episode_preview": "第16集：礦石FAQ大揭秘",
+    "visual_prompts": {
+      "hook": "手持白水晶特寫，臉部若有所思表情，大字「水晶有能量感覺是玄學定心理學？答案令你意外！」",
+      "develop": "科學解說：安慰劑效應圖示（大腦→預期→真實化學反應），加上礦石壓電效應資訊卡，兩種解說並列展示。",
+      "climax": "「安慰劑效應也是真實效果——但還有種更深層的解釋，是心理學同玄學都認同的⋯⋯」",
+      "cta": "「第16集：礦石FAQ大揭秘！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "玄學還是心理學？",
+        "body": "水晶的能量感，究竟是玄學還是心理學？",
+        "en_text": "Crystal energy: mysticism or psychology?"
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "石英壓電效應是真的",
+        "body": "那是工業技術裡的物理事實，不是玄學。",
+        "en_text": "Quartz piezoelectricity is real physics."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "安慰劑＝真實腦科學",
+        "body": "你的期待製造真實的神經化學變化。",
+        "en_text": "Placebo is real brain chemistry."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "礦石是意圖的錨點",
+        "body": "它是你設定意圖時，最實在的實體錨點。",
+        "en_text": "A crystal is a physical intention anchor."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "科學與玄學的交集",
+        "body": "還有一種更深的解釋，是兩者都認同的⋯⋯",
+        "en_text": "A deeper truth both sides agree on—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第16集：FAQ大揭秘",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep16: most-asked questions."
+      }
+    },
+    "music": {
+      "style": "ambient",
+      "tempo": "slow",
+      "mood": "神秘沉靜，帶科學感",
+      "suggested_track": "dark ambient crystal"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-02.png"
+    "assets/reels/reel_2026-08-03.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
