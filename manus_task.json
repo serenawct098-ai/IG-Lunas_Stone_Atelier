@@ -1,112 +1,105 @@
 {
-  "task_id": "2026-08-03_reels",
-  "created_at": "2026-08-03T08:02:37.174240+00:00",
+  "task_id": "2026-08-04_posts",
+  "created_at": "2026-08-04T08:03:39.732000+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-03",
-    "type": "reels",
+    "date": "2026-08-04",
+    "type": "posts",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "episode": 15,
-    "next_stone_id": "agate_general"
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "moldavite",
-    "zh": "捷克隕石 / 摩爾達隕石",
-    "en": "Moldavite",
+    "id": "carnelian",
+    "zh": "紅瑪瑙 / 玉髓",
+    "en": "Carnelian",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特定，但常見獨特蝕刻紋與坑洞",
-    "body_focus": "心臟區、神經系統、能量系統快速調整",
-    "use_cases": "準備好面對人生大轉變者、高階靈性工作、內在覺醒課程",
+    "optical_effects": "無明顯特殊效應",
+    "body_focus": "血液循環與生命力",
+    "use_cases": "體力消耗大、需要提升動力與保護感時",
     "care_tips": "",
-    "synthetic_signs": "表面過於光滑、顏色均一、形狀整齊，或價位低得不合理，多為玻璃仿品"
+    "synthetic_signs": "顏色非常鮮豔均一、靠近孔洞處色更濃者多為染色"
   },
   "content": {
-    "caption": "🔬 你真是感應到礦石能量嗎？（第15集）\n科學解說：壓電效應 + 安慰劑效應 + 意圖錨點\n玄學同科學不是對立——是同一回事的不同語言！\n💾 收藏 | 追蹤查看第16集",
+    "caption": "脈輪失衡症狀對照表——你的身體和情緒在告訴你什麼？ 🌈\n\n很多人不知道，長期焦慮、拖延、難以表達，可能是特定脈輪失衡的信號\n\n✦ 海底輪失衡 → 安全感缺失，黑碧璽接地\n✦ 喉輪失衡 → 難以表達，青金石開聲\n✦ 頂輪失衡 → 睡眠障礙，紫水晶安神\n\n💾 收藏這份症狀表，對照你自己\n👇 留言哪個脈輪症狀最像你？我幫你選礦石 👇",
     "hashtags": [
-      "#礦石能量科學",
-      "#水晶能量",
-      "#crystalscience",
-      "#安慰劑效應",
-      "#開運",
-      "#風水",
-      "#玄學",
-      "#礦石知識",
-      "#身心靈",
-      "#crystalhealing",
-      "#香港風水",
-      "#壓電效應"
+      "#脈輪失衡",
+      "#脈輪症狀",
+      "#chakrahealing",
+      "#礦石療癒",
+      "#身心靈"
     ],
-    "episode": 15,
-    "episode_title": "你真是感應到礦石能量嗎？——科學解釋",
-    "series_hook": "安慰劑效應也是真實效果——但有種更深層的解釋",
-    "next_episode_preview": "第16集：礦石FAQ大揭秘",
-    "visual_prompts": {
-      "hook": "手持白水晶特寫，臉部若有所思表情，大字「水晶有能量感覺是玄學定心理學？答案令你意外！」",
-      "develop": "科學解說：安慰劑效應圖示（大腦→預期→真實化學反應），加上礦石壓電效應資訊卡，兩種解說並列展示。",
-      "climax": "「安慰劑效應也是真實效果——但還有種更深層的解釋，是心理學同玄學都認同的⋯⋯」",
-      "cta": "「第16集：礦石FAQ大揭秘！」追蹤特效。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "玄學還是心理學？",
-        "body": "水晶的能量感，究竟是玄學還是心理學？",
-        "en_text": "Crystal energy: mysticism or psychology?"
+    "post_number": 15,
+    "post_title": "脈輪失衡有什麼症狀？礦石怎麼幫你調整",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "脈輪失衡有這些症狀——礦石可以這樣幫你調整 🌈",
+        "visual_desc": "七色脈輪背景由下而上，每個脈輪對應位置出現「！」警示圖示，品牌 Logo 右下，底部「👉 左滑看症狀對照表」",
+        "design_note": "警示符號製造緊迫感，七色背景視覺豐富，症狀對照承諾令人收藏",
+        "body_text": "脈輪失衡有這些症狀——礦石可以這樣幫你調整 🌈"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "石英壓電效應是真的",
-        "body": "那是工業技術裡的物理事實，不是玄學。",
-        "en_text": "Quartz piezoelectricity is real physics."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🔴 海底輪失衡症狀：長期焦慮、沒有安全感、財務不穩定感、腰背下肢酸痛——對應礦石：黑碧璽（接地穩定）、紅石榴石（補充生命力）",
+          "🟠 臍輪失衡症狀：創造力枯竭、對生活失去熱情、情感麻木、下腹不適——對應礦石：紅瑪瑙（提升活力）、橄欖石（情緒釋放）",
+          "🟡 太陽神經叢失衡症狀：缺乏自信、拖延不決、消化系統敏感、容易被他人影響意志——對應礦石：黃水晶（行動力）、虎眼石（決策勇氣）"
+        ],
+        "visual_desc": "三脈輪症狀清單卡，左側情緒層面，右側身體層面（象徵性描述），礦石建議清晰標示",
+        "body_text": "🔴 海底輪失衡症狀：長期焦慮、沒有安全感、財務不穩定感、腰背下肢酸痛——對應礦石：黑碧璽（接地穩定）、紅石榴石（補充生命力）\n🟠 臍輪失衡症狀：創造力枯竭、對生活失去熱情、情感麻木、下腹不適——對應礦石：紅瑪瑙（提升活力）、橄欖石（情緒釋放）\n🟡 太陽神經叢失衡症狀：缺乏自信、拖延不決、消化系統敏感、容易被他人影響意志——對應礦石：黃水晶（行動力）、虎眼石（決策勇氣）"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "安慰劑＝真實腦科學",
-        "body": "你的期待製造真實的神經化學變化。",
-        "en_text": "Placebo is real brain chemistry."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "💚 心輪失衡症狀：難以接受愛與關懷、對親密關係恐懼、胸口壓迫感、難以原諒自己與他人——對應礦石：粉晶（情感療癒）、綠東陵石（心輪修復）",
+          "🔵 喉輪失衡症狀：說話緊張、難以表達真實想法、慢性咽喉不適、在群體中沉默——對應礦石：青金石（清晰表達）、海藍寶（溝通勇氣）",
+          "💙 眉心輪失衡症狀：直覺減弱、思緒混亂、決策困難、頭痛眼壓——對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）"
+        ],
+        "visual_desc": "四脈輪症狀與礦石對應表，情緒和身體層面分兩欄，設計清晰如醫學資訊圖",
+        "body_text": "💚 心輪失衡症狀：難以接受愛與關懷、對親密關係恐懼、胸口壓迫感、難以原諒自己與他人——對應礦石：粉晶（情感療癒）、綠東陵石（心輪修復）\n🔵 喉輪失衡症狀：說話緊張、難以表達真實想法、慢性咽喉不適、在群體中沉默——對應礦石：青金石（清晰表達）、海藍寶（溝通勇氣）\n💙 眉心輪失衡症狀：直覺減弱、思緒混亂、決策困難、頭痛眼壓——對應礦石：拉長石（直覺感應）、藍晶石（思維清晰）"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "礦石是意圖的錨點",
-        "body": "它是你設定意圖時，最實在的實體錨點。",
-        "en_text": "A crystal is a physical intention anchor."
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🔮 頂輪失衡症狀：感覺與靈性脫節、睡眠障礙、思維過度活躍難以平靜、對人生意義感到迷失——對應礦石：紫水晶（安神靈性）、白水晶（能量清明）",
+          "📌 使用頻率建議：冥想時手持對應礦石，每次 10–20 分鐘；日常佩戴可持續作用；每週1–2次專注練習效果最佳",
+          "⚠️ 重要提醒：礦石為輔助工具，嚴重的情緒或身體症狀請先尋求專業醫療或心理諮詢，礦石配合使用，非替代方案"
+        ],
+        "visual_desc": "頂輪紫水晶與白水晶使用情境圖，使用頻率建議清單，底部免責提示文字卡",
+        "body_text": "🔮 頂輪失衡症狀：感覺與靈性脫節、睡眠障礙、思維過度活躍難以平靜、對人生意義感到迷失——對應礦石：紫水晶（安神靈性）、白水晶（能量清明）\n📌 使用頻率建議：冥想時手持對應礦石，每次 10–20 分鐘；日常佩戴可持續作用；每週1–2次專注練習效果最佳\n⚠️ 重要提醒：礦石為輔助工具，嚴重的情緒或身體症狀請先尋求專業醫療或心理諮詢，礦石配合使用，非替代方案"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "科學與玄學的交集",
-        "body": "還有一種更深的解釋，是兩者都認同的⋯⋯",
-        "en_text": "A deeper truth both sides agree on—"
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第16集：FAQ大揭秘",
-        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-        "en_text": "Follow — Ep16: most-asked questions."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這張症狀對照表，對照你自己！\n➕ 追蹤，脈輪×礦石系列持續更新\n👇 留言：哪個脈輪描述最像你現在的狀況？",
+        "visual_desc": "七色品牌背景，「哪個脈輪在向你發出訊號？」大字，Logo，CTA 白字",
+        "body_text": "💾 收藏這張症狀對照表，對照你自己！\n➕ 追蹤，脈輪×礦石系列持續更新\n👇 留言：哪個脈輪描述最像你現在的狀況？"
       }
-    },
-    "music": {
-      "style": "ambient",
-      "tempo": "slow",
-      "mood": "神秘沉靜，帶科學感",
-      "suggested_track": "dark ambient crystal"
-    }
+    ]
   },
   "asset_paths": [
-    "assets/reels/reel_2026-08-03.mp4"
+    "assets/posts/post_2026-08-04_p1.png",
+    "assets/posts/post_2026-08-04_p2.png",
+    "assets/posts/post_2026-08-04_p3.png",
+    "assets/posts/post_2026-08-04_p4.png",
+    "assets/posts/post_2026-08-04_p5.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
