@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-08-05_stories",
-  "created_at": "2026-08-05T08:04:57.927122+00:00",
+  "task_id": "2026-08-06_reels",
+  "created_at": "2026-08-06T08:01:57.451442+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-05",
-    "type": "stories",
+    "date": "2026-08-06",
+    "type": "reels",
     "phase": "2",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "episode": 16,
+    "next_stone_id": "aquamarine"
   },
   "stone": {
-    "id": "green_aventurine",
-    "zh": "綠東陵石",
-    "en": "Green Aventurine",
+    "id": "tigers_eye",
+    "zh": "虎眼石",
+    "en": "Tiger's Eye",
     "hardness": "",
     "color": "",
-    "optical_effects": "細碎閃光（aventurescence）",
-    "body_focus": "心肺與循環系統",
-    "use_cases": "求職、轉職、創業初期、心輪修復",
+    "optical_effects": "貓眼效應（chatoyancy）",
+    "body_focus": "消化、肝膽、肌肉力量",
+    "use_cases": "決策、談判、創業、需要「挺身而出」的場景",
     "care_tips": "",
-    "synthetic_signs": "顏色過於均一、亮片分佈規則者可能為合成材料"
+    "synthetic_signs": "光帶過於規則或整面均一亮度可能為仿品"
   },
   "content": {
-    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "綠東陵療心輪",
-      "body": "綠東陵石溫和療癒心輪，幫助修復受傷的情緒。",
-      "en_text": "Green Aventurine attracts luck and opportunity.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "❓ 礦石FAQ大揭秘（第16集）\n90天最多人問的10個問題，一集全部解答\n最後一個問題——是最核心的財富真相！\n💾 收藏 | 追蹤查看第17集",
+    "hashtags": [
+      "#礦石FAQ",
+      "#水晶常見問題",
+      "#crystalfaq",
+      "#礦石真相",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalhealing",
+      "#身心靈",
+      "#水晶迷思"
+    ],
+    "episode": 16,
+    "episode_title": "礦石FAQ大揭秘：你問最多的10個問題（信任建立完結篇）",
+    "series_hook": "最後一個問題，是關於礦石同財富關係的核心真相",
+    "next_episode_preview": "第17集（產品轉化期）：職場礦石場景應用",
+    "visual_prompts": {
+      "hook": "Q&A 問號動畫爆炸，「90天最多人問我的問題是——連我都想不到！」大字震撼出現。",
+      "develop": "十個問題快速輪播：礦石要開光嗎？、月亮水真的有效嗎？、男生可以戴礦石嗎？等，每個問題配簡短答案動畫，節奏快而有趣。",
+      "climax": "最後一個問題浮現：「礦石可以令我真正有錢嗎？」——「最後一個問題，是關於礦石同財富關係的核心真相⋯⋯」",
+      "cta": "「第17集：職場礦石應用！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "90天最多人問的問題",
+        "body": "連我都猜不到——這是90天裡最多人問的。",
+        "en_text": "The most-asked question in 90 days."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "開光？男生能戴？",
+        "body": "開光非必要但助意圖設定；男生當然可以戴。",
+        "en_text": "Blessing: optional. Men: absolutely yes."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "月亮水有效嗎？",
+        "body": "物理上無變化，但儀式的心理效果是真實的。",
+        "en_text": "Moon water: no physics, but real ritual."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "最多人糾結的一題",
+        "body": "「礦石可以令我真正有錢嗎？」",
+        "en_text": "'Can crystals actually make me rich?'"
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "答案是⋯⋯",
+        "body": "這個問題的真正答案，比你想的更務實。",
+        "en_text": "The answer is—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第17集：職場應用",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep17: crystals at work."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "溫柔療癒，帶正能量",
+      "suggested_track": "healing meditation soft"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-05.png"
+    "assets/reels/reel_2026-08-06.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
