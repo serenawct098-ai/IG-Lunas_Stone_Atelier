@@ -1,112 +1,105 @@
 {
-  "task_id": "2026-08-06_reels",
-  "created_at": "2026-08-06T08:01:57.451442+00:00",
+  "task_id": "2026-08-07_posts",
+  "created_at": "2026-08-07T11:28:27.427524+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-06",
-    "type": "reels",
+    "date": "2026-08-07",
+    "type": "posts",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "episode": 16,
-    "next_stone_id": "aquamarine"
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "tigers_eye",
-    "zh": "虎眼石",
-    "en": "Tiger's Eye",
+    "id": "moonstone",
+    "zh": "月光石",
+    "en": "Moonstone",
     "hardness": "",
     "color": "",
-    "optical_effects": "貓眼效應（chatoyancy）",
-    "body_focus": "消化、肝膽、肌肉力量",
-    "use_cases": "決策、談判、創業、需要「挺身而出」的場景",
+    "optical_effects": "月光效應（adularescence）",
+    "body_focus": "女性週期、內分泌與情緒平衡",
+    "use_cases": "睡前冥想、情緒起伏大、關係議題工作",
     "care_tips": "",
-    "synthetic_signs": "光帶過於規則或整面均一亮度可能為仿品"
+    "synthetic_signs": "光暈均一、整面閃光且石體過於完美可能為仿品"
   },
   "content": {
-    "caption": "❓ 礦石FAQ大揭秘（第16集）\n90天最多人問的10個問題，一集全部解答\n最後一個問題——是最核心的財富真相！\n💾 收藏 | 追蹤查看第17集",
+    "caption": "礦石鑑定 Part 2：6種最常被仿冒的礦石，一篇學識辨別 🔍\n\n翡翠 B 貨、染色青金石、合成綠松石——你以為買到真貨，但市場上假貨比真貨還多\n\n✦ 翡翠 B 貨：透光看充填裂紋＋玻璃光澤\n✦ 青金石染色：無金點、顏色過均一\n✦ 綠松石：大量穩定處理充斥市場\n\n💾 收藏 Part 1 + Part 2 完整鑑定系列\n👇 留言你有無這幾種礦石？買到過假的嗎？",
     "hashtags": [
-      "#礦石FAQ",
-      "#水晶常見問題",
-      "#crystalfaq",
-      "#礦石真相",
-      "#開運",
-      "#風水",
-      "#玄學",
-      "#礦石知識",
-      "#香港風水",
-      "#crystalhealing",
-      "#身心靈",
-      "#水晶迷思"
+      "#礦石鑑定",
+      "#翡翠真假",
+      "#青金石",
+      "#crystalauthenticity",
+      "#礦石知識"
     ],
-    "episode": 16,
-    "episode_title": "礦石FAQ大揭秘：你問最多的10個問題（信任建立完結篇）",
-    "series_hook": "最後一個問題，是關於礦石同財富關係的核心真相",
-    "next_episode_preview": "第17集（產品轉化期）：職場礦石場景應用",
-    "visual_prompts": {
-      "hook": "Q&A 問號動畫爆炸，「90天最多人問我的問題是——連我都想不到！」大字震撼出現。",
-      "develop": "十個問題快速輪播：礦石要開光嗎？、月亮水真的有效嗎？、男生可以戴礦石嗎？等，每個問題配簡短答案動畫，節奏快而有趣。",
-      "climax": "最後一個問題浮現：「礦石可以令我真正有錢嗎？」——「最後一個問題，是關於礦石同財富關係的核心真相⋯⋯」",
-      "cta": "「第17集：職場礦石應用！」追蹤特效。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "90天最多人問的問題",
-        "body": "連我都猜不到——這是90天裡最多人問的。",
-        "en_text": "The most-asked question in 90 days."
+    "post_number": 16,
+    "post_title": "礦石鑑定 Part 2：這6種礦石最常被仿冒",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "礦石鑑定 Part 2：這6種你最容易買到假 🔍",
+        "visual_desc": "黑色背景，六種礦石（翡翠、青金石、綠松石、捷克隕石、拉長石、黃水晶）並排，中央放大鏡圖示，品牌 Logo 右下，底部「👉 左滑逐一揭秘」",
+        "design_note": "Part 2 連繫既有系列，六種礦石數量具體，製造「完整資料」收藏感",
+        "body_text": "礦石鑑定 Part 2：這6種你最容易買到假 🔍"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "開光？男生能戴？",
-        "body": "開光非必要但助意圖設定；男生當然可以戴。",
-        "en_text": "Blessing: optional. Men: absolutely yes."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "💚 翡翠（Jadeite）A/B/C 貨識別：A 貨天然未處理；B 貨酸洗充填樹脂——透光下可見充填裂紋、光澤偏玻璃感；C 貨染色——顏色過鮮、沿裂紋滲色",
+          "🔵 青金石（Lapis Lazuli）染色識別：天然有金點（黃鐵礦）與白色方解石紋；染色品顏色過均一、無金點或金點位置規則、用丙酮棉球測試可脫色",
+          "⚠️ 翡翠選購原則：信任有 GIA 或 GRS 證書的商家；無證書者需對光線觀察充填光澤與裂紋"
+        ],
+        "visual_desc": "翡翠 A/B/C 貨對比三圖，青金石天然 vs 染色對比，金點分佈差異標注",
+        "body_text": "💚 翡翠（Jadeite）A/B/C 貨識別：A 貨天然未處理；B 貨酸洗充填樹脂——透光下可見充填裂紋、光澤偏玻璃感；C 貨染色——顏色過鮮、沿裂紋滲色\n🔵 青金石（Lapis Lazuli）染色識別：天然有金點（黃鐵礦）與白色方解石紋；染色品顏色過均一、無金點或金點位置規則、用丙酮棉球測試可脫色\n⚠️ 翡翠選購原則：信任有 GIA 或 GRS 證書的商家；無證書者需對光線觀察充填光澤與裂紋"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "月亮水有效嗎？",
-        "body": "物理上無變化，但儀式的心理效果是真實的。",
-        "en_text": "Moon water: no physics, but real ritual."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🟢 綠松石（Turquoise）處理貨識別：純天然綠松石莫氏硬度 5–6，市場大量充填穩定處理（稱為「穩定松」）——外觀完美、顏色均一；合成品像塑膠、重量偏輕",
+          "☄️ 捷克隕石仿品問題：仿品多為捷克本地綠玻璃，表面蝕紋過均勻整齊；真品有不規則流動感蝕紋，對光略有天然包裹體",
+          "🌈 拉長石仿品：人工鍍膜玻璃從每個角度均一閃光；天然品只在特定角度顯現彩光，且彩光面積與位置有變化"
+        ],
+        "visual_desc": "三種礦石各自真假對比圖，鑑別特徵用箭頭指示，視覺資訊豐富",
+        "body_text": "🟢 綠松石（Turquoise）處理貨識別：純天然綠松石莫氏硬度 5–6，市場大量充填穩定處理（稱為「穩定松」）——外觀完美、顏色均一；合成品像塑膠、重量偏輕\n☄️ 捷克隕石仿品問題：仿品多為捷克本地綠玻璃，表面蝕紋過均勻整齊；真品有不規則流動感蝕紋，對光略有天然包裹體\n🌈 拉長石仿品：人工鍍膜玻璃從每個角度均一閃光；天然品只在特定角度顯現彩光，且彩光面積與位置有變化"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "最多人糾結的一題",
-        "body": "「礦石可以令我真正有錢嗎？」",
-        "en_text": "'Can crystals actually make me rich?'"
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🟡 黃水晶仿品：最常見是「燒紫水晶」——顏色根部白、頂部橙黃；天然黃水晶顏色較淡、偏淡黃，內部有自然棉絮；玻璃仿品則有圓形氣泡",
+          "🔍 萬用鑑別三原則：① 顏色太完美均一要懷疑；② 透光下看氣泡還是包裹體；③ 重量太輕或太規則要小心",
+          "📝 選購建議：大額礦石購買前，優先選有礦物學認證或GIA報告的賣家；小額礦石可用以上方法自測"
+        ],
+        "visual_desc": "黃水晶真假對比（色帶 vs 均一），萬用三原則清單卡，選購建議文字框",
+        "body_text": "🟡 黃水晶仿品：最常見是「燒紫水晶」——顏色根部白、頂部橙黃；天然黃水晶顏色較淡、偏淡黃，內部有自然棉絮；玻璃仿品則有圓形氣泡\n🔍 萬用鑑別三原則：① 顏色太完美均一要懷疑；② 透光下看氣泡還是包裹體；③ 重量太輕或太規則要小心\n📝 選購建議：大額礦石購買前，優先選有礦物學認證或GIA報告的賣家；小額礦石可用以上方法自測"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "答案是⋯⋯",
-        "body": "這個問題的真正答案，比你想的更務實。",
-        "en_text": "The answer is—"
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第17集：職場應用",
-        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-        "en_text": "Follow — Ep17: crystals at work."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏 Part 2，加上 Part 1 就是完整鑑定指南！\n➕ 追蹤，礦石鑑定系列持續更新\n👇 留言：你有無這幾種礦石？買到過假貨嗎？",
+        "visual_desc": "黑色背景，六種礦石特寫再次展示，品牌 Logo 居中，CTA 白字排列",
+        "body_text": "💾 收藏 Part 2，加上 Part 1 就是完整鑑定指南！\n➕ 追蹤，礦石鑑定系列持續更新\n👇 留言：你有無這幾種礦石？買到過假貨嗎？"
       }
-    },
-    "music": {
-      "style": "uplifting",
-      "tempo": "medium",
-      "mood": "溫柔療癒，帶正能量",
-      "suggested_track": "healing meditation soft"
-    }
+    ]
   },
   "asset_paths": [
-    "assets/reels/reel_2026-08-06.mp4"
+    "assets/posts/post_2026-08-07_p1.png",
+    "assets/posts/post_2026-08-07_p2.png",
+    "assets/posts/post_2026-08-07_p3.png",
+    "assets/posts/post_2026-08-07_p4.png",
+    "assets/posts/post_2026-08-07_p5.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
