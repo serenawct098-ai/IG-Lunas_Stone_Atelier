@@ -3519,7 +3519,7 @@
     "stone_zh": "黃玉",
     "phase": "2",
     "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-08-11_p1.png",
       "assets/posts/post_2026-08-11_p2.png",
@@ -3587,7 +3587,8 @@
       "#水晶入門",
       "#礦石知識"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-11T08:06:00"
   },
   {
     "date": "2026-08-12",
