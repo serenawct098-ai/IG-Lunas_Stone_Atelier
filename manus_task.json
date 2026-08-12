@@ -1,12 +1,12 @@
 {
-  "task_id": "2026-08-10_stories",
-  "created_at": "2026-08-10T08:01:39.573444+00:00",
+  "task_id": "2026-08-12_stories",
+  "created_at": "2026-08-12T08:03:17.332534+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-10",
+    "date": "2026-08-12",
     "type": "stories",
     "phase": "2",
     "cta": "",
@@ -14,30 +14,30 @@
     "next_stone_id": null
   },
   "stone": {
-    "id": "peridot",
-    "zh": "橄欖石",
-    "en": "Peridot",
+    "id": "jadeite_jade",
+    "zh": "翡翠",
+    "en": "Jadeite Jade",
     "hardness": "",
     "color": "",
-    "optical_effects": "高折射率造成明亮火彩",
-    "body_focus": "消化與心區域能量（能量觀點）",
-    "use_cases": "情緒容易壓抑、需要放鬆與寬心時",
+    "optical_effects": "某些高品質具強玻璃光，顏色細膩分布",
+    "body_focus": "一般視作護身與平衡氣血象徵",
+    "use_cases": "長期佩戴護身、傳家與保值",
     "care_tips": "",
-    "synthetic_signs": "合成橄欖石少見；玻璃仿品常見圓形氣泡"
+    "synthetic_signs": "染色 B+C 貨顏色過於鮮豔，樹脂充填有玻璃感"
   },
   "content": {
-    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
-      "headline": "橄欖石新生力",
-      "body": "橄欖石的明亮綠意象徵新生，協助轉化沉重的心情。",
-      "en_text": "Peridot lightens the heart and releases negativity.",
+      "headline": "翡翠養氣血",
+      "body": "翡翠溫潤內斂，象徵平衡氣血、護佑日常平安。",
+      "en_text": "Jade symbolizes peace, abundance and stability.",
       "cta_text": "追蹤 @lunas.stone.atelier"
     },
     "hashtags": [],
     "story_title": ""
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-10.png"
+    "assets/stories/story_2026-08-12.png"
   ],
   "assets_ready": true,
   "format_spec": {

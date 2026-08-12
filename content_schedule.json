@@ -3597,7 +3597,7 @@
     "stone_id": "jadeite_jade",
     "stone_zh": "翡翠",
     "phase": "2",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3609,7 +3609,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-12.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-12T08:06:00"
   },
   {
     "date": "2026-08-13",
