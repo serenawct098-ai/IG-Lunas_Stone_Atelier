@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-08-12_stories",
-  "created_at": "2026-08-12T08:03:17.332534+00:00",
+  "task_id": "2026-08-13_reels",
+  "created_at": "2026-08-13T08:02:02.379740+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-12",
-    "type": "stories",
-    "phase": "2",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "date": "2026-08-13",
+    "type": "reels",
+    "phase": "3",
+    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+    "episode": 18,
+    "next_stone_id": "turquoise"
   },
   "stone": {
-    "id": "jadeite_jade",
-    "zh": "翡翠",
-    "en": "Jadeite Jade",
+    "id": "nephrite_jade",
+    "zh": "軟玉（和田玉）",
+    "en": "Nephrite",
     "hardness": "",
     "color": "",
-    "optical_effects": "某些高品質具強玻璃光，顏色細膩分布",
-    "body_focus": "一般視作護身與平衡氣血象徵",
-    "use_cases": "長期佩戴護身、傳家與保值",
+    "optical_effects": "油脂光澤",
+    "body_focus": "精氣神平衡象徵",
+    "use_cases": "長年佩戴、護身與安神",
     "care_tips": "",
-    "synthetic_signs": "染色 B+C 貨顏色過於鮮豔，樹脂充填有玻璃感"
+    "synthetic_signs": "染色與充填品顏色不自然，透光下色帶不均"
   },
   "content": {
-    "visual_prompt": "深色星空背景，翡翠（Jadeite Jade）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "翡翠養氣血",
-      "body": "翡翠溫潤內斂，象徵平衡氣血、護佑日常平安。",
-      "en_text": "Jade symbolizes peace, abundance and stability.",
-      "cta_text": "追蹤 @lunas.stone.atelier"
+    "caption": "😴 失眠多夢？睡房礦石放錯了（第18集）\n黑曜石＋捷克隕石＋虎眼石——這三種立刻拎走\n修正方案兩步，但第二步大部分人捨不得！\n💾 收藏 | 追蹤查看第19集",
+    "hashtags": [
+      "#睡眠礦石",
+      "#失眠水晶",
+      "#臥室礦石",
+      "#crystalsleep",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalhealing",
+      "#睡眠問題",
+      "#身心靈"
+    ],
+    "episode": 18,
+    "episode_title": "失眠多夢：睡房礦石放錯了——完整修正方案",
+    "series_hook": "修正方案只需兩步，但第二步大部分人捨不得做",
+    "next_episode_preview": "第19集：感情遇困境——礦石如何幫你修復關係能量",
+    "visual_prompts": {
+      "hook": "夜晚臥室場景，人物輾轉反側，床頭竟然有黑曜石——大字「你失眠是不是因為睡房有塊石放錯位？」",
+      "develop": "睡房禁忌礦石逐一出現（黑曜石、捷克隕石、虎眼石），每個配「❌ 離開睡房」指示，節奏感強。",
+      "climax": "修正方案兩步出現：第一步（移走禁忌石）輕鬆達成，第二步出現時停頓——「大部分人捨不得做第二步⋯⋯」懸念。",
+      "cta": "「第19集：感情礦石！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "失眠，可能是石放錯了",
+        "body": "你的失眠，是不是睡房有塊石放錯位置？",
+        "en_text": "Is a misplaced crystal causing your insomnia?"
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "睡房禁忌：黑曜石",
+        "body": "能量太強，影響睡眠與感情流通。",
+        "en_text": "Black Obsidian — too intense for sleep."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "隕石與虎眼石也要移走",
+        "body": "捷克隕石高頻刺激，虎眼石是戰鬥能量，皆不宜。",
+        "en_text": "Moldavite & Tiger's Eye — remove them too."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "修正只要兩步",
+        "body": "第一步人人做得到，第二步才是關鍵。",
+        "en_text": "Two steps to fix it. Step one is easy."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "第二步，最多人捨不得",
+        "body": "要把最美的那塊石，暫時移到別的房間。",
+        "en_text": "Step two — moving your most-loved crystal out."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第19集：感情療癒",
+        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
+        "en_text": "Follow — Ep19: relationship healing."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-12.png"
+    "assets/reels/reel_2026-08-13.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
