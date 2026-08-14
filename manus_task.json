@@ -1,112 +1,105 @@
 {
-  "task_id": "2026-08-13_reels",
-  "created_at": "2026-08-13T08:02:02.379740+00:00",
+  "task_id": "2026-08-14_posts",
+  "created_at": "2026-08-14T08:02:13.795369+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-13",
-    "type": "reels",
+    "date": "2026-08-14",
+    "type": "posts",
     "phase": "3",
-    "cta": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-    "episode": 18,
-    "next_stone_id": "turquoise"
+    "cta": "✨ 點 Profile 連結查看精選礦石系列",
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "nephrite_jade",
-    "zh": "軟玉（和田玉）",
-    "en": "Nephrite",
+    "id": "malachite",
+    "zh": "孔雀石",
+    "en": "Malachite",
     "hardness": "",
     "color": "",
-    "optical_effects": "油脂光澤",
-    "body_focus": "精氣神平衡象徵",
-    "use_cases": "長年佩戴、護身與安神",
+    "optical_effects": "絲絨光感",
+    "body_focus": "解毒與循環象徵",
+    "use_cases": "深層個人轉化與療癒工作",
     "care_tips": "",
-    "synthetic_signs": "染色與充填品顏色不自然，透光下色帶不均"
+    "synthetic_signs": "佈局過於規則、塑膠質感者多為仿品"
   },
   "content": {
-    "caption": "😴 失眠多夢？睡房礦石放錯了（第18集）\n黑曜石＋捷克隕石＋虎眼石——這三種立刻拎走\n修正方案兩步，但第二步大部分人捨不得！\n💾 收藏 | 追蹤查看第19集",
+    "caption": "🏢 辦公桌加這3顆，職場能量完全不同！\n\n不是迷信——是幫你在視覺上建立「自信、專注、邊界感」的心理提醒系統 🔮\n\n✦ 黃水晶：提升自信與決策力，放右上角\n✦ 黑碧璽：防護負能量與電磁場，螢幕旁邊\n✦ 白水晶：淨化空間，放大整組能量\n\n💾 收藏這篇，對照你的桌面佈置一下\n👇 你桌上現在有擺放物件嗎？留言讓我知道",
     "hashtags": [
-      "#睡眠礦石",
-      "#失眠水晶",
-      "#臥室礦石",
-      "#crystalsleep",
-      "#開運",
-      "#風水",
-      "#玄學",
-      "#礦石知識",
-      "#香港風水",
-      "#crystalhealing",
-      "#睡眠問題",
-      "#身心靈"
+      "#辦公桌風水",
+      "#職場開運",
+      "#礦石擺設",
+      "#crystaloffice",
+      "#招財水晶"
     ],
-    "episode": 18,
-    "episode_title": "失眠多夢：睡房礦石放錯了——完整修正方案",
-    "series_hook": "修正方案只需兩步，但第二步大部分人捨不得做",
-    "next_episode_preview": "第19集：感情遇困境——礦石如何幫你修復關係能量",
-    "visual_prompts": {
-      "hook": "夜晚臥室場景，人物輾轉反側，床頭竟然有黑曜石——大字「你失眠是不是因為睡房有塊石放錯位？」",
-      "develop": "睡房禁忌礦石逐一出現（黑曜石、捷克隕石、虎眼石），每個配「❌ 離開睡房」指示，節奏感強。",
-      "climax": "修正方案兩步出現：第一步（移走禁忌石）輕鬆達成，第二步出現時停頓——「大部分人捨不得做第二步⋯⋯」懸念。",
-      "cta": "「第19集：感情礦石！」追蹤特效。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "失眠，可能是石放錯了",
-        "body": "你的失眠，是不是睡房有塊石放錯位置？",
-        "en_text": "Is a misplaced crystal causing your insomnia?"
+    "post_number": 18,
+    "post_title": "🏢 辦公桌必備3款礦石：招財+防小人+專注力完整搭配",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🏢 辦公桌必備3款礦石：招財+防小人+專注力一次搞定",
+        "visual_desc": "辦公桌美圖——MacBook旁邊放三顆礦石（黃水晶、黑碧璽、白水晶），溫暖自然光打燈，右下角品牌Logo，底部「👉 左滑看完整搭配邏輯」",
+        "design_note": "生活場景代入感是Phase 3最重要的視覺策略，比純礦石特寫更能觸發「我也想要」的購買意圖",
+        "body_text": "🏢 辦公桌必備3款礦石：招財+防小人+專注力一次搞定"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "睡房禁忌：黑曜石",
-        "body": "能量太強，影響睡眠與感情流通。",
-        "en_text": "Black Obsidian — too intense for sleep."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🟡 黃水晶（Citrine）→ 太陽神經叢對應，提升自信與行動決策力",
+          "→ 建議放置位置：桌面右上角（財位方向）或可視範圍內",
+          "→ 科學角度：黃色系提升血清素，有助積極情緒與清晰思考"
+        ],
+        "visual_desc": "黃水晶放在辦公桌特寫，箭頭指向「右上角財位」，版面清晰有儀式感",
+        "body_text": "🟡 黃水晶（Citrine）→ 太陽神經叢對應，提升自信與行動決策力\n→ 建議放置位置：桌面右上角（財位方向）或可視範圍內\n→ 科學角度：黃色系提升血清素，有助積極情緒與清晰思考"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "隕石與虎眼石也要移走",
-        "body": "捷克隕石高頻刺激，虎眼石是戰鬥能量，皆不宜。",
-        "en_text": "Moldavite & Tiger's Eye — remove them too."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "⚫ 黑碧璽（Black Tourmaline）→ 海底輪對應，建立能量邊界、防護外來負能量",
+          "→ 建議放置位置：螢幕旁（電磁場保護）或辦公桌入口方向",
+          "→ 注意：黑碧璽需定期淨化（每1–2週），否則保護效能下降"
+        ],
+        "visual_desc": "黑碧璽柱狀晶體放在MacBook旁特寫，強調「電磁防護」概念圖示",
+        "body_text": "⚫ 黑碧璽（Black Tourmaline）→ 海底輪對應，建立能量邊界、防護外來負能量\n→ 建議放置位置：螢幕旁（電磁場保護）或辦公桌入口方向\n→ 注意：黑碧璽需定期淨化（每1–2週），否則保護效能下降"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "修正只要兩步",
-        "body": "第一步人人做得到，第二步才是關鍵。",
-        "en_text": "Two steps to fix it. Step one is easy."
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "🤍 白水晶（Clear Quartz）→ 全脈輪對應，淨化辦公室空間能量，放大其他礦石效能",
+          "→ 建議放置位置：辦公桌中心或與其他礦石相鄰（作為能量放大器）",
+          "→ 三石組合邏輯：黃水晶（招財行動）+ 黑碧璽（防護邊界）+ 白水晶（淨化放大）= 完整職場能量場"
+        ],
+        "visual_desc": "三顆礦石排成三角陣形特寫，美麗的辦公桌背景，標籤清晰",
+        "body_text": "🤍 白水晶（Clear Quartz）→ 全脈輪對應，淨化辦公室空間能量，放大其他礦石效能\n→ 建議放置位置：辦公桌中心或與其他礦石相鄰（作為能量放大器）\n→ 三石組合邏輯：黃水晶（招財行動）+ 黑碧璽（防護邊界）+ 白水晶（淨化放大）= 完整職場能量場"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "第二步，最多人捨不得",
-        "body": "要把最美的那塊石，暫時移到別的房間。",
-        "en_text": "Step two — moving your most-loved crystal out."
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第19集：感情療癒",
-        "body": "🔖 收藏備用 | 追蹤解鎖更多鑑定知識",
-        "en_text": "Follow — Ep19: relationship healing."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏起來，佈置你的職場能量角！\n➕ 追蹤我，每週礦石場景應用指南\n👇 留言：你辦公桌上有沒有擺礦石？",
+        "visual_desc": "品牌主色背景，三顆礦石小圖並排，「讓你的辦公桌也有能量場」字句",
+        "body_text": "💾 收藏起來，佈置你的職場能量角！\n➕ 追蹤我，每週礦石場景應用指南\n👇 留言：你辦公桌上有沒有擺礦石？"
       }
-    },
-    "music": {
-      "style": "uplifting",
-      "tempo": "medium",
-      "mood": "輕快正向，帶品牌質感",
-      "suggested_track": "elegant boutique background"
-    }
+    ]
   },
   "asset_paths": [
-    "assets/reels/reel_2026-08-13.mp4"
+    "assets/posts/post_2026-08-14_p1.png",
+    "assets/posts/post_2026-08-14_p2.png",
+    "assets/posts/post_2026-08-14_p3.png",
+    "assets/posts/post_2026-08-14_p4.png",
+    "assets/posts/post_2026-08-14_p5.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
