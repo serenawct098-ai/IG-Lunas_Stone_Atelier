@@ -3854,7 +3854,7 @@
     "next_stone_zh": "紫水晶",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "episode_title": "感情篇：粉晶真是可以招桃花？完整邏輯拆解",
     "caption": "🩷 粉晶招桃花還是招爛桃花？（第19集）\n答案在你的心輪狀態——不在礦石本身\n心輪未開先療癒，先有好石才有好緣！\n💾 收藏 | 追蹤查看第20集",
     "series_hook": "心輪未打開之前用粉晶，吸引的是⋯⋯而不是你以為那種人",
@@ -3926,7 +3926,8 @@
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
     },
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-17T08:06:00"
   },
   {
     "date": "2026-08-17",
@@ -3935,7 +3936,7 @@
     "stone_id": "amethyst",
     "stone_zh": "紫水晶",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，紫水晶（Amethyst）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -3947,7 +3948,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-17.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-17T08:06:00"
   },
   {
     "date": "2026-08-18",
