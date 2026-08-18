@@ -3959,7 +3959,7 @@
     "stone_zh": "粉晶",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-08-18_p1.png",
       "assets/posts/post_2026-08-18_p2.png",
@@ -4027,7 +4027,8 @@
       "#風水礦石",
       "#開運水晶"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-18T08:06:00"
   },
   {
     "date": "2026-08-19",
