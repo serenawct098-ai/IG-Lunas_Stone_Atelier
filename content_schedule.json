@@ -4063,7 +4063,7 @@
     "next_stone_zh": "拉長石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "episode_title": "礦石開光淨化儀式全程記錄（第1集）",
     "caption": "✨ 礦石開光淨化儀式全程記錄（第20集）\n做了五年，第一次完整拍出來給你看\n四個步驟，最後一步是最關鍵——下集揭曉！\n💾 收藏 | 追蹤查看第21集",
     "series_hook": "儀式的最後一步，是最多人省略但最關鍵的一步",
@@ -4135,7 +4135,8 @@
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
     },
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-20T08:06:00"
   },
   {
     "date": "2026-08-20",
@@ -4144,7 +4145,7 @@
     "stone_id": "labradorite",
     "stone_zh": "拉長石",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，拉長石（Labradorite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4156,7 +4157,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-20.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-20T08:06:00"
   },
   {
     "date": "2026-08-21",

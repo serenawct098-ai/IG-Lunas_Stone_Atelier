@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-08-19_stories",
-  "created_at": "2026-08-19T08:03:52.707359+00:00",
+  "task_id": "2026-08-20_reels",
+  "created_at": "2026-08-20T08:03:32.348968+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-19",
-    "type": "stories",
+    "date": "2026-08-20",
+    "type": "reels",
     "phase": "3",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "✨ 點 Profile 連結查看精選礦石系列",
+    "episode": 20,
+    "next_stone_id": "labradorite"
   },
   "stone": {
-    "id": "smoky_quartz",
-    "zh": "茶晶",
-    "en": "Smoky Quartz",
+    "id": "citrine",
+    "zh": "黃水晶",
+    "en": "Citrine",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特殊效應，透明度從清透到半透明",
-    "body_focus": "下肢、骨骼、免疫系統、壓力釋放",
-    "use_cases": "工作壓力大、能量場敏感者、療癒後的「收尾」與落地",
+    "optical_effects": "無特殊效應",
+    "body_focus": "消化系統、肝膽、代謝與能量供給",
+    "use_cases": "創業、談判、考試、績效壓力、財務規劃、需要果斷的情境",
     "care_tips": "",
-    "synthetic_signs": "顏色過於黑且均一，可能是人工輻射處理（與天然難完全肉眼分辨）"
+    "synthetic_signs": "顏色偏橙、偏褐且根部白、頭部橙，很可能是「燒紫水晶」；顏色亮到像糖果亦要小心"
   },
   "content": {
-    "visual_prompt": "深色星空背景，茶晶（Smoky Quartz）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "茶晶助沉澱",
-      "body": "能量敏感、容易心浮氣躁的人，茶晶有助沉澱與安定。",
-      "en_text": "Smoky Quartz grounds you and releases stress.",
-      "cta_text": "🛒 Profile 連結選購"
+    "caption": "✨ 礦石開光淨化儀式全程記錄（第20集）\n做了五年，第一次完整拍出來給你看\n四個步驟，最後一步是最關鍵——下集揭曉！\n💾 收藏 | 追蹤查看第21集",
+    "hashtags": [
+      "#礦石開光",
+      "#礦石淨化儀式",
+      "#crystalritual",
+      "#開光教學",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalhealing",
+      "#身心靈",
+      "#水晶儀式"
+    ],
+    "episode": 20,
+    "episode_title": "礦石開光淨化儀式全程記錄（第1集）",
+    "series_hook": "儀式的最後一步，是最多人省略但最關鍵的一步",
+    "next_episode_preview": "第21集：開光儀式第2集——意圖設定方法",
+    "visual_prompts": {
+      "hook": "儀式準備全景：蠟燭、頌缽、礦石排列，主人公（品牌主）出現，大字「這個儀式我做了五年——今日第一次全程拍俾你看」",
+      "develop": "儀式步驟逐一記錄：空間淨化（薰香）→ 礦石清潔（聲波）→ 月光充能擺放→ 意圖語言設定，每步清晰鏡頭。",
+      "climax": "最後一步出現：「儀式的最後一步，是最多人省略但最關鍵的一步⋯⋯」畫面聚焦手握礦石細節，充滿儀式感。",
+      "cta": "「第21集：意圖設定方法！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "做了5年的儀式，首次公開",
+        "body": "這個礦石開光儀式我做了五年，今天第一次拍給你看。",
+        "en_text": "My 5-year ritual, filmed for the first time."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "步驟1+2：淨化",
+        "body": "薰香淨化空間，再以頌缽聲波清潔礦石本體。",
+        "en_text": "Step 1-2: incense space, sound-cleanse stone."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "步驟3+4：充能設意",
+        "body": "月光或水晶簇充能，最後設定你的意圖。",
+        "en_text": "Step 3-4: moonlight charge, set intention."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "最後一步最多人省略",
+        "body": "卻是最關鍵的一步——省略它，前三步沒有靈魂。",
+        "en_text": "The final step everyone skips is essential."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "沒有它，儀式沒靈魂",
+        "body": "少了最後一步，前面所有努力都失去意義。",
+        "en_text": "Without it, the ritual has no soul—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第21集：意圖設定",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep21: intention-setting method."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-19.png"
+    "assets/reels/reel_2026-08-20.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
