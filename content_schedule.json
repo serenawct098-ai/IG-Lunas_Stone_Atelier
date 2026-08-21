@@ -4168,7 +4168,7 @@
     "stone_zh": "青金石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-08-21_p1.png",
       "assets/posts/post_2026-08-21_p2.png",
@@ -4236,7 +4236,8 @@
       "#bedroom_crystals",
       "#礦石風水"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-21T08:06:00"
   },
   {
     "date": "2026-08-21",
@@ -4245,7 +4246,7 @@
     "stone_id": "obsidian",
     "stone_zh": "黑曜石",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑曜石（Obsidian）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4257,7 +4258,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-21.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-21T08:06:00"
   },
   {
     "date": "2026-08-23",
