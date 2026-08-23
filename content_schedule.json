@@ -4268,7 +4268,7 @@
     "stone_id": "black_tourmaline",
     "stone_zh": "黑碧璽",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4280,7 +4280,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-23.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-23T11:07:27.532942+00:00"
   },
   {
     "date": "2026-08-24",

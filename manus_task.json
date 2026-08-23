@@ -1,6 +1,6 @@
 {
   "task_id": "2026-08-23_stories",
-  "created_at": "2026-08-23T10:58:11.621222+00:00",
+  "created_at": "2026-08-23T11:04:39.134456+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
@@ -53,9 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "pending",
+    "status": "published",
     "media_id": null,
-    "published_at": null,
+    "published_at": "2026-08-23T11:07:27.532942+00:00",
     "error": null
   }
 }
