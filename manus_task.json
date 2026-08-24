@@ -1,12 +1,12 @@
 {
-  "task_id": "2026-08-23_stories",
-  "created_at": "2026-08-23T11:04:39.134456+00:00",
+  "task_id": "2026-08-24_stories",
+  "created_at": "2026-08-24T08:06:43.619098+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "type": "stories",
     "phase": "3",
     "cta": "",
@@ -14,30 +14,30 @@
     "next_stone_id": null
   },
   "stone": {
-    "id": "black_tourmaline",
-    "zh": "黑碧璽",
-    "en": "Black Tourmaline",
+    "id": "agate_general",
+    "zh": "瑪瑙",
+    "en": "Agate",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特定，但柱狀平行條紋明顯",
-    "body_focus": "骨骼、肌肉、免疫系統與神經穩定",
-    "use_cases": "使用電子產品多、住在高壓環境、能量敏感者",
+    "optical_effects": "偶見半透明螢光感，少數有瑪瑙眼",
+    "body_focus": "一般視作穩定身體能量與循環",
+    "use_cases": "日常佩戴、防護與情緒緩衝",
     "care_tips": "",
-    "synthetic_signs": "完全光滑如塑膠、重量明顯偏輕、有氣泡可能是樹脂或玻璃"
+    "synthetic_signs": "顏色高度均一、螢光感重，多為染色瑪瑙"
   },
   "content": {
-    "visual_prompt": "深色星空背景，黑碧璽（Black Tourmaline）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
-      "headline": "黑碧璽護高壓",
-      "body": "能量敏感、住在高壓環境的人，黑碧璽幫助建立界線感。",
-      "en_text": "Black Tourmaline grounds and guards your boundaries.",
+      "headline": "瑪瑙百搭護石",
+      "body": "瑪瑙象徵穩定身體能量與循環，是百搭的防護石。",
+      "en_text": "Agate brings gentle stability and calm.",
       "cta_text": "🛒 Profile 連結選購"
     },
     "hashtags": [],
     "story_title": ""
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-23.png"
+    "assets/stories/story_2026-08-24.png"
   ],
   "assets_ready": true,
   "format_spec": {
@@ -53,9 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
+    "status": "pending",
     "media_id": null,
-    "published_at": "2026-08-23T11:07:27.532942+00:00",
+    "published_at": null,
     "error": null
   }
 }
