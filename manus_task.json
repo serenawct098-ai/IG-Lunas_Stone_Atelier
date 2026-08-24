@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-08-24_stories",
-  "created_at": "2026-08-24T08:06:43.619098+00:00",
+  "task_id": "2026-08-24_reels",
+  "created_at": "2026-08-24T08:08:22.761698+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
     "date": "2026-08-24",
-    "type": "stories",
+    "type": "reels",
     "phase": "3",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "✨ 點 Profile 連結查看精選礦石系列",
+    "episode": 21,
+    "next_stone_id": "agate_general"
   },
   "stone": {
-    "id": "agate_general",
-    "zh": "瑪瑙",
-    "en": "Agate",
+    "id": "moldavite",
+    "zh": "捷克隕石 / 摩爾達隕石",
+    "en": "Moldavite",
     "hardness": "",
     "color": "",
-    "optical_effects": "偶見半透明螢光感，少數有瑪瑙眼",
-    "body_focus": "一般視作穩定身體能量與循環",
-    "use_cases": "日常佩戴、防護與情緒緩衝",
+    "optical_effects": "無特定，但常見獨特蝕刻紋與坑洞",
+    "body_focus": "心臟區、神經系統、能量系統快速調整",
+    "use_cases": "準備好面對人生大轉變者、高階靈性工作、內在覺醒課程",
     "care_tips": "",
-    "synthetic_signs": "顏色高度均一、螢光感重，多為染色瑪瑙"
+    "synthetic_signs": "表面過於光滑、顏色均一、形狀整齊，或價位低得不合理，多為玻璃仿品"
   },
   "content": {
-    "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "瑪瑙百搭護石",
-      "body": "瑪瑙象徵穩定身體能量與循環，是百搭的防護石。",
-      "en_text": "Agate brings gentle stability and calm.",
-      "cta_text": "🛒 Profile 連結選購"
+    "caption": "🗣️ 開光意圖設定方法（第21集）\n說什麼比做什麼更重要！三層意圖語言對比\n第三層是最少人用但最有效的說法 💡\n💾 收藏 | 追蹤查看第22集",
+    "hashtags": [
+      "#意圖設定",
+      "#礦石開光語言",
+      "#crystalintention",
+      "#開光方法",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalhealing",
+      "#身心靈",
+      "#水晶冥想"
+    ],
+    "episode": 21,
+    "episode_title": "開光儀式第2集：意圖設定——你說錯了嗎？",
+    "series_hook": "意圖語言有三個層次——第三層是最少人知但最有效的",
+    "next_episode_preview": "第22集：礦石搭配禁忌——哪兩塊不能放在一起？",
+    "visual_prompts": {
+      "hook": "特寫：嘴唇形狀，旁邊文字泡泡，大字「你幫水晶開光時說了什麼？說錯了等於白做！」",
+      "develop": "三個層次的意圖語言逐一展示：第一層（負面禁語：「我不要壓力」）→ 第二層（中性許願：「我想要平靜」）→ 第三層（已然實現語氣：「我是平靜的存在」），對比強烈。",
+      "climax": "第三層出現，「這個是最少人知但最有效的意圖語言格式⋯⋯」畫面定格，懸念。",
+      "cta": "「第22集：礦石搭配禁忌！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "開光說錯話＝白做",
+        "body": "你幫水晶開光時說了什麼？說錯等於白做。",
+        "en_text": "Say the wrong words and it's all wasted."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "第一層：別說「不要」",
+        "body": "「我不想要壓力」是負面語氣，大腦反而聚焦壓力。",
+        "en_text": "'I don't want stress' — wrong focus."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "第二層：說「我想要」",
+        "body": "「我想要平靜」方向正確，但還不夠有力。",
+        "en_text": "'I want peace' — right direction."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "第三層：已然實現",
+        "body": "「我是平靜的存在」——潛意識最容易接受。",
+        "en_text": "'I am a peaceful presence' — most powerful."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "心理×能量的交集",
+        "body": "第三層是自我暗示與振動對齊的交集，最少人知。",
+        "en_text": "Where self-suggestion meets vibration—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第22集：搭配禁忌",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep22: combination taboos."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-24.png"
+    "assets/reels/reel_2026-08-24.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
