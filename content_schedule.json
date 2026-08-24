@@ -4294,7 +4294,7 @@
     "next_stone_zh": "瑪瑙",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "episode_title": "開光儀式第2集：意圖設定——你說錯了嗎？",
     "caption": "🗣️ 開光意圖設定方法（第21集）\n說什麼比做什麼更重要！三層意圖語言對比\n第三層是最少人用但最有效的說法 💡\n💾 收藏 | 追蹤查看第22集",
     "series_hook": "意圖語言有三個層次——第三層是最少人知但最有效的",
@@ -4366,7 +4366,8 @@
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
     },
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-24T08:10:51.493707+00:00"
   },
   {
     "date": "2026-08-24",
@@ -4375,7 +4376,7 @@
     "stone_id": "agate_general",
     "stone_zh": "瑪瑙",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，瑪瑙（Agate）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4387,7 +4388,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-24.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-24T08:10:51.493707+00:00"
   },
   {
     "date": "2026-08-25",
