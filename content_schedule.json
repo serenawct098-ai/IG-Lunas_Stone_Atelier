@@ -4399,7 +4399,7 @@
     "stone_zh": "紅瑪瑙",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-08-25_p1.png",
       "assets/posts/post_2026-08-25_p2.png",
@@ -4469,7 +4469,8 @@
       "#消磁方法",
       "#礦石儀式"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-25T08:04:22.566469+00:00"
   },
   {
     "date": "2026-08-26",
