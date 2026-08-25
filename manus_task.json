@@ -1,112 +1,107 @@
 {
-  "task_id": "2026-08-24_reels",
-  "created_at": "2026-08-24T08:08:22.761698+00:00",
+  "task_id": "2026-08-25_posts",
+  "created_at": "2026-08-25T08:02:53.761404+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-24",
-    "type": "reels",
+    "date": "2026-08-25",
+    "type": "posts",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "episode": 21,
-    "next_stone_id": "agate_general"
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "moldavite",
-    "zh": "捷克隕石 / 摩爾達隕石",
-    "en": "Moldavite",
+    "id": "carnelian",
+    "zh": "紅瑪瑙 / 玉髓",
+    "en": "Carnelian",
     "hardness": "",
     "color": "",
-    "optical_effects": "無特定，但常見獨特蝕刻紋與坑洞",
-    "body_focus": "心臟區、神經系統、能量系統快速調整",
-    "use_cases": "準備好面對人生大轉變者、高階靈性工作、內在覺醒課程",
+    "optical_effects": "無明顯特殊效應",
+    "body_focus": "血液循環與生命力",
+    "use_cases": "體力消耗大、需要提升動力與保護感時",
     "care_tips": "",
-    "synthetic_signs": "表面過於光滑、顏色均一、形狀整齊，或價位低得不合理，多為玻璃仿品"
+    "synthetic_signs": "顏色非常鮮豔均一、靠近孔洞處色更濃者多為染色"
   },
   "content": {
-    "caption": "🗣️ 開光意圖設定方法（第21集）\n說什麼比做什麼更重要！三層意圖語言對比\n第三層是最少人用但最有效的說法 💡\n💾 收藏 | 追蹤查看第22集",
+    "caption": "🌙 礦石淨化4種方法，你選錯了嗎？\n\n不同礦石、不同場景，適合的淨化方式也不同——這篇幫你整理成一份可以直接用的 SOP 🙏\n\n✦ 日常保養 → 白水晶簇過夜（最安全）\n✦ 能量補充 → 月光照射（月圓前後最佳）\n✦ 快速淨化 → 薰香煙霧繞行（30秒搞定）\n✦ 脆弱礦石 → 頌缽聲波（完全不接觸）\n\n💾 收藏留底，下次淨化前先查對照表\n👇 你現在使用哪種方法？",
     "hashtags": [
-      "#意圖設定",
-      "#礦石開光語言",
-      "#crystalintention",
-      "#開光方法",
-      "#開運",
-      "#風水",
-      "#玄學",
-      "#礦石知識",
-      "#香港風水",
-      "#crystalhealing",
-      "#身心靈",
-      "#水晶冥想"
+      "#礦石淨化",
+      "#水晶保養",
+      "#crystalcleansing",
+      "#消磁方法",
+      "#礦石儀式"
     ],
-    "episode": 21,
-    "episode_title": "開光儀式第2集：意圖設定——你說錯了嗎？",
-    "series_hook": "意圖語言有三個層次——第三層是最少人知但最有效的",
-    "next_episode_preview": "第22集：礦石搭配禁忌——哪兩塊不能放在一起？",
-    "visual_prompts": {
-      "hook": "特寫：嘴唇形狀，旁邊文字泡泡，大字「你幫水晶開光時說了什麼？說錯了等於白做！」",
-      "develop": "三個層次的意圖語言逐一展示：第一層（負面禁語：「我不要壓力」）→ 第二層（中性許願：「我想要平靜」）→ 第三層（已然實現語氣：「我是平靜的存在」），對比強烈。",
-      "climax": "第三層出現，「這個是最少人知但最有效的意圖語言格式⋯⋯」畫面定格，懸念。",
-      "cta": "「第22集：礦石搭配禁忌！」追蹤特效。"
-    },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "開光說錯話＝白做",
-        "body": "你幫水晶開光時說了什麼？說錯等於白做。",
-        "en_text": "Say the wrong words and it's all wasted."
+    "post_number": 21,
+    "post_title": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景對照表",
+    "pages": [
+      {
+        "page": 1,
+        "type": "封面",
+        "headline": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景全攻略",
+        "visual_desc": "月圓夜晚背景（深藍天空+滿月），礦石散落白布上的美圖，溫暖蠟燭光打氛圍，底部「👉 左滑看淨化方法對照表」",
+        "design_note": "儀式感美學是Phase 3最強收藏觸發視覺，讓人想親身複製這個場景",
+        "body_text": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景全攻略"
       },
-      "p2": {
-        "role": "develop",
-        "headline": "第一層：別說「不要」",
-        "body": "「我不想要壓力」是負面語氣，大腦反而聚焦壓力。",
-        "en_text": "'I don't want stress' — wrong focus."
+      {
+        "page": 2,
+        "type": "乾貨內頁",
+        "content_points": [
+          "方法 1：白水晶簇過夜（最溫和，所有礦石適用）",
+          "→ 操作：礦石放在白水晶簇上，靜置 6–8 小時（夜間效果更佳）",
+          "→ 適用：日常保養、高頻使用的礦石（每週一次）"
+        ],
+        "visual_desc": "礦石放在大型白水晶簇上特寫，溫暖自然光，有儀式感",
+        "body_text": "方法 1：白水晶簇過夜（最溫和，所有礦石適用）\n→ 操作：礦石放在白水晶簇上，靜置 6–8 小時（夜間效果更佳）\n→ 適用：日常保養、高頻使用的礦石（每週一次）"
       },
-      "p3": {
-        "role": "develop",
-        "headline": "第二層：說「我想要」",
-        "body": "「我想要平靜」方向正確，但還不夠有力。",
-        "en_text": "'I want peace' — right direction."
+      {
+        "page": 3,
+        "type": "乾貨內頁",
+        "content_points": [
+          "方法 2：月光照射（補充能量型淨化，滿月效果最強）",
+          "→ 操作：礦石放窗邊或戶外，接受月光 4–8 小時（注意天氣）",
+          "→ 適用：需要「充電」的礦石，適合月圓前後 2–3 天",
+          "⚠️ 提醒：忌日曬礦石也忌強烈月光長時間直照"
+        ],
+        "visual_desc": "礦石放窗邊接受月光特寫，月圓背景，有詩意又有儀式感",
+        "body_text": "方法 2：月光照射（補充能量型淨化，滿月效果最強）\n→ 操作：礦石放窗邊或戶外，接受月光 4–8 小時（注意天氣）\n→ 適用：需要「充電」的礦石，適合月圓前後 2–3 天\n⚠️ 提醒：忌日曬礦石也忌強烈月光長時間直照"
       },
-      "p4": {
-        "role": "climax",
-        "headline": "第三層：已然實現",
-        "body": "「我是平靜的存在」——潛意識最容易接受。",
-        "en_text": "'I am a peaceful presence' — most powerful."
+      {
+        "page": 4,
+        "type": "乾貨內頁",
+        "content_points": [
+          "方法 3：薰香煙霧繞行（快速淨化，外出回來後適用）",
+          "→ 操作：白鼠尾草 / 聖木 / 線香點燃，讓煙霧繞行礦石 30–60 秒",
+          "→ 適用：所有礦石，特別適合出入公共場所或高壓環境後",
+          "方法 4：頌缽/音叉聲波（不接觸礦石，最安全）→ 適合所有礦石包括脆弱品種"
+        ],
+        "visual_desc": "薰香煙霧繞行礦石的動態美圖（可用Boomerang截圖），視覺感強烈",
+        "body_text": "方法 3：薰香煙霧繞行（快速淨化，外出回來後適用）\n→ 操作：白鼠尾草 / 聖木 / 線香點燃，讓煙霧繞行礦石 30–60 秒\n→ 適用：所有礦石，特別適合出入公共場所或高壓環境後\n方法 4：頌缽/音叉聲波（不接觸礦石，最安全）→ 適合所有礦石包括脆弱品種"
       },
-      "p5": {
-        "role": "climax",
-        "headline": "心理×能量的交集",
-        "body": "第三層是自我暗示與振動對齊的交集，最少人知。",
-        "en_text": "Where self-suggestion meets vibration—"
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第22集：搭配禁忌",
-        "body": "✨ 點 Profile 連結查看精選礦石系列",
-        "en_text": "Follow — Ep22: combination taboos."
+      {
+        "page": 5,
+        "type": "封底CTA",
+        "cta_copy": "💾 收藏這篇SOP，每次淨化前參考！\n➕ 追蹤，每週礦石使用指南更新\n👇 留言：你最常用哪種淨化方法？",
+        "visual_desc": "月光照在礦石上的美圖，品牌Logo居角，「讓你的礦石保持最佳狀態」字句",
+        "body_text": "💾 收藏這篇SOP，每次淨化前參考！\n➕ 追蹤，每週礦石使用指南更新\n👇 留言：你最常用哪種淨化方法？"
       }
-    },
-    "music": {
-      "style": "uplifting",
-      "tempo": "medium",
-      "mood": "輕快正向，帶品牌質感",
-      "suggested_track": "elegant boutique background"
-    }
+    ]
   },
   "asset_paths": [
-    "assets/reels/reel_2026-08-24.mp4"
+    "assets/posts/post_2026-08-25_p1.png",
+    "assets/posts/post_2026-08-25_p2.png",
+    "assets/posts/post_2026-08-25_p3.png",
+    "assets/posts/post_2026-08-25_p4.png",
+    "assets/posts/post_2026-08-25_p5.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 5,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "5 PNG (Carousel)"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -115,9 +110,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
+    "status": "pending",
     "media_id": null,
-    "published_at": "2026-08-24T08:10:51.493707+00:00",
+    "published_at": null,
     "error": null
   }
 }
