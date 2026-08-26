@@ -1,107 +1,50 @@
 {
-  "task_id": "2026-08-25_posts",
-  "created_at": "2026-08-25T08:02:53.761404+00:00",
+  "task_id": "2026-08-26_stories",
+  "created_at": "2026-08-26T08:04:49.610753+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-25",
-    "type": "posts",
+    "date": "2026-08-26",
+    "type": "stories",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "carnelian",
-    "zh": "紅瑪瑙 / 玉髓",
-    "en": "Carnelian",
+    "id": "green_aventurine",
+    "zh": "綠東陵石",
+    "en": "Green Aventurine",
     "hardness": "",
     "color": "",
-    "optical_effects": "無明顯特殊效應",
-    "body_focus": "血液循環與生命力",
-    "use_cases": "體力消耗大、需要提升動力與保護感時",
+    "optical_effects": "細碎閃光（aventurescence）",
+    "body_focus": "心肺與循環系統",
+    "use_cases": "求職、轉職、創業初期、心輪修復",
     "care_tips": "",
-    "synthetic_signs": "顏色非常鮮豔均一、靠近孔洞處色更濃者多為染色"
+    "synthetic_signs": "顏色過於均一、亮片分佈規則者可能為合成材料"
   },
   "content": {
-    "caption": "🌙 礦石淨化4種方法，你選錯了嗎？\n\n不同礦石、不同場景，適合的淨化方式也不同——這篇幫你整理成一份可以直接用的 SOP 🙏\n\n✦ 日常保養 → 白水晶簇過夜（最安全）\n✦ 能量補充 → 月光照射（月圓前後最佳）\n✦ 快速淨化 → 薰香煙霧繞行（30秒搞定）\n✦ 脆弱礦石 → 頌缽聲波（完全不接觸）\n\n💾 收藏留底，下次淨化前先查對照表\n👇 你現在使用哪種方法？",
-    "hashtags": [
-      "#礦石淨化",
-      "#水晶保養",
-      "#crystalcleansing",
-      "#消磁方法",
-      "#礦石儀式"
-    ],
-    "post_number": 21,
-    "post_title": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景對照表",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景全攻略",
-        "visual_desc": "月圓夜晚背景（深藍天空+滿月），礦石散落白布上的美圖，溫暖蠟燭光打氛圍，底部「👉 左滑看淨化方法對照表」",
-        "design_note": "儀式感美學是Phase 3最強收藏觸發視覺，讓人想親身複製這個場景",
-        "body_text": "🌙 礦石淨化完整儀式SOP：4種方法×使用場景全攻略"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "方法 1：白水晶簇過夜（最溫和，所有礦石適用）",
-          "→ 操作：礦石放在白水晶簇上，靜置 6–8 小時（夜間效果更佳）",
-          "→ 適用：日常保養、高頻使用的礦石（每週一次）"
-        ],
-        "visual_desc": "礦石放在大型白水晶簇上特寫，溫暖自然光，有儀式感",
-        "body_text": "方法 1：白水晶簇過夜（最溫和，所有礦石適用）\n→ 操作：礦石放在白水晶簇上，靜置 6–8 小時（夜間效果更佳）\n→ 適用：日常保養、高頻使用的礦石（每週一次）"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "方法 2：月光照射（補充能量型淨化，滿月效果最強）",
-          "→ 操作：礦石放窗邊或戶外，接受月光 4–8 小時（注意天氣）",
-          "→ 適用：需要「充電」的礦石，適合月圓前後 2–3 天",
-          "⚠️ 提醒：忌日曬礦石也忌強烈月光長時間直照"
-        ],
-        "visual_desc": "礦石放窗邊接受月光特寫，月圓背景，有詩意又有儀式感",
-        "body_text": "方法 2：月光照射（補充能量型淨化，滿月效果最強）\n→ 操作：礦石放窗邊或戶外，接受月光 4–8 小時（注意天氣）\n→ 適用：需要「充電」的礦石，適合月圓前後 2–3 天\n⚠️ 提醒：忌日曬礦石也忌強烈月光長時間直照"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "方法 3：薰香煙霧繞行（快速淨化，外出回來後適用）",
-          "→ 操作：白鼠尾草 / 聖木 / 線香點燃，讓煙霧繞行礦石 30–60 秒",
-          "→ 適用：所有礦石，特別適合出入公共場所或高壓環境後",
-          "方法 4：頌缽/音叉聲波（不接觸礦石，最安全）→ 適合所有礦石包括脆弱品種"
-        ],
-        "visual_desc": "薰香煙霧繞行礦石的動態美圖（可用Boomerang截圖），視覺感強烈",
-        "body_text": "方法 3：薰香煙霧繞行（快速淨化，外出回來後適用）\n→ 操作：白鼠尾草 / 聖木 / 線香點燃，讓煙霧繞行礦石 30–60 秒\n→ 適用：所有礦石，特別適合出入公共場所或高壓環境後\n方法 4：頌缽/音叉聲波（不接觸礦石，最安全）→ 適合所有礦石包括脆弱品種"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這篇SOP，每次淨化前參考！\n➕ 追蹤，每週礦石使用指南更新\n👇 留言：你最常用哪種淨化方法？",
-        "visual_desc": "月光照在礦石上的美圖，品牌Logo居角，「讓你的礦石保持最佳狀態」字句",
-        "body_text": "💾 收藏這篇SOP，每次淨化前參考！\n➕ 追蹤，每週礦石使用指南更新\n👇 留言：你最常用哪種淨化方法？"
-      }
-    ]
+    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "綠東陵添樂觀",
+      "body": "想保持樂觀與開放？綠東陵石為心區注入綠意能量。",
+      "en_text": "Green Aventurine attracts luck and opportunity.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-08-25_p1.png",
-    "assets/posts/post_2026-08-25_p2.png",
-    "assets/posts/post_2026-08-25_p3.png",
-    "assets/posts/post_2026-08-25_p4.png",
-    "assets/posts/post_2026-08-25_p5.png"
+    "assets/stories/story_2026-08-26.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -110,9 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
+    "status": "pending",
     "media_id": null,
-    "published_at": "2026-08-25T08:04:22.566469+00:00",
+    "published_at": null,
     "error": null
   }
 }
