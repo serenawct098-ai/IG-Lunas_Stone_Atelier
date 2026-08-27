@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-08-27_stories",
-  "created_at": "2026-08-27T08:07:23.080564+00:00",
+  "task_id": "2026-08-27_reels",
+  "created_at": "2026-08-27T08:09:06.390090+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
     "date": "2026-08-27",
-    "type": "stories",
+    "type": "reels",
     "phase": "3",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "✨ 點 Profile 連結查看精選礦石系列",
+    "episode": 22,
+    "next_stone_id": "aquamarine"
   },
   "stone": {
-    "id": "aquamarine",
-    "zh": "海藍寶",
-    "en": "Aquamarine",
+    "id": "tigers_eye",
+    "zh": "虎眼石",
+    "en": "Tiger's Eye",
     "hardness": "",
     "color": "",
-    "optical_effects": "無明顯特殊效應",
-    "body_focus": "喉部、呼吸系統與甲狀腺",
-    "use_cases": "演講、簡報、談判、人際溝通壓力大時",
+    "optical_effects": "貓眼效應（chatoyancy）",
+    "body_focus": "消化、肝膽、肌肉力量",
+    "use_cases": "決策、談判、創業、需要「挺身而出」的場景",
     "care_tips": "",
-    "synthetic_signs": "顏色高度均一、完全無內含物且價格偏低，需警覺合成品"
+    "synthetic_signs": "光帶過於規則或整面均一亮度可能為仿品"
   },
   "content": {
-    "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "海藍寶緩人際",
-      "body": "人際溝通壓力大時，海藍寶帶來如海水般的平靜。",
-      "en_text": "Aquamarine eases communication and self-expression.",
-      "cta_text": "🛒 Profile 連結選購"
+    "caption": "⚡ 礦石搭配禁忌：這兩塊千萬別同時戴！（第22集）\n黑曜石＋捷克隕石 = 能量場同時承受兩個相反方向\n準備好面對劇烈轉變先可以試！\n💾 收藏 | 追蹤查看第23集",
+    "hashtags": [
+      "#礦石搭配禁忌",
+      "#礦石衝突",
+      "#crystalcombination",
+      "#黑曜石捷克隕石",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalhealing",
+      "#礦石搭配",
+      "#高頻礦石"
+    ],
+    "episode": 22,
+    "episode_title": "礦石搭配禁忌：這兩塊千萬別同時佩戴！",
+    "series_hook": "還有一對組合，能量方向完全相反，戴在一起等於⋯⋯",
+    "next_episode_preview": "第23集：按月亮週期使用礦石的時間能量學",
+    "visual_prompts": {
+      "hook": "黑曜石與捷克隕石並排，閃電符號出現，大字「黑曜石+捷克隕石同時戴——你準備好迎接劇烈轉變嗎？」",
+      "develop": "兩種礦石能量方向可視化：黑曜石（強力清除向下箭頭）+ 捷克隕石（高頻激活向上箭頭）= 交叉衝突圖示，能量對沖概念清晰。",
+      "climax": "「還有一對組合，能量方向完全相反，戴在一起等於同時踩油門同煞車⋯⋯」懸念感極強。",
+      "cta": "「第23集：月亮週期礦石能量！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "這兩塊一起戴＝劇變",
+        "body": "黑曜石＋捷克隕石同戴，你準備好迎接劇烈轉變了嗎？",
+        "en_text": "Obsidian + Moldavite — ready for upheaval?"
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "黑曜石：向下清除",
+        "body": "它是強烈清除石，能量猛然向下拉。",
+        "en_text": "Obsidian: powerful downward clearing."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "隕石：向上激活",
+        "body": "捷克隕石高頻激活，能量急速向上衝。",
+        "en_text": "Moldavite: high-frequency upward surge."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "兩股相反力量拉扯",
+        "body": "同戴時能量場被兩個相反方向同時撕扯。",
+        "en_text": "Two opposite forces pull at once."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "還有一對：油門＋煞車",
+        "body": "另一對組合方向完全相反，戴一起如同時踩油門和煞車。",
+        "en_text": "Another pair: gas and brake together—"
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第23集：月相能量",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep23: lunar cycle energy."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-27.png"
+    "assets/reels/reel_2026-08-27.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
