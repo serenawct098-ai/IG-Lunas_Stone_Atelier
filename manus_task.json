@@ -115,9 +115,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "pending",
+    "status": "published",
     "media_id": null,
-    "published_at": null,
+    "published_at": "2026-08-27T08:11:34.986496+00:00",
     "error": null
   }
 }

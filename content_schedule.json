@@ -4505,7 +4505,7 @@
     "next_stone_zh": "海藍寶",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "episode_title": "礦石搭配禁忌：這兩塊千萬別同時佩戴！",
     "caption": "⚡ 礦石搭配禁忌：這兩塊千萬別同時戴！（第22集）\n黑曜石＋捷克隕石 = 能量場同時承受兩個相反方向\n準備好面對劇烈轉變先可以試！\n💾 收藏 | 追蹤查看第23集",
     "series_hook": "還有一對組合，能量方向完全相反，戴在一起等於⋯⋯",
@@ -4577,7 +4577,8 @@
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
     },
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-27T08:11:34.986496+00:00"
   },
   {
     "date": "2026-08-27",
@@ -4586,7 +4587,7 @@
     "stone_id": "aquamarine",
     "stone_zh": "海藍寶",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4598,7 +4599,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-27.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-27T08:11:34.986496+00:00"
   },
   {
     "date": "2026-08-28",
