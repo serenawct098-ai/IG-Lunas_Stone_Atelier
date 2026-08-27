@@ -1,12 +1,12 @@
 {
-  "task_id": "2026-08-26_stories",
-  "created_at": "2026-08-26T08:04:49.610753+00:00",
+  "task_id": "2026-08-27_stories",
+  "created_at": "2026-08-27T08:07:23.080564+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-26",
+    "date": "2026-08-27",
     "type": "stories",
     "phase": "3",
     "cta": "",
@@ -14,30 +14,30 @@
     "next_stone_id": null
   },
   "stone": {
-    "id": "green_aventurine",
-    "zh": "綠東陵石",
-    "en": "Green Aventurine",
+    "id": "aquamarine",
+    "zh": "海藍寶",
+    "en": "Aquamarine",
     "hardness": "",
     "color": "",
-    "optical_effects": "細碎閃光（aventurescence）",
-    "body_focus": "心肺與循環系統",
-    "use_cases": "求職、轉職、創業初期、心輪修復",
+    "optical_effects": "無明顯特殊效應",
+    "body_focus": "喉部、呼吸系統與甲狀腺",
+    "use_cases": "演講、簡報、談判、人際溝通壓力大時",
     "care_tips": "",
-    "synthetic_signs": "顏色過於均一、亮片分佈規則者可能為合成材料"
+    "synthetic_signs": "顏色高度均一、完全無內含物且價格偏低，需警覺合成品"
   },
   "content": {
-    "visual_prompt": "深色星空背景，綠東陵石（Green Aventurine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "visual_prompt": "深色星空背景，海藍寶（Aquamarine）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
-      "headline": "綠東陵添樂觀",
-      "body": "想保持樂觀與開放？綠東陵石為心區注入綠意能量。",
-      "en_text": "Green Aventurine attracts luck and opportunity.",
+      "headline": "海藍寶緩人際",
+      "body": "人際溝通壓力大時，海藍寶帶來如海水般的平靜。",
+      "en_text": "Aquamarine eases communication and self-expression.",
       "cta_text": "🛒 Profile 連結選購"
     },
     "hashtags": [],
     "story_title": ""
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-26.png"
+    "assets/stories/story_2026-08-27.png"
   ],
   "assets_ready": true,
   "format_spec": {
@@ -53,9 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
+    "status": "pending",
     "media_id": null,
-    "published_at": "2026-08-26T08:05:54.672936+00:00",
+    "published_at": null,
     "error": null
   }
 }
