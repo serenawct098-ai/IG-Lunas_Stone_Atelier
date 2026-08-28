@@ -4610,7 +4610,7 @@
     "stone_zh": "月光石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-08-28_p1.png",
       "assets/posts/post_2026-08-28_p2.png",
@@ -4678,7 +4678,8 @@
       "#白水晶",
       "#礦石搭配"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-28T08:14:40.268041+00:00"
   },
   {
     "date": "2026-08-28",
@@ -4687,7 +4688,7 @@
     "stone_id": "kyanite",
     "stone_zh": "藍晶石",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍晶石（Kyanite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4699,7 +4700,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-28.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-28T08:14:40.268041+00:00"
   },
   {
     "date": "2026-08-30",
