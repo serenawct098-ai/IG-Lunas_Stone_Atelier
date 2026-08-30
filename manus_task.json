@@ -1,105 +1,50 @@
 {
-  "task_id": "2026-08-28_posts",
-  "created_at": "2026-08-28T08:06:56.330011+00:00",
+  "task_id": "2026-08-30_stories",
+  "created_at": "2026-08-30T08:05:20.798162+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-28",
-    "type": "posts",
+    "date": "2026-08-30",
+    "type": "stories",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
+    "cta": "",
     "episode": null,
     "next_stone_id": null
   },
   "stone": {
-    "id": "moonstone",
-    "zh": "月光石",
-    "en": "Moonstone",
+    "id": "apatite_blue",
+    "zh": "藍磷灰石",
+    "en": "Blue Apatite",
     "hardness": "",
     "color": "",
-    "optical_effects": "月光效應（adularescence）",
-    "body_focus": "女性週期、內分泌與情緒平衡",
-    "use_cases": "睡前冥想、情緒起伏大、關係議題工作",
+    "optical_effects": "少數有貓眼效應",
+    "body_focus": "骨骼與代謝（象徵性，在能量學中提及）",
+    "use_cases": "學習、寫作、創作時佩戴",
     "care_tips": "",
-    "synthetic_signs": "光暈均一、整面閃光且石體過於完美可能為仿品"
+    "synthetic_signs": "顏色極均一、透明度異常高且價位偏低需警覺處理"
   },
   "content": {
-    "caption": "礦石入門三件套——就是這三顆，建立你的第一個能量組合 ✦\n\n不需要買一堆礦石，三顆有完整邏輯的組合，遠勝十顆亂搭配\n\n✦ 白水晶：放大能量、淨化場域——組合核心\n✦ 黑碧璽：防護接地、抵擋外來干擾——都市人必備\n✦ 粉晶：情感滋養、修復心輪——補充日常消耗\n\n💾 收藏，跟著這個組合邏輯開始\n👇 問答箱直接問我，幫你選適合的款式 →",
-    "hashtags": [
-      "#礦石組合",
-      "#礦石入門三件套",
-      "#crystalset",
-      "#白水晶",
-      "#礦石搭配"
-    ],
-    "post_number": 22,
-    "post_title": "礦石入門三件套：你的第一個能量組合",
-    "pages": [
-      {
-        "page": 1,
-        "type": "封面",
-        "headline": "礦石入門三件套——就是這三顆，開始你的能量組合 ✦",
-        "visual_desc": "純白背景，白水晶、黑碧璽、粉晶三顆構成三角擺放，中央「三角能量組合」金字標籤，品牌 Logo 右下，底部「👉 左滑看搭配邏輯」",
-        "design_note": "白背景突出三礦石質感，三角幾何製造「完整系統」感，導購承諾強",
-        "body_text": "礦石入門三件套——就是這三顆，開始你的能量組合 ✦"
-      },
-      {
-        "page": 2,
-        "type": "乾貨內頁",
-        "content_points": [
-          "⚪ 白水晶——組合核心：SSOT 功能：冥想、擺陣核心、空間淨化、搭配其他水晶使用；能量邏輯：放大其他兩顆礦石的效果，同時淨化空間場域",
-          "🖤 黑碧璽——防護基礎：SSOT 功能：電子產品使用多、住高壓環境、能量敏感者；對應骨骼、肌肉與神經穩定——現代都市人的必需防護石",
-          "🩷 粉晶——情感滋養：SSOT 功能：情緒釋放、關係議題、內在小孩療癒；對應心血管與情緒中心——補充工作壓力消耗的情感能量"
-        ],
-        "visual_desc": "三顆礦石各自功能卡片，三張排列成三角形，箭頭指示彼此關係（放大、防護、滋養）",
-        "body_text": "⚪ 白水晶——組合核心：SSOT 功能：冥想、擺陣核心、空間淨化、搭配其他水晶使用；能量邏輯：放大其他兩顆礦石的效果，同時淨化空間場域\n🖤 黑碧璽——防護基礎：SSOT 功能：電子產品使用多、住高壓環境、能量敏感者；對應骨骼、肌肉與神經穩定——現代都市人的必需防護石\n🩷 粉晶——情感滋養：SSOT 功能：情緒釋放、關係議題、內在小孩療癒；對應心血管與情緒中心——補充工作壓力消耗的情感能量"
-      },
-      {
-        "page": 3,
-        "type": "乾貨內頁",
-        "content_points": [
-          "🔺 三角組合邏輯：白水晶放中央（放大），黑碧璽放前方（防護向外），粉晶放後方（滋養向內）——形成「吸引好的、擋住亂的、補充自己」三層能量場",
-          "⌚ 佩戴方式建議：黑碧璽手鍊（硬度7–7.5，日常耐用）；粉晶吊墜（靠近心輪）；白水晶放辦公桌或冥想空間",
-          "📅 使用場景：每天早上在辦公桌擺放三件套 5 分鐘設定意圖，比隨便佩戴效果更有意識感"
-        ],
-        "visual_desc": "三角形擺陣圖（白水晶居中，黑碧璽在前，粉晶在後），佩戴方式建議插圖",
-        "body_text": "🔺 三角組合邏輯：白水晶放中央（放大），黑碧璽放前方（防護向外），粉晶放後方（滋養向內）——形成「吸引好的、擋住亂的、補充自己」三層能量場\n⌚ 佩戴方式建議：黑碧璽手鍊（硬度7–7.5，日常耐用）；粉晶吊墜（靠近心輪）；白水晶放辦公桌或冥想空間\n📅 使用場景：每天早上在辦公桌擺放三件套 5 分鐘設定意圖，比隨便佩戴效果更有意識感"
-      },
-      {
-        "page": 4,
-        "type": "乾貨內頁",
-        "content_points": [
-          "💰 入門預算參考：白水晶柱（HKD 80–150）+ 黑碧璽手鍊（HKD 150–300）+ 粉晶原石（HKD 80–200）= 整套約 HKD 310–650",
-          "🔍 選購品質建議：三件套均為常見礦石，市場供應充足，選擇半透明到透明、無明顯塑膠感的款式即可；白水晶看有無自然棉絮，粉晶看顏色是否自然過渡",
-          "📈 組合進階：穩定使用三件套 1–2 個月後，再依個人需求加入第四顆（例如：工作壓力大加虎眼石；睡眠問題加紫水晶）"
-        ],
-        "visual_desc": "三件套預算表格，品質選購要點標注，進階路線圖（三件套→個人化）",
-        "body_text": "💰 入門預算參考：白水晶柱（HKD 80–150）+ 黑碧璽手鍊（HKD 150–300）+ 粉晶原石（HKD 80–200）= 整套約 HKD 310–650\n🔍 選購品質建議：三件套均為常見礦石，市場供應充足，選擇半透明到透明、無明顯塑膠感的款式即可；白水晶看有無自然棉絮，粉晶看顏色是否自然過渡\n📈 組合進階：穩定使用三件套 1–2 個月後，再依個人需求加入第四顆（例如：工作壓力大加虎眼石；睡眠問題加紫水晶）"
-      },
-      {
-        "page": 5,
-        "type": "封底CTA",
-        "cta_copy": "💾 收藏這份入門組合指引！\n➕ 追蹤，礦石搭配進階知識持續更新\n👇 想了解更多？問答箱留言或直接諮詢 @lunas.stone.atelier",
-        "visual_desc": "白色品牌背景，三角組合再次展示，「你的第一個能量組合，從這裡開始」大字，Logo",
-        "body_text": "💾 收藏這份入門組合指引！\n➕ 追蹤，礦石搭配進階知識持續更新\n👇 想了解更多？問答箱留言或直接諮詢 @lunas.stone.atelier"
-      }
-    ]
+    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "藍磷灰石穩成長",
+      "body": "藍磷灰石象徵骨骼與代謝能量，呼應穩健的成長節奏。",
+      "en_text": "Blue Apatite fuels creativity and learning.",
+      "cta_text": "🛒 Profile 連結選購"
+    },
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/posts/post_2026-08-28_p1.png",
-    "assets/posts/post_2026-08-28_p2.png",
-    "assets/posts/post_2026-08-28_p3.png",
-    "assets/posts/post_2026-08-28_p4.png",
-    "assets/posts/post_2026-08-28_p5.png"
+    "assets/stories/story_2026-08-30.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 5,
+    "slides": 1,
     "dimensions": "1080x1350",
     "has_video": false,
-    "output": "5 PNG (Carousel)"
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -108,9 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
+    "status": "pending",
     "media_id": null,
-    "published_at": "2026-08-28T08:14:40.268041+00:00",
+    "published_at": null,
     "error": null
   }
 }
