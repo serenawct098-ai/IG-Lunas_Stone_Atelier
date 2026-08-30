@@ -4710,7 +4710,7 @@
     "stone_id": "apatite_blue",
     "stone_zh": "藍磷灰石",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4722,7 +4722,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-30.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-30T08:06:26.113663+00:00"
   },
   {
     "date": "2026-08-31",
