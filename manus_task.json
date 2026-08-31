@@ -1,50 +1,112 @@
 {
-  "task_id": "2026-08-31_stories",
-  "created_at": "2026-08-31T08:06:12.742567+00:00",
+  "task_id": "2026-08-31_reels",
+  "created_at": "2026-08-31T08:10:43.039784+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
     "date": "2026-08-31",
-    "type": "stories",
+    "type": "reels",
     "phase": "3",
-    "cta": "",
-    "episode": null,
-    "next_stone_id": null
+    "cta": "✨ 點 Profile 連結查看精選礦石系列",
+    "episode": 23,
+    "next_stone_id": "peridot"
   },
   "stone": {
-    "id": "peridot",
-    "zh": "橄欖石",
-    "en": "Peridot",
+    "id": "garnet_red",
+    "zh": "紅石榴石",
+    "en": "Red Garnet",
     "hardness": "",
     "color": "",
-    "optical_effects": "高折射率造成明亮火彩",
-    "body_focus": "消化與心區域能量（能量觀點）",
-    "use_cases": "情緒容易壓抑、需要放鬆與寬心時",
+    "optical_effects": "高折射率帶來強烈光澤",
+    "body_focus": "血液、循環與生殖系統",
+    "use_cases": "需補充精力、穩定親密關係時",
     "care_tips": "",
-    "synthetic_signs": "合成橄欖石少見；玻璃仿品常見圓形氣泡"
+    "synthetic_signs": "合成石榴石少見，仿品多為玻璃"
   },
   "content": {
-    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
-    "frame": {
-      "headline": "橄欖石添輕快",
-      "body": "想為生活添點輕快？橄欖石帶來樂觀與舒展的能量。",
-      "en_text": "Peridot lightens the heart and releases negativity.",
-      "cta_text": "🛒 Profile 連結選購"
+    "caption": "🌕 月亮週期×礦石能量學（第23集）\n新月種意圖、滿月充能量、殘月釋放舊能量\n農曆十五後三日是全月最強礦石啟動時機！\n💾 收藏 | 追蹤查看第24集",
+    "hashtags": [
+      "#月亮礦石",
+      "#滿月充能",
+      "#crystalmoon",
+      "#月相能量",
+      "#開運",
+      "#風水",
+      "#玄學",
+      "#礦石知識",
+      "#香港風水",
+      "#crystalhealing",
+      "#身心靈",
+      "#滿月儀式"
+    ],
+    "episode": 23,
+    "episode_title": "月亮週期×礦石能量學：每個月最強充電時機",
+    "series_hook": "農曆十五滿月後三日是「能量高峰期」——怎樣把握？",
+    "next_episode_preview": "第24集：礦石採購指南——哪裡買才能保證天然？",
+    "visual_prompts": {
+      "hook": "月相週期圖，新月→滿月→殘月動畫，大字「新月vs滿月——同一塊石，不同月相，做兩件完全不同的事！」",
+      "develop": "新月（黑色月亮圖示）→「意圖種植期」，設定新目標；滿月（白色滿月圖示）→「能量高峰期」，放大、淨化、充能；殘月→「釋放期」，清除舊能量。",
+      "climax": "滿月後三日特別標記閃光，「農曆十五後三日是全月最強能量窗口——你是否一直白白錯過？」",
+      "cta": "「第24集：礦石採購指南！」追蹤特效。"
     },
-    "hashtags": [],
-    "story_title": ""
+    "frames": {
+      "p1": {
+        "role": "hook",
+        "headline": "新月vs滿月，兩件事",
+        "body": "同一塊石，新月與滿月做的是兩件完全不同的事。",
+        "en_text": "New Moon vs Full Moon — don't mix them up."
+      },
+      "p2": {
+        "role": "develop",
+        "headline": "新月：種植意圖",
+        "body": "手持礦石設定本月目標，能量如同播種。",
+        "en_text": "New Moon: plant your intentions."
+      },
+      "p3": {
+        "role": "develop",
+        "headline": "滿月：充能高峰",
+        "body": "礦石接受月光，能量被放大與淨化。",
+        "en_text": "Full Moon: peak charge and cleanse."
+      },
+      "p4": {
+        "role": "climax",
+        "headline": "殘月：釋放清空",
+        "body": "清除舊能量，為下一個週期清空場域。",
+        "en_text": "Waning Moon: release old energy."
+      },
+      "p5": {
+        "role": "climax",
+        "headline": "十五後三天最強",
+        "body": "農曆十五後三日是全月能量高峰，你把握了嗎？",
+        "en_text": "The 3 days after full moon are strongest."
+      },
+      "p6": {
+        "role": "cta",
+        "headline": "第24集：採購指南",
+        "body": "✨ 點 Profile 連結查看精選礦石系列",
+        "en_text": "Follow — Ep24: how to buy real crystals."
+      }
+    },
+    "music": {
+      "style": "uplifting",
+      "tempo": "medium",
+      "mood": "輕快正向，帶品牌質感",
+      "suggested_track": "elegant boutique background"
+    }
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-31.png"
+    "assets/reels/reel_2026-08-31.mp4"
   ],
   "assets_ready": true,
   "format_spec": {
-    "slides": 1,
+    "intermediate_slides": 6,
     "dimensions": "1080x1350",
-    "has_video": false,
-    "output": "1 PNG"
+    "has_video": true,
+    "video_duration": "20-30s",
+    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
+    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -53,9 +115,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
+    "status": "pending",
     "media_id": null,
-    "published_at": "2026-08-31T08:09:02.639967+00:00",
+    "published_at": null,
     "error": null
   }
 }
