@@ -4817,7 +4817,7 @@
     "stone_id": "peridot",
     "stone_zh": "橄欖石",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -4829,7 +4829,8 @@
     "asset_paths": [
       "assets/stories/story_2026-08-31.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-08-31T08:09:02.639967+00:00"
   },
   {
     "date": "2026-09-01",
