@@ -1,12 +1,12 @@
 {
-  "task_id": "2026-08-30_stories",
-  "created_at": "2026-08-30T08:05:20.798162+00:00",
+  "task_id": "2026-08-31_stories",
+  "created_at": "2026-08-31T08:06:12.742567+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-08-30",
+    "date": "2026-08-31",
     "type": "stories",
     "phase": "3",
     "cta": "",
@@ -14,30 +14,30 @@
     "next_stone_id": null
   },
   "stone": {
-    "id": "apatite_blue",
-    "zh": "藍磷灰石",
-    "en": "Blue Apatite",
+    "id": "peridot",
+    "zh": "橄欖石",
+    "en": "Peridot",
     "hardness": "",
     "color": "",
-    "optical_effects": "少數有貓眼效應",
-    "body_focus": "骨骼與代謝（象徵性，在能量學中提及）",
-    "use_cases": "學習、寫作、創作時佩戴",
+    "optical_effects": "高折射率造成明亮火彩",
+    "body_focus": "消化與心區域能量（能量觀點）",
+    "use_cases": "情緒容易壓抑、需要放鬆與寬心時",
     "care_tips": "",
-    "synthetic_signs": "顏色極均一、透明度異常高且價位偏低需警覺處理"
+    "synthetic_signs": "合成橄欖石少見；玻璃仿品常見圓形氣泡"
   },
   "content": {
-    "visual_prompt": "深色星空背景，藍磷灰石（Blue Apatite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "visual_prompt": "深色星空背景，橄欖石（Peridot）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
-      "headline": "藍磷灰石穩成長",
-      "body": "藍磷灰石象徵骨骼與代謝能量，呼應穩健的成長節奏。",
-      "en_text": "Blue Apatite fuels creativity and learning.",
+      "headline": "橄欖石添輕快",
+      "body": "想為生活添點輕快？橄欖石帶來樂觀與舒展的能量。",
+      "en_text": "Peridot lightens the heart and releases negativity.",
       "cta_text": "🛒 Profile 連結選購"
     },
     "hashtags": [],
     "story_title": ""
   },
   "asset_paths": [
-    "assets/stories/story_2026-08-30.png"
+    "assets/stories/story_2026-08-31.png"
   ],
   "assets_ready": true,
   "format_spec": {
@@ -53,9 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
+    "status": "pending",
     "media_id": null,
-    "published_at": "2026-08-30T08:06:26.113663+00:00",
+    "published_at": null,
     "error": null
   }
 }
