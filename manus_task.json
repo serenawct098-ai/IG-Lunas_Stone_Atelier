@@ -115,8 +115,8 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "error",
-    "error": "Instagram media validation failed: uploaded Reels URL was not accessible",
-    "failed_at": "2026-08-31T08:11:59.003025+00:00"
+    "status": "published",
+    "published_at": "2026-08-31T14:20:14.610273+00:00",
+    "permalink": "https://www.instagram.com/reel/DctLWkogBAD/"
   }
 }
