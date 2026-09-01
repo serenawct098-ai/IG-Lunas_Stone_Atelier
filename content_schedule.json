@@ -4841,7 +4841,7 @@
     "stone_zh": "12生肖守護石",
     "phase": "3",
     "cta": "🛒 Profile 連結選購你的守護石",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-09-01_p1.png",
       "assets/posts/post_2026-09-01_p2.png",
@@ -4919,7 +4919,8 @@
       "#礦石知識",
       "#香港風水"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-09-01T08:05:40.602340+00:00"
   },
   {
     "date": "2026-09-02",
