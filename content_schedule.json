@@ -4954,7 +4954,7 @@
     "next_stone_zh": "綠松石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "episode_title": "礦石採購完全指南：哪裡買才能保證買到天然？",
     "caption": "🔍 礦石採購完全指南：哪裡買才有保障？（第24集）\n三個你以為安全的渠道，其實是假貨最集中的地方\n最危險的是直播電商——認證書無法核實！\n💾 收藏 | 追蹤查看第25集大結局",
     "series_hook": "最後一個渠道你絕對想不到——是最多人用但最少監管的地方",
@@ -5026,7 +5026,8 @@
       "mood": "輕快正向，帶品牌質感",
       "suggested_track": "elegant boutique background"
     },
-    "generated": true
+    "generated": true,
+    "published_at": "2026-09-03T08:11:05.236889+00:00"
   },
   {
     "date": "2026-09-03",
