@@ -53,9 +53,10 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "pending",
+    "status": "published",
     "media_id": null,
-    "published_at": null,
-    "error": null
+    "published_at": "2026-09-03T08:05:06.302997+00:00",
+    "error": null,
+    "permalink": "https://www.instagram.com/stories/lunasstoneatelier/3977900260987322619"
   }
 }

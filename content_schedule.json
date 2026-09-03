@@ -5035,7 +5035,7 @@
     "stone_id": "turquoise",
     "stone_zh": "綠松石",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，綠松石（Turquoise）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -5047,7 +5047,8 @@
     "asset_paths": [
       "assets/stories/story_2026-09-03.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-09-03T08:05:06.302997+00:00"
   },
   {
     "date": "2026-09-04",
