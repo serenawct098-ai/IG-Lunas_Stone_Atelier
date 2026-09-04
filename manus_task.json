@@ -1,112 +1,50 @@
 {
-  "task_id": "2026-09-03_reels",
-  "created_at": "2026-09-03T08:08:02.922602+00:00",
+  "task_id": "2026-09-04_stories",
+  "created_at": "2026-09-04T08:06:28.082456+00:00",
   "source": "github_actions_scheduler",
   "publish_platform": "instagram",
   "publish_via": "manus_ig_mcp",
   "ssot_note": "All mineral data sourced exclusively from mineralogy_data.json (33 stones)",
   "schedule": {
-    "date": "2026-09-03",
-    "type": "reels",
+    "date": "2026-09-04",
+    "type": "stories",
     "phase": "3",
-    "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "episode": 24,
-    "next_stone_id": "turquoise"
+    "cta": "",
+    "episode": null,
+    "next_stone_id": null
   },
   "stone": {
-    "id": "nephrite_jade",
-    "zh": "軟玉（和田玉）",
-    "en": "Nephrite",
+    "id": "selenite",
+    "zh": "透石膏",
+    "en": "Selenite",
     "hardness": "",
     "color": "",
-    "optical_effects": "油脂光澤",
-    "body_focus": "精氣神平衡象徵",
-    "use_cases": "長年佩戴、護身與安神",
+    "optical_effects": "絲絨狀光澤（pearly luster），透光時有柔和光暈",
+    "body_focus": "神經系統、脊椎能量通道象徵",
+    "use_cases": "空間淨化擺放、冥想輔助、淨化其他礦石、睡眠枕邊能量場",
     "care_tips": "",
-    "synthetic_signs": "染色與充填品顏色不自然，透光下色帶不均"
+    "synthetic_signs": "市場真偽問題少見，但部分低品質樣品為白色方解石仿冒"
   },
   "content": {
-    "caption": "🔍 礦石採購完全指南：哪裡買才有保障？（第24集）\n三個你以為安全的渠道，其實是假貨最集中的地方\n最危險的是直播電商——認證書無法核實！\n💾 收藏 | 追蹤查看第25集大結局",
-    "hashtags": [
-      "#礦石採購",
-      "#真假礦石",
-      "#crystalbuying",
-      "#礦石鑑定",
-      "#開運",
-      "#風水",
-      "#玄學",
-      "#礦石知識",
-      "#香港風水",
-      "#crystalhealing",
-      "#身心靈",
-      "#礦石真偽"
-    ],
-    "episode": 24,
-    "episode_title": "礦石採購完全指南：哪裡買才能保證買到天然？",
-    "series_hook": "最後一個渠道你絕對想不到——是最多人用但最少監管的地方",
-    "next_episode_preview": "第25集（完結篇）：一千零一夜系列大結局",
-    "visual_prompts": {
-      "hook": "購物平台介面閃爍，旁邊假礦石大圖，大字「三個你以為安全但其實最多假貨的購買渠道！」",
-      "develop": "三個購買渠道逐一出現：國際電商平台（Etsy/Amazon）、本地市場攤檔、社交媒體賣家——每個渠道標出假貨風險比例與辨識重點。",
-      "climax": "第三個渠道：直播電商——主播快速出示「認證書」，但認證機構不明、無可查核的保單，大字「這個是目前假貨密度最高的礦石購買渠道！」",
-      "cta": "「第25集大結局！」追蹤特效。"
+    "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
+    "frame": {
+      "headline": "透石膏淨安寧",
+      "body": "冥想或睡眠時，透石膏為能量場帶來純淨與安寧。",
+      "en_text": "Selenite cleanses space and lifts your vibration.",
+      "cta_text": "🛒 Profile 連結選購"
     },
-    "frames": {
-      "p1": {
-        "role": "hook",
-        "headline": "3個渠道假貨最多",
-        "body": "你以為安全的三個購買渠道，其實假貨最多。",
-        "en_text": "3 'safe' channels hiding the most fakes."
-      },
-      "p2": {
-        "role": "develop",
-        "headline": "渠道1：大型電商",
-        "body": "賣家多、監管少，認證書可以自製偽造。",
-        "en_text": "Big e-commerce — certificates easily faked."
-      },
-      "p3": {
-        "role": "develop",
-        "headline": "渠道2：旅遊攤檔",
-        "body": "批量進貨、低成本、完全無來源追蹤。",
-        "en_text": "Tourist stalls — zero traceability."
-      },
-      "p4": {
-        "role": "climax",
-        "headline": "渠道3最想不到",
-        "body": "增長最快、假貨密度最高的渠道是⋯⋯",
-        "en_text": "Channel 3 — the one you'd never guess."
-      },
-      "p5": {
-        "role": "climax",
-        "headline": "答案：直播電商",
-        "body": "即場「認證書」無從核實，是最難察覺的陷阱。",
-        "en_text": "Livestream selling — unverifiable certs."
-      },
-      "p6": {
-        "role": "cta",
-        "headline": "第25集大結局",
-        "body": "✨ 點 Profile 連結查看精選礦石系列",
-        "en_text": "Follow — Ep25 finale: reliable sources."
-      }
-    },
-    "music": {
-      "style": "uplifting",
-      "tempo": "medium",
-      "mood": "輕快正向，帶品牌質感",
-      "suggested_track": "elegant boutique background"
-    }
+    "hashtags": [],
+    "story_title": ""
   },
   "asset_paths": [
-    "assets/reels/reel_2026-09-03.mp4"
+    "assets/stories/story_2026-09-04.png"
   ],
   "assets_ready": true,
   "format_spec": {
-    "intermediate_slides": 6,
+    "slides": 1,
     "dimensions": "1080x1350",
-    "has_video": true,
-    "video_duration": "20-30s",
-    "output": "1 MP4（由 6 PNG 中間素材轉製，20–30 秒）",
-    "ig_publish": "MP4 only — 6 PNG 為中間素材，不上傳 IG"
+    "has_video": false,
+    "output": "1 PNG"
   },
   "ig_algorithm_rules": {
     "hashtags": "3-5個，主題相關，禁止堆砌",
@@ -115,8 +53,9 @@
     "first_90min": "發布後立即 Stories 轉發，帳號主10分鐘內留言引導互動"
   },
   "result": {
-    "status": "published",
-    "published_at": "2026-09-03T08:11:05.236889+00:00",
-    "permalink": "https://www.instagram.com/reel/Dc0Wb2vCvC-/"
+    "status": "pending",
+    "media_id": null,
+    "published_at": null,
+    "error": null
   }
 }
