@@ -5059,7 +5059,7 @@
     "stone_zh": "孔雀石",
     "phase": "3",
     "cta": "✨ 點 Profile 連結查看精選礦石系列",
-    "status": "pending",
+    "status": "published",
     "asset_urls": [
       "assets/posts/post_2026-09-04_p1.png",
       "assets/posts/post_2026-09-04_p2.png",
@@ -5127,7 +5127,8 @@
       "#礦石搭配",
       "#crystaladvanced"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-09-04T08:10:42.410805+00:00"
   },
   {
     "date": "2026-09-04",
@@ -5136,7 +5137,7 @@
     "stone_id": "selenite",
     "stone_zh": "透石膏",
     "phase": "3",
-    "status": "pending",
+    "status": "published",
     "asset_urls": null,
     "visual_prompt": "深色星空背景，透石膏（Selenite）特寫，金色光線勾勒礦石細節與光澤，底部文字「Luna's Stone Atelier 圖文僅供參考」。",
     "frame": {
@@ -5148,7 +5149,8 @@
     "asset_paths": [
       "assets/stories/story_2026-09-04.png"
     ],
-    "generated": true
+    "generated": true,
+    "published_at": "2026-09-04T08:10:42.410805+00:00"
   },
   {
     "date": "2026-09-06",
